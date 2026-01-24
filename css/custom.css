@@ -241,6 +241,73 @@ select:focus {
 }
 
 /* ========================================
+   精品页和故事章节的文字阴影（提升可读性）
+   ======================================== */
+/* 精品页产品标题 - 更大更淡的阴影 */
+.product-item h2 {
+    text-shadow: 0 6px 24px rgba(0, 0, 0, 0.6), 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* 故事章节标题 - 标题浓度低，扩散大 */
+.story-chapter h2 {
+    text-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* 精品页段落文字 */
+.product-item p {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* 故事章节段落文字 - 正文浓度高 */
+.story-chapter p {
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.95), 0 2px 6px rgba(0, 0, 0, 0.85);
+}
+
+/* 精品页标签、副标题、规格参数等小文字 */
+.product-item span {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* 故事章节标签、副标题、规格参数等小文字 - 加大阴影并提高浓度 */
+.story-chapter span,
+.story-chapter .text-gray-300,
+.story-chapter .text-gray-500,
+.story-chapter .text-white {
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.85), 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+
+/* 规格参数的 div 元素（右侧布局等使用 div 渲染规格） */
+.product-item .text-gray-500,
+.product-item .text-white,
+.product-item .text-lg,
+.product-item .text-2xl,
+.product-item .text-3xl {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* 规格参数卡片内的文字（背景有毛玻璃效果，阴影可以轻一些） */
+.product-item .bg-surface-dark\/60 span,
+.product-item .bg-surface-dark\/60 .text-white {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* 故事章节数据块 - 加大阴影并提高浓度 */
+.story-chapter .text-2xl,
+.story-chapter .text-4xl,
+.story-chapter .text-5xl,
+.story-chapter .text-6xl,
+.story-chapter .text-7xl,
+.story-chapter .text-8xl {
+    text-shadow: 0 4px 18px rgba(0, 0, 0, 0.9), 0 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+/* 故事章节引用卡片（quote-card）内的文字 - 有背景，阴影轻一些 */
+.story-chapter .quote-card p,
+.story-chapter .quote-card span {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* ========================================
    作者留言卡片悬停效果
    ======================================== */
 .quote-card {
@@ -253,9 +320,33 @@ select:focus {
 }
 
 /* ========================================
-   主题色边框（透明度变体）
+   主题色透明度变体修复
    ======================================== */
-/* 覆盖 Tailwind 的 border-primary/40 类，因为 CSS 变量不支持透明度修饰符 */
+/* 覆盖 Tailwind 的透明度修饰符类，因为 CSS 变量不支持透明度修饰符 */
+
+/* 背景色 */
+.bg-primary\/60 {
+    background-color: rgba(var(--color-primary-rgb), 0.6) !important;
+}
+
+.bg-primary\/40 {
+    background-color: rgba(var(--color-primary-rgb), 0.4) !important;
+}
+
+.bg-primary\/20 {
+    background-color: rgba(var(--color-primary-rgb), 0.2) !important;
+}
+
+/* 文字颜色 */
+.text-primary\/90 {
+    color: rgba(var(--color-primary-rgb), 0.9) !important;
+}
+
+.text-primary\/60 {
+    color: rgba(var(--color-primary-rgb), 0.6) !important;
+}
+
+/* 边框颜色 */
 .border-primary\/40 {
     border-color: rgba(var(--color-primary-rgb), 0.4) !important;
 }

@@ -1119,7 +1119,7 @@ const Renderer = (function() {
         ` : '';
 
         return `
-            <section class="relative min-h-screen w-full overflow-hidden flex items-center justify-center">
+            <section class="story-chapter relative min-h-screen w-full overflow-hidden flex items-center justify-center">
                 <div class="absolute inset-0 bg-cover bg-center"
                      style="background-image: url('${bgUrl}'); transform: scale(${filters.scale || 1.05}); filter: brightness(${filters.brightness || 0.9});"></div>
                 <div class="absolute inset-0 bg-gradient-${gradient.direction || 'to-b'} from-${gradient.fromColor || 'black/40'} via-${gradient.viaColor || 'transparent'} to-${gradient.toColor || 'background-dark/90'}"></div>
@@ -1167,7 +1167,7 @@ const Renderer = (function() {
         const borderPadding = content.borderLeft?.enabled ? 'pl-8 md:pl-12' : '';
 
         return `
-            <section class="relative min-h-screen w-full overflow-hidden flex items-center">
+            <section class="story-chapter relative min-h-screen w-full overflow-hidden flex items-center">
                 <div class="absolute inset-0 bg-cover bg-center"
                      style="background-image: url('${bgUrl}'); transform: scale(${filters.scale || 1});"></div>
                 ${overlay.color ? `<div class="absolute inset-0 bg-${overlay.color} mix-blend-${overlay.mixBlendMode || 'multiply'}"></div>` : ''}
@@ -1229,7 +1229,7 @@ const Renderer = (function() {
         const filterStyle = filters.grayscale ? 'grayscale' : '';
 
         return `
-            <section class="relative min-h-screen w-full overflow-hidden flex items-center justify-end">
+            <section class="story-chapter relative min-h-screen w-full overflow-hidden flex items-center justify-end">
                 <div class="absolute inset-0 bg-cover bg-center ${filterStyle}"
                      style="background-image: url('${bgUrl}'); filter: contrast(${filters.contrast || 1.25});"></div>
                 <div class="absolute inset-0 bg-gradient-${gradient.direction || 'to-l'} from-${gradient.fromColor || 'background-dark'} via-${gradient.viaColor || 'background-dark/80'} to-${gradient.toColor || 'transparent'}"></div>
