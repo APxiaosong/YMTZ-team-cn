@@ -1,0 +1,379 @@
+/**
+ * 监狱重工 ZANE 官网 - 自定义样式
+ * 用于 Tailwind CSS 之外的补充样式
+ */
+
+/* ========================================
+   深色模式声明（防止浏览器强制转换）
+   ======================================== */
+:root {
+    color-scheme: dark only;
+
+    /* 主题色变量 - 默认 ZNHI 蓝色 */
+    --color-primary: #4db8ff;
+    --color-primary-dim: #3a8abf;
+    --color-primary-rgb: 77, 184, 255;
+}
+
+/* ZNTP 绿色主题 */
+.theme-zntp {
+    --color-primary: #3EAF5C;
+    --color-primary-dim: #2E8A47;
+    --color-primary-rgb: 62, 175, 92;
+}
+
+/* ========================================
+   Logo反色处理（深色转白，保留#2CE6E6青色）
+   ======================================== */
+.logo-invert {
+    /* 反转所有颜色，然后通过色相旋转恢复青色 */
+    filter: invert(1) hue-rotate(180deg) saturate(1.3) brightness(1.05);
+}
+
+/* ========================================
+   表单元素样式修复
+   ======================================== */
+/* 移除Tailwind forms插件的默认ring效果，统一使用border */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    --tw-ring-color: transparent !important;
+}
+
+/* 关于页联络表单专用样式 */
+.contact-input {
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-input:focus {
+    border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+    background-color: rgba(37, 37, 41, 0.8);
+}
+
+/* ========================================
+   渐变文字效果
+   ======================================== */
+.text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ffffff, #a0a0a5);
+}
+
+/* ========================================
+   Hero 区域遮罩
+   ======================================== */
+.hero-overlay {
+    background: radial-gradient(circle at center, transparent 0%, #121214 90%);
+}
+
+/* ========================================
+   卡片悬浮效果
+   ======================================== */
+.card-hover {
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* ========================================
+   淡入动画（用于关于页等）
+   ======================================== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+    animation: slideInFromLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ========================================
+   图片滤镜工具类
+   ======================================== */
+.img-polar {
+    filter: saturate(0) brightness(0.75) contrast(1.25);
+}
+
+.img-polar-hover {
+    filter: saturate(0.2) brightness(0.75) contrast(1.25);
+    transition: filter 0.5s ease;
+}
+
+.img-polar-hover:hover {
+    filter: saturate(0.5) brightness(0.8) contrast(1.2);
+}
+
+/* ========================================
+   滚动条样式（可选）
+   ======================================== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333336;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* ========================================
+   选中文本样式
+   ======================================== */
+::selection {
+    background: rgba(var(--color-primary-rgb), 0.3);
+    color: white;
+}
+
+/* ========================================
+   自定义下拉菜单
+   ======================================== */
+.custom-dropdown {
+    position: relative;
+}
+
+.dropdown-trigger {
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown-trigger.dropdown-active {
+    border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    background: #1c1c1f;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    z-index: 50;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+}
+
+.dropdown-menu.dropdown-open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown-option {
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #a0a0a5;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dropdown-option:last-child {
+    border-bottom: none;
+}
+
+.dropdown-option:hover {
+    background: rgba(var(--color-primary-rgb), 0.1);
+    color: white;
+}
+
+.dropdown-option.dropdown-selected-option {
+    background: rgba(var(--color-primary-rgb), 0.15);
+    color: var(--color-primary);
+}
+
+.dropdown-option.dropdown-selected-option::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* ========================================
+   作者留言卡片悬停效果
+   ======================================== */
+.quote-card {
+    border-left-color: var(--color-primary) !important;
+    transition: border-color 0.3s ease;
+}
+
+.quote-card:hover {
+    border-left-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* ========================================
+   主题色边框（透明度变体）
+   ======================================== */
+/* 覆盖 Tailwind 的 border-primary/40 类，因为 CSS 变量不支持透明度修饰符 */
+.border-primary\/40 {
+    border-color: rgba(var(--color-primary-rgb), 0.4) !important;
+}
+
+.border-primary\/30 {
+    border-color: rgba(var(--color-primary-rgb), 0.3) !important;
+}
+
+.border-primary\/20 {
+    border-color: rgba(var(--color-primary-rgb), 0.2) !important;
+}
+
+/* ========================================
+   侧边栏系列切换
+   ======================================== */
+.series-btn.series-active {
+    background: rgba(37, 37, 41, 0.5);
+}
+
+/* 系列卡片内容区 - 平滑高度过渡 */
+.series-inner {
+    height: 128px; /* 默认高度 = h-32 */
+    transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.3s ease;
+}
+
+/* 选中状态的展开高度 */
+.series-btn.series-active .series-inner {
+    height: 192px; /* 展开高度 = h-48 */
+    opacity: 1;
+}
+
+/* 未选中状态的透明度和悬停效果 */
+.series-btn:not(.series-active) .series-inner {
+    opacity: 0.6;
+}
+
+.series-btn:not(.series-active):hover .series-inner {
+    opacity: 1;
+}
+
+/* ========================================
+   图片查看器样式
+   ======================================== */
+/* 全屏查看器容器 */
+.image-viewer {
+    transition: opacity 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+/* 查看器淡入动画 */
+.image-viewer.animate-fade-in {
+    animation: viewerFadeIn 0.3s ease-out forwards;
+}
+
+/* 查看器淡出动画 */
+.image-viewer.animate-fade-out {
+    animation: viewerFadeOut 0.3s ease-out forwards;
+}
+
+@keyframes viewerFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes viewerFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* 查看器中的图片淡入效果 */
+.image-viewer img {
+    transition: opacity 0.3s ease;
+}
+
+/* 查看器按钮悬停效果 */
+.image-viewer button:not(:disabled):hover {
+    transform: scale(1.05);
+}
+
+.image-viewer button {
+    transition: all 0.2s ease;
+}
+
+/* 查看器计数器样式 */
+.image-viewer #viewer-counter {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* 查看器加载指示器动画 */
+@keyframes viewerSpinPulse {
+    0%, 100% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.1);
+    }
+}
+
+.image-viewer #viewer-loading > div {
+    animation: viewerSpinPulse 1.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .image-viewer img {
+        max-height: 80vh !important;
+    }
+
+    .image-viewer button {
+        backdrop-filter: blur(12px);
+    }
+}
+

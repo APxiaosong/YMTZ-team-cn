@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html class="dark" lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="color-scheme" content="dark">
+    <title>监狱重工 - 基地信息与典狱长</title>
+
+    <!-- 本地字体 -->
+    <link href="css/fonts.css" rel="stylesheet"/>
+    <link href="css/icons.css" rel="stylesheet"/>
+
+    <!-- Tailwind CSS -->
+    <script src="css/tailwind.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "var(--color-primary)",
+                        "primary-dim": "var(--color-primary-dim)",
+                        "background-light": "#f0f0f0",
+                        "background-dark": "#121214",
+                        "surface-dark": "#1c1c1f",
+                        "surface-highlight": "#252529",
+                        "accent-gray": "#333336",
+                        "text-muted": "#a0a0a5",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif SC", "serif"],
+                        "body": ["Noto Sans SC", "sans-serif"],
+                    },
+                    boxShadow: {
+                        'soft': '0 20px 40px -15px rgba(0, 0, 0, 0.5)',
+                        'inner-glow': 'inset 0 0 20px rgba(var(--color-primary-rgb), 0.05)',
+                        'glow': '0 0 20px rgba(var(--color-primary-rgb), 0.1)',
+                    },
+                    borderRadius: {
+                        "DEFAULT": "2px",
+                        "lg": "4px",
+                        "xl": "6px",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- 自定义样式 -->
+    <link href="css/custom.css" rel="stylesheet"/>
+    <style>
+        /* 关于页专用样式 */
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(18,18,20,0.3) 0%, rgba(18,18,20,0.8) 60%, #121214 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-gray-100 font-body overflow-x-hidden">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+
+    <!-- ========================================
+         导航栏
+         ======================================== -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5 transition-all duration-300">
+        <div class="flex items-center justify-between px-8 py-5 max-w-[1600px] mx-auto w-full">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-6 w-auto opacity-90 logo-invert">
+                <h2 class="text-white text-lg font-display font-bold tracking-[0.05em]">监狱重工 ZANE</h2>
+            </a>
+
+            <!-- 桌面端导航 -->
+            <div class="hidden md:flex flex-1 justify-end gap-12 items-center">
+                <div class="flex items-center gap-12">
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="index.html">主页</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="products.html">监狱重工</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="transport.html">监狱运输</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="featured.html">旗舰序列</a>
+                    <a class="text-white text-sm font-medium tracking-wider transition-colors duration-300 border-b border-primary pb-1" href="about.html">基地信息</a>
+                </div>
+                <div class="h-4 w-px bg-white/10"></div>
+                <button class="text-xs font-medium tracking-widest text-primary hover:text-white transition-colors uppercase">
+                    客户登录
+                </button>
+            </div>
+
+            <!-- 移动端菜单按钮 -->
+            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden text-white/80 hover:text-white transition-colors">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+
+        <!-- 移动端菜单 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-8 py-6">
+            <div class="flex flex-col gap-4">
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="index.html">主页</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="products.html">监狱重工</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="transport.html">监狱运输</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="featured.html">旗舰序列</a>
+                <a class="text-white text-sm py-2 border-l-2 border-primary pl-4" href="about.html">基地信息</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         主内容区
+         ======================================== -->
+    <main class="flex-grow">
+
+        <!-- Hero 区域：典狱长 -->
+        <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+            <!-- 背景图片 -->
+            <div class="absolute inset-0 z-0">
+                <!--
+                    [图片位置] 关于页Hero背景
+                    后续替换为本地图片: assets/images/about-hero.webp
+                -->
+                <div class="w-full h-full bg-cover bg-center bg-no-repeat saturate-50 brightness-100 contrast-125 scale-105"
+                     style='background-image: url("assets/images/products/about-hero.webp");'>
+                </div>
+                <div class="absolute inset-0 hero-overlay z-10"></div>
+            </div>
+
+            <!-- Hero 内容 -->
+            <div class="relative z-20 container mx-auto px-6 flex flex-col items-center text-center">
+                <div class="animate-fade-in mb-8">
+                    <span class="px-3 py-1 border border-white/20 bg-white/5 text-[11px] tracking-[0.4em] text-primary uppercase backdrop-blur-sm">
+                        Classified Profile: Alpha
+                    </span>
+                </div>
+                <h1 class="text-7xl md:text-[9rem] leading-none font-display font-bold text-white tracking-tighter mb-6 animate-fade-in-up drop-shadow-2xl">
+                    典狱长
+                </h1>
+                <p class="text-xl md:text-2xl text-white/70 font-display font-light italic tracking-wider mb-12 max-w-2xl animate-fade-in-up">
+                    "他是监狱的主人，也是所有钢铁子嗣的父亲。"
+                </p>
+                <div class="w-px h-24 bg-gradient-to-b from-primary/0 via-primary/50 to-primary/0 animate-fade-in"></div>
+
+                <!-- 底部信息 -->
+                <div class="absolute bottom-12 left-0 w-full flex justify-between px-12 animate-fade-in">
+                    <div class="text-left hidden md:block">
+                        <p class="text-[11px] text-gray-500 uppercase tracking-widest mb-1">Location</p>
+                        <p class="text-white text-xs tracking-widest font-mono">SECTOR 7 - COMMAND TOWER</p>
+                    </div>
+                    <div class="text-right hidden md:block">
+                        <p class="text-[11px] text-gray-500 uppercase tracking-widest mb-1">Clearance Level</p>
+                        <p class="text-primary text-xs tracking-widest font-mono">RESTRICTED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 时间线区域 -->
+        <section class="py-32 bg-background-dark relative">
+            <div class="max-w-4xl mx-auto px-6">
+                <!-- 区块标题 -->
+                <div class="text-center mb-24">
+                    <h2 class="text-4xl md:text-5xl text-white font-display font-bold mb-4 tracking-wide">发展历程</h2>
+                    <p class="text-primary text-xs tracking-[0.3em] uppercase">Chronicles of ZANE</p>
+                </div>
+
+                <!-- 时间线 -->
+                <div class="relative">
+                    <!-- 中央线 -->
+                    <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-white/5 via-white/20 to-white/5 md:-translate-x-1/2"></div>
+
+                    <!-- 2024：品牌创立 -->
+                    <div class="relative mb-24 last:mb-0">
+                        <div class="md:flex items-center justify-between group">
+                            <div class="md:w-[45%] mb-4 md:mb-0 md:text-right pr-8">
+                                <span class="block text-5xl font-display text-surface-highlight font-bold group-hover:text-white transition-colors duration-500">2024</span>
+                            </div>
+                            <div class="absolute left-4 md:left-1/2 w-3 h-3 bg-background-dark border-2 border-primary rounded-full md:-translate-x-1/2 shadow-glow z-10 mt-1.5 md:mt-0"></div>
+                            <div class="md:w-[45%] pl-12 md:pl-8">
+                                <h3 class="text-xl text-white font-display mb-3 tracking-wide">品牌创立</h3>
+                                <p class="text-sm text-gray-500 font-light leading-relaxed">
+                                    监狱重工 ZANE 成立。最初只是典狱长的个人爱好——在车库里捣鼓各种模型。谁也没想到这个"一大堆半成品"的仓库，日后会成为业界的传奇。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2030：业务扩展 -->
+                    <div class="relative mb-24 last:mb-0">
+                        <div class="md:flex items-center justify-between flex-row-reverse group">
+                            <div class="md:w-[45%] mb-4 md:mb-0 md:text-left pl-8">
+                                <span class="block text-5xl font-display text-surface-highlight font-bold group-hover:text-white transition-colors duration-500">2030</span>
+                            </div>
+                            <div class="absolute left-4 md:left-1/2 w-3 h-3 bg-background-dark border-2 border-white/20 group-hover:border-primary rounded-full md:-translate-x-1/2 transition-colors duration-300 z-10 mt-1.5 md:mt-0"></div>
+                            <div class="md:w-[45%] pl-12 md:pl-0 md:text-right md:pr-8">
+                                <h3 class="text-xl text-white font-display mb-3 tracking-wide">业务扩展</h3>
+                                <p class="text-sm text-gray-500 font-light leading-relaxed">
+                                    ZNHI 与 ZNTP 两大业务线正式确立。典狱长终于不用一边设计坦克一边画卡车了——虽然他还是经常拖延，把半成品扔在角落里落灰。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2042：现状 -->
+                    <div class="relative mb-24 last:mb-0">
+                        <div class="md:flex items-center justify-between group">
+                            <div class="md:w-[45%] mb-4 md:mb-0 md:text-right pr-8">
+                                <span class="block text-5xl font-display text-surface-highlight font-bold group-hover:text-white transition-colors duration-500">2042</span>
+                            </div>
+                            <div class="absolute left-4 md:left-1/2 w-3 h-3 bg-primary rounded-full md:-translate-x-1/2 shadow-glow z-10 mt-1.5 md:mt-0"></div>
+                            <div class="md:w-[45%] pl-12 md:pl-8">
+                                <h3 class="text-xl text-white font-display mb-3 tracking-wide">现状：典狱长时代</h3>
+                                <p class="text-sm text-gray-500 font-light leading-relaxed">
+                                    监狱重工已发展成为涵盖国防科技与现代物流的综合性企业。产品出口 47 国，从主战坦克到城市电车，每一台都是典狱长的"孩子"。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 设计理念区域 -->
+        <section class="relative py-40 bg-surface-dark overflow-hidden">
+            <!-- 背景 -->
+            <div class="absolute inset-0 z-0">
+                <div class="w-full h-full bg-cover bg-fixed bg-center opacity-40 saturate-50 contrast-150"
+                     style='background-image: url("assets/images/products/znhi-31a1-thunder/ZNHI-31A1-2.webp");'>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/95 to-transparent z-10"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-background-dark z-10"></div>
+            </div>
+
+            <div class="relative z-20 max-w-[1400px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- 左侧：文案 -->
+                <div class="flex flex-col gap-10">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="h-px w-12 bg-primary"></div>
+                            <span class="text-primary text-xs font-bold tracking-[0.2em] uppercase">Design Philosophy</span>
+                        </div>
+                        <h2 class="text-5xl md:text-7xl font-display font-bold text-white leading-tight">
+                            我们的<br/>
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600">钢铁子嗣</span>
+                        </h2>
+                    </div>
+                    <div class="space-y-6">
+                        <p class="text-lg text-gray-300 font-display leading-relaxed border-l-2 border-white/10 pl-6 italic">
+                            "这些孩子们不喜欢电池受潮，但在正面战场上，她们都是无可置疑的领袖。"
+                        </p>
+                        <p class="text-gray-500 font-body leading-loose text-sm md:text-base max-w-xl">
+                            我们不制造机器，我们孕育<strong class="text-white">子嗣 (Our Children)</strong>。每一个液压关节的调校，每一层涂料的喷涂，都如同抚育新生。她们被赋予了不仅仅是执行任务的能力，更是自己的个性。
+                        </p>
+                        <p class="text-gray-500 font-body leading-loose text-sm md:text-base max-w-xl">
+                            有的孩子机动性很好但稳定性差，有的孩子火力凶猛但装甲薄如纸墙——没有完美的设计，只有独一无二的存在。
+                        </p>
+                    </div>
+                    <div class="pt-8">
+                        <a href="#" class="group flex items-center gap-4 text-white hover:text-primary transition-colors">
+                            <span class="text-xs font-bold tracking-[0.2em] uppercase border-b border-white/20 pb-1 group-hover:border-primary">阅读完整宣言</span>
+                            <span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 右侧：装饰 -->
+                <div class="hidden lg:flex justify-center items-center relative">
+                    <div class="w-64 h-64 rounded-full border border-white/10 flex items-center justify-center animate-spin" style="animation-duration: 20s;">
+                        <div class="w-48 h-48 rounded-full border border-dashed border-white/20"></div>
+                    </div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-2 h-2 bg-primary rounded-full shadow-[0_0_20px_4px_rgba(77,184,255,0.6)] animate-pulse"></div>
+                    </div>
+                    <div class="absolute bottom-10 right-10 text-right">
+                        <p class="text-[11px] uppercase tracking-widest text-text-muted">Visual Sensor</p>
+                        <p class="text-xl font-display text-white">ACTIVE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系表单区域 -->
+        <section class="py-24 bg-[#0e0e10] border-t border-white/5">
+            <div class="max-w-2xl mx-auto px-6">
+                <!-- 区块标题 -->
+                <div class="text-center mb-12">
+                    <span class="material-symbols-outlined text-3xl text-primary/50 mb-4">encrypted</span>
+                    <h2 class="text-3xl font-display text-white mb-2">加密频段联络</h2>
+                    <p class="text-text-muted text-xs tracking-widest uppercase">Encrypted Channel: Secure Link Established</p>
+                </div>
+
+                <!-- 表单 -->
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="group">
+                            <label for="contact-callsign" class="block text-[11px] uppercase tracking-widest text-gray-500 mb-2 group-focus-within:text-primary transition-colors">代号 / Callsign</label>
+                            <input id="contact-callsign" class="w-full bg-surface-highlight border border-white/10 text-white px-4 py-3 text-sm focus:outline-none focus:border-primary/50 focus:bg-surface-highlight/80 transition-all rounded-sm placeholder-gray-700" placeholder="Enter identification" type="text"/>
+                        </div>
+                        <div class="group">
+                            <label for="contact-division" class="block text-[11px] uppercase tracking-widest text-gray-500 mb-2 group-focus-within:text-primary transition-colors">部门 / Division</label>
+                            <div class="custom-dropdown">
+                                <input type="hidden" id="contact-division" name="division" value="">
+                                <div class="dropdown-trigger w-full bg-surface-highlight border border-white/10 text-white px-4 py-3 text-sm leading-5 transition-all rounded-sm flex items-center justify-between">
+                                    <span class="dropdown-selected text-gray-400">选择部门...</span>
+                                    <span class="material-symbols-outlined text-gray-500 text-base leading-none">expand_more</span>
+                                </div>
+                                <div class="dropdown-menu hidden">
+                                    <div class="dropdown-option" data-value="procurement">采购部 / Procurement</div>
+                                    <div class="dropdown-option" data-value="tech-support">技术支持 / Tech Support</div>
+                                    <div class="dropdown-option" data-value="emergency">紧急事态 / Emergency</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <label for="contact-message" class="block text-[11px] uppercase tracking-widest text-gray-500 mb-2 group-focus-within:text-primary transition-colors">讯息 / Transmission</label>
+                        <textarea id="contact-message" class="w-full bg-surface-highlight border border-white/10 text-white px-4 py-3 text-sm focus:outline-none focus:border-primary/50 focus:bg-surface-highlight/80 transition-all rounded-sm placeholder-gray-700 resize-none" placeholder="Enter your message here..." rows="5"></textarea>
+                    </div>
+                    <div class="pt-4 flex justify-center">
+                        <button class="px-12 py-3 bg-white text-background-dark font-bold text-xs tracking-[0.2em] uppercase hover:bg-primary hover:text-white transition-all duration-300 rounded-sm" type="submit">
+                            发送数据
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================
+         页脚
+         ======================================== -->
+    <footer class="bg-background-dark border-t border-white/5 pt-24 pb-12 px-6">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
+                <!-- 品牌信息 -->
+                <div class="md:col-span-4 flex flex-col gap-6 pr-12">
+                    <a href="index.html" class="flex items-center gap-3 text-white">
+                        <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-5 w-auto opacity-80 logo-invert">
+                        <span class="font-display font-bold tracking-widest text-xl">监狱重工 ZANE</span>
+                    </a>
+                    <p class="text-gray-500 text-sm font-body leading-loose">
+                        重工业时代的先驱者。致力于为国家安全与现代化物流提供尖端科技与重型工业支持。
+                        <br/><br/>
+                        <span class="text-xs text-gray-600">总部坐标: 78°13'N 15°33'E</span>
+                    </p>
+                </div>
+
+                <!-- 业务板块 -->
+                <div class="md:col-span-2">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">业务板块</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-400">
+                        <li><a class="hover:text-white transition-colors" href="products.html">军事防御</a></li>
+                        <li><a class="hover:text-white transition-colors" href="products.html">重型工业</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">研发实验室</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">全球物流</a></li>
+                    </ul>
+                </div>
+
+                <!-- 公司信息 -->
+                <div class="md:col-span-2">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">公司信息</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-400">
+                        <li><a class="hover:text-white transition-colors" href="about.html">关于我们</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">职业生涯</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">投资者关系</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">媒体中心</a></li>
+                    </ul>
+                </div>
+
+                <!-- 订阅表单 -->
+                <div class="md:col-span-4 pl-0 md:pl-12 border-l border-white/5">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">加密通讯订阅</h4>
+                    <div class="flex flex-col gap-4">
+                        <p class="text-xs text-gray-500 mb-2">订阅以获取最新行业动态与产品发布信息。</p>
+                        <div class="flex gap-2">
+                            <label for="footer-email-about" class="sr-only">电子邮箱</label>
+                            <input id="footer-email-about" aria-label="电子邮箱" class="bg-surface-highlight border border-white/5 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-primary/50 w-full placeholder-gray-700 font-sans transition-colors" placeholder="您的电子邮箱" type="email"/>
+                            <button type="submit" aria-label="订阅" class="bg-primary hover:bg-primary-dim text-white font-bold text-xs px-6 rounded-sm transition-colors tracking-widest flex items-center gap-2 whitespace-nowrap">
+                                <span>发送</span>
+                                <span class="material-symbols-outlined text-sm">send</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 版权信息 -->
+            <div class="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-gray-600 text-[11px] tracking-wider uppercase">© 2042 ZANE HEAVY INDUSTRIES. 监狱重工版权所有。</p>
+                <div class="flex gap-8 text-gray-500">
+                    <a class="text-xs hover:text-white transition-colors" href="#">隐私协议</a>
+                    <a class="text-xs hover:text-white transition-colors" href="#">使用条款</a>
+                    <a class="text-xs hover:text-white transition-colors" href="#">安全合规</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- 公共脚本 -->
+<script src="js/main.js"></script>
+</body>
+</html>

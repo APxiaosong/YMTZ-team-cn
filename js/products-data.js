@@ -1,0 +1,27605 @@
+/** Auto-generated from products.json - do not edit */
+const PRODUCTS_DATA = [
+  {
+    "id": "znhi-41a-weasel",
+    "modelId": "ZNHI-41A[鼬]",
+    "name": "极地运输车",
+    "nameEn": "Polar Transport Vehicle",
+    "nickname": "经线收束点",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鼬",
+      "seriesEn": "WEASEL",
+      "category": "装甲车辆",
+      "subcategory": "履带式运输车",
+      "tags": [
+        "履带式“, ”极地“, ”运输“, ”后勤"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-41a-weasel/ZNHI-41A.webp",
+      "hero": "products/znhi-41a-weasel/ZNHI-41A.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-41A[鼬].webp"
+      ]
+    },
+    "description": {
+      "tagline": "雪原的补给线，从不断裂",
+      "summary": "为填补南极运输市场空白而生的极地履带运输车。前苏联遗留的老爷车们逐渐退役，而南极的运输需求不减反增，监狱决定推出自己的极地运输车趁机抢占市场。她采用密封式铝合金驾驶室、双层保温玻璃、废热回收供暖系统，配备宽幅履带以应对最恶劣的极地环境，能在冰天雪地中保障人员与物资的安全转运。",
+      "full": "前苏联遗留的老爷车们逐渐退役，而南极的运输需求不减反增，此前美俄双方在毛德皇后地的冲突留下了一堆烂摊子等待清理。战斗结束后，无邦者们争相来到此处寻找可用资源，而俄方暂无表态。监狱决定推出自己的极地运输车趁机抢占市场。\n\n为应对严寒与复杂地形，她采用密封式铝合金驾驶室，内覆保温衬层，外部加装防滚架以提升整体防护。车窗采用双层保温玻璃，并配备电热除冰功能。通过回收发动机及排气废热支持供暖系统，熄火时可由APU供电以支持电暖。她配备宽幅履带，能有效降低对地压强并具备不俗的通过性，但履带无划水设计，漂浮仅为保护乘员，切勿涉水超过2m，若故意涉险，监狱不对造成的任何损失负责。\n\n驾驶室为单排三座布局，内饰稀烂，搭载驾驶员夜视仪，顶部设有应急出口，可由中门进入设备舱，无厕所，发动机与电气设备均支持舱内维护。油箱置于车底以降低重心，配备燃油加热器，底部加强防护以防穿刺。大孩子油耗不低，在天气良好时续航不超800km，请务必规划沿途补给点。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "履带式运输车",
+        "highlight": false
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cabin",
+        "value": "密封式铝合金 / 单排三座",
+        "highlight": false
+      },
+      {
+        "label": "保温系统",
+        "labelEn": "Thermal System",
+        "value": "双层保温玻璃 + 电热除冰 + 废热回收供暖",
+        "highlight": true
+      },
+      {
+        "label": "履带",
+        "labelEn": "Track",
+        "value": "宽幅设计 / 低对地压强",
+        "highlight": false
+      },
+      {
+        "label": "夜视",
+        "labelEn": "Night Vision",
+        "value": "驾驶员夜视仪",
+        "highlight": false
+      },
+      {
+        "label": "涉水深度",
+        "labelEn": "Fording Depth",
+        "value": "≤2m (仅应急漂浮)",
+        "highlight": false
+      },
+      {
+        "label": "续航",
+        "labelEn": "Range",
+        "value": "≤800km (良好天气)",
+        "highlight": true
+      },
+      {
+        "label": "辅助动力",
+        "labelEn": "APU",
+        "value": "支持熄火电暖",
+        "highlight": false
+      },
+      {
+        "label": "特殊配置",
+        "labelEn": "Special",
+        "value": "舱内可维护 / 底部防穿刺 / 燃油加热器",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "这个大孩子喝得多，但在极地雪原上，她是最可靠的补给线——记得带够干粮，别指望沿途有加油站。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 1,
+      "categories": [
+        "military",
+        "transport"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-41a-weasel/ZNHI-41A.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鼬] WEASEL SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-41A"
+      },
+      "title": {
+        "text": "极地运输车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "为填补南极运输市场空白而生，采用密封式铝合金驾驶室与宽幅履带，能在最恶劣的极地环境下保障人员与物资的安全转运。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "类型 Type",
+            "value": "履带式运输车"
+          },
+          {
+            "label": "续航 Range",
+            "value": "≤800km"
+          },
+          {
+            "label": "座位 Seats",
+            "value": "3人"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-41A[鼬]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-41a-weasel/ZNHI-41A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Polar Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-41a-weasel/ZNHI-41A.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "极地运输车",
+        "productCode": "ZNHI-41A[鼬]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "前苏联遗留的老爷车们逐渐退役，而南极的运输需求不减反增。监狱推出的这款极地运输车，采用密封式铝合金驾驶室与宽幅履带设计，能在最恶劣的极地环境下可靠运行。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驾驶室",
+              "value": "密封式铝合金 / 单排三座"
+            },
+            {
+              "label": "保温系统",
+              "value": "双层保温玻璃 + 电热除冰"
+            },
+            {
+              "label": "供暖",
+              "value": "废热回收 + APU电暖"
+            },
+            {
+              "label": "履带",
+              "value": "宽幅设计 / 低对地压强"
+            },
+            {
+              "label": "续航",
+              "value": "≤800km (良好天气)"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这个大孩子喝得多，但在极地雪原上，她是最可靠的补给线——记得带够干粮，别指望沿途有加油站。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-41a-weasel/ZNHI-41A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "经线收束点",
+            "content": "前苏联遗留的老爷车们逐渐退役，而南极的运输需求不减反增。<br/>监狱重工为此推出了专属于极地的运输解决方案——<br/>ZNHI-41A[鼬]，为世界尽头而生的履带式运输车。",
+            "statusText": {
+              "enabled": true,
+              "text": "Polar Mode: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-41a-weasel/ZNHI-41A.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "ac_unit",
+              "color": "primary"
+            },
+            "iconLabel": "Polar Adapted",
+            "title": "极地堡垒",
+            "content": "密封式铝合金驾驶室，内覆保温衬层，外部加装防滚架。<br/>双层保温玻璃配备电热除冰，废热回收系统支持持续供暖。<br/>熄火状态下，APU可独立供电维持电暖——<br/><span class=\"text-white border-b border-primary/40 pb-1\">在零下数十度的极寒中，她是移动的温暖堡垒。</span>",
+            "dataBlocks": [
+              {
+                "value": "800km",
+                "label": "续航"
+              },
+              {
+                "value": "3人",
+                "label": "座位"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-41a-weasel/ZNHI-41A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Supply Line Active",
+              "isAnimated": true
+            },
+            "title": "补给线",
+            "content": "宽幅履带有效降低对地压强，复杂地形通过性出色。<br/>油箱置于车底降低重心，配备燃油加热器与底部防穿刺装甲。<br/>发动机与电气设备均支持舱内维护，无需在暴风雪中冻僵双手。<br/>她不只是运输工具，她就是补给线本身。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这个大孩子喝得多，但在极地雪原上，她是最可靠的补给线——记得带够干粮。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "履带式运输车"
+          },
+          {
+            "label": "Cabin",
+            "value": "密封式铝合金 / 3座"
+          },
+          {
+            "label": "Thermal",
+            "value": "双层保温 + 废热回收"
+          },
+          {
+            "label": "Range",
+            "value": "≤800km"
+          }
+        ],
+        "description": "ZNHI-41A[鼬] 是监狱重工为极地环境专门研发的履带式运输车，采用宽幅履带设计降低对地压强，配备完善的保温供暖系统，能在最恶劣的极地条件下保障运输任务的完成。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI TRANSPORT SERIES",
+        "products": [
+          {
+            "id": "znhi-09-elephant",
+            "imageUrl": "products/znhi-09-elephant/thumb.webp",
+            "productCode": "ZNHI-09[象]",
+            "productName": "重型运输车",
+            "productDesc": "大型履带式运输平台",
+            "href": "product-detail.html?id=znhi-09-elephant"
+          },
+          {
+            "id": "znhi-25-lion",
+            "imageUrl": "products/znhi-25-lion/thumb.webp",
+            "productCode": "ZNHI-25[狮]",
+            "productName": "多用途卡车",
+            "productDesc": "轮式运输牵引车",
+            "href": "product-detail.html?id=znhi-25-lion"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "首个处理的产品，原文完整保留"
+    }
+  },
+  {
+    "id": "znhi-01lat1-snow",
+    "modelId": "ZNHI-01LAT1[雪]",
+    "name": "自行反坦克导弹车",
+    "nameEn": "Self-propelled Anti-tank Missile Vehicle",
+    "nickname": "但盼风雪来",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雪",
+      "seriesEn": "SNOW",
+      "category": "装甲车辆",
+      "subcategory": "导弹发射车",
+      "tags": [
+        "履带式“, ”反坦克“, ”导弹“, ”防空"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+      "hero": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-01LAT1[雪].webp"
+      ]
+    },
+    "description": {
+      "tagline": "风雪来临之时，她已瞄准猎物",
+      "summary": "经过改良的LAT1反坦克导弹车，拥有比以往更高的精准度，并具备一定的反直升机能力。她配备独特的举高观瞄引导系统，能让操作员躲在掩体后方发动攻击，在保持隐蔽的同时精准打击目标。虽然机动性有所牺牲，但在火力覆盖范围内，她的威慑力毋庸置疑。",
+      "full": "经过改良的LAT1拥有比以往更高的精准度，且拥有一定的反直升机能力，但超出作战半径后依然十分容易失控。她有专为露头攻击设计的举高观瞄引导系统，能让你躲在适当的掩体后攻击敌人，当然前提是你信得过她的近地自动拉起功能。\n\n典狱长直呼从未感觉[雪]的机动性如此差过——沉重的导弹发射系统与复杂的观瞄设备让她在战场上的移动显得笨拙。但这并不妨碍她成为伏击战的绝佳选择：当风雪来临，敌人的装甲车队进入射程，她会让对方明白什么叫做「来不及反应」。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行反坦克导弹车",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "LAT1 反坦克导弹 (多管)",
+        "highlight": true
+      },
+      {
+        "label": "观瞄",
+        "labelEn": "Sighting",
+        "value": "举高观瞄引导系统",
+        "highlight": true
+      },
+      {
+        "label": "作战能力",
+        "labelEn": "Capability",
+        "value": "反装甲 / 反直升机",
+        "highlight": false
+      },
+      {
+        "label": "特殊功能",
+        "labelEn": "Special",
+        "value": "近地自动拉起",
+        "highlight": false
+      },
+      {
+        "label": "已知局限",
+        "labelEn": "Limitation",
+        "value": "超出作战半径易失控 / 机动性较差",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她的机动性确实让我头疼，但当风雪来临，她会让敌人更头疼。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 2,
+      "categories": [
+        "military",
+        "missile"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.6,
+          "contrast": 1.2,
+          "brightness": 0.8,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/60"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[雪] SNOW SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "自行反坦克导弹车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": true,
+        "gridCols": "md:grid-cols-4",
+        "cards": [
+          {
+            "label": "型号",
+            "value": "ZNHI-01LAT1"
+          },
+          {
+            "label": "武器",
+            "value": "LAT1 导弹"
+          },
+          {
+            "label": "能力",
+            "value": "反装甲/反直升机"
+          },
+          {
+            "label": "观瞄",
+            "value": "举高引导系统"
+          }
+        ],
+        "showIcon": false,
+        "iconName": ""
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "radar",
+        "opacity": 0.3
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "导弹系统",
+          "href": "products.html#missile"
+        },
+        {
+          "text": "ZNHI-01LAT1[雪]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Snow Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行反坦克导弹车",
+        "productCode": "ZNHI-01LAT1[雪]",
+        "restriction": {
+          "enabled": true,
+          "text": "军事管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "经过改良的LAT1拥有比以往更高的精准度，且拥有一定的反直升机能力。配备举高观瞄引导系统，能让你躲在掩体后攻击敌人。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "武器系统",
+              "value": "LAT1 反坦克导弹 (多管)"
+            },
+            {
+              "label": "观瞄系统",
+              "value": "举高观瞄引导系统"
+            },
+            {
+              "label": "作战能力",
+              "value": "反装甲 / 反直升机"
+            },
+            {
+              "label": "特殊功能",
+              "value": "近地自动拉起"
+            },
+            {
+              "label": "已知局限",
+              "value": "超出作战半径易失控"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她的机动性确实让我头疼，但当风雪来临，她会让敌人更头疼。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取作战手册",
+          "subtitle": "需要 B 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "但盼风雪来",
+            "content": "经过改良的LAT1拥有比以往更高的精准度，且具备一定的反直升机能力。<br/>但超出作战半径后依然十分容易失控——这是她与生俱来的局限。<br/>ZNHI-01LAT1[雪]，为伏击战而生的沉默猎手。",
+            "statusText": {
+              "enabled": true,
+              "text": "Targeting System: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "my_location",
+              "color": "primary"
+            },
+            "iconLabel": "Hunter's Eye",
+            "title": "猎手之眼",
+            "content": "专为露头攻击设计的举高观瞄引导系统，<br/>让操作员躲在掩体后方发动攻击。<br/>近地自动拉起功能确保导弹精准命中——<br/><span class=\"text-white border-b border-primary/40 pb-1\">当然，前提是你信得过她的判断。</span>",
+            "dataBlocks": [
+              {
+                "value": "多管",
+                "label": "载弹"
+              },
+              {
+                "value": "反装甲",
+                "label": "能力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-01lat1-snow/ZNHI-01LAT1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Weapons Hot",
+              "isAnimated": true
+            },
+            "title": "代价与收获",
+            "content": "沉重的导弹发射系统与复杂的观瞄设备让她移动笨拙，<br/>超出作战半径后导弹容易失控。<br/>但这不妨碍她成为伏击战的绝佳选择——<br/>当风雪来临，敌人的装甲车队进入射程，一切已成定局。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她的机动性确实让我头疼，但当风雪来临，她会让敌人更头疼。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "自行反坦克导弹车"
+          },
+          {
+            "label": "Armament",
+            "value": "LAT1 多管导弹"
+          },
+          {
+            "label": "Sighting",
+            "value": "举高观瞄引导系统"
+          },
+          {
+            "label": "Capability",
+            "value": "反装甲 / 反直升机"
+          }
+        ],
+        "description": "ZNHI-01LAT1[雪] 是监狱重工的自行反坦克导弹车，配备改良型LAT1导弹与独特的举高观瞄引导系统，能在掩体后方对敌方装甲目标发起精准打击，同时具备一定的反直升机能力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取作战手册",
+          "subtitle": "需要 B 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [雪] SERIES",
+        "products": [
+          {
+            "id": "znhi-01a1-snow",
+            "imageUrl": "products/znhi-01a1-snow/thumb.webp",
+            "productCode": "ZNHI-01A1[雪]",
+            "productName": "轻型坦克",
+            "productDesc": "雪系列基础型号",
+            "href": "product-detail.html?id=znhi-01a1-snow"
+          },
+          {
+            "id": "znhi-01a2-snow",
+            "imageUrl": "products/znhi-01a2-snow/thumb.webp",
+            "productCode": "ZNHI-01A2[雪]",
+            "productName": "夜战型坦克",
+            "productDesc": "增强夜视能力",
+            "href": "product-detail.html?id=znhi-01a2-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原文信息较少，从图片补充外观描述"
+    }
+  },
+  {
+    "id": "znhi-36b4ss3-lizard",
+    "modelId": "ZNHI-36B4SS3[蜥]",
+    "name": "远程导弹发射车",
+    "nameEn": "Long-range Missile Launcher",
+    "nickname": "洲际礼炮",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蜥",
+      "seriesEn": "LIZARD",
+      "category": "装甲车辆",
+      "subcategory": "导弹发射车",
+      "tags": [
+        "轮式“, ”远程“, ”导弹“, ”战略"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+      "hero": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-36B4SS3[蜥].webp"
+      ]
+    },
+    "description": {
+      "tagline": "冷，美丽，但不致命——除非你自己动手",
+      "summary": "-36系列的第一件礼物：ZNHI-SS3远程常规导弹发射车。她冷峻、美丽，搭载的常规弹头足以让目标消失，但监狱不提供核弹头——有需求请自行改装并签署免责声明。基于-36B4多轴轮式底盘打造，拥有跨洲际的打击能力。",
+      "full": "冷，美丽，但不致命。雪花从天而降，-36也终于迎来了她的第一件礼物：ZNHI-SS3远程常规导弹。这是一款基于-36B4底盘打造的远程导弹发射系统，拥有跨洲际的打击能力，却只配备常规弹头。\n\n监狱不提供核弹头，有需求请自行改装并签署免责声明。这既是典狱长的幽默，也是监狱的底线——我们提供工具，不提供毁灭。至于你拿她来做什么，那是你的事。她庞大的身躯承载着足以改变战局的力量，而那份冷峻的美丽，只有亲眼见过的人才能体会。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "远程导弹发射车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-36B4 多轴轮式",
+        "highlight": false
+      },
+      {
+        "label": "导弹",
+        "labelEn": "Missile",
+        "value": "ZNHI-SS3 远程常规导弹",
+        "highlight": true
+      },
+      {
+        "label": "弹头",
+        "labelEn": "Warhead",
+        "value": "常规弹头 (不提供核弹头)",
+        "highlight": true
+      },
+      {
+        "label": "射程",
+        "labelEn": "Range",
+        "value": "洲际级",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "冷，美丽，但不致命。至于你想让她变得多致命，那是你的事——别忘了签免责声明。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 3,
+      "categories": [
+        "military",
+        "missile",
+        "strategic"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+        "filters": {
+          "opacity": 0.6,
+          "saturate": 0.5,
+          "contrast": 1.25,
+          "brightness": 0.75,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/70"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[蜥] LIZARD SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "远程导弹发射车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "RESTRICTED",
+        "color": "red",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "rocket_launch",
+        "opacity": 0.35
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "STRATEGIC WEAPON PLATFORM"
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "SS3",
+            "label": "Missile"
+          },
+          {
+            "value": "洲际",
+            "label": "Range"
+          },
+          {
+            "value": "常规",
+            "label": "Warhead"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "战略武器",
+          "href": "products.html#strategic"
+        },
+        {
+          "text": "ZNHI-36B4SS3[蜥]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Strategic",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "远程导弹发射车",
+        "productCode": "ZNHI-36B4SS3[蜥]",
+        "restriction": {
+          "enabled": true,
+          "text": "战略管制 / TOP SECRET"
+        },
+        "description": {
+          "enabled": true,
+          "text": "冷，美丽，但不致命。-36系列的第一件礼物：ZNHI-SS3远程常规导弹。监狱不提供核弹头，有需求请自行改装并签署免责声明。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘型号",
+              "value": "ZNHI-36B4 多轴轮式"
+            },
+            {
+              "label": "导弹型号",
+              "value": "ZNHI-SS3 远程常规导弹"
+            },
+            {
+              "label": "弹头类型",
+              "value": "常规弹头 (核弹头需自行改装)"
+            },
+            {
+              "label": "射程等级",
+              "value": "洲际级"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "冷，美丽，但不致命。至于你想让她变得多致命，那是你的事——别忘了签免责声明。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术授权",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "洲际礼炮",
+            "content": "冷，美丽，但不致命。雪花从天而降，-36系列终于迎来了她的第一件礼物。<br/>ZNHI-SS3远程常规导弹，洲际级打击能力，<br/>ZNHI-36B4SS3[蜥]，为战略威慑而生的冷峻巨兽。",
+            "statusText": {
+              "enabled": true,
+              "text": "Strategic Asset: Standby"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "rocket_launch",
+              "color": "primary"
+            },
+            "iconLabel": "ICBM Platform",
+            "title": "战略平台",
+            "content": "基于ZNHI-36B4多轴轮式底盘打造，全地形机动部署能力。<br/>搭载ZNHI-SS3远程常规导弹，射程覆盖洲际级别。<br/>她庞大的身躯承载着足以改变战局的力量——<br/><span class=\"text-white border-b border-primary/40 pb-1\">她的存在本身，就是最强的威慑。</span>",
+            "dataBlocks": [
+              {
+                "value": "洲际",
+                "label": "射程"
+              },
+              {
+                "value": "常规",
+                "label": "弹头"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-36b4ss3-lizard/ZNHI-36B4SS3.webp",
+            "filters": {
+              "grayscale": true,
+              "contrast": 1.3
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Launch Ready",
+              "isAnimated": true
+            },
+            "title": "底线与工具",
+            "content": "监狱不提供核弹头——这既是典狱长的幽默，也是监狱的底线。<br/>有需求请自行改装并签署免责声明。<br/>我们提供工具，不提供毁灭。<br/>至于你拿她来做什么，那是你的事。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "冷，美丽，但不致命。至于你想让她变得多致命，那是你的事。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "远程导弹发射车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-36B4"
+          },
+          {
+            "label": "Missile",
+            "value": "ZNHI-SS3"
+          },
+          {
+            "label": "Range",
+            "value": "洲际级"
+          }
+        ],
+        "description": "ZNHI-36B4SS3[蜥] 是监狱重工的战略级武器平台，基于-36B4多轴轮式底盘，搭载ZNHI-SS3远程常规导弹，具备洲际打击能力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术授权",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蜥] SERIES",
+        "products": [
+          {
+            "id": "znhi-36a-lizard",
+            "imageUrl": "products/znhi-36a-lizard/thumb.webp",
+            "productCode": "ZNHI-36A[蜥]",
+            "productName": "重型运输车",
+            "productDesc": "蜥系列基础底盘",
+            "href": "product-detail.html?id=znhi-36a-lizard"
+          },
+          {
+            "id": "znhi-36b-lizard",
+            "imageUrl": "products/znhi-36b-lizard/thumb.webp",
+            "productCode": "ZNHI-36B[蜥]",
+            "productName": "模块化运输车",
+            "productDesc": "分体驾驶室设计",
+            "href": "product-detail.html?id=znhi-36b-lizard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "战略级武器，黑色幽默风格保留"
+    }
+  },
+  {
+    "id": "znhi-23a-moth",
+    "modelId": "ZNHI-23A[蛾]",
+    "name": "察打一体无人机",
+    "nameEn": "UCAV",
+    "nickname": "风味死神",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蛾",
+      "seriesEn": "MOTH",
+      "category": "飞行器",
+      "subcategory": "无人机",
+      "tags": [
+        "无人机“, ”察打一体“, ”侦察“, ”对地打击"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-23a-moth/ZNHI-23A.webp",
+      "hero": "products/znhi-23a-moth/ZNHI-23A.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-23A[蛾].webp"
+      ]
+    },
+    "description": {
+      "tagline": "她在云端注视着你，而你永远看不见她",
+      "summary": "传统构型察打一体无人机，配备先进的光电吊舱与四发挂载能力。相比早期的-23B型，她拥有更出色的侦察与打击性能，同时作为监狱新一代配平技术验证机，为后续机型积累了宝贵经验。",
+      "full": "传统构型察打一体无人机，与早期的-23B相比拥有更高级的光电吊舱以及四发挂载。她是监狱新一代配平技术验证机，在保持经典气动布局的同时，验证了多项新技术的可行性。\n\n「风味死神」——这个昵称来源于她与MQ-9的相似外形，但监狱版本有着属于自己的独特风味。她静静地在云端盘旋，用那颗不眨眼的「眼睛」注视着地面的一切，而当任务需要时，翼下的四发挂载会让目标明白什么叫做「死神来了」。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "察打一体无人机",
+        "highlight": false
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "传统构型 / 后置推进",
+        "highlight": false
+      },
+      {
+        "label": "光电系统",
+        "labelEn": "EO/IR",
+        "value": "高级光电吊舱",
+        "highlight": true
+      },
+      {
+        "label": "挂载能力",
+        "labelEn": "Payload",
+        "value": "四发挂载",
+        "highlight": true
+      },
+      {
+        "label": "技术定位",
+        "labelEn": "Role",
+        "value": "配平技术验证机",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她是死神的监狱风味版本——配方不同，效果相似。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 4,
+      "categories": [
+        "military",
+        "aircraft",
+        "uav"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-23a-moth/ZNHI-23A.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.6,
+          "contrast": 1.2,
+          "brightness": 0.8,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/60"
+        },
+        "overlayColor": "gray-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-right"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[蛾] MOTH SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-23A"
+      },
+      "title": {
+        "text": "察打一体无人机",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "传统构型察打一体无人机，高级光电吊舱，四发挂载能力。她在云端注视着你，而你永远看不见她。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "column",
+        "items": [
+          {
+            "label": "光电 EO/IR",
+            "value": "高级吊舱"
+          },
+          {
+            "label": "挂载 Payload",
+            "value": "四发"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight",
+        "opacity": 0.3
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "飞行器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-23A[蛾]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-23a-moth/ZNHI-23A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "UCAV",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-23a-moth/ZNHI-23A.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "察打一体无人机",
+        "productCode": "ZNHI-23A[蛾]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "传统构型察打一体无人机，与早期的-23B相比拥有更高级的光电吊舱以及四发挂载。监狱新一代配平技术验证机。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "气动布局",
+              "value": "传统构型 / 后置推进"
+            },
+            {
+              "label": "光电系统",
+              "value": "高级光电吊舱"
+            },
+            {
+              "label": "挂载能力",
+              "value": "四发"
+            },
+            {
+              "label": "技术定位",
+              "value": "配平技术验证机"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是死神的监狱风味版本——配方不同，效果相似。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-23a-moth/ZNHI-23A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "gray-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "风味死神",
+            "content": "传统构型察打一体无人机，与早期的-23B相比拥有更高级的光电吊舱以及四发挂载。<br/>她是监狱新一代配平技术验证机，<br/>ZNHI-23A[蛾]，在云端注视一切的沉默猎手。",
+            "statusText": {
+              "enabled": true,
+              "text": "Surveillance Mode: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-23a-moth/ZNHI-23A.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "visibility",
+              "color": "primary"
+            },
+            "iconLabel": "All-seeing Eye",
+            "title": "全视之眼",
+            "content": "高级光电吊舱，昼夜不分，全天候侦察能力。<br/>目标识别、精准定位、数据实时回传。<br/>她静静地在云端盘旋，用那颗不眨眼的「眼睛」注视着地面的一切——<br/><span class=\"text-white border-b border-primary/40 pb-1\">在她的视野里，没有秘密可言。</span>",
+            "dataBlocks": [
+              {
+                "value": "四发",
+                "label": "挂载"
+              },
+              {
+                "value": "高级",
+                "label": "光电"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-23a-moth/ZNHI-23A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Weapons Armed",
+              "isAnimated": true
+            },
+            "title": "死神的礼物",
+            "content": "翼下四发挂载，精确制导，指哪打哪。<br/>MQ-9的监狱风味版本——配方不同，效果相似。<br/>当任务需要时，她会让目标明白什么叫「死神来了」。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是死神的监狱风味版本——配方不同，效果相似。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "察打一体无人机"
+          },
+          {
+            "label": "Layout",
+            "value": "传统构型"
+          },
+          {
+            "label": "EO/IR",
+            "value": "高级光电吊舱"
+          },
+          {
+            "label": "Payload",
+            "value": "四发挂载"
+          }
+        ],
+        "description": "ZNHI-23A[蛾] 是监狱重工的察打一体无人机，采用传统构型设计，配备高级光电吊舱与四发挂载能力，同时作为新一代配平技术验证机。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蛾] SERIES",
+        "products": [
+          {
+            "id": "znhi-23-moth",
+            "imageUrl": "products/znhi-23-moth/thumb.webp",
+            "productCode": "ZNHI-23[蛾]",
+            "productName": "侦察无人机",
+            "productDesc": "蛾系列基础型",
+            "href": "product-detail.html?id=znhi-23-moth"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原-23[蜂]系列更名为[蛾]"
+    }
+  },
+  {
+    "id": "znhi-31b1-thunder",
+    "modelId": "ZNHI-31B1[雷]",
+    "name": "重型步兵支援车",
+    "nameEn": "Heavy Infantry Support Vehicle",
+    "nickname": "屁股对敌",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雷",
+      "seriesEn": "THUNDER",
+      "category": "装甲车辆",
+      "subcategory": "步兵支援车",
+      "tags": [
+        "履带式“, ”步兵支援“, ”导弹“, ”无人炮塔"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+      "hero": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-31b1-thunder/ZNHI-31B1-2.webp",
+          "alt": "俯视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-31B1[雷].webp",
+        "ZNHI-31B1[雷]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "她用背影面对敌人，用火力回应一切",
+      "summary": "由反向-31底盘改装而成的重型步兵支援车，配备穿透式无人炮塔与监狱第一款激光制导导弹。双人车组加三名乘员的配置，以内部空间换取更大的载弹量，车体配备栅栏装甲用于防护RPG与无人机，是步兵最可靠的火力后盾。",
+      "full": "监狱不缺步战车，火力支援车也有-04B，不过典狱长还是想发掘一下-31底盘的潜力。由反向-31底盘改装而成的重型步兵支援车，穿透式无人炮塔设计让她拥有独特的「屁股对敌」姿态——驾驶员面向后方，以车尾对敌前进。\n\n这种设计以内部空间换取更大的载弹量，装备有监狱第一款激光制导导弹。双人车组负责驾驶与火控，乘员舱可搭载三名乘员。车体侧面与尾部配备栅栏装甲，能有效拦截RPG、反坦克导弹与自杀式无人机，让弹头在接触主装甲前提前引爆。她的火力足以压制任何威胁，而那个「屁股对敌」的姿态，反而成了她最独特的标志。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型步兵支援车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "反向-31底盘",
+        "highlight": false
+      },
+      {
+        "label": "炮塔",
+        "labelEn": "Turret",
+        "value": "穿透式无人炮塔",
+        "highlight": true
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "激光制导导弹 (监狱首款)",
+        "highlight": true
+      },
+      {
+        "label": "防护",
+        "labelEn": "Protection",
+        "value": "栅栏装甲 (防RPG/无人机)",
+        "highlight": false
+      },
+      {
+        "label": "车组",
+        "labelEn": "Crew",
+        "value": "2人 (驾驶+火控)",
+        "highlight": false
+      },
+      {
+        "label": "载员",
+        "labelEn": "Capacity",
+        "value": "3名乘员",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "谁说一定要正面对敌？她用背影面对敌人，用导弹回应一切。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 5,
+      "categories": [
+        "military",
+        "armor",
+        "ifv"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.6,
+          "contrast": 1.2,
+          "brightness": 0.8,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/60"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "split",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[雷] THUNDER SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "重型步兵支援车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "反向-31底盘改装，穿透式无人炮塔，监狱首款激光制导导弹。她用背影面对敌人，用火力回应一切。",
+        "maxWidth": "max-w-md"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": true,
+        "text": "技术规格",
+        "href": "#",
+        "icon": "arrow_forward"
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "shield",
+        "opacity": 0.3
+      },
+      "specsList": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "Chassis",
+            "value": "反向-31底盘"
+          },
+          {
+            "label": "Turret",
+            "value": "穿透式无人炮塔"
+          },
+          {
+            "label": "Armament",
+            "value": "激光制导导弹"
+          },
+          {
+            "label": "Protection",
+            "value": "栅栏装甲"
+          },
+          {
+            "label": "Crew",
+            "value": "2+3人"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-31B1[雷]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Thunder Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-31b1-thunder/ZNHI-31B1-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型步兵支援车",
+        "productCode": "ZNHI-31B1[雷]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "由反向-31底盘改装而成的重型步兵支援车，穿透式无人炮塔，以内部空间换载弹量，装备有监狱第一款激光制导导弹。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "反向-31底盘"
+            },
+            {
+              "label": "炮塔",
+              "value": "穿透式无人炮塔"
+            },
+            {
+              "label": "武器",
+              "value": "激光制导导弹 (监狱首款)"
+            },
+            {
+              "label": "防护",
+              "value": "栅栏装甲 (防RPG/无人机)"
+            },
+            {
+              "label": "编制",
+              "value": "双人车组 + 3名乘员"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "谁说一定要正面对敌？她用背影面对敌人，用导弹回应一切。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含战术指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "屁股对敌",
+            "content": "监狱不缺步战车，火力支援车也有-04B，不过典狱长还是想发掘一下-31底盘的潜力。<br/>由反向-31底盘改装而成的重型步兵支援车，<br/>ZNHI-31B1[雷]，用背影面对敌人的独特存在。",
+            "statusText": {
+              "enabled": true,
+              "text": "Combat Mode: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-31b1-thunder/ZNHI-31B1-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "my_location",
+              "color": "primary"
+            },
+            "iconLabel": "Laser Guided",
+            "title": "穿透式炮塔",
+            "content": "穿透式无人炮塔设计，以内部空间换取更大的载弹量。<br/>装备监狱第一款激光制导导弹，锁定、发射、命中，一气呵成。<br/>双人车组负责驾驶与火控，乘员舱可搭载三名乘员——<br/><span class=\"text-white border-b border-primary/40 pb-1\">她的火力足以压制任何威胁。</span>",
+            "dataBlocks": [
+              {
+                "value": "2+3",
+                "label": "编制"
+              },
+              {
+                "value": "激光",
+                "label": "制导"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-31b1-thunder/ZNHI-31B1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Missile Armed",
+              "isAnimated": true
+            },
+            "title": "栅栏防护",
+            "content": "车体侧面与尾部配备栅栏装甲，能有效拦截RPG、反坦克导弹与自杀式无人机。<br/>让弹头在接触主装甲前提前引爆。<br/>她是步兵最可靠的火力后盾，而那个「屁股对敌」的姿态，反而成了她最独特的标志。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "谁说一定要正面对敌？她用背影面对敌人，用导弹回应一切。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型步兵支援车"
+          },
+          {
+            "label": "Chassis",
+            "value": "反向-31底盘"
+          },
+          {
+            "label": "Turret",
+            "value": "穿透式无人炮塔"
+          },
+          {
+            "label": "Armament",
+            "value": "激光制导导弹"
+          }
+        ],
+        "description": "ZNHI-31B1[雷] 是监狱重工基于反向-31底盘打造的重型步兵支援车，配备穿透式无人炮塔与监狱首款激光制导导弹，车体配备栅栏装甲防护。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含战术指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [雷] SERIES",
+        "products": [
+          {
+            "id": "znhi-31a1-thunder",
+            "imageUrl": "products/znhi-31a1-thunder/thumb.webp",
+            "productCode": "ZNHI-31A1[雷]",
+            "productName": "主战坦克",
+            "productDesc": "雷系列MBT",
+            "href": "product-detail.html?id=znhi-31a1-thunder"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "反向底盘设计，栅栏装甲防护"
+    }
+  },
+  {
+    "id": "znhi-08b1",
+    "modelId": "ZNHI-08B1",
+    "name": "履带式滑移装载机",
+    "nameEn": "Compact Track Loader",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": null,
+      "seriesEn": null,
+      "category": "工程机械",
+      "subcategory": "装载机",
+      "tags": [
+        "履带式“, ”工程“, ”紧凑型“, ”多用途"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-08b1/ZNHI-08B1.webp",
+      "hero": "products/znhi-08b1/ZNHI-08B1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-08B1.webp"
+      ]
+    },
+    "description": {
+      "tagline": "小身材，大能耐",
+      "summary": "基于-08A1/A2翻新设计的履带式滑移装载机，紧凑的身材让她能在狭小空间灵活作业，履带式底盘提供出色的牵引力与低对地压强，适合各种复杂地形的工程作业。",
+      "full": "-08系列的履带式滑移装载机，是-08A1/A2的翻新升级版本。她继承了前辈们紧凑灵活的特点，采用履带式底盘替代轮式设计，在松软地面和复杂地形上拥有更好的通过性与稳定性。\n\n驾驶室配备防滚翻/防落物保护结构（ROPS/FOPS），液压系统支持多种属具快换，铲斗只是她众多能力中的一种。无论是物料搬运、场地平整还是除雪作业，这个小家伙都能胜任。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "履带式滑移装载机",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "履带式 / 低对地压强",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "ROPS/FOPS 防护",
+        "highlight": false
+      },
+      {
+        "label": "属具",
+        "labelEn": "Attachment",
+        "value": "支持快换",
+        "highlight": false
+      },
+      {
+        "label": "基于",
+        "labelEn": "Based on",
+        "value": "-08A1/A2 翻新",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "别看她小，干起活来可不含糊。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程机械",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-08B1"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-08b1/ZNHI-08B1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-08b1/ZNHI-08B1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "履带式滑移装载机",
+        "productCode": "ZNHI-08B1",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-08A1/A2翻新设计的履带式滑移装载机，紧凑灵活，适合各种复杂地形的工程作业。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘类型",
+              "value": "履带式 / 低对地压强"
+            },
+            {
+              "label": "驾驶室",
+              "value": "ROPS/FOPS 防护"
+            },
+            {
+              "label": "属具系统",
+              "value": "支持快换"
+            },
+            {
+              "label": "基于型号",
+              "value": "-08A1/A2 翻新"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "别看她小，干起活来可不含糊。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含属具配置表",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-08b1/ZNHI-08B1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "yellow-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "precision_manufacturing",
+              "color": "primary"
+            },
+            "iconLabel": "Compact Power",
+            "title": "紧凑动力",
+            "content": "履带式底盘提供出色的牵引力与低对地压强，适合松软地面和复杂地形。<br/>驾驶室配备ROPS/FOPS防滚翻/防落物保护结构。<br/>液压系统支持多种属具快换——<br/><span class=\"text-white border-b border-primary/40 pb-1\">铲斗只是她众多能力中的一种。</span>",
+            "dataBlocks": [
+              {
+                "value": "履带",
+                "label": "底盘"
+              },
+              {
+                "value": "快换",
+                "label": "属具"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-08b1/ZNHI-08B1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Ready to Work",
+              "isAnimated": true
+            },
+            "title": "小身材大能耐",
+            "content": "-08系列的履带式滑移装载机，是-08A1/A2的翻新升级版本。<br/>她继承了前辈们紧凑灵活的特点，在狭小空间也能自如作业。<br/>无论是物料搬运、场地平整还是除雪作业，这个小家伙都能胜任。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "别看她小，干起活来可不含糊。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "履带式滑移装载机"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带式"
+          },
+          {
+            "label": "Protection",
+            "value": "ROPS/FOPS"
+          },
+          {
+            "label": "Attachment",
+            "value": "快换系统"
+          }
+        ],
+        "description": "ZNHI-08B1 是监狱重工的紧凑型履带式滑移装载机，基于-08A1/A2翻新设计，适合狭小空间和复杂地形作业。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含属具配置表"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI-08 SERIES",
+        "products": [
+          {
+            "id": "znhi-08",
+            "imageUrl": "products/znhi-08/thumb.webp",
+            "productCode": "ZNHI-08",
+            "productName": "滑移装载机",
+            "productDesc": "08系列基础型",
+            "href": "product-detail.html?id=znhi-08"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原文信息较少，工程机械类，精品页禁用"
+    }
+  },
+  {
+    "id": "znhi-03sl-magnet",
+    "modelId": "ZNHI-03SL[磁]",
+    "name": "激光战车",
+    "nameEn": "Laser Combat Vehicle",
+    "nickname": "光之剑",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "磁",
+      "seriesEn": "MAGNET",
+      "category": "装甲车辆",
+      "subcategory": "激光武器",
+      "tags": [
+        "履带式“, ”激光“, ”定向能“, ”反无人机"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+      "hero": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-03SL[磁].webp"
+      ]
+    },
+    "description": {
+      "tagline": "无声，无情，没人会想直视她",
+      "summary": "监狱重工的激光战车，配备高能激光发射系统。虽然激光对装甲几乎没有毁伤效果，但她能瞬间致盲光学设备、烧毁无人机、让任何敢于直视的人后悔终生。无声无息，却比任何炮弹都让人恐惧。",
+      "full": "无声，无情，虽然激光对装甲几乎没有毁伤效果，但应该没人会想直视她。这是监狱重工在定向能武器领域的探索成果，基于-03底盘打造的激光战车。\n\n她的激光发射系统采用多透镜聚焦阵列，能在瞬间将高能光束投射到目标上。对装甲目标效果有限，但对于光学设备、无人机、传感器，以及任何暴露在外的软目标，她都是噩梦般的存在。「光之剑」——这个名字诠释了她的本质：无形的利刃，精准而致命。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "激光战车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-03底盘 / 履带式",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "高能激光发射系统",
+        "highlight": true
+      },
+      {
+        "label": "特点",
+        "labelEn": "Features",
+        "value": "无声 / 无后坐力 / 光速命中",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Role",
+        "value": "反无人机 / 致盲光学 / 软杀伤",
+        "highlight": false
+      },
+      {
+        "label": "局限",
+        "labelEn": "Limitation",
+        "value": "对装甲毁伤效果有限",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她不会让你听到死亡的声音，但你会看到——如果你还能看到的话。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 6,
+      "categories": [
+        "military",
+        "laser",
+        "advanced"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+        "filters": {
+          "opacity": 0.6,
+          "saturate": 0.7,
+          "contrast": 1.25,
+          "brightness": 0.75,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/70"
+        },
+        "overlayColor": "cyan-500/10",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[磁] MAGNET SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "激光战车",
+        "fontSize": "7xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "RESTRICTED",
+        "color": "red",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": true,
+        "gridCols": "md:grid-cols-4",
+        "cards": [
+          {
+            "label": "武器",
+            "value": "高能激光"
+          },
+          {
+            "label": "特性",
+            "value": "无声/光速"
+          },
+          {
+            "label": "用途",
+            "value": "反无人机"
+          },
+          {
+            "label": "效果",
+            "value": "致盲/软杀伤"
+          }
+        ],
+        "showIcon": false,
+        "iconName": ""
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "wb_twilight",
+        "opacity": 0.35
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "先进武器",
+          "href": "products.html#advanced"
+        },
+        {
+          "text": "ZNHI-03SL[磁]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Directed Energy",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "激光战车",
+        "productCode": "ZNHI-03SL[磁]",
+        "restriction": {
+          "enabled": true,
+          "text": "高度管制 / TOP SECRET"
+        },
+        "description": {
+          "enabled": true,
+          "text": "无声，无情，虽然激光对装甲几乎没有毁伤效果，但应该没人会想直视她。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-03底盘 / 履带式"
+            },
+            {
+              "label": "武器",
+              "value": "高能激光发射系统"
+            },
+            {
+              "label": "特点",
+              "value": "无声 / 无后坐力 / 光速命中"
+            },
+            {
+              "label": "用途",
+              "value": "反无人机 / 致盲光学 / 软杀伤"
+            },
+            {
+              "label": "局限",
+              "value": "对装甲毁伤效果有限"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她不会让你听到死亡的声音，但你会看到——如果你还能看到的话。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术授权",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.75
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "光之剑",
+            "content": "无声，无情，虽然激光对装甲几乎没有毁伤效果，但应该没人会想直视她。<br/>这是监狱重工在定向能武器领域的探索成果，<br/>ZNHI-03SL[磁]，基于-03底盘打造的激光战车。",
+            "statusText": {
+              "enabled": true,
+              "text": "Laser System: Armed"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "wb_twilight",
+              "color": "primary"
+            },
+            "iconLabel": "Light Speed",
+            "title": "定向能武器",
+            "content": "激光发射系统采用多透镜聚焦阵列，能在瞬间将高能光束投射到目标上。<br/>无后坐力，无弹道，无躲避可能——光速命中。<br/>对装甲目标效果有限，但对于光学设备、无人机、传感器——<br/><span class=\"text-white border-b border-primary/40 pb-1\">以及任何暴露在外的软目标，她都是噩梦般的存在。</span>",
+            "dataBlocks": [
+              {
+                "value": "光速",
+                "label": "命中"
+              },
+              {
+                "value": "无声",
+                "label": "特性"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-03sl-magnet/ZNHI-03SL.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Target Locked",
+              "isAnimated": true
+            },
+            "title": "无声致命",
+            "content": "无人机在空中化为火球，光学设备永久失明。<br/>她不会让你听到死亡的声音，但你会看到——如果你还能看到的话。<br/>「光之剑」——无形的利刃，精准而致命。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她不会让你听到死亡的声音，但你会看到——如果你还能看到的话。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "激光战车"
+          },
+          {
+            "label": "Armament",
+            "value": "高能激光系统"
+          },
+          {
+            "label": "Features",
+            "value": "无声 / 光速命中"
+          },
+          {
+            "label": "Role",
+            "value": "反无人机 / 致盲"
+          }
+        ],
+        "description": "ZNHI-03SL[磁] 是监狱重工的激光战车，配备高能激光发射系统，具备反无人机、致盲光学设备等能力，无声无息却致命非凡。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术授权",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [磁] SERIES",
+        "products": [
+          {
+            "id": "znhi-03-magnet",
+            "imageUrl": "products/znhi-03-magnet/thumb.webp",
+            "productCode": "ZNHI-03[磁]",
+            "productName": "电磁炮战车",
+            "productDesc": "磁系列基础型",
+            "href": "product-detail.html?id=znhi-03-magnet"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "定向能武器，高度管制"
+    }
+  },
+  {
+    "id": "znhi-04a2a1-ice",
+    "modelId": "ZNHI-04A2A1[冰]",
+    "name": "电磁炮主战坦克",
+    "nameEn": "Railgun Main Battle Tank",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "主战坦克",
+      "tags": [
+        "履带式",
+        "MBT",
+        "电磁炮“, ”主战坦克"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+      "hero": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04A2A1[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "被遗忘的孩子，依然锋利",
+      "summary": "使用-03A1主炮的-04底盘改型，将电磁炮技术移植到主战坦克平台上。虽然因为发电系统跟不上而限制了主炮威力，但她依然是战场上不可忽视的存在——即便是降功率的电磁炮，也足以让大多数目标后悔出现在她面前。",
+      "full": "使用-03A1主炮的-04，但是因为发电跟不上所以限制了威力。这是典狱长曾经遗忘的孩子，当她被重新想起时，典狱长懊悔不已。\n\n她是监狱将电磁炮技术移植到MBT平台的尝试。-04底盘提供了优秀的机动性与防护，但车载发电系统无法完全支撑-03A1主炮的全部威力，只能以降功率模式运行。即便如此，她的穿甲能力依然优于传统化学能火炮，只是无法达到原版-03的恐怖水平。她是妥协的产物，却也是务实的选择。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "电磁炮主战坦克",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-04底盘",
+        "highlight": false
+      },
+      {
+        "label": "主炮",
+        "labelEn": "Main Gun",
+        "value": "-03A1电磁炮 (降功率)",
+        "highlight": true
+      },
+      {
+        "label": "局限",
+        "labelEn": "Limitation",
+        "value": "发电系统不足 / 威力受限",
+        "highlight": false
+      },
+      {
+        "label": "优势",
+        "labelEn": "Advantage",
+        "value": "穿甲能力优于传统火炮",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "我竟然把妳给忘了...抱歉，但即便威力受限，妳依然是最锋利的刀。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 7,
+      "categories": [
+        "military",
+        "armor",
+        "mbt"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.7,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04A2A1"
+      },
+      "title": {
+        "text": "电磁炮主战坦克",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "将-03A1电磁炮移植到-04底盘，虽然威力受限，但穿甲能力依然优于传统火炮。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "column",
+        "items": [
+          {
+            "label": "主炮 Main Gun",
+            "value": "-03A1电磁炮"
+          },
+          {
+            "label": "底盘 Chassis",
+            "value": "-04底盘"
+          },
+          {
+            "label": "模式 Mode",
+            "value": "降功率运行"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "主战坦克",
+          "href": "products.html#mbt"
+        },
+        {
+          "text": "ZNHI-04A2A1[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Ice Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "电磁炮主战坦克",
+        "productCode": "ZNHI-04A2A1[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "使用-03A1主炮的-04，但是因为发电跟不上所以限制了威力。妥协的产物，却也是务实的选择。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-04底盘"
+            },
+            {
+              "label": "主炮",
+              "value": "-03A1电磁炮 (降功率)"
+            },
+            {
+              "label": "局限",
+              "value": "发电系统不足"
+            },
+            {
+              "label": "优势",
+              "value": "穿甲能力优于传统火炮"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "我竟然把妳给忘了...抱歉，但即便威力受限，妳依然是最锋利的刀。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "被遗忘者",
+            "content": "监狱重工将-03A1电磁炮技术移植到-04 MBT底盘的尝试。<br/>车载发电系统无法完全支撑主炮威力，只能以降功率模式运行——<br/>但即便如此，她的穿甲能力依然优于传统化学能火炮。",
+            "statusText": {
+              "enabled": true,
+              "text": "Railgun: Standby"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "bolt",
+              "color": "primary"
+            },
+            "iconLabel": "Railgun Tech",
+            "title": "降功率运行",
+            "content": "-04底盘提供了优秀的机动性与防护，但车载发电系统有其极限。<br/>为了在现有底盘上实现电磁炮技术，主炮威力被限制在安全功率范围内。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她是妥协的产物，却也是务实的选择。</span>",
+            "dataBlocks": [
+              {
+                "value": "电磁",
+                "label": "主炮"
+              },
+              {
+                "value": "降功率",
+                "label": "模式"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04a2a1-ice/ZNHI-04A2A1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Combat Ready",
+              "isAnimated": true
+            },
+            "title": "依然锋利",
+            "content": "无法达到原版-03的恐怖威力，但在实战中足够致命。<br/>电磁轨道炮的弹丸初速依然远超传统火炮，穿甲能力毋庸置疑。<br/>这是被遗忘的孩子，却从未停止磨砺自己——她依然锋利。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "我竟然把妳给忘了...抱歉，但即便威力受限，妳依然是最锋利的刀。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "电磁炮主战坦克"
+          },
+          {
+            "label": "Chassis",
+            "value": "-04底盘"
+          },
+          {
+            "label": "Main Gun",
+            "value": "-03A1电磁炮"
+          },
+          {
+            "label": "Mode",
+            "value": "降功率运行"
+          }
+        ],
+        "description": "ZNHI-04A2A1[冰] 是监狱重工将电磁炮技术移植到MBT平台的尝试，使用-03A1主炮但因发电系统限制以降功率模式运行。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] SERIES",
+        "products": [
+          {
+            "id": "znhi-04a1-ice",
+            "imageUrl": "products/znhi-04a1-ice/thumb.webp",
+            "productCode": "ZNHI-04A1[冰]",
+            "productName": "主战坦克",
+            "productDesc": "冰系列原型",
+            "href": "product-detail.html?id=znhi-04a1-ice"
+          },
+          {
+            "id": "znhi-03-magnet",
+            "imageUrl": "products/znhi-03-magnet/thumb.webp",
+            "productCode": "ZNHI-03[磁]",
+            "productName": "电磁炮战车",
+            "productDesc": "主炮来源",
+            "href": "product-detail.html?id=znhi-03-magnet"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "电磁炮移植MBT，降功率运行"
+    }
+  },
+  {
+    "id": "znhi-39-thrush",
+    "modelId": "ZNHI-39[鸫]",
+    "name": "常规武装直升机",
+    "nameEn": "Attack Helicopter",
+    "nickname": "叮鸫机",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鸫",
+      "seriesEn": "THRUSH",
+      "category": "飞行器",
+      "subcategory": "直升机",
+      "tags": [
+        "直升机“, ”武装“, ”常规布局“, ”攻击"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-39-thrush/ZNHI-39.webp",
+      "hero": "products/znhi-39-thrush/ZNHI-39.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-39[鸫].webp"
+      ]
+    },
+    "description": {
+      "tagline": "回归传统，却不失锋芒",
+      "summary": "监狱重工的首款常规布局武装直升机。此前监狱的科技树点歪了，一直在造反重力飞行器，虽然销量极佳但问题不少。这次回归传统布局，配备机头遥控炮塔、两侧火箭弹发射器与机炮，同时预留机腹空间为未来隐形化改造做准备。",
+      "full": "不是监狱一直以来都不造常规直升机，而是科技树点歪了，点到了又贵又大的反重力。虽然反重机出口销量极佳但也有不少问题：[燕]的内收反重占了一大坨机体空间，而[鸥]的外挂双反重又使她有巨大的投影面积。\n\n常规布局直升机就没那么多问题了。她采用经典的单旋翼加尾桨设计，技术成熟、维护简便、成本可控。机头配备遥控炮塔提供精准火力，两侧短翼挂载火箭弹发射器与机炮，火力配置相当全面。不过典狱长依然为她留了一大块机腹空间，以为未来的隐形化改造做准备——这个孩子虽然回归传统，但潜力不容小觑。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "常规武装直升机",
+        "highlight": false
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "单旋翼 + 尾桨",
+        "highlight": false
+      },
+      {
+        "label": "机头武装",
+        "labelEn": "Nose",
+        "value": "遥控炮塔",
+        "highlight": true
+      },
+      {
+        "label": "短翼挂载",
+        "labelEn": "Stub Wings",
+        "value": "火箭弹发射器 + 机炮",
+        "highlight": true
+      },
+      {
+        "label": "特殊",
+        "labelEn": "Special",
+        "value": "机腹预留隐形化改造空间",
+        "highlight": false
+      },
+      {
+        "label": "优势",
+        "labelEn": "Advantage",
+        "value": "技术成熟 / 维护简便 / 成本可控",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "科技树点歪了不要紧，该回头时就回头。她是传统的回归，也是新起点的开始。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 8,
+      "categories": [
+        "military",
+        "aircraft",
+        "helicopter"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-39-thrush/ZNHI-39.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.75,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "[鸫] THRUSH SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": "ID: ZNHI-39"
+      },
+      "title": {
+        "text": "常规武装直升机",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "回归传统布局，机头遥控炮塔，两侧火箭弹与机炮，机腹预留隐形化改造空间。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "布局 Layout",
+            "value": "单旋翼 + 尾桨"
+          },
+          {
+            "label": "武装 Armament",
+            "value": "炮塔 + 火箭弹 + 机炮"
+          },
+          {
+            "label": "特殊 Special",
+            "value": "预留隐形化空间"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight",
+        "opacity": 0.4
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "ATTACK HELICOPTER"
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "单旋翼+尾桨",
+            "value": "经典布局"
+          },
+          {
+            "label": "炮塔+火箭弹+机炮",
+            "value": "全面火力"
+          },
+          {
+            "label": "隐形化预留",
+            "value": "升级潜力"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "飞行器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-39[鸫]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-39-thrush/ZNHI-39.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Attack Helo",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-39-thrush/ZNHI-39.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "常规武装直升机",
+        "productCode": "ZNHI-39[鸫]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱首款常规布局直升机，科技树回归传统。机头遥控炮塔，两侧火箭弹与机炮，火力全面。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "布局",
+              "value": "单旋翼 + 尾桨"
+            },
+            {
+              "label": "机头武装",
+              "value": "遥控炮塔"
+            },
+            {
+              "label": "短翼挂载",
+              "value": "火箭弹发射器 + 机炮"
+            },
+            {
+              "label": "特殊设计",
+              "value": "机腹预留隐形化改造空间"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "科技树点歪了不要紧，该回头时就回头。她是传统的回归，也是新起点的开始。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含飞行操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-39-thrush/ZNHI-39.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "传统回归",
+            "content": "监狱重工首款常规布局武装直升机。<br/>此前科技树点歪了，一直在造反重力飞行器，虽然销量极佳但问题不少。<br/>这次回归单旋翼加尾桨的经典设计——技术成熟、维护简便、成本可控。",
+            "statusText": {
+              "enabled": true,
+              "text": "Rotor System: Online"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-39-thrush/ZNHI-39.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight",
+              "color": "primary"
+            },
+            "iconLabel": "Classic Layout",
+            "title": "成熟可靠",
+            "content": "机头配备遥控炮塔提供精准火力，两侧短翼挂载火箭弹发射器与机炮。<br/>火力配置全面，覆盖多种作战需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">相比反重力飞行器，常规布局就是省心。</span>",
+            "dataBlocks": [
+              {
+                "value": "单旋翼",
+                "label": "布局"
+              },
+              {
+                "value": "全面",
+                "label": "火力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-39-thrush/ZNHI-39.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Weapons Hot",
+              "isAnimated": true
+            },
+            "title": "预留空间",
+            "content": "典狱长为她留了一大块机腹空间，为未来的隐形化改造做准备。<br/>虽然回归传统布局，但监狱从未放弃对未来技术的追求。<br/>这个孩子的潜力，不容小觑。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "科技树点歪了不要紧，该回头时就回头。她是传统的回归，也是新起点的开始。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "常规武装直升机"
+          },
+          {
+            "label": "Layout",
+            "value": "单旋翼 + 尾桨"
+          },
+          {
+            "label": "Armament",
+            "value": "炮塔 + 火箭弹 + 机炮"
+          },
+          {
+            "label": "Special",
+            "value": "预留隐形化空间"
+          }
+        ],
+        "description": "ZNHI-39[鸫] 是监狱重工首款常规布局武装直升机，回归经典设计的同时保留了强大火力与未来升级潜力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含飞行操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIRCRAFT SERIES",
+        "products": [
+          {
+            "id": "znhi-17-vulture",
+            "imageUrl": "products/znhi-17-vulture/thumb.webp",
+            "productCode": "ZNHI-17[雕]",
+            "productName": "飞翼无人机",
+            "productDesc": "隐形打击平台",
+            "href": "product-detail.html?id=znhi-17-vulture"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱首款常规直升机，科技树回归"
+    }
+  },
+  {
+    "id": "zntp-08-3024",
+    "modelId": "ZNTP-08 3024",
+    "name": "低地板有轨电车",
+    "nameEn": "Low-Floor Light Rail Vehicle",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "民用交通",
+      "subcategory": "轨道交通",
+      "tags": [
+        "有轨电车“, ”低地板“, ”纯电动“, ”公共交通"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-08-3024/ZNTP-08-3024.webp",
+      "hero": "products/zntp-08-3024/ZNTP-08-3024.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-08 3024.webp"
+      ]
+    },
+    "description": {
+      "tagline": "城市脉动的绿色使者",
+      "summary": "监狱重工涉足公共交通领域的标志性产品。采用100%低地板设计，配合大面积车窗与流线型车头，兼顾无障碍通行与现代美学。白、黑、绿三色涂装彰显环保理念，是城市轨道交通的理想选择。",
+      "full": "3024型是监狱重工ZNTP民用产品线中的有轨电车型号。她采用现代化的流线型设计，圆润的车头配合大面积蓝色前挡玻璃，视野开阔。全车采用100%低地板设计，车厢地板与站台几乎齐平，方便轮椅、婴儿车及行动不便者无障碍上下车。\n\n铰接式多节车厢设计提供充足的载客空间，侧面大面积车窗让乘客能够欣赏城市风景。车顶安装有受电弓，从架空接触网取电驱动，实现零排放运营。白色车身搭配黑色窗带与绿色装饰条，外观清新现代，是监狱重工在民用领域的一次成功尝试。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "低地板有轨电车",
+        "highlight": false
+      },
+      {
+        "label": "结构",
+        "labelEn": "Structure",
+        "value": "铰接式多节车厢",
+        "highlight": false
+      },
+      {
+        "label": "地板",
+        "labelEn": "Floor",
+        "value": "100% 低地板",
+        "highlight": true
+      },
+      {
+        "label": "供电",
+        "labelEn": "Power Supply",
+        "value": "架空接触网 (受电弓)",
+        "highlight": false
+      },
+      {
+        "label": "动力",
+        "labelEn": "Propulsion",
+        "value": "纯电动 / 零排放",
+        "highlight": true
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白 / 黑 / 绿",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她不会冲锋陷阵，但每天都在默默运送着这座城市的希望。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 10,
+      "categories": [
+        "civilian",
+        "transport"
+      ],
+      "background": {
+        "imageUrl": "products/zntp-08-3024/ZNTP-08-3024.webp",
+        "filters": {
+          "opacity": 0.75,
+          "saturate": 0.9,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "green-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "minimal",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "",
+        "bgColor": "",
+        "borderColor": "",
+        "textColor": ""
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNTP-08 3024"
+      },
+      "title": {
+        "text": "低地板有轨电车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "100%低地板设计，流线型车头，铰接式多节车厢，零排放运营。城市脉动的绿色使者。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "row",
+        "items": [
+          {
+            "label": "地板 Floor",
+            "value": "100% 低地板"
+          },
+          {
+            "label": "动力 Power",
+            "value": "纯电动"
+          },
+          {
+            "label": "供电 Supply",
+            "value": "受电弓"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "tram",
+        "opacity": 0.3
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱交通",
+          "href": "products.html"
+        },
+        {
+          "text": "轨道交通",
+          "href": "products.html#rail"
+        },
+        {
+          "text": "ZNTP-08 3024"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-08-3024/ZNTP-08-3024.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Zero Emission",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-08-3024/ZNTP-08-3024.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "低地板有轨电车",
+        "productCode": "ZNTP-08 3024",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工ZNTP民用产品线的有轨电车型号，100%低地板设计，铰接式多节车厢，纯电动零排放运营。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "结构",
+              "value": "铰接式多节车厢"
+            },
+            {
+              "label": "地板高度",
+              "value": "100% 低地板"
+            },
+            {
+              "label": "供电方式",
+              "value": "架空接触网 (受电弓)"
+            },
+            {
+              "label": "动力类型",
+              "value": "纯电动 / 零排放"
+            },
+            {
+              "label": "涂装",
+              "value": "白 / 黑 / 绿"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她不会冲锋陷阵，但每天都在默默运送着这座城市的希望。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含技术规格",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-08-3024/ZNTP-08-3024.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9,
+              "saturate": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "城市脉动",
+            "content": "每天清晨，她准时出现在站台旁。<br/>运送上班族、学生、老人，连接城市的每一个角落。<br/>她是城市脉动的一部分，默默守护着这座城市的日常。",
+            "statusText": {
+              "enabled": true,
+              "text": "Daily Service: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-08-3024/ZNTP-08-3024.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "accessible",
+              "color": "primary"
+            },
+            "iconLabel": "Barrier-Free",
+            "title": "无障碍通行",
+            "content": "100%低地板设计，车厢地板与站台几乎齐平。<br/>轮椅、婴儿车、行动不便者都能轻松上下车。<br/><span class=\"text-white border-b border-primary/40 pb-1\">铰接式多节车厢提供充足的载客空间，大面积车窗让乘客欣赏城市风景。</span>",
+            "dataBlocks": [
+              {
+                "value": "100%",
+                "label": "低地板"
+              },
+              {
+                "value": "零排放",
+                "label": "环保"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-08-3024/ZNTP-08-3024.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Zero Emission",
+              "isAnimated": true
+            },
+            "title": "绿色使者",
+            "content": "车顶的受电弓从架空接触网取电，实现纯电动零排放运营。<br/>白色车身搭配绿色装饰条，彰显环保理念。<br/>从有轨电车到公交车，从高速列车到城际动车——<br/>监狱非常看重无障碍设计，几乎所有民用交通工具都配备完善的无障碍设施。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她不会冲锋陷阵，但每天都在默默运送着这座城市的希望。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "低地板有轨电车"
+          },
+          {
+            "label": "Structure",
+            "value": "铰接式多节"
+          },
+          {
+            "label": "Floor",
+            "value": "100% 低地板"
+          },
+          {
+            "label": "Power",
+            "value": "纯电动"
+          }
+        ],
+        "description": "ZNTP-08 3024 是监狱重工的低地板有轨电车，采用铰接式多节车厢设计，100%低地板方便无障碍通行，纯电动零排放运营。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含技术规格"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAIL SERIES",
+        "products": [
+          {
+            "id": "zntp-12-6560",
+            "imageUrl": "products/zntp-12-6560/thumb.webp",
+            "productCode": "ZNTP-12 6560",
+            "productName": "高速动车组",
+            "productDesc": "城际高速列车",
+            "href": "product-detail.html?id=zntp-12-6560"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "民用产品，低地板有轨电车。精品页保持minimal布局（民用简洁风格），补充3章故事章节：城市脉动（日常运营）、无障碍通行（低地板设计）、绿色使者（环保理念）。民用产品叙事偏向温和、日常、积极向上。"
+    }
+  },
+  {
+    "id": "znhi-38-newt",
+    "modelId": "ZNHI-38[蝾]",
+    "name": "两栖装甲车",
+    "nameEn": "Amphibious Armored Vehicle",
+    "nickname": "水上公交",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蝾",
+      "seriesEn": "NEWT",
+      "category": "装甲车辆",
+      "subcategory": "两栖装甲车",
+      "tags": [
+        "履带式“, ”两栖“, ”装甲“, ”水陆两用"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-38-newt/ZNHI-38.webp",
+      "hero": "products/znhi-38-newt/ZNHI-38.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-38[蝾].webp"
+      ]
+    },
+    "description": {
+      "tagline": "雪原的孩子，也能闯荡江湖",
+      "summary": "监狱重工的履带式两栖装甲车，设计灵感来自M113的楔形车首。虽然雪原没什么液态水，但典狱长深知孩子大了总得出去闯荡。她既不像BMP那样尖头，也不像AAV7那样方正，而是走出了自己独特的路线。顶部配备遥控武器站与光电系统，水陆两用，是出口市场的理想选择。",
+      "full": "虽然雪原没什么液态水，但孩子大了总得出去闯荡。监狱重工为开拓出口市场而研发的这款两栖装甲车，在外形设计上颇费心思：典狱长不喜欢05那样的脑袋尖尖，也不想像AAV7那样像个砖块，结果就学来了M113那种「异端」——楔形船首设计。\n\n她采用履带式底盘，具备出色的水陆两栖机动能力，车体设计注重浮力与稳定性，能在水面平稳航行。顶部配备遥控武器站，装有机炮与光电瞄准系统，具备一定的火力支援能力。全车白色涂装，延续监狱的一贯风格。她是雪原的孩子，但注定要去更远的地方。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "两栖装甲车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "履带式",
+        "highlight": false
+      },
+      {
+        "label": "车首",
+        "labelEn": "Hull",
+        "value": "M113式楔形设计",
+        "highlight": true
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "遥控武器站 (机炮 + 光电)",
+        "highlight": true
+      },
+      {
+        "label": "两栖",
+        "labelEn": "Amphibious",
+        "value": "水陆两用",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "不喜欢尖头，不喜欢方头，那就搞个异端。她是雪原的孩子，但注定要去更远的地方。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 11,
+      "categories": [
+        "military",
+        "amphibious"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-38-newt/ZNHI-38.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "split",
+        "gridCols": "md:grid-cols-2",
+        "alignItems": "items-center",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[蝾] NEWT SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": "ID: ZNHI-38"
+      },
+      "title": {
+        "text": "两栖装甲车",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "监狱重工为开拓出口市场研发的履带式两栖装甲车。采用M113式楔形车首设计，履带式底盘具备出色的水陆两栖机动能力，顶部配备遥控武器站。她是雪原的孩子，但注定要去更远的地方。",
+        "maxWidth": "max-w-prose"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "车首 Hull",
+            "value": "M113式楔形"
+          },
+          {
+            "label": "两栖 Amphibious",
+            "value": "水陆两用"
+          },
+          {
+            "label": "武器 Armament",
+            "value": "遥控武器站"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": true,
+        "text": "技术手册",
+        "href": "#",
+        "icon": "download"
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      },
+      "specsList": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "Type",
+            "value": "两栖装甲车"
+          },
+          {
+            "label": "Hull",
+            "value": "M113式楔形"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带式"
+          },
+          {
+            "label": "Armament",
+            "value": "遥控武器站"
+          },
+          {
+            "label": "Amphibious",
+            "value": "水陆两用"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "两栖车辆",
+          "href": "products.html#amphibious"
+        },
+        {
+          "text": "ZNHI-38[蝾]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-38-newt/ZNHI-38.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Amphibious",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-38-newt/ZNHI-38.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "两栖装甲车",
+        "productCode": "ZNHI-38[蝾]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "虽然雪原没什么液态水，但孩子大了总得出去闯荡。M113式楔形车首，履带式水陆两用底盘。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "履带式"
+            },
+            {
+              "label": "车首设计",
+              "value": "M113式楔形"
+            },
+            {
+              "label": "武器",
+              "value": "遥控武器站 (机炮 + 光电)"
+            },
+            {
+              "label": "两栖能力",
+              "value": "水陆两用"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "不喜欢尖头，不喜欢方头，那就搞个异端。她是雪原的孩子，但注定要去更远的地方。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含水上操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-38-newt/ZNHI-38.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "水陆两栖",
+            "content": "监狱重工为开拓出口市场研发的履带式两栖装甲车。<br/>虽然雪原没什么液态水，但典狱长深知孩子大了总得出去闯荡——<br/>她采用履带式底盘，车体设计注重浮力与稳定性，能在水面平稳航行。",
+            "statusText": {
+              "enabled": true,
+              "text": "Amphibious Mode: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-38-newt/ZNHI-38.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "sailing",
+              "color": "primary"
+            },
+            "iconLabel": "Amphibious",
+            "title": "楔形设计",
+            "content": "车体采用M113式楔形船首设计，在保证水面浮力的同时提供足够的正面防护能力。<br/>楔形结构有效减少水面阻力，提升航行稳定性与速度。<br/><span class=\"text-white border-b border-primary/40 pb-1\">履带式底盘配合楔形车首，陆地与水域均可可靠运行。</span>",
+            "dataBlocks": [
+              {
+                "value": "水陆",
+                "label": "两栖"
+              },
+              {
+                "value": "楔形",
+                "label": "车首"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-38-newt/ZNHI-38.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Systems Online",
+              "isAnimated": true
+            },
+            "title": "全域能力",
+            "content": "顶部配备遥控武器站，装有机炮与光电瞄准系统，具备火力支援能力。<br/>履带式底盘在陆地提供机动性，楔形车首在水面保证稳定性。<br/>雪原的孩子，也能闯荡江湖——她有足够的能力保护自己。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "不喜欢尖头，不喜欢方头，那就搞个异端。她是雪原的孩子，但注定要去更远的地方。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "两栖装甲车"
+          },
+          {
+            "label": "Hull",
+            "value": "M113式楔形"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带式"
+          },
+          {
+            "label": "Armament",
+            "value": "遥控武器站"
+          }
+        ],
+        "description": "ZNHI-38[蝾] 是监狱重工的两栖装甲车，采用M113式楔形车首设计，履带式底盘具备水陆两栖能力，顶部配备遥控武器站。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含水上操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AMPHIBIOUS SERIES",
+        "products": [
+          {
+            "id": "znhi-07-whale",
+            "imageUrl": "products/znhi-07-whale/thumb.webp",
+            "productCode": "ZNHI-07[鲸]",
+            "productName": "两栖登陆艇",
+            "productDesc": "大型两栖平台",
+            "href": "product-detail.html?id=znhi-07-whale"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "两栖装甲车，M113式设计"
+    }
+  },
+  {
+    "id": "znhi-32-1",
+    "modelId": "ZNHI-32.1",
+    "name": "履带式起重机",
+    "nameEn": "Crawler Crane",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": null,
+      "seriesEn": null,
+      "category": "工程机械",
+      "subcategory": "起重机",
+      "tags": [
+        "履带式“, ”起重机“, ”工程“, ”吊装"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-32-1/ZNHI-32.1.webp",
+      "hero": "products/znhi-32-1/ZNHI-32.1.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-32-1/ZNHI-32.1-2.webp",
+          "alt": "作业状态",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-32-1/ZNHI-32.1-3.webp",
+          "alt": "运输状态",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-32.1.webp",
+        "ZNHI-32.1-2.webp",
+        "ZNHI-32.1-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "举重若轻，使命必达",
+      "summary": "监狱重工的履带式起重机，配备桁架式起重臂与液压绞盘系统。履带底盘提供稳定的作业基础，无需额外支腿即可进行吊装作业。可拆解运输，适应各类工地环境。",
+      "full": "ZNHI-32.1是监狱重工的大型履带式起重机，采用桁架式起重臂设计，吊臂由多节桁架组件拼接而成，可根据作业需求调整长度。履带式底盘提供出色的承载能力与稳定性，在松软地面也能保持平衡。\n\n车体后部配备可调节配重块，确保吊装作业时的稳定。为便于转场运输，整机可拆解为多个模块，由低平板拖车分批运输至工地后再进行组装。她出厂时典狱长瘫在椅子上傻笑了半天——这个孩子是监狱重工在工程机械领域的骄傲之作。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "履带式起重机",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "履带式",
+        "highlight": false
+      },
+      {
+        "label": "起重臂",
+        "labelEn": "Boom",
+        "value": "桁架式 / 可拆解组装",
+        "highlight": true
+      },
+      {
+        "label": "配重",
+        "labelEn": "Counterweight",
+        "value": "可调节配重块",
+        "highlight": false
+      },
+      {
+        "label": "运输",
+        "labelEn": "Transport",
+        "value": "可拆解分批运输",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她出厂那天，我瘫在椅子上傻笑了半天。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程机械",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-32.1"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-32-1/ZNHI-32.1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-32-1/ZNHI-32.1.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-32-1/ZNHI-32.1-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-32-1/ZNHI-32.1-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "履带式起重机",
+        "productCode": "ZNHI-32.1",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的大型履带式起重机，桁架式起重臂，可拆解运输，适应各类工地环境。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "履带式"
+            },
+            {
+              "label": "起重臂",
+              "value": "桁架式 / 可拆解组装"
+            },
+            {
+              "label": "配重",
+              "value": "可调节配重块"
+            },
+            {
+              "label": "运输方式",
+              "value": "可拆解分批运输"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她出厂那天，我瘫在椅子上傻笑了半天。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含吊装作业指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-32-1/ZNHI-32.1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "桁架吊臂",
+            "content": "监狱重工的大型履带式起重机，采用桁架式起重臂设计。<br/>吊臂由多节桁架组件拼接而成，可根据作业需求调整长度——<br/>她是监狱重工在工程机械领域的骄傲之作。",
+            "statusText": {
+              "enabled": true,
+              "text": "Crane System: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-32-1/ZNHI-32.1-3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "precision_manufacturing",
+              "color": "primary"
+            },
+            "iconLabel": "Engineering",
+            "title": "稳定基础",
+            "content": "履带式底盘提供出色的承载能力与稳定性，在松软地面也能保持平衡。<br/>车体后部配备可调节配重块，确保吊装作业时的稳定。<br/><span class=\"text-white border-b border-primary/40 pb-1\">无需额外支腿即可进行吊装作业。</span>",
+            "dataBlocks": [
+              {
+                "value": "履带式",
+                "label": "底盘"
+              },
+              {
+                "value": "可调节",
+                "label": "配重"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-32-1/ZNHI-32.1-2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Operational",
+              "isAnimated": true
+            },
+            "title": "灵活部署",
+            "content": "为便于转场运输，整机可拆解为多个模块，由低平板拖车分批运输至工地。<br/>到达现场后进行组装，快速投入使用。<br/>举重若轻，使命必达——她能适应各类工地环境。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她出厂那天，我瘫在椅子上傻笑了半天。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "履带式起重机"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带式"
+          },
+          {
+            "label": "Boom",
+            "value": "桁架式"
+          },
+          {
+            "label": "Transport",
+            "value": "可拆解"
+          }
+        ],
+        "description": "ZNHI-32.1 是监狱重工的大型履带式起重机，采用桁架式起重臂设计，可拆解运输，适应各类工地环境。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含吊装作业指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ENGINEERING SERIES",
+        "products": [
+          {
+            "id": "znhi-29",
+            "imageUrl": "products/znhi-29/thumb.webp",
+            "productCode": "ZNHI-29",
+            "productName": "履带式挖掘机",
+            "productDesc": "土木高达",
+            "href": "product-detail.html?id=znhi-29"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原文无技术描述，从图片推断，工程机械类，精品页禁用"
+    }
+  },
+  {
+    "id": "znhi-37b",
+    "modelId": "ZNHI-37B",
+    "name": "轻型叉车",
+    "nameEn": "Light Forklift",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": null,
+      "seriesEn": null,
+      "category": "工程机械",
+      "subcategory": "叉车",
+      "tags": [
+        "叉车“, ”仓储“, ”物流“, ”轻型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-37b/ZNHI-37B.webp",
+      "hero": "products/znhi-37b/ZNHI-37B.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-37B.webp"
+      ]
+    },
+    "description": {
+      "tagline": "小身材，大作用",
+      "summary": "监狱重工的轻型叉车，紧凑的车身设计适合在狭小空间作业。配备标准门架系统与护顶架，是仓库、车间、码头等场所物料搬运的得力助手。",
+      "full": "ZNHI-37B是监狱重工的轻型叉车，采用紧凑的车身设计，能在狭小通道和有限空间内灵活作业。白色车身搭配黑色护顶架，顶部配备黄色警示灯确保作业安全。\n\n标准的门架系统支持托盘货物的升降搬运，操作简便，维护方便。她是仓库管理、车间物流、码头装卸等场景的理想选择，默默承担着物料流转的重任。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型叉车",
+        "highlight": false
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "护顶架 (ROPS)",
+        "highlight": false
+      },
+      {
+        "label": "门架",
+        "labelEn": "Mast",
+        "value": "标准门架系统",
+        "highlight": true
+      },
+      {
+        "label": "警示",
+        "labelEn": "Warning",
+        "value": "顶部双警示灯",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她不起眼，但没有她，仓库就转不起来。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程机械",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-37B"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-37b/ZNHI-37B.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-37b/ZNHI-37B.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型叉车",
+        "productCode": "ZNHI-37B",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的轻型叉车，紧凑车身，标准门架系统，适合狭小空间物料搬运。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驾驶室",
+              "value": "护顶架 (ROPS)"
+            },
+            {
+              "label": "门架",
+              "value": "标准门架系统"
+            },
+            {
+              "label": "警示设备",
+              "value": "顶部双警示灯"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她不起眼，但没有她，仓库就转不起来。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-37b/ZNHI-37B.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "紧凑灵活",
+            "content": "监狱重工的轻型叉车，采用紧凑的车身设计。<br/>能在狭小通道和有限空间内灵活作业，白色车身搭配黑色护顶架——<br/>她是仓库管理、车间物流、码头装卸等场景的理想选择。",
+            "statusText": {
+              "enabled": true,
+              "text": "Forklift: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-37b/ZNHI-37B.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_shipping",
+              "color": "primary"
+            },
+            "iconLabel": "Material Handling",
+            "title": "标准配置",
+            "content": "标准门架系统支持托盘货物的升降搬运，操作简便，维护方便。<br/>配备护顶架（ROPS）保障作业安全，顶部双黄色警示灯确保可见性。<br/><span class=\"text-white border-b border-primary/40 pb-1\">默默承担着物料流转的重任。</span>",
+            "dataBlocks": [
+              {
+                "value": "标准",
+                "label": "门架"
+              },
+              {
+                "value": "ROPS",
+                "label": "防护"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型叉车"
+          },
+          {
+            "label": "Cab",
+            "value": "护顶架"
+          },
+          {
+            "label": "Mast",
+            "value": "标准门架"
+          }
+        ],
+        "description": "ZNHI-37B 是监狱重工的轻型叉车，紧凑车身设计，适合仓库、车间等场所的物料搬运作业。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ENGINEERING SERIES",
+        "products": [
+          {
+            "id": "znhi-08b1",
+            "imageUrl": "products/znhi-08b1/thumb.webp",
+            "productCode": "ZNHI-08B1",
+            "productName": "履带式滑移装载机",
+            "productDesc": "紧凑型装载机",
+            "href": "product-detail.html?id=znhi-08b1"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原文仅有型号名称，从图片推断，工程机械类，精品页禁用"
+    }
+  },
+  {
+    "id": "znhi-12-tiger",
+    "modelId": "ZNHI-12[虎]",
+    "name": "轻型装甲车系列",
+    "nameEn": "Light Armored Vehicle Series",
+    "nickname": "大猫猫",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "虎",
+      "seriesEn": "TIGER",
+      "category": "装甲车辆",
+      "subcategory": "轻型装甲车",
+      "tags": [
+        "履带式“, ”轻装甲“, ”两栖“, ”系列产品“, ”步战车“, ”火力支援"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+      "hero": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-12-tiger/ZNHI-12-A2.webp",
+          "alt": "A1 基础型",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-12-tiger/ZNHI-12-A2A1.webp",
+          "alt": "A2 武装强化型",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-12-tiger/ZNHI-12-MGS.webp",
+          "alt": "A2A1 装甲升级型",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-12-tiger/ZNHI-12A2A1.webp",
+          "alt": "MGS 机动火炮系统",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-12-tiger/ZNHI-12A2A1-2.webp",
+          "alt": "A2A1 细节图1",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-12[虎] A1.webp",
+        "ZNHI-12[虎] A2.webp",
+        "ZNHI-12[虎] A2A1.webp",
+        "ZNHI-12[虎] MGS.webp",
+        "ZNHI-12A2A1[虎].webp",
+        "ZNHI-12A2A1[虎]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "北极的大猫猫，从不挑食",
+      "summary": "监狱重工的轻型装甲车家族，涵盖从基础步战车到机动火炮系统的多种配置。全系具备两栖能力，采用通用底盘发展出A1基础型、A2武装强化型、A2A1装甲升级型、MGS机动火炮系统四种变体，满足不同作战需求。",
+      "full": "ZNHI-12[虎]是监狱重工的轻型装甲车系列，采用通用底盘发展出多种变体，是监狱陆军最灵活的装甲平台之一。\n\n**A1 基础型**：标准步战车配置，配备光电观瞄系统，侧面安装栅栏装甲提供额外防护，是全系列的基础型号。\n\n**A2 武装强化型**：在A1基础上大幅加强火力，配备多联装武器站，集成机炮与榴弹发射器，顶部加装遥控武器站，火力覆盖范围显著提升。\n\n**A2A1 装甲升级型**：在A2基础上换装新型复合装甲（均质钢+爆反+栅栏三重防护），配备更大倍率的伸缩观察镜，悬挂系统加硬以适应更恶劣的地形。保留两栖能力，但水上机动性略有下降。\n\n**MGS 机动火炮系统**：配备大口径坦克炮（105/120mm级别）的火力支援变体，为步兵提供直接火力支援，在雪地环境中如同移动的火力堡垒。\n\n全系白色涂装，是雪原上最灵活的「大猫猫」——她们什么都吃，从步战到火炮，从不挑食。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型装甲车系列",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "履带式 / 通用底盘",
+        "highlight": false
+      },
+      {
+        "label": "变体数量",
+        "labelEn": "Variants",
+        "value": "4种 (A1/A2/A2A1/MGS)",
+        "highlight": true
+      },
+      {
+        "label": "两栖能力",
+        "labelEn": "Amphibious",
+        "value": "全系支持",
+        "highlight": true
+      },
+      {
+        "label": "A1 武器",
+        "labelEn": "A1 Armament",
+        "value": "光电观瞄 + 栅栏装甲",
+        "highlight": false
+      },
+      {
+        "label": "A2 武器",
+        "labelEn": "A2 Armament",
+        "value": "多联装武器站 (机炮+榴弹)",
+        "highlight": false
+      },
+      {
+        "label": "A2A1 装甲",
+        "labelEn": "A2A1 Armor",
+        "value": "均质钢 + 爆反 + 栅栏",
+        "highlight": false
+      },
+      {
+        "label": "A2A1 观瞄",
+        "labelEn": "A2A1 Optics",
+        "value": "大倍率伸缩观察镜",
+        "highlight": false
+      },
+      {
+        "label": "A2A1 悬挂",
+        "labelEn": "A2A1 Suspension",
+        "value": "加硬悬挂",
+        "highlight": false
+      },
+      {
+        "label": "MGS 主炮",
+        "labelEn": "MGS Main Gun",
+        "value": "大口径坦克炮 (105/120mm)",
+        "highlight": true
+      }
+    ],
+    "variants": [
+      {
+        "id": "a1",
+        "name": "A1 基础型",
+        "nameEn": "A1 Basic",
+        "description": "标准步战车配置，光电观瞄，侧面栅栏装甲",
+        "image": "products/znhi-12-tiger/a1.webp"
+      },
+      {
+        "id": "a2",
+        "name": "A2 武装强化型",
+        "nameEn": "A2 Armed",
+        "description": "多联装武器站，机炮+榴弹发射器，遥控武器站",
+        "image": "products/znhi-12-tiger/a2.webp"
+      },
+      {
+        "id": "a2a1",
+        "name": "A2A1 装甲升级型",
+        "nameEn": "A2A1 Armored",
+        "description": "均质钢+爆反+栅栏三重防护，大倍率观瞄，加硬悬挂",
+        "image": "products/znhi-12-tiger/a2a1.webp"
+      },
+      {
+        "id": "mgs",
+        "name": "MGS 机动火炮系统",
+        "nameEn": "MGS Mobile Gun System",
+        "description": "大口径坦克炮，直接火力支援平台",
+        "image": "products/znhi-12-tiger/mgs.webp"
+      }
+    ],
+    "designer": {
+      "quote": "这群大猫猫什么都吃——从步战到火炮，她们从不挑食。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 12,
+      "categories": [
+        "military",
+        "armor",
+        "ifv",
+        "series"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.75,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[虎] TIGER SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-12 SERIES"
+      },
+      "title": {
+        "text": "轻型装甲车系列",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "四种变体，一个底盘。从步战车到机动火炮，全系两栖能力，北极的大猫猫从不挑食。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "变体 Variants",
+            "value": "A1 / A2 / A2A1 / MGS"
+          },
+          {
+            "label": "两栖 Amphibious",
+            "value": "全系支持"
+          },
+          {
+            "label": "底盘 Chassis",
+            "value": "通用履带式"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-12[虎] 系列"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "4 Variants",
+            "type": "secondary"
+          },
+          {
+            "text": "Amphibious",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12-A2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12-A2A1.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12-MGS.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12A2A1.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-12-tiger/ZNHI-12A2A1-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型装甲车系列",
+        "productCode": "ZNHI-12[虎]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的轻型装甲车家族，通用底盘发展出四种变体：A1基础型、A2武装强化型、A2A1装甲升级型、MGS机动火炮系统。全系具备两栖能力。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "履带式 / 通用底盘"
+            },
+            {
+              "label": "变体",
+              "value": "A1 / A2 / A2A1 / MGS"
+            },
+            {
+              "label": "两栖能力",
+              "value": "全系支持"
+            },
+            {
+              "label": "A1",
+              "value": "光电观瞄 + 栅栏装甲"
+            },
+            {
+              "label": "A2",
+              "value": "多联装武器站 (机炮+榴弹)"
+            },
+            {
+              "label": "A2A1",
+              "value": "均质钢+爆反+栅栏 / 大倍率观瞄"
+            },
+            {
+              "label": "MGS",
+              "value": "大口径坦克炮 (105/120mm)"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这群大猫猫什么都吃——从步战到火炮，她们从不挑食。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取系列手册",
+          "subtitle": "含全变体规格",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "虎族",
+            "content": "监狱重工的轻型装甲车家族，采用通用底盘发展出四种变体——<br/>A1基础型、A2武装强化型、A2A1装甲升级型、MGS机动火炮系统。<br/>全系具备两栖能力，是监狱陆军最灵活的装甲平台。",
+            "statusText": {
+              "enabled": true,
+              "text": "Tiger Family: 4 Variants"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12-A1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "visibility",
+              "color": "primary"
+            },
+            "iconLabel": "A1 Basic",
+            "title": "A1 基础型",
+            "content": "系列的起点，标准步战车配置。<br/>配备光电观瞄系统，侧面安装栅栏装甲提供额外防护。<br/><span class=\"text-white border-b border-primary/40 pb-1\">轻便、可靠、经济实惠的战场主力。</span>",
+            "dataBlocks": [
+              {
+                "value": "光电",
+                "label": "观瞄"
+              },
+              {
+                "value": "栅栏",
+                "label": "防护"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12-A2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Heavy Firepower",
+              "isAnimated": true
+            },
+            "title": "A2 武装强化型",
+            "content": "在A1基础上大幅加强火力配置。<br/>配备多联装武器站，集成机炮与榴弹发射器，顶部加装遥控武器站——<br/>火力覆盖范围显著提升，压制能力全面增强。",
+            "quoteCard": {
+              "enabled": false,
+              "text": "",
+              "author": "",
+              "title": ""
+            }
+          }
+        },
+        {
+          "id": "chapter-4",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12-A2A1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "A2A1 Armored",
+            "title": "A2A1 装甲升级型",
+            "content": "在A2基础上换装新型复合装甲：均质钢抵挡动能弹，爆反拦截破甲弹，栅栏提前引爆火箭弹。<br/>配备大倍率伸缩观察镜，悬挂系统加硬。<br/><span class=\"text-white border-b border-primary/40 pb-1\">三重防护，让乘员安心战斗。</span>",
+            "dataBlocks": [
+              {
+                "value": "三重",
+                "label": "装甲"
+              },
+              {
+                "value": "大倍率",
+                "label": "观瞄"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-5",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12-MGS.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "MGS 机动火炮",
+            "content": "配备大口径坦克炮（105/120mm级别）的火力支援变体。<br/>为步兵提供直接火力支援，在雪地环境中如同移动的火力堡垒——<br/>虎族的终极形态，从轻装甲到重火力的完美跨越。",
+            "statusText": {
+              "enabled": true,
+              "text": "MGS: Tank Destroyer"
+            }
+          }
+        },
+        {
+          "id": "chapter-6",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-12-tiger/ZNHI-12A2A1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "All Variants Ready",
+              "isAnimated": true
+            },
+            "title": "水陆猎手",
+            "content": "全系具备两栖能力，水陆来去自如。<br/>从北极冰原到热带丛林，从沙漠到海岸，她们无处不在。<br/>北极的大猫猫从不挑食——给什么任务，就吃什么。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这群大猫猫什么都吃——从步战到火炮，她们从不挑食。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型装甲车系列"
+          },
+          {
+            "label": "Chassis",
+            "value": "通用履带式"
+          },
+          {
+            "label": "Variants",
+            "value": "A1/A2/A2A1/MGS"
+          },
+          {
+            "label": "Amphibious",
+            "value": "全系支持"
+          },
+          {
+            "label": "A2A1 Armor",
+            "value": "均质钢+爆反+栅栏"
+          },
+          {
+            "label": "MGS Gun",
+            "value": "105/120mm"
+          }
+        ],
+        "description": "ZNHI-12[虎] 是监狱重工的轻型装甲车系列，通用底盘发展出四种变体，全系具备两栖能力，从基础步战到机动火炮全面覆盖。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取系列手册",
+          "subtitle": "含全变体规格"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ARMOR SERIES",
+        "products": [
+          {
+            "id": "znhi-02-frost",
+            "imageUrl": "products/znhi-02-frost/thumb.webp",
+            "productCode": "ZNHI-02[霜]",
+            "productName": "步兵战车",
+            "productDesc": "霜系列步战车",
+            "href": "product-detail.html?id=znhi-02-frost"
+          },
+          {
+            "id": "znhi-19-mouse",
+            "imageUrl": "products/znhi-19-mouse/thumb.webp",
+            "productCode": "ZNHI-19[鼠]",
+            "productName": "空降战车",
+            "productDesc": "轻型空降平台",
+            "href": "product-detail.html?id=znhi-19-mouse"
+          },
+          {
+            "id": "znhi-31a1-thunder",
+            "imageUrl": "products/znhi-31a1-thunder/thumb.webp",
+            "productCode": "ZNHI-31A1[雷]",
+            "productName": "主战坦克",
+            "productDesc": "雷系列MBT",
+            "href": "product-detail.html?id=znhi-31a1-thunder"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "系列产品，含A1/A2/A2A1/MGS四变体，内容加倍处理"
+    }
+  },
+  {
+    "id": "znhi-01a1-snow",
+    "modelId": "ZNHI-01A1[雪]",
+    "name": "轻型坦克（初代型）",
+    "nameEn": "Light Tank (First Generation)",
+    "nickname": "白色电视",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雪",
+      "seriesEn": "SNOW",
+      "category": "装甲车辆",
+      "subcategory": "轻型坦克",
+      "tags": [
+        "履带式“, ”轻型坦克“, ”原型车“, ”封存“, ”初代"
+      ]
+    },
+    "status": {
+      "operational": false,
+      "statusLabel": "retired",
+      "statusText": "已封存",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+      "hero": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-01A1[雪].webp"
+      ]
+    },
+    "description": {
+      "tagline": "消失在白茫茫之中的幽灵",
+      "summary": "[雪]系列的初代型号，监狱档案中最神秘的存在之一。几年前，一位白色的身影悄悄出现在镜头前，之后便鲜有人听说过她的存在。没有出勤记录，没有维护记录，仿佛人间蒸发——但人们都认识她的妹妹们。她是[雪]系列的起源，却选择在最初的闪光后隐入白茫茫之中，成为档案深处一个未解的谜。",
+      "full": "ZNHI-01A1[雪]是监狱重工轻型坦克[雪]系列的初代型号，也是监狱档案中最神秘的存在之一。\n\n几年前，一位白色的身影悄悄出现在镜头前。纯白的涂装，简洁流畅的车身线条，楔形首上装甲搭配中口径主炮——她静静地停在雪原上，如同一位初次登台的演员，接受着世界的注视。那是她唯一一次出现在公众视野中。\n\n之后便鲜有人听说过她的存在。没有出勤记录，没有维护记录，仿佛人间蒸发。有人说她是技术验证平台，在完成使命后被永久封存；有人说她是原型车，将所有宝贵的经验与数据传承给了后来者；也有人说她只是来得太早了，早到这个世界还没准备好迎接她。\n\n但人们都认识她的妹妹们。A2换装了独特的低矮炮台，在复杂地形下展现出卓越的战术灵活性；后续型号更是发展出防空、巡逻等多种变体，成为雪原上不可或缺的守护者。她们继承了A1的血脉与设计理念，却各自走上了不同的道路。\n\n「白色电视」——这是典狱长给她取的绰号。因为她就像电视屏幕一样，突然亮起，又突然熄灭，在那短暂的闪烁中映照出整个[雪]系列的未来蓝图。\n\n如今，她静静地沉睡在档案深处，等待着某一天被再次唤醒。也许当她的妹妹们需要她时，她会再次出现在镜头前——一如几年前那个白茫茫的清晨。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型坦克",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "履带式",
+        "highlight": false
+      },
+      {
+        "label": "主武器",
+        "labelEn": "Main Gun",
+        "value": "中口径坦克炮 (带热护套)",
+        "highlight": true
+      },
+      {
+        "label": "辅助武器",
+        "labelEn": "Secondary",
+        "value": "遥控武器站 / 烟雾弹",
+        "highlight": false
+      },
+      {
+        "label": "装甲",
+        "labelEn": "Armor",
+        "value": "楔形首上 / 复合装甲",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Coating",
+        "value": "雪地白",
+        "highlight": false
+      },
+      {
+        "label": "状态",
+        "labelEn": "Status",
+        "value": "已封存 / ARCHIVED",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她是第一个走出车间的孩子，也是第一个选择隐退的孩子。妹妹们继承了她的意志，在雪原上继续战斗。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 15,
+      "categories": [
+        "military",
+        "tank",
+        "prototype"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+        "filters": {
+          "opacity": 0.6,
+          "saturate": 0.3,
+          "contrast": 1.2,
+          "brightness": 0.9,
+          "scale": 1.08
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-right"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[雪] SNOW SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-01A1"
+      },
+      "title": {
+        "text": "轻型坦克（初代型）",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "[雪]系列的初代型号，监狱档案中最神秘的存在。几年前出现在镜头前，之后便鲜有人听说。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "column",
+        "items": [
+          {
+            "label": "主炮",
+            "value": "中口径坦克炮"
+          },
+          {
+            "label": "装甲",
+            "value": "楔形首上 / 复合"
+          },
+          {
+            "label": "辅助武器",
+            "value": "遥控武器站 / 烟雾弹"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "ARCHIVED",
+        "color": "yellow",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "visibility_off",
+        "opacity": 0.3
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "[雪]系列",
+          "href": "products.html#snow"
+        },
+        {
+          "text": "ZNHI-01A1"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Archived",
+            "type": "warning"
+          },
+          {
+            "text": "First Gen",
+            "type": "secondary"
+          },
+          {
+            "text": "SNOW Series",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型坦克（初代型）",
+        "productCode": "ZNHI-01A1[雪]",
+        "restriction": {
+          "enabled": true,
+          "text": "档案封存 / CLASSIFIED ARCHIVE"
+        },
+        "description": {
+          "enabled": true,
+          "text": "[雪]系列的初代型号，监狱档案中最神秘的存在。没有出勤记录，没有维护记录，仿佛人间蒸发——但她的血脉在妹妹们身上延续。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "履带式"
+            },
+            {
+              "label": "主武器",
+              "value": "中口径坦克炮"
+            },
+            {
+              "label": "辅助武器",
+              "value": "遥控武器站 / 烟雾弹"
+            },
+            {
+              "label": "装甲",
+              "value": "楔形首上 / 复合装甲"
+            },
+            {
+              "label": "涂装",
+              "value": "雪地白"
+            },
+            {
+              "label": "状态",
+              "value": "已封存"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是第一个走出车间的孩子，也是第一个选择隐退的孩子。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+            "filters": {
+              "scale": 1.1,
+              "brightness": 0.75,
+              "saturate": 0.2
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-24"
+            },
+            "title": "初代之雪",
+            "content": "ZNHI-01A1[雪]是监狱重工轻型坦克[雪]系列的初代型号，也是整个系列的技术源头。<br/>她采用履带式底盘，配备中口径坦克炮与楔形首上装甲，装备遥控武器站和烟雾弹发射器作为辅助防御手段。<br/>纯白涂装与简洁线条勾勒出轻型坦克的机动美学，在雪原环境中具备优秀的隐蔽性能。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她的血脉延续至A2及后续变体，成为[雪]系列的基石。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "SNOW Series Genesis / ARCHIVED"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+            "filters": {
+              "scale": 1,
+              "saturate": 0.4
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "visibility_off",
+              "color": "primary"
+            },
+            "iconLabel": "Archived Status",
+            "title": "白色电视",
+            "content": "几年前，她在镜头前短暂出现，如同电视屏幕的闪烁——这是典狱长给她取的绰号。<br/>之后便再无出勤与维护记录，仿佛从监狱重工的档案中蒸发。<br/>有人认为她是技术验证平台，在完成使命后被永久封存；也有人说她只是来得太早，这个世界还没准备好迎接她。<br/><span class=\"text-white border-b border-primary/40 pb-1\">在那短暂的闪光中，她映照出整个[雪]系列的未来蓝图。</span>",
+            "dataBlocks": [
+              {
+                "value": "A1",
+                "label": "初代型号"
+              },
+              {
+                "value": "ARCHIVED",
+                "label": "当前状态"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-01a1-snow/ZNHI-01A1.webp",
+            "filters": {
+              "grayscale": true,
+              "contrast": 1.3
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.4
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Legacy Active",
+              "isAnimated": true
+            },
+            "title": "雪之血脉",
+            "content": "虽然A1本身已被封存，但她的设计理念与技术积累并未消逝。<br/>A2换装低矮炮台，在复杂地形中展现卓越的战术灵活性；后续型号更发展出防空、巡逻、侦察等多种变体，成为雪原上不可或缺的守护者。<br/>她们继承了A1的楔形装甲与白色涂装，延续着[雪]系列的意志。<br/><span class=\"text-white border-b border-primary/40 pb-1\">初代已隐退，血脉永流传。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是第一个走出车间的孩子，也是第一个选择隐退的孩子。妹妹们继承了她的意志，在雪原上继续战斗。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型坦克（初代型）"
+          },
+          {
+            "label": "Series",
+            "value": "[雪] SNOW"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带式"
+          },
+          {
+            "label": "Main Gun",
+            "value": "中口径坦克炮"
+          },
+          {
+            "label": "Status",
+            "value": "已封存"
+          }
+        ],
+        "description": "ZNHI-01A1[雪] 是 [雪] 系列的初代型号，监狱档案中最神秘的存在之一。她的血脉在后续型号中延续，但她本人却选择在最初的闪光后隐入白茫茫之中。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [雪] SNOW SERIES",
+        "products": [
+          {
+            "id": "znhi-01a2-snow",
+            "imageUrl": "products/znhi-01a2-snow/thumb.webp",
+            "productCode": "ZNHI-01A2[雪]",
+            "productName": "轻型坦克 A2型",
+            "productDesc": "独特炮台 / 夜战专精",
+            "href": "product-detail.html?id=znhi-01a2-snow"
+          },
+          {
+            "id": "znhi-01lat1-snow",
+            "imageUrl": "products/znhi-01lat1-snow/thumb.webp",
+            "productCode": "ZNHI-01LAT1[雪]",
+            "productName": "防空导弹型",
+            "productDesc": "但盼风雪来",
+            "href": "product-detail.html?id=znhi-01lat1-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[雪]系列初代型号，原文神秘感强，描述加量180%"
+    }
+  },
+  {
+    "id": "znhi-02aev-frost",
+    "modelId": "ZNHI-02AEV[霜]",
+    "name": "装甲工程车",
+    "nameEn": "Armored Engineer Vehicle",
+    "nickname": "反土木坦克",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "霜",
+      "seriesEn": "FROST",
+      "category": "工程车辆",
+      "subcategory": "装甲工程车",
+      "tags": [
+        "履带式“, ”工程车“, ”步战车底盘“, ”工兵"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+      "hero": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-02AEV[霜].webp"
+      ]
+    },
+    "description": {
+      "tagline": "修路架桥，她比ARV更专业",
+      "summary": "长期以来监狱都没有专门干土木的工程车，ARV大小姐总是抱怨既要修车又要修路。基于-02步战车底盘改装，配备推土铲、起重机，可搭载多名工兵，单台车辆就能快速部署各类工事。",
+      "full": "ZNHI-02AEV[霜]是监狱重工的装甲工程车，基于-02步战车底盘改装而来。\n\n长期以来监狱都没有专门干土木的工程车，每次出勤归来ARV大小姐总是抱怨自己既要修车又要修路。她配备宽幅推土铲、小型起重机、螺旋桩钻孔设备，宽敞的载员舱可搭载多名工兵。单台车辆就能在战场环境下快速完成道路开辟到工事构筑的全流程作业——ARV大小姐终于可以专心修车了。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "装甲工程车 (AEV)",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-02[霜] 步战车底盘",
+        "highlight": false
+      },
+      {
+        "label": "推土铲",
+        "labelEn": "Dozer",
+        "value": "宽幅液压推土铲",
+        "highlight": true
+      },
+      {
+        "label": "起重机",
+        "labelEn": "Crane",
+        "value": "小型起重机",
+        "highlight": false
+      },
+      {
+        "label": "载员",
+        "labelEn": "Crew",
+        "value": "多名工兵",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "ARV大小姐终于不用又修车又修路了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 16,
+      "categories": [
+        "military",
+        "engineering"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[霜] FROST SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-02AEV"
+      },
+      "title": {
+        "text": "装甲工程车",
+        "fontSize": "5xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "ARMORED ENGINEER VEHICLE"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "基于步战车底盘，配备推土铲与起重机，战场土木作业专家。",
+        "maxWidth": "max-w-xl"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "OPERATIONAL",
+        "color": "primary",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "推土铲+起重机+钻孔",
+            "value": "多功能"
+          },
+          {
+            "label": "宽敞载员舱",
+            "value": "工兵班组"
+          },
+          {
+            "label": "-02步战车底盘",
+            "value": "装甲防护"
+          }
+        ]
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "construction",
+        "opacity": 0.35
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程车辆",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-02AEV[霜]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "FROST Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "装甲工程车",
+        "productCode": "ZNHI-02AEV[霜]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于步战车底盘改装的装甲工程车，配备推土铲、起重机，可搭载工兵班组执行战场土木作业。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-02[霜] 步战车底盘"
+            },
+            {
+              "label": "推土铲",
+              "value": "宽幅液压推土铲"
+            },
+            {
+              "label": "起重机",
+              "value": "小型起重机"
+            },
+            {
+              "label": "载员",
+              "value": "多名工兵"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "ARV大小姐终于不用又修车又修路了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含工程作业指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "战场土木专家",
+            "content": "ZNHI-02AEV[霜]是监狱重工的装甲工程车，基于-02步战车底盘改装而来。<br/>她配备宽幅液压推土铲用于道路开辟与障碍清除，小型起重机可吊装重型装备，螺旋桩钻孔设备支持快速构筑工事。<br/>宽敞的载员舱可搭载多名工兵，配合装甲底盘在战场环境下提供充分防护。<br/><span class=\"text-white border-b border-primary/40 pb-1\">单台车辆即可完成从道路开辟到工事构筑的全流程作业。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "Multi-Function Engineering / Based on -02 IFV"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "build",
+              "color": "primary"
+            },
+            "iconLabel": "Multi-Function Tools",
+            "title": "反土木坦克",
+            "content": "长期以来监狱都没有专门负责土木工程的装甲车辆，ARV装甲抢修车大小姐总是抱怨自己既要修车又要修路。<br/>02AEV的出现终于解决了这个问题——推土铲开辟道路，起重机吊装设备，钻孔机构筑工事。<br/>从此ARV大小姐可以专心修车，土木活交给这位「反土木坦克」。<br/><span class=\"text-white border-b border-primary/40 pb-1\">工程作业，她比ARV更专业。</span>",
+            "dataBlocks": [
+              {
+                "value": "3+",
+                "label": "工程模块"
+              },
+              {
+                "value": "多名",
+                "label": "工兵载员"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Operational Ready",
+              "isAnimated": true
+            },
+            "title": "快速部署",
+            "content": "基于-02步战车底盘的装甲防护与越野机动性，使她能够在战场环境下快速部署到位。<br/>载着工兵班组抵达作业区域后，推土铲清理障碍开辟道路，起重机吊装重型装备，钻孔设备构筑防御工事。<br/>完整的工程作业能力集成在单台车辆上，大幅提升战场土木效率。<br/><span class=\"text-white border-b border-primary/40 pb-1\">分工明确，各司其职——修车归ARV，修路归她。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "ARV大小姐终于不用又修车又修路了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "装甲工程车"
+          },
+          {
+            "label": "Chassis",
+            "value": "-02 步战车底盘"
+          },
+          {
+            "label": "Equipment",
+            "value": "推土铲/起重机/钻孔"
+          }
+        ],
+        "description": "ZNHI-02AEV[霜] 是基于步战车底盘改装的装甲工程车，战场土木作业的专家。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含工程作业指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [霜] FROST SERIES",
+        "products": [
+          {
+            "id": "znhi-02-frost",
+            "imageUrl": "products/znhi-02-frost/thumb.webp",
+            "productCode": "ZNHI-02[霜]",
+            "productName": "步兵战车",
+            "productDesc": "霜系列底盘原型",
+            "href": "product-detail.html?id=znhi-02-frost"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "基于-02步战车底盘的装甲工程车"
+    }
+  },
+  {
+    "id": "znhi-36c-lizard",
+    "modelId": "ZNHI-36C[蜥]",
+    "name": "重型运输车（单驾驶室型）",
+    "nameEn": "Heavy Transport Truck (Single Cab)",
+    "nickname": "独眼巨人",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蜥",
+      "seriesEn": "LIZARD",
+      "category": "运输车辆",
+      "subcategory": "重型卡车",
+      "tags": [
+        "轮式",
+        "8x8",
+        "重型运输“, ”单驾驶室“, ”特殊改型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-36c-lizard/ZNHI-36C.webp",
+      "hero": "products/znhi-36c-lizard/ZNHI-36C.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-36C[蜥].webp"
+      ]
+    },
+    "description": {
+      "tagline": "与其加长车身，不如缩短脑袋",
+      "summary": "[蜥]系列的特殊改型，绰号「独眼巨人」。基于B系改装而来，取消右侧驾驶室为电子设备和动力单元腾出空间，去掉驾驶室后方油箱改用可拆卸车顶油箱补充续航。8x8全轮驱动底盘配合压缩后的驾驶室，使她在同尺寸下拥有最长的有效载荷长度。",
+      "full": "ZNHI-36C[蜥]是[蜥]系列的特殊改型，绰号「独眼巨人」——因为她只有左侧一个驾驶室，从正面看就像只有一只眼睛的巨人。\n\n与其加长车身增加成本和转弯半径，不如压缩驾驶室最大化载货效率。她基于B系底盘改装而来，取消了右侧驾驶室，腾出的空间用于安装电子设备和动力单元；去掉驾驶室后方的油箱，改用可拆卸的车顶油箱作为补充，进一步压缩了驾驶室的纵向长度。\n\n8x8全轮驱动底盘提供强大的越野能力，前部大型格栅确保发动机在极端环境下的散热需求。这一系列改动使她在同尺寸下拥有最长的有效载荷长度——用最小的脑袋扛最大的货，是监狱后勤运输的效率之王。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型运输车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "8x8 全轮驱动",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "单侧（仅左侧）",
+        "highlight": true
+      },
+      {
+        "label": "油箱",
+        "labelEn": "Fuel Tank",
+        "value": "可拆卸车顶油箱",
+        "highlight": false
+      },
+      {
+        "label": "基础型",
+        "labelEn": "Base",
+        "value": "ZNHI-36B[蜥]",
+        "highlight": false
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "同尺寸最长有效载荷",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "与其加长车身，不如缩短脑袋。用最小的脑袋扛最大的货。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-36C[蜥]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-36c-lizard/ZNHI-36C.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "LIZARD Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-36c-lizard/ZNHI-36C.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型运输车（单驾驶室型）",
+        "productCode": "ZNHI-36C[蜥]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于B系改装的特殊型号，取消右侧驾驶室，同尺寸下拥有最长有效载荷长度。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驱动",
+              "value": "8x8 全轮驱动"
+            },
+            {
+              "label": "驾驶室",
+              "value": "单侧（仅左侧）"
+            },
+            {
+              "label": "油箱",
+              "value": "可拆卸车顶油箱"
+            },
+            {
+              "label": "基础型",
+              "value": "ZNHI-36B[蜥]"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "与其加长车身，不如缩短脑袋。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含载荷配置指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36c-lizard/ZNHI-36C.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "效率之王",
+            "content": "ZNHI-36C[蜥]是[蜥]系列的特殊改型，绰号「独眼巨人」——因为她只有左侧一个驾驶室，从正面看就像只有一只眼睛的巨人。<br/>她基于36B底盘改装，取消右侧驾驶室并将腾出的空间用于电子设备和动力单元，去掉驾驶室后方油箱改用可拆卸车顶油箱。<br/>8x8全轮驱动底盘配合压缩后的驾驶室布局，使她在同尺寸下拥有最长的有效载荷长度。<br/><span class=\"text-white border-b border-primary/40 pb-1\">与其加长车身，不如缩短脑袋——用最小的脑袋扛最大的货。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "Single Cab / Max Payload Efficiency"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36c-lizard/ZNHI-36C.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "architecture",
+              "color": "primary"
+            },
+            "iconLabel": "Optimized Layout",
+            "title": "空间魔术",
+            "content": "取消右侧驾驶室不是简单的删减，而是一次精心设计的空间重构。<br/>腾出的空间安装电子设备与动力单元，提升车辆整体性能；去掉驾驶室后方油箱改用可拆卸车顶油箱，进一步压缩纵向长度。<br/>前部大型散热格栅确保发动机在极端环境下的散热需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">每一寸空间都为载荷效率服务。</span>",
+            "dataBlocks": [
+              {
+                "value": "单侧",
+                "label": "驾驶室"
+              },
+              {
+                "value": "MAX",
+                "label": "载荷长度"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-36c-lizard/ZNHI-36C.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Mission Ready",
+              "isAnimated": true
+            },
+            "title": "后勤脊梁",
+            "content": "8x8全轮驱动底盘提供强大的越野能力与承载性能，无论是极寒雪原还是崎岖山路都能稳定运输。<br/>同尺寸下最长的有效载荷长度意味着更高的运输效率，更少的出勤次数，更低的后勤成本。<br/>用最小的脑袋扛最大的货，这就是监狱后勤运输的效率之王。<br/><span class=\"text-white border-b border-primary/40 pb-1\">独眼巨人，单眼看世界，双肩扛重任。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "与其加长车身，不如缩短脑袋。用最小的脑袋扛最大的货。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型运输车"
+          },
+          {
+            "label": "Drive",
+            "value": "8x8"
+          },
+          {
+            "label": "Cab",
+            "value": "单侧"
+          },
+          {
+            "label": "Feature",
+            "value": "最长有效载荷"
+          }
+        ],
+        "description": "ZNHI-36C[蜥] 是基于B系改装的特殊型号，单侧驾驶室设计使其拥有同尺寸下最长的有效载荷长度。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含载荷配置指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蜥] LIZARD SERIES",
+        "products": [
+          {
+            "id": "znhi-36b-lizard",
+            "imageUrl": "products/znhi-36b-lizard/thumb.webp",
+            "productCode": "ZNHI-36B[蜥]",
+            "productName": "重型运输车 B型",
+            "productDesc": "分体驾驶室",
+            "href": "product-detail.html?id=znhi-36b-lizard"
+          },
+          {
+            "id": "znhi-36a-lizard",
+            "imageUrl": "products/znhi-36a-lizard/thumb.webp",
+            "productCode": "ZNHI-36A[蜥]",
+            "productName": "重型运输车 A型",
+            "productDesc": "更高更大",
+            "href": "product-detail.html?id=znhi-36a-lizard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[蜥]系列特殊改型，单侧驾驶室设计"
+    }
+  },
+  {
+    "id": "znhi-36b-lizard",
+    "modelId": "ZNHI-36B[蜥]",
+    "name": "重型运输车（分体驾驶室型）",
+    "nameEn": "Heavy Transport Truck (Split Cab)",
+    "nickname": "脑袋裂开来",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蜥",
+      "seriesEn": "LIZARD",
+      "category": "运输车辆",
+      "subcategory": "重型卡车",
+      "tags": [
+        "轮式",
+        "10x10",
+        "重型运输“, ”分体驾驶室“, ”摇杆控制“, ”蟹行"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-36b-lizard/ZNHI-36B.webp",
+      "hero": "products/znhi-36b-lizard/ZNHI-36B.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-36b-lizard/ZNHI-36B-2.webp",
+          "alt": "空载状态",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-36b-lizard/ZNHI-36B-3.webp",
+          "alt": "装载桁架",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-36b-lizard/ZNHI-36B-4.webp",
+          "alt": "侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-36B[蜥].webp",
+        "ZNHI-36B[蜥]-2.webp",
+        "ZNHI-36B[蜥]-3.webp",
+        "ZNHI-36B[蜥]-4.webp"
+      ]
+    },
+    "description": {
+      "tagline": "脑袋裂开来，但心是一体的",
+      "summary": "基于-36A底盘改装的重型运输车，最显著的特征是分体式双驾驶室——左右两个独立模块如同「裂开的脑袋」。取消传统方向盘与油门踏板，改用摇杆控制车身机动。10x10全轮驱动底盘提供强大的承载能力，有B1至B4四种转向配置可选，其中B3/B4具备全轮转向与蟹行能力。",
+      "full": "ZNHI-36B[蜥]是[蜥]系列的中坚型号，绰号「脑袋裂开来」——因为她那独特的分体式双驾驶室，左右两个独立模块中间留有明显间隙，从正面看就像脑袋裂成了两半。\n\n基于-36A底盘改装而来，换装全新的分体驾驶室设计，同为3人车组。驾驶系统采用革新设计：取消传统方向盘与油门踏板，改用摇杆控制车身机动，操作更加直观。油箱移至驾驶室后端，为后续改装预留空间；受外形限制，散热器被拆分到前端与右端，散热管路因此占用了一部分内部空间。\n\n10x10全轮驱动底盘提供强大的越野通过能力与承载能力。根据转向配置不同，分为四种子型号：B1采用前四轮转向；B2加入后两轴转向，提升机动性；B3与B4采用全轮转向，具备蟹行能力——在狭窄空间内横向移动，便于精确定位与装卸作业。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型运输车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "10x10 全轮驱动",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "分体式双驾驶室",
+        "highlight": true
+      },
+      {
+        "label": "车组",
+        "labelEn": "Crew",
+        "value": "3人",
+        "highlight": false
+      },
+      {
+        "label": "操控",
+        "labelEn": "Control",
+        "value": "摇杆控制（无方向盘）",
+        "highlight": true
+      },
+      {
+        "label": "油箱",
+        "labelEn": "Fuel Tank",
+        "value": "驾驶室后端",
+        "highlight": false
+      },
+      {
+        "label": "散热",
+        "labelEn": "Cooling",
+        "value": "前端+右端拆分布局",
+        "highlight": false
+      },
+      {
+        "label": "B1转向",
+        "labelEn": "B1 Steering",
+        "value": "前四轮转向",
+        "highlight": false
+      },
+      {
+        "label": "B3/B4转向",
+        "labelEn": "B3/B4 Steering",
+        "value": "全轮转向 / 蟹行能力",
+        "highlight": true
+      }
+    ],
+    "variants": [
+      {
+        "id": "b1",
+        "name": "B1 前四轮转向",
+        "nameEn": "B1 Front 4-Wheel",
+        "description": "传统前四轮转向配置",
+        "image": "products/znhi-36b-lizard/b1.webp"
+      },
+      {
+        "id": "b2",
+        "name": "B2 后轴转向",
+        "nameEn": "B2 Rear Axle",
+        "description": "加入后两轴转向，提升机动性",
+        "image": "products/znhi-36b-lizard/b2.webp"
+      },
+      {
+        "id": "b3",
+        "name": "B3 全轮转向",
+        "nameEn": "B3 All-Wheel",
+        "description": "全轮转向，具备蟹行能力",
+        "image": "products/znhi-36b-lizard/b3.webp"
+      },
+      {
+        "id": "b4",
+        "name": "B4 全轮转向",
+        "nameEn": "B4 All-Wheel",
+        "description": "全轮转向，具备蟹行能力",
+        "image": "products/znhi-36b-lizard/b4.webp"
+      }
+    ],
+    "designer": {
+      "quote": "脑袋裂开了，但心是一体的。B3/B4还能横着走，螃蟹看了都说好。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-36B[蜥]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-36b-lizard/ZNHI-36B.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "4 Variants",
+            "type": "secondary"
+          },
+          {
+            "text": "Crab Walk",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-36b-lizard/ZNHI-36B.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-36b-lizard/ZNHI-36B-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-36b-lizard/ZNHI-36B-3.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-36b-lizard/ZNHI-36B-4.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型运输车（分体驾驶室型）",
+        "productCode": "ZNHI-36B[蜥]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "分体式双驾驶室设计，摇杆控制，10x10全轮驱动，四种转向配置可选。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驱动",
+              "value": "10x10 全轮驱动"
+            },
+            {
+              "label": "驾驶室",
+              "value": "分体式双驾驶室"
+            },
+            {
+              "label": "操控",
+              "value": "摇杆控制"
+            },
+            {
+              "label": "车组",
+              "value": "3人"
+            },
+            {
+              "label": "转向配置",
+              "value": "B1/B2/B3/B4 四种"
+            },
+            {
+              "label": "特殊能力",
+              "value": "B3/B4 蟹行"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "脑袋裂开了，但心是一体的。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含转向配置指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36b-lizard/ZNHI-36B.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "蜥族中坚",
+            "content": "ZNHI-36B[蜥]是[蜥]系列的中坚型号，绰号「脑袋裂开来」——因为她那独特的分体式双驾驶室设计，左右两个独立模块中间留有明显间隙。<br/>基于-36A底盘改装，换装革新的分体驾驶室，取消传统方向盘与油门踏板，改用摇杆控制车身机动。<br/>10x10全轮驱动底盘提供强大承载能力，根据转向配置分为 B1 至 B4 四种子型号。<br/><span class=\"text-white border-b border-primary/40 pb-1\">脑袋裂开了，但心是一体的。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "Split Cab / 10x10 Drive / 4 Variants"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36b-lizard/ZNHI-36B-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "sports_esports",
+              "color": "primary"
+            },
+            "iconLabel": "Joystick Control",
+            "title": "B1 前四轮转向",
+            "content": "B1 是基础型号，采用传统的前四轮转向配置。<br/>分体式驾驶室容纳 3 人车组，摇杆控制系统提供直观的操作体验。<br/>油箱移至驾驶室后端，散热器拆分到前端与右端，为后续改装预留空间。<br/><span class=\"text-white border-b border-primary/40 pb-1\">10x10 全轮驱动底盘保证越野通过能力。</span>",
+            "dataBlocks": [
+              {
+                "value": "前4轮",
+                "label": "转向"
+              },
+              {
+                "value": "基础",
+                "label": "配置"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36b-lizard/ZNHI-36B-4.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-16"
+            },
+            "title": "B2 后轴转向",
+            "content": "B2 在 B1 基础上加入后两轴转向功能，显著提升机动性能。<br/>后轴转向使车辆在转弯时能够更紧凑地完成动作，减小转弯半径。<br/>在复杂路况和狭窄区域作业时，B2 展现出比 B1 更优秀的灵活性。",
+            "statusText": {
+              "enabled": true,
+              "text": "Enhanced Maneuverability"
+            }
+          }
+        },
+        {
+          "id": "chapter-4",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36b-lizard/ZNHI-36B-3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/65",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "360",
+              "color": "primary"
+            },
+            "iconLabel": "All-Wheel Steering",
+            "title": "B3 全轮转向",
+            "content": "B3 采用全轮转向配置，所有车轮均可独立转向。<br/>这使她具备蟹行能力——车辆可以横向移动而不改变车身朝向。<br/>在狭窄空间内进行精确定位与装卸作业时，蟹行能力大幅提升作业效率。<br/><span class=\"text-white border-b border-primary/40 pb-1\">螃蟹看了都说好。</span>",
+            "dataBlocks": [
+              {
+                "value": "全轮",
+                "label": "转向"
+              },
+              {
+                "value": "蟹行",
+                "label": "能力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-5",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-36b-lizard/ZNHI-36B.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Maximum Flexibility",
+              "isAnimated": true
+            },
+            "title": "B4 极限机动",
+            "content": "B4 是全轮转向配置的进化版本，在 B3 基础上进一步优化转向算法与控制系统。<br/>同样具备蟹行能力，但在响应速度和精度上更胜一筹，适合对机动性要求极高的特殊任务。<br/>从 B1 的基础型到 B4 的极限型，四种配置覆盖不同作业需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">脑袋裂开了，但心是一体的——无论哪种配置，都是监狱后勤的可靠伙伴。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "脑袋裂开了，但心是一体的。B3/B4还能横着走，螃蟹看了都说好。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型运输车"
+          },
+          {
+            "label": "Drive",
+            "value": "10x10"
+          },
+          {
+            "label": "Cab",
+            "value": "分体式"
+          },
+          {
+            "label": "Control",
+            "value": "摇杆"
+          },
+          {
+            "label": "Variants",
+            "value": "B1/B2/B3/B4"
+          }
+        ],
+        "description": "ZNHI-36B[蜥] 采用分体式双驾驶室与摇杆控制，四种转向配置可选，B3/B4具备蟹行能力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含转向配置指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蜥] LIZARD SERIES",
+        "products": [
+          {
+            "id": "znhi-36c-lizard",
+            "imageUrl": "products/znhi-36c-lizard/thumb.webp",
+            "productCode": "ZNHI-36C[蜥]",
+            "productName": "重型运输车 C型",
+            "productDesc": "独眼巨人 / 单侧驾驶室",
+            "href": "product-detail.html?id=znhi-36c-lizard"
+          },
+          {
+            "id": "znhi-36a-lizard",
+            "imageUrl": "products/znhi-36a-lizard/thumb.webp",
+            "productCode": "ZNHI-36A[蜥]",
+            "productName": "重型运输车 A型",
+            "productDesc": "更高更大",
+            "href": "product-detail.html?id=znhi-36a-lizard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[蜥]系列中坚型号，分体驾驶室，四种转向配置(B1/B2/B3/B4)"
+    }
+  },
+  {
+    "id": "znhi-36a-lizard",
+    "modelId": "ZNHI-36A[蜥]",
+    "name": "重型运输车（基础型）",
+    "nameEn": "Heavy Transport Truck (Base Model)",
+    "nickname": "更高更大",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蜥",
+      "seriesEn": "LIZARD",
+      "category": "运输车辆",
+      "subcategory": "重型卡车",
+      "tags": [
+        "轮式",
+        "8x8",
+        "重型运输“, ”高底盘“, ”基础型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-36a-lizard/ZNHI-36A.webp",
+      "hero": "products/znhi-36a-lizard/ZNHI-36A.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-36a-lizard/36.webp",
+          "alt": "侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-36A[蜥].webp",
+        "-36.webp"
+      ]
+    },
+    "description": {
+      "tagline": "更高，更大，更能扛",
+      "summary": "[蜥]系列的基础型号。典狱长曾想把[象]系列直接加大拉长，结果发现改装成本不亚于研发新车，遂从头设计了这个大家伙。她拥有更强大的发动机、更大的轮胎、更高的底盘，通过性与载货能力都相当出色。短轴型号油箱较小续航一般，长轴型得以改善。",
+      "full": "ZNHI-36A[蜥]是[蜥]系列的基础型号，也是后续B型、C型的底盘来源。典狱长曾试图直接将[象]系列加大拉长，结果发现改装成本不亚于研发新车，遂从头设计了这个大家伙。\n\n她拥有更强大的发动机、更大的越野轮胎、更高的底盘。8x8全轮驱动配合高离地间隙，使她在雪地、泥地、碎石路面都能从容应对。驾驶室采用高位设计，大面积玻璃窗提供开阔视野。\n\n短轴型号油箱较小，续航一般；长轴型通过增加油箱容量得以改善，更适合长途运输。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型运输车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "8x8 全轮驱动",
+        "highlight": true
+      },
+      {
+        "label": "发动机",
+        "labelEn": "Engine",
+        "value": "大功率柴油机",
+        "highlight": false
+      },
+      {
+        "label": "轮胎",
+        "labelEn": "Tires",
+        "value": "特大号越野轮胎",
+        "highlight": true
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "高离地间隙",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "高位一体式",
+        "highlight": false
+      },
+      {
+        "label": "轴距",
+        "labelEn": "Wheelbase",
+        "value": "短轴/长轴可选",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "改装[象]的成本都够造新车了，那还不如直接造个更高更大的。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-36A[蜥]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-36a-lizard/ZNHI-36A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "LIZARD Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-36a-lizard/ZNHI-36A.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-36a-lizard/36.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型运输车（基础型）",
+        "productCode": "ZNHI-36A[蜥]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[蜥]系列基础型号，更强发动机、更大轮胎、更高底盘，B型C型的底盘来源。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驱动",
+              "value": "8x8 全轮驱动"
+            },
+            {
+              "label": "发动机",
+              "value": "大功率柴油机"
+            },
+            {
+              "label": "轮胎",
+              "value": "特大号越野轮胎"
+            },
+            {
+              "label": "底盘",
+              "value": "高离地间隙"
+            },
+            {
+              "label": "轴距",
+              "value": "短轴/长轴可选"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "改装[象]的成本都够造新车了，那还不如直接造个更高更大的。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含轴距配置指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36a-lizard/ZNHI-36A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "蜥族基石",
+            "content": "ZNHI-36A[蜥]是[蜥]系列的基础型号，也是后续 B 型、C 型的底盘来源。<br/>她配备大功率柴油发动机、特大号越野轮胎与高离地间隙底盘，8x8全轮驱动提供强大通过能力。<br/>高位驾驶室设计配合大面积玻璃窗提供开阔视野，短轴与长轴两种配置满足不同需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">更高更大更能扛，从头设计的大家伙。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "8x8 Drive / High Clearance / Base Platform"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36a-lizard/36.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "terrain",
+              "color": "primary"
+            },
+            "iconLabel": "All-Terrain",
+            "title": "全地形通过",
+            "content": "特大号越野轮胎配合高离地间隙底盘，雪地、泥地、碎石路面从容应对。<br/>8x8全轮驱动在复杂地形下提供充足牵引力，确保重载状态下的可靠通过性。<br/><span class=\"text-white border-b border-primary/40 pb-1\">无惧恶劣环境，稳定运输。</span>",
+            "dataBlocks": [
+              {
+                "value": "8x8",
+                "label": "驱动"
+              },
+              {
+                "value": "高",
+                "label": "离地"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-36a-lizard/ZNHI-36A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Platform Ready",
+              "isAnimated": true
+            },
+            "title": "系列起点",
+            "content": "作为[蜥]系列的基础平台，36A 提供了可靠的底盘与动力基础。<br/>B 型的分体驾驶室、C 型的单侧驾驶室都源自这个底盘，证明了其设计的扩展性与适应性。<br/><span class=\"text-white border-b border-primary/40 pb-1\">一个底盘，多种可能。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "改装[象]的成本都够造新车了，那还不如直接造个更高更大的。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型运输车"
+          },
+          {
+            "label": "Drive",
+            "value": "8x8"
+          },
+          {
+            "label": "Chassis",
+            "value": "高离地间隙"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "短轴/长轴"
+          }
+        ],
+        "description": "ZNHI-36A[蜥] 是[蜥]系列的基础型号，更强发动机、更大轮胎、更高底盘，B型C型的底盘来源。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含轴距配置指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蜥] LIZARD SERIES",
+        "products": [
+          {
+            "id": "znhi-36b-lizard",
+            "imageUrl": "products/znhi-36b-lizard/thumb.webp",
+            "productCode": "ZNHI-36B[蜥]",
+            "productName": "重型运输车 B型",
+            "productDesc": "脑袋裂开来 / 分体驾驶室",
+            "href": "product-detail.html?id=znhi-36b-lizard"
+          },
+          {
+            "id": "znhi-36c-lizard",
+            "imageUrl": "products/znhi-36c-lizard/thumb.webp",
+            "productCode": "ZNHI-36C[蜥]",
+            "productName": "重型运输车 C型",
+            "productDesc": "独眼巨人 / 单侧驾驶室",
+            "href": "product-detail.html?id=znhi-36c-lizard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[蜥]系列基础型号，B型C型底盘来源"
+    }
+  },
+  {
+    "id": "znhi-09-elephant",
+    "modelId": "ZNHI-09[象]",
+    "name": "中型模块化卡车",
+    "nameEn": "Medium Modular Truck",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "运输车辆",
+      "subcategory": "中型卡车",
+      "tags": [
+        "轮式",
+        "6x6",
+        "模块化“, ”平台型“, ”多用途"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09-elephant/ZNHI-09.webp",
+      "hero": "products/znhi-09-elephant/ZNHI-09.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-09[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "模块化平台，万物皆可载",
+      "summary": "[象]系列是监狱重工的中型模块化卡车平台，6x6全轮驱动底盘配合平头驾驶室设计。她是比[蜥]系列小一号的运输平台，但模块化设计使她能够适配火箭炮、防空导弹、雷达等多种任务载荷，是监狱后勤体系的多面手。",
+      "full": "ZNHI-09[象]是监狱重工的中型模块化卡车平台，也是多种特种车辆的底盘来源。6x6全轮驱动提供可靠的越野能力，平头驾驶室设计在保持紧凑尺寸的同时提供良好的驾驶视野。\n\n她是比[蜥]系列小一号的运输平台——典狱长曾想把[象]直接加大拉长，结果发现改装成本不亚于研发新车，这才有了后来的[蜥]系列。模块化设计使她能够快速适配各种任务载荷：火箭炮、防空导弹、雷达系统等，是监狱后勤体系中不可或缺的多面手。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "中型模块化卡车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "6x6 全轮驱动",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cab",
+        "value": "平头式",
+        "highlight": false
+      },
+      {
+        "label": "载荷",
+        "labelEn": "Payload",
+        "value": "模块化设计",
+        "highlight": true
+      },
+      {
+        "label": "衍生型",
+        "labelEn": "Variants",
+        "value": "火箭炮/防空/雷达等",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "认清生活的真相后依然热爱生活？那生活拿刀捅我还要我爱祂，那不是受虐倾向吗。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-09[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09-elephant/ZNHI-09.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Platform",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09-elephant/ZNHI-09.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "中型模块化卡车",
+        "productCode": "ZNHI-09[象]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "中型模块化卡车平台，6x6全轮驱动，可适配火箭炮、防空导弹、雷达等多种载荷。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驱动",
+              "value": "6x6 全轮驱动"
+            },
+            {
+              "label": "驾驶室",
+              "value": "平头式"
+            },
+            {
+              "label": "载荷",
+              "value": "模块化设计"
+            },
+            {
+              "label": "衍生型",
+              "value": "火箭炮/防空/雷达等"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "认清生活的真相后依然热爱生活？那生活拿刀捅我还要我爱祂，那不是受虐倾向吗。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含模块配置指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09-elephant/ZNHI-09.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "象族平台",
+            "content": "ZNHI-09[象]是监狱重工的中型模块化卡车平台，也是多种特种车辆的底盘来源。<br/>6x6全轮驱动提供可靠越野能力，平头驾驶室设计在紧凑尺寸下保持良好视野。<br/>模块化设计使她能快速适配火箭炮、防空导弹、雷达系统等任务载荷。<br/><span class=\"text-white border-b border-primary/40 pb-1\">中型平台的多面手。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "6x6 Drive / Modular Platform / Multi-Role"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09-elephant/ZNHI-09.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "extension",
+              "color": "primary"
+            },
+            "iconLabel": "Modular Design",
+            "title": "模块适配",
+            "content": "模块化设计使她能快速适配各种任务载荷，从火箭炮到雷达，从医疗到工程。<br/>平头驾驶室后方预留充足空间，标准化接口支持快速更换载荷模块。<br/><span class=\"text-white border-b border-primary/40 pb-1\">一个底盘，无限可能。</span>",
+            "dataBlocks": [
+              {
+                "value": "6x6",
+                "label": "驱动"
+              },
+              {
+                "value": "多种",
+                "label": "载荷"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09-elephant/ZNHI-09.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Platform Ready",
+              "isAnimated": true
+            },
+            "title": "中型之选",
+            "content": "她比[蜥]系列小一号，但衍生出的特种车辆不计其数。<br/>6x6 底盘在机动性与承载力之间取得平衡，适合中型平台的多样化需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">可靠的中型平台。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "认清生活的真相后依然热爱生活？那生活拿刀捅我还要我爱祂，那不是受虐倾向吗。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "中型模块化卡车"
+          },
+          {
+            "label": "Drive",
+            "value": "6x6"
+          },
+          {
+            "label": "Payload",
+            "value": "模块化"
+          }
+        ],
+        "description": "ZNHI-09[象] 是监狱重工的中型模块化卡车平台，可适配火箭炮、防空导弹、雷达等多种载荷。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含模块配置指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [象] ELEPHANT SERIES",
+        "products": [
+          {
+            "id": "znhi-09b-elephant",
+            "imageUrl": "products/znhi-09b-elephant/thumb.webp",
+            "productCode": "ZNHI-09B[象]",
+            "productName": "中型卡车 B型",
+            "productDesc": "支腿预设空间",
+            "href": "product-detail.html?id=znhi-09b-elephant"
+          },
+          {
+            "id": "znhi-09b2m-elephant",
+            "imageUrl": "products/znhi-09b2m-elephant/thumb.webp",
+            "productCode": "ZNHI-09B2M[象]",
+            "productName": "野战医院车",
+            "productDesc": "医院怎么走",
+            "href": "product-detail.html?id=znhi-09b2m-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[象]系列基础型号，原文为吐槽，技术信息从图片推断"
+    }
+  },
+  {
+    "id": "znhi-11als-eagle",
+    "modelId": "ZNHI-11ALS[鹰]",
+    "name": "大比例战斗机",
+    "nameEn": "Large Scale Fighter",
+    "nickname": "勇者爱丽丝",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鹰",
+      "seriesEn": "EAGLE",
+      "category": "航空器",
+      "subcategory": "战斗机",
+      "tags": [
+        "双发“, ”隐身“, ”大比例“, ”双垂尾“, ”空优"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+      "hero": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-11ALS[鹰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "监狱空军的新纪元",
+      "summary": "长久以来监狱都以小比例战斗机出名，但空军和陆军比例相差太大导致各种问题层出不穷。典狱长终于决定开始制造大比例飞机，于是有了这位「勇者爱丽丝」——双发双垂尾隐身设计，是监狱空军迈向新纪元的标志。",
+      "full": "ZNHI-11ALS[鹰]是监狱空军的大比例战斗机，绰号「勇者爱丽丝」。\n\n长久以来监狱都以小比例战斗机出名，小飞机在优化以及制造难度上对比大飞机具有碾压性的优势。但因为监狱空军和陆军比例相差太大了，各种问题层出不穷，典狱长终于决定开始制造大比例飞机。\n\n她采用双发双垂尾布局，隐身外形设计，机头配备先进传感器阵列。作为监狱空军第一款大比例战斗机，她标志着监狱航空工业迈入新阶段。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "大比例战斗机",
+        "highlight": false
+      },
+      {
+        "label": "发动机",
+        "labelEn": "Engines",
+        "value": "双发",
+        "highlight": true
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "双垂尾",
+        "highlight": false
+      },
+      {
+        "label": "隐身",
+        "labelEn": "Stealth",
+        "value": "隐身外形设计",
+        "highlight": true
+      },
+      {
+        "label": "定位",
+        "labelEn": "Role",
+        "value": "空优战斗机",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "小飞机造了太久，空军和陆军比例差太大了，是时候造大飞机了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 21,
+      "categories": [
+        "military",
+        "aircraft",
+        "fighter"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鹰] EAGLE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-11ALS"
+      },
+      "title": {
+        "text": "大比例战斗机",
+        "fontSize": "5xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "LARGE SCALE FIGHTER"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "双发双垂尾隐身战斗机，监狱空军大比例时代的开端。",
+        "maxWidth": "max-w-xl"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "RESTRICTED",
+        "color": "yellow",
+        "hasDot": true
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "双发双垂尾",
+            "value": "隐身设计"
+          },
+          {
+            "label": "先进传感器",
+            "value": "空优定位"
+          },
+          {
+            "label": "大比例",
+            "value": "新纪元"
+          }
+        ]
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight",
+        "opacity": 0.4
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "航空器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-11ALS[鹰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Stealth",
+            "type": "secondary"
+          },
+          {
+            "text": "Large Scale",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "大比例战斗机",
+        "productCode": "ZNHI-11ALS[鹰]",
+        "restriction": {
+          "enabled": true,
+          "text": "空军特供 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱空军第一款大比例战斗机，双发双垂尾隐身设计，标志着监狱航空工业迈入新阶段。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "发动机",
+              "value": "双发"
+            },
+            {
+              "label": "布局",
+              "value": "双垂尾"
+            },
+            {
+              "label": "隐身",
+              "value": "隐身外形设计"
+            },
+            {
+              "label": "定位",
+              "value": "空优战斗机"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "小飞机造了太久，空军和陆军比例差太大了，是时候造大飞机了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术规格",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "大比例时代",
+            "content": "ZNHI-11ALS[鹰]是监狱空军第一款大比例战斗机，绰号「勇者爱丽丝」。<br/>采用双发双垂尾布局与隐身外形设计，机头配备先进传感器阵列。<br/>长久以来监狱以小比例战斗机出名，但空军与陆军比例相差过大导致问题层出不穷。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她标志着监狱航空工业迈入新阶段。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "Twin Engine / Stealth / Air Superiority"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "Stealth Design",
+            "title": "隐身锐器",
+            "content": "双发动机配合双垂尾布局提供强大机动性，隐身外形设计降低雷达截面。<br/>机头先进传感器阵列确保态势感知能力，定位于空优战斗机角色。<br/><span class=\"text-white border-b border-primary/40 pb-1\">监狱空军的新锐力量。</span>",
+            "dataBlocks": [
+              {
+                "value": "双发",
+                "label": "发动机"
+              },
+              {
+                "value": "隐身",
+                "label": "设计"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-11als-eagle/ZNHI-11ALS.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Combat Ready",
+              "isAnimated": true
+            },
+            "title": "勇者爱丽丝",
+            "content": "她的名字叫爱丽丝，是监狱空军迈向大比例时代的第一步。<br/>典狱长多年夙愿的实现，也是监狱航空工业技术积累的结晶。<br/><span class=\"text-white border-b border-primary/40 pb-1\">新纪元的开端。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "小飞机造了太久，空军和陆军比例差太大了，是时候造大飞机了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "大比例战斗机"
+          },
+          {
+            "label": "Engines",
+            "value": "双发"
+          },
+          {
+            "label": "Layout",
+            "value": "双垂尾"
+          },
+          {
+            "label": "Stealth",
+            "value": "隐身设计"
+          }
+        ],
+        "description": "ZNHI-11ALS[鹰] 是监狱空军第一款大比例战斗机，双发双垂尾隐身设计。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术规格",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [鹰] EAGLE SERIES",
+        "products": [
+          {
+            "id": "znhi-11a-eagle",
+            "imageUrl": "products/znhi-11a-eagle/thumb.webp",
+            "productCode": "ZNHI-11A[鹰]",
+            "productName": "战斗机 A型",
+            "productDesc": "恭候多时了",
+            "href": "product-detail.html?id=znhi-11a-eagle"
+          },
+          {
+            "id": "znhi-11b-eagle",
+            "imageUrl": "products/znhi-11b-eagle/thumb.webp",
+            "productCode": "ZNHI-11B[鹰]",
+            "productName": "战斗机 B型",
+            "productDesc": "内置弹仓",
+            "href": "product-detail.html?id=znhi-11b-eagle"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[鹰]系列大比例战斗机，监狱空军新纪元"
+    }
+  },
+  {
+    "id": "zntp-14-373",
+    "modelId": "ZNTP-14 373",
+    "name": "双层公交车",
+    "nameEn": "Double-decker Bus",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "民用车辆",
+      "subcategory": "公共交通",
+      "tags": [
+        "公交车“, ”双层“, ”城市交通“, ”民用"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役运营",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-14-373/ZNTP-14-373.webp",
+      "hero": "products/zntp-14-373/ZNTP-14-373.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-14 373.webp"
+      ]
+    },
+    "description": {
+      "tagline": "城市的脉搏，双层的风景",
+      "summary": "双层城市公交车，采用白绿配色涂装，大面积车窗设计让乘客享受城市风景。二层座位视野开阔，配备完善的无障碍设施，是城市通勤与观光的舒适选择。",
+      "full": "ZNTP-14 373 是民用产品线的双层公交车型，采用经典的白色车身配合绿色装饰条纹涂装，外观简洁大方，辨识度高。车身大面积采用玻璃车窗设计，尤其是二层乘客可以享受极佳的城市观景视野，无论是日常通勤还是城市观光都能带来愉悦的乘车体验。\n\n配备完善的无障碍设施，包括低地板区域、轮椅专用空间和语音报站系统，确保每一位乘客都能便利出行。她承载着市民的日常出行需求，在城市的大街小巷穿梭往来。373 线路是她最常见的运营线路之一，连接着城市的各个角落。不是所有孩子都要上战场，有些只需要安静地载着乘客，看遍城市的风景。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "双层公交车",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白色 + 绿色条纹",
+        "highlight": false
+      },
+      {
+        "label": "车窗",
+        "labelEn": "Windows",
+        "value": "大面积玻璃 / 二层观景",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Purpose",
+        "value": "城市公共交通",
+        "highlight": false
+      },
+      {
+        "label": "线路",
+        "labelEn": "Route",
+        "value": "373",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "不是所有孩子都要上战场，有些只需要安静地穿梭在城市里，载着人们去想去的地方。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "民用车辆",
+          "href": "products.html#civilian"
+        },
+        {
+          "text": "ZNTP-14 373"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-14-373/ZNTP-14-373.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Civilian",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-14-373/ZNTP-14-373.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "双层公交车",
+        "productCode": "ZNTP-14 373",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "民用产品线的双层公交车型，白绿涂装，大面积玻璃车窗，二层乘客可享受极佳的城市观景视野。配备完善的无障碍设施，包括低地板区域和轮椅专用空间。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "双层公交车"
+            },
+            {
+              "label": "涂装",
+              "value": "白色 + 绿色条纹"
+            },
+            {
+              "label": "车窗",
+              "value": "大面积玻璃 / 二层观景"
+            },
+            {
+              "label": "用途",
+              "value": "城市公共交通"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "不是所有孩子都要上战场，有些只需要安静地穿梭在城市里。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-14-373/ZNTP-14-373.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "城市韵律",
+            "content": "清晨的第一缕阳光洒在车窗上，她准时驶出车场。<br/>载着学生、上班族、老人，从街角到街角，从日出到日落。<br/>373 线路，是这座城市日常节奏的一部分。",
+            "statusText": {
+              "enabled": true,
+              "text": "Route 373: In Service"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-14-373/ZNTP-14-373.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "green-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "accessible",
+              "color": "primary"
+            },
+            "iconLabel": "Accessible Design",
+            "title": "便利同行",
+            "content": "一层配备低地板区域，轮椅和婴儿车可以轻松上下车。<br/>语音报站系统、扶手、专用空间，每一处细节都在照顾不同乘客的需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">二层观景，一层便利，双层设计让每个人都能找到适合自己的位置。</span>",
+            "dataBlocks": [
+              {
+                "value": "完善",
+                "label": "无障碍"
+              },
+              {
+                "value": "双层",
+                "label": "结构"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-14-373/ZNTP-14-373.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Daily Service",
+              "isAnimated": true
+            },
+            "title": "城市风景",
+            "content": "二层的大面积车窗，让乘客能以全新的视角欣赏城市。<br/>熟悉的街道、高楼、天空，在这个高度变得格外有趣。<br/>白绿相间的车身穿梭在街头，她不仅是交通工具，更是城市风景的一部分。<br/>从公交到电车，从动车到列车，每一处都配备完善的无障碍设施——这是我们对所有乘客的承诺。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "有时候旅程本身就是目的，坐在二层，看着窗外熟悉又陌生的城市风景。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "双层公交车"
+          },
+          {
+            "label": "Livery",
+            "value": "白色 + 绿色"
+          },
+          {
+            "label": "Feature",
+            "value": "大面积车窗"
+          },
+          {
+            "label": "Route",
+            "value": "373"
+          }
+        ],
+        "description": "ZNTP-14 373 是民用产品线的双层公交车型，白绿涂装，二层观景视野开阔，配备完善的无障碍设施。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP CIVILIAN SERIES",
+        "products": [
+          {
+            "id": "zntp-08-tram",
+            "imageUrl": "products/zntp-08-tram/thumb.webp",
+            "productCode": "ZNTP-08",
+            "productName": "低地板有轨电车",
+            "productDesc": "3024 有轨电车",
+            "href": "product-detail.html?id=zntp-08-tram"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 3,
+      "source": "正式资料.txt",
+      "notes": "v3: 重写三个故事章节为温和民用风格，完全移除战争元素。章1“城市韵律”：日常通勤场景；章2“便利同行”：无障碍设施人性化描述；章3“城市风景”：二层观景体验+品牌无障碍承诺。文风参考ZNTP-08有轨电车，温暖、日常、包容。"
+    }
+  },
+  {
+    "id": "znhi-27mev-wolf",
+    "modelId": "ZNHI-27MEV[狼]",
+    "name": "轻型医疗后送车",
+    "nameEn": "Light Medical Evacuation Vehicle",
+    "nickname": "高速出生",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狼",
+      "seriesEn": "WOLF",
+      "category": "装甲车辆",
+      "subcategory": "医疗支援",
+      "tags": [
+        "轮式",
+        "4x4",
+        "医疗“, ”后送“, ”轻装甲"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+      "hero": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-27mev-wolf/ZNHI-27-3.webp",
+          "alt": "侧后视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-27MEV[狼].webp",
+        "ZNHI-27[狼]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "风暴过后，她已准备好迎接新生",
+      "summary": "基于[狼]系列底盘开发的轻型医疗后送车，在一场北极风暴的夜晚「高速出生」。她填补了监狱装甲与裸甲之间的轻装甲空白，白色车身配合醒目的红十字标识，能在战场环境下快速转运伤员。",
+      "full": "ZNHI-27MEV[狼]的诞生颇具戏剧性——在拍摄[狼]系列全家福时，典狱长突然发现产品线在装甲和裸甲之间缺了个轻装甲型号。当晚监狱恰好受到北极风暴的侵袭，等风暴平息，门外的[狼]已经变成了急救车的模样。这就是她「高速出生」绰号的由来。\n\n她基于ZNHI-27[狼]底盘改装，保留了4x4全轮驱动的优秀越野能力，后部改装为医疗舱。白色车身上的红十字标识清晰醒目，无论是地面还是空中都能快速识别。在雪原的战场上，她是伤员们看到的第一道希望之光。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型医疗后送车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-27[狼]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白色 + 红十字标识",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Purpose",
+        "value": "战场医疗后送",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "这个孩子是一夜之间出生的，但她救回来的生命，可比她的设计时间长多了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "医疗支援",
+          "href": "products.html#medical"
+        },
+        {
+          "text": "ZNHI-27MEV[狼]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "WOLF Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-27mev-wolf/ZNHI-27-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型医疗后送车",
+        "productCode": "ZNHI-27MEV[狼]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于[狼]底盘的轻型医疗后送车，在北极风暴的夜晚「高速出生」，填补了产品线的轻装甲空白。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-27[狼]"
+            },
+            {
+              "label": "驱动",
+              "value": "4x4 全轮驱动"
+            },
+            {
+              "label": "涂装",
+              "value": "白色 + 红十字标识"
+            },
+            {
+              "label": "用途",
+              "value": "战场医疗后送"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这个孩子是一夜之间出生的，但她救回来的生命，可比她的设计时间长多了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "高速出生",
+            "content": "ZNHI-27MEV[狼]基于 ZNHI-27[狼]底盘改装，保留了 4x4 全轮驱动的优秀越野能力。<br/>后部改装为医疗舱，白色车身配红十字标识清晰醒目，便于快速识别。<br/>她的诞生颇具戏剧性——在北极风暴的夜晚一夜之间完成设计，填补了产品线的轻装甲空白。<br/><span class=\"text-white border-b border-primary/40 pb-1\">风暴过后的新生，战场上的希望之光。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "4x4 Drive / Medical Evac / Wolf Series"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-27mev-wolf/ZNHI-27-3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_hospital",
+              "color": "primary"
+            },
+            "iconLabel": "Field Medical",
+            "title": "快速救援",
+            "content": "继承[狼]系列的越野基因，在复杂地形下快速机动。<br/>医疗舱配备基础急救设备，在战场环境下为伤员提供初步救治与稳定转运。<br/><span class=\"text-white border-b border-primary/40 pb-1\">第一道希望之光。</span>",
+            "dataBlocks": [
+              {
+                "value": "4x4",
+                "label": "驱动"
+              },
+              {
+                "value": "MEV",
+                "label": "医疗型"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-27mev-wolf/ZNHI-27MEV.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Life Support Active",
+              "isAnimated": true
+            },
+            "title": "温柔的战士",
+            "content": "设计时间只有一夜，救回的生命却数不清。<br/>她或许是[狼]系列里最温柔的一员，不携带武器，只携带救人的使命。<br/><span class=\"text-white border-b border-primary/40 pb-1\">在雪原战场上，红十字是最温暖的标识。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这个孩子是一夜之间出生的，但她救回来的生命，可比她的设计时间长多了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型医疗后送车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-27[狼]"
+          },
+          {
+            "label": "Drive",
+            "value": "4x4"
+          },
+          {
+            "label": "Purpose",
+            "value": "医疗后送"
+          }
+        ],
+        "description": "ZNHI-27MEV[狼] 是基于[狼]底盘的轻型医疗后送车，在北极风暴夜「高速出生」，填补产品线轻装甲空白。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [狼] WOLF SERIES",
+        "products": [
+          {
+            "id": "znhi-27-wolf",
+            "imageUrl": "products/znhi-27-wolf/thumb.webp",
+            "productCode": "ZNHI-27[狼]",
+            "productName": "轻型战术车",
+            "productDesc": "基础型",
+            "href": "product-detail.html?id=znhi-27-wolf"
+          },
+          {
+            "id": "znhi-27isv-wolf",
+            "imageUrl": "products/znhi-27isv-wolf/thumb.webp",
+            "productCode": "ZNHI-27ISV[狼]",
+            "productName": "步兵支援型",
+            "productDesc": "车顶机枪",
+            "href": "product-detail.html?id=znhi-27isv-wolf"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狼]系列医疗型，「高速出生」——一夜之间设计完成"
+    }
+  },
+  {
+    "id": "znhi-09b2m-elephant",
+    "modelId": "ZNHI-09B2M[象]",
+    "name": "重型野战医疗车",
+    "nameEn": "Heavy Field Medical Vehicle",
+    "nickname": "医院怎么走",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "装甲车辆",
+      "subcategory": "医疗支援",
+      "tags": [
+        "轮式",
+        "6x6",
+        "医疗“, ”野战医院“, ”重型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+      "hero": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-09B2M[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "撑不到医院？那就让医院来找你",
+      "summary": "基于[象]系列底盘的重型野战医疗车。因为有伤员反映撑不到野战医院，典狱长决定让医院自己冲上前线。她拥有宽敞的医疗舱可进行应急手术，配备液压稳定支腿确保手术环境稳定。",
+      "full": "ZNHI-09B2M[象]的诞生源于一个残酷的现实——一些尸体反映祂们没法撑到送达野战医院。于是典狱长做了一个大胆的决定：让医院自己冲上前线。\n\n她基于ZNHI-09[象]底盘改装，拥有宽敞的医疗舱，可以在战场环境下进行应急手术。车身配备液压稳定支腿，展开后能为手术提供稳定的工作环境。后部的折叠跳板方便担架快速进出，车顶的通风设备保证舱内空气流通。\n\n当然，为应急手术腾出空间也意味着牺牲——相比普通后送车，她偌大的车厢只能容纳两名伤员。但对于那些命悬一线的人来说，这就是他们的方舟。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型野战医疗车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-09[象]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "6x6 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "载员",
+        "labelEn": "Capacity",
+        "value": "2名伤员（手术配置）",
+        "highlight": true
+      },
+      {
+        "label": "特殊装备",
+        "labelEn": "Special",
+        "value": "液压稳定支腿 / 应急手术舱",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "撑不到医院？那就让医院来找你。她载不了很多人，但能救的，都是命悬一线的。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "医疗支援",
+          "href": "products.html#medical"
+        },
+        {
+          "text": "ZNHI-09B2M[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ELEPHANT Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型野战医疗车",
+        "productCode": "ZNHI-09B2M[象]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "让医院自己冲上前线。基于[象]底盘的重型野战医疗车，可在战场环境下进行应急手术。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-09[象]"
+            },
+            {
+              "label": "驱动",
+              "value": "6x6 全轮驱动"
+            },
+            {
+              "label": "载员",
+              "value": "2名伤员（手术配置）"
+            },
+            {
+              "label": "特殊装备",
+              "value": "液压稳定支腿 / 应急手术舱"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "撑不到医院？那就让医院来找你。她载不了很多人，但能救的，都是命悬一线的。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "移动医院",
+            "content": "ZNHI-09B2M[象]基于 ZNHI-09[象]底盘改装，拥有宽敞的医疗舱可在战场环境下进行应急手术。<br/>车身配备液压稳定支腿，展开后为手术提供稳定的工作环境，后部折叠跳板方便担架快速进出，车顶通风设备保证舱内空气流通。<br/>她的诞生源于一个残酷现实——有些伤员撑不到医院，于是典狱长决定让医院自己冲上前线。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她不是救护车，她是移动的手术室。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "6x6 Drive / Field Surgery / Elephant Series"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "handyman",
+              "color": "primary"
+            },
+            "iconLabel": "Stabilization System",
+            "title": "稳定平台",
+            "content": "液压稳定支腿是她最关键的装备之一，在战场环境下展开后能有效隔离车身震动，为手术提供稳定的工作平台。<br/>医疗舱内配备基础手术设备与生命维持系统，虽然条件比不上后方医院，但在命悬一线的关键时刻，这里就是唯一的希望。<br/>车顶的通风设备与照明系统确保手术环境的基本要求，后部折叠跳板设计使担架能够快速进出，节省每一秒宝贵时间。<br/><span class=\"text-white border-b border-primary/40 pb-1\">在炮火与风雪之间，她是一座移动的生命方舟。</span>",
+            "dataBlocks": [
+              {
+                "value": "6x6",
+                "label": "驱动"
+              },
+              {
+                "value": "2人",
+                "label": "手术载员"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09b2m-elephant/ZNHI-09B2M.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Surgery Ready",
+              "isAnimated": true
+            },
+            "title": "取舍与承诺",
+            "content": "偌大的车厢只能容纳两名伤员，这个数字相比普通后送车显得太少。但剩下的空间都留给了手术台、医疗设备、药品储藏，以及支撑这一切运转的生命维持系统。<br/>这是一种取舍——用载员数量换取救治能力，用运输效率换取生存希望。对于那些撑不到后方医院的重伤员来说，这里就是生与死的分界线。<br/>当液压支腿展开，手术舱灯光亮起，医护人员开始工作时，她就完成了自己的使命——既然来不及送你去医院，那医院就来找你。<br/><span class=\"text-white border-b border-primary/40 pb-1\">载不了很多人，但能救的，都是命悬一线的。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "撑不到医院？那就让医院来找你。她载不了很多人，但能救的，都是命悬一线的。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型野战医疗车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-09[象]"
+          },
+          {
+            "label": "Drive",
+            "value": "6x6"
+          },
+          {
+            "label": "Capacity",
+            "value": "2名伤员"
+          }
+        ],
+        "description": "ZNHI-09B2M[象] 是基于[象]底盘的重型野战医疗车，让医院自己冲上前线，配备应急手术舱和液压稳定支腿。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI MEDICAL SERIES",
+        "products": [
+          {
+            "id": "znhi-27mev-wolf",
+            "imageUrl": "products/znhi-27mev-wolf/thumb.webp",
+            "productCode": "ZNHI-27MEV[狼]",
+            "productName": "轻型医疗后送车",
+            "productDesc": "高速出生",
+            "href": "product-detail.html?id=znhi-27mev-wolf"
+          },
+          {
+            "id": "znhi-09-elephant",
+            "imageUrl": "products/znhi-09-elephant/thumb.webp",
+            "productCode": "ZNHI-09[象]",
+            "productName": "中型模块化卡车",
+            "productDesc": "基础底盘",
+            "href": "product-detail.html?id=znhi-09-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[象]系列野战医疗车，让医院自己冲上前线"
+    }
+  },
+  {
+    "id": "znhi-27isv-wolf",
+    "modelId": "ZNHI-27ISV[狼]",
+    "name": "步兵支援车",
+    "nameEn": "Infantry Support Vehicle",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狼",
+      "seriesEn": "WOLF",
+      "category": "装甲车辆",
+      "subcategory": "轻型战术车",
+      "tags": [
+        "轮式",
+        "4x4",
+        "步兵支援“, ”机枪“, ”轻装甲"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+      "hero": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-27isv-wolf/ZNHI-27ISV-2.webp",
+          "alt": "正侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-27ISV[狼].webp",
+        "ZNHI-27ISV[狼]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "挡挡子弹够用了，压制火力更够用",
+      "summary": "基于[狼]系列底盘的步兵支援车型。虽说没有坚实的装甲，但挡挡子弹还是够用了。加装车顶机枪用于火力压制掩护友军，后部更换为类似J-LTV的开放式框架，不嫌挤的话可以多带几个大头兵。",
+      "full": "ZNHI-27ISV[狼]是[狼]系列的步兵支援型变体。车顶加装的机枪炮塔是她最显眼的特征，炮塔配有防弹玻璃观察窗，射手可以在相对安全的环境下进行火力支援。侧面新增防弹玻璃，虽说没有坚实的装甲，但挡挡子弹还是够用了。\n\n后部更换为类似J-LTV的开放式框架，不嫌挤的话可以多带几个大头兵。不过通常里面都堆满了杂物——战场上什么都缺，能装的地方都得装点东西。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "步兵支援车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-27[狼]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "车顶机枪炮塔",
+        "highlight": true
+      },
+      {
+        "label": "防护",
+        "labelEn": "Protection",
+        "value": "轻装甲 + 侧面防弹玻璃",
+        "highlight": false
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "J-LTV式后部框架",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "装甲不厚，但挡子弹够用；后面能坐人，但通常都堆满了杂物。战场嘛，总是这样。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "轻型战术车",
+          "href": "products.html#tactical"
+        },
+        {
+          "text": "ZNHI-27ISV[狼]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "WOLF Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-27isv-wolf/ZNHI-27ISV-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "步兵支援车",
+        "productCode": "ZNHI-27ISV[狼]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[狼]系列步兵支援型，车顶机枪火力压制，轻装甲防护，后部可搭载步兵。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-27[狼]"
+            },
+            {
+              "label": "武器",
+              "value": "车顶机枪炮塔"
+            },
+            {
+              "label": "防护",
+              "value": "轻装甲 + 侧面防弹玻璃"
+            },
+            {
+              "label": "特点",
+              "value": "J-LTV式后部框架"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "装甲不厚，但挡子弹够用；后面能坐人，但通常都堆满了杂物。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "火力支援",
+            "content": "ZNHI-27ISV[狼]是[狼]系列的步兵支援型变体，车顶加装机枪炮塔用于火力压制。<br/>炮塔配有防弹玻璃观察窗，射手可在相对安全的环境下提供火力支援，侧面新增防弹玻璃提供基础防护。<br/>后部更换为 J-LTV 式开放框架，可搭载步兵或装备。<br/><span class=\"text-white border-b border-primary/40 pb-1\">任务很简单：掩护友军安全前进。</span>",
+            "statusText": {
+              "enabled": true,
+              "text": "4x4 Drive / Fire Support / Wolf Series"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-27isv-wolf/ZNHI-27ISV-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "Light Armor",
+            "title": "够用的防护",
+            "content": "轻装甲配合防弹玻璃提供基础防护能力，虽说没有坚实的装甲，但挡挡子弹还是够用了。<br/>车顶机枪炮塔的火力压制能力才是重点，让友军能在相对安全的环境下前进。<br/><span class=\"text-white border-b border-primary/40 pb-1\">挡子弹够用，压制火力更够用。</span>",
+            "dataBlocks": [
+              {
+                "value": "4x4",
+                "label": "驱动"
+              },
+              {
+                "value": "ISV",
+                "label": "步兵支援"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-27isv-wolf/ZNHI-27ISV.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Combat Ready",
+              "isAnimated": true
+            },
+            "title": "战场现实",
+            "content": "后部开放式框架设计上可以多带几个大头兵，但战场现实是这里通常都堆满了杂物。<br/>弹药、补给、装备，战场上什么都缺，能装的地方都得装点东西。<br/><span class=\"text-white border-b border-primary/40 pb-1\">能坐人，但更多时候在运物资。</span>",
+            "quoteCard": {
+              "enabled": true,
+              "text": "装甲不厚，但挡子弹够用；后面能坐人，但通常都堆满了杂物。战场嘛，总是这样。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "步兵支援车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-27[狼]"
+          },
+          {
+            "label": "Armament",
+            "value": "车顶机枪"
+          },
+          {
+            "label": "Protection",
+            "value": "轻装甲"
+          }
+        ],
+        "description": "ZNHI-27ISV[狼] 是[狼]系列步兵支援型，车顶机枪火力压制，轻装甲挡子弹够用。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [狼] WOLF SERIES",
+        "products": [
+          {
+            "id": "znhi-27-wolf",
+            "imageUrl": "products/znhi-27-wolf/thumb.webp",
+            "productCode": "ZNHI-27[狼]",
+            "productName": "轻型战术车",
+            "productDesc": "基础型",
+            "href": "product-detail.html?id=znhi-27-wolf"
+          },
+          {
+            "id": "znhi-27mev-wolf",
+            "imageUrl": "products/znhi-27mev-wolf/thumb.webp",
+            "productCode": "ZNHI-27MEV[狼]",
+            "productName": "轻型医疗后送车",
+            "productDesc": "高速出生",
+            "href": "product-detail.html?id=znhi-27mev-wolf"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狼]系列步兵支援型，车顶机枪火力压制"
+    }
+  },
+  {
+    "id": "znhi-28mev-leopard",
+    "modelId": "ZNHI-28MEV[豹]",
+    "name": "轮式装甲医疗车",
+    "nameEn": "Wheeled Armored Medical Vehicle",
+    "nickname": "又大又小",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "豹",
+      "seriesEn": "LEOPARD",
+      "category": "装甲车辆",
+      "subcategory": "医疗支援",
+      "tags": [
+        "轮式",
+        "8x8",
+        "医疗“, ”装甲“, ”越野"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+      "hero": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-28MEV[豹].webp"
+      ]
+    },
+    "description": {
+      "tagline": "看着很大，其实很小；但越野能力，一点不少",
+      "summary": "基于[豹]系列底盘的8轮装甲医疗车。因为只需要自卫，机炮换成了遥控机枪。受那几个大轮子的影响室内空间并不算多，只能塞下两名伤员，但她不输-02的越野能力多少弥补了这一点。",
+      "full": "ZNHI-28MEV[豹]的绰号「又大又小」精准概括了她的特点——看着是台大家伙，但内部空间却很紧凑。那几个大轮子虽然赋予了她出色的越野能力，却也吃掉了不少室内空间，因此只能塞下两名伤员。\n\n因为定位是医疗后送而非战斗，机炮被换成了遥控机枪用于自卫。但她不输-02的越野能力多少弥补了空间上的不足——在复杂地形下，能把伤员安全送达才是最重要的。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轮式装甲医疗车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-28[豹]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "8x8 全轮驱动",
+        "highlight": true
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "遥控机枪（自卫用）",
+        "highlight": false
+      },
+      {
+        "label": "载员",
+        "labelEn": "Capacity",
+        "value": "2名伤员",
+        "highlight": false
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "越野能力不输-02",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "看着很大，其实很小。但在雪原上跑起来，她可一点都不含糊。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "医疗支援",
+          "href": "products.html#medical"
+        },
+        {
+          "text": "ZNHI-28MEV[豹]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "LEOPARD Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轮式装甲医疗车",
+        "productCode": "ZNHI-28MEV[豹]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[豹]系列8轮装甲医疗车，大轮子带来越野能力但吃掉了内部空间，只能载2名伤员。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-28[豹]"
+            },
+            {
+              "label": "驱动",
+              "value": "8x8 全轮驱动"
+            },
+            {
+              "label": "武器",
+              "value": "遥控机枪（自卫用）"
+            },
+            {
+              "label": "载员",
+              "value": "2名伤员"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "看着很大，其实很小。但在雪原上跑起来，她可一点都不含糊。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "又大又小",
+            "content": "基于[豹]系列8x8底盘的装甲医疗车。<br/>八个大轮子带来强悍越野能力，但也吃掉了宝贵的内部空间——<br/>她只能塞下两名伤员，机炮换成了遥控机枪用于自卫。<br/>看着很大，其实很小。但在雪原上，你也不希望受伤时等不到救护车吧。",
+            "statusText": {
+              "enabled": true,
+              "text": "Medical Evac: Standby"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "emergency",
+              "color": "primary"
+            },
+            "iconLabel": "All-Terrain Medical",
+            "title": "越野性能",
+            "content": "8x8全轮驱动，越野能力不输-02。<br/>复杂地形、深雪覆盖、碎石坡道——她都能通过。<br/>遥控机枪提供自卫火力，装甲防护保障乘员安全。<br/><span class=\"text-white border-b border-primary/40 pb-1\">能把伤员安全送达，比什么都重要。</span>",
+            "dataBlocks": [
+              {
+                "value": "8x8",
+                "label": "驱动"
+              },
+              {
+                "value": "2人",
+                "label": "载员"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-28mev-leopard/ZNHI-28MEV.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Medical Ready",
+              "isAnimated": true
+            },
+            "title": "抵达",
+            "content": "空间小一点，但够用了。<br/>在战场环境下，能抵达伤员位置才是关键。<br/>那几个大轮子虽然吃掉了空间，但它们能带你去任何需要去的地方。<br/>又大又小，矛盾但合理——这就是她存在的意义。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "看着很大，其实很小。但在雪原上跑起来，她可一点都不含糊。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轮式装甲医疗车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-28[豹]"
+          },
+          {
+            "label": "Drive",
+            "value": "8x8"
+          },
+          {
+            "label": "Capacity",
+            "value": "2名伤员"
+          }
+        ],
+        "description": "ZNHI-28MEV[豹] 是[豹]系列8轮装甲医疗车，看着很大其实很小，但越野能力不输-02。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI MEDICAL SERIES",
+        "products": [
+          {
+            "id": "znhi-27mev-wolf",
+            "imageUrl": "products/znhi-27mev-wolf/thumb.webp",
+            "productCode": "ZNHI-27MEV[狼]",
+            "productName": "轻型医疗后送车",
+            "productDesc": "高速出生",
+            "href": "product-detail.html?id=znhi-27mev-wolf"
+          },
+          {
+            "id": "znhi-09b2m-elephant",
+            "imageUrl": "products/znhi-09b2m-elephant/thumb.webp",
+            "productCode": "ZNHI-09B2M[象]",
+            "productName": "重型野战医疗车",
+            "productDesc": "医院怎么走",
+            "href": "product-detail.html?id=znhi-09b2m-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[豹]系列装甲医疗车，又大又小"
+    }
+  },
+  {
+    "id": "znhi-16mev-fox",
+    "modelId": "ZNHI-16MEV[狐]",
+    "name": "防雷医疗车",
+    "nameEn": "MRAP Medical Vehicle",
+    "nickname": "我不叫林扎",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狐",
+      "seriesEn": "FOX",
+      "category": "装甲车辆",
+      "subcategory": "医疗支援",
+      "tags": [
+        "轮式",
+        "4x4",
+        "医疗“, ”防雷“, ”模块化"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+      "hero": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-16MEV [狐] -16.webp"
+      ]
+    },
+    "description": {
+      "tagline": "我不叫林扎，但我比她多一张床",
+      "summary": "基于[狐]系列防雷底盘的医疗车型。-16的初稿其实就是急救车，但量产时顺序颠倒了，运兵型先出。医疗模块有三张床，比林扎还多一张，就是少了一排座椅，后面只能带一名急救人员。",
+      "full": "ZNHI-16MEV[狐]的绰号「我不叫林扎」透露出一段有趣的历史——-16的初稿其实就是急救车，运兵型才是后续型号，但在量产时顺序却颠倒了。不过至少典狱长持续多年的想法终于得以实现。\n\n狐狐的医疗模块有三张床，比林扎还多一张。代价是少了一排座椅，后面顶多只能带一名急救人员。她继承了[狐]系列的防雷底盘设计，能在危险区域安全转运伤员。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "防雷医疗车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-16[狐]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "床位",
+        "labelEn": "Beds",
+        "value": "3张",
+        "highlight": true
+      },
+      {
+        "label": "随车人员",
+        "labelEn": "Medic",
+        "value": "1名急救人员",
+        "highlight": false
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "防雷底盘 / 模块化医疗舱",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她不叫林扎，但比林扎多一张床。持续多年的想法，终于实现了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "医疗支援",
+          "href": "products.html#medical"
+        },
+        {
+          "text": "ZNHI-16MEV[狐]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "FOX Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "防雷医疗车",
+        "productCode": "ZNHI-16MEV[狐]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[狐]系列防雷医疗车，初稿就是急救车，三张床位比林扎多一张。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-16[狐]"
+            },
+            {
+              "label": "床位",
+              "value": "3张"
+            },
+            {
+              "label": "随车人员",
+              "value": "1名急救人员"
+            },
+            {
+              "label": "特点",
+              "value": "防雷底盘 / 模块化医疗舱"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她不叫林扎，但比林扎多一张床。持续多年的想法，终于实现了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "我不叫林扎",
+            "content": "-16的初稿其实就是急救车，运兵型才是后续型号。<br/>但量产时顺序颠倒了——运兵车先出，医疗车后来。<br/>典狱长持续多年的想法，终于以这种方式实现。<br/>她不叫林扎，但她比林扎多一张床。",
+            "statusText": {
+              "enabled": true,
+              "text": "Medical Module: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_hospital",
+              "color": "primary"
+            },
+            "iconLabel": "Medical Capacity",
+            "title": "三张床的取舍",
+            "content": "模块化医疗舱配备三张床位，比林扎多一张。<br/>代价是少了一排座椅，后方只能带一名急救人员。<br/>4x4防雷底盘，模块化设计，可快速更换舱体配置。<br/><span class=\"text-white border-b border-primary/40 pb-1\">床位多了，但人手少了——这就是设计的权衡。</span>",
+            "dataBlocks": [
+              {
+                "value": "3张",
+                "label": "床位"
+              },
+              {
+                "value": "1名",
+                "label": "急救员"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-16mev-fox/ZNHI-16MEV-16.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Mine Protected",
+              "isAnimated": true
+            },
+            "title": "在危险中抵达",
+            "content": "防雷底盘是[狐]系列的基因，在医疗车上同样不可或缺。<br/>地雷密布的危险区域，常规医疗车不敢踏足的地方——<br/>她能抵达，把伤员安全带回来。<br/>触发小当量地雷时，V型底盘分散冲击波，乘员不会升天。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她不叫林扎，但比林扎多一张床。持续多年的想法，终于实现了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "防雷医疗车"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-16[狐]"
+          },
+          {
+            "label": "Beds",
+            "value": "3张"
+          },
+          {
+            "label": "Feature",
+            "value": "防雷底盘"
+          }
+        ],
+        "description": "ZNHI-16MEV[狐] 是[狐]系列防雷医疗车，三张床位比林扎多一张，持续多年的想法终于实现。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI MEDICAL SERIES",
+        "products": [
+          {
+            "id": "znhi-27mev-wolf",
+            "imageUrl": "products/znhi-27mev-wolf/thumb.webp",
+            "productCode": "ZNHI-27MEV[狼]",
+            "productName": "轻型医疗后送车",
+            "productDesc": "高速出生",
+            "href": "product-detail.html?id=znhi-27mev-wolf"
+          },
+          {
+            "id": "znhi-28mev-leopard",
+            "imageUrl": "products/znhi-28mev-leopard/thumb.webp",
+            "productCode": "ZNHI-28MEV[豹]",
+            "productName": "轮式装甲医疗车",
+            "productDesc": "又大又小",
+            "href": "product-detail.html?id=znhi-28mev-leopard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狐]系列防雷医疗车，我不叫林扎"
+    }
+  },
+  {
+    "id": "znhi-16-fox",
+    "modelId": "ZNHI-16[狐]",
+    "name": "防雷装甲运兵车",
+    "nameEn": "MRAP Armored Personnel Carrier",
+    "nickname": "下盘要稳",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狐",
+      "seriesEn": "FOX",
+      "category": "装甲车辆",
+      "subcategory": "运兵车",
+      "tags": [
+        "轮式",
+        "4x4",
+        "防雷“, ”装甲“, ”模块化"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-16-fox/ZNHI-16.webp",
+      "hero": "products/znhi-16-fox/ZNHI-16.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-16[狐].webp"
+      ]
+    },
+    "description": {
+      "tagline": "下盘稳了，人就不会升天",
+      "summary": "历经多次重新设计的防雷装甲运兵车。采用防雷底盘，触发小当量地雷时可保护乘员避免升天。后乘员舱可快速更换为医疗方舱等其他模块，但厚重装甲带来贫弱的功重比，建议避免在开阔区域行驶。",
+      "full": "ZNHI-16[狐]的诞生之路颇为坎坷——受早期技术影响，她在几年内被重新设计了无数次，但都以失败告终。后来受-14的启发，开始尝试不同的底盘布局，才终于找到了正确的方向。这个绰号「下盘要稳」既是对她设计理念的总结，也是对那段艰难岁月的纪念。\n\n她采用防雷底盘设计，V型车底能有效分散地雷爆炸的冲击波，在触发小当量地雷时可以保护乘员避免升天。后乘员舱采用模块化设计，可快速更换为医疗方舱等其他功能模块，这也是为什么-16MEV医疗型能够顺利诞生的原因。\n\n但厚重的装甲也带来了代价——贫弱的功重比让她的机动性不尽人意。监狱建议尽量避免在开阔区域行驶，因为笨重的她很容易成为敌人的靶子。在掩护充足的环境下，她才能发挥最大的价值。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "防雷装甲运兵车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "防护",
+        "labelEn": "Protection",
+        "value": "防雷底盘 / 厚重装甲",
+        "highlight": true
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "模块化后舱",
+        "highlight": true
+      },
+      {
+        "label": "已知局限",
+        "labelEn": "Limitation",
+        "value": "功重比贫弱 / 避免开阔区域",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "重新设计了无数次，失败了无数次。但下盘稳了，人就不会升天。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armored"
+        },
+        {
+          "text": "ZNHI-16[狐]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-16-fox/ZNHI-16.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "FOX Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-16-fox/ZNHI-16.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "防雷装甲运兵车",
+        "productCode": "ZNHI-16[狐]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[狐]系列防雷装甲运兵车，历经多次重新设计，采用防雷底盘保护乘员，模块化后舱可更换。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "驱动",
+              "value": "4x4 全轮驱动"
+            },
+            {
+              "label": "防护",
+              "value": "防雷底盘 / 厚重装甲"
+            },
+            {
+              "label": "特点",
+              "value": "模块化后舱"
+            },
+            {
+              "label": "局限",
+              "value": "功重比贫弱"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "重新设计了无数次，失败了无数次。但下盘稳了，人就不会升天。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-16-fox/ZNHI-16.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "下盘要稳",
+            "content": "受早期技术影响，她在几年内被重新设计了无数次，都以失败告终。<br/>后来受-14的启发，尝试了不同的底盘布局——<br/>V型防雷底盘，厚重装甲，模块化后舱。<br/>艰难的岁月过去了，她终于站在了雪地上。",
+            "statusText": {
+              "enabled": true,
+              "text": "MRAP Platform: Online"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-16-fox/ZNHI-16.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "security",
+              "color": "primary"
+            },
+            "iconLabel": "Mine Resistant",
+            "title": "V型防护",
+            "content": "采用防雷底盘设计，V型车底能有效分散地雷冲击波。<br/>触发小当量地雷时，乘员可保护避免升天。<br/>厚重的装甲提供额外防护，但代价是贫弱的功重比。<br/><span class=\"text-white border-b border-primary/40 pb-1\">下盘稳了，人就不会升天——这是她存在的核心。</span>",
+            "dataBlocks": [
+              {
+                "value": "4x4",
+                "label": "驱动"
+              },
+              {
+                "value": "V型",
+                "label": "底盘"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-16-fox/ZNHI-16.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Modular Platform",
+              "isAnimated": true
+            },
+            "title": "一台车，多种身份",
+            "content": "后乘员舱采用模块化设计，可快速更换为不同功能舱体。<br/>医疗方舱、指挥舱、通讯舱、侦察舱……<br/>同一个防雷底盘，承载不同的使命。<br/>监狱建议避免在开阔区域行驶——她的功重比确实不太理想。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "重新设计了无数次，失败了无数次。但下盘稳了，人就不会升天。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "防雷装甲运兵车"
+          },
+          {
+            "label": "Drive",
+            "value": "4x4"
+          },
+          {
+            "label": "Protection",
+            "value": "防雷底盘"
+          },
+          {
+            "label": "Feature",
+            "value": "模块化后舱"
+          }
+        ],
+        "description": "ZNHI-16[狐] 是历经多次重新设计的防雷装甲运兵车，采用V型防雷底盘，模块化后舱可更换为医疗方舱等。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [狐] FOX SERIES",
+        "products": [
+          {
+            "id": "znhi-16mev-fox",
+            "imageUrl": "products/znhi-16mev-fox/thumb.webp",
+            "productCode": "ZNHI-16MEV[狐]",
+            "productName": "防雷医疗车",
+            "productDesc": "我不叫林扎",
+            "href": "product-detail.html?id=znhi-16mev-fox"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狐]系列基础型，下盘要稳，历经多次重新设计"
+    }
+  },
+  {
+    "id": "znhi-33-rabbit",
+    "modelId": "ZNHI-33[兔]",
+    "name": "轻型全地形越野车",
+    "nameEn": "Light All-Terrain Vehicle",
+    "nickname": "冲刺",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "兔",
+      "seriesEn": "RABBIT",
+      "category": "装甲车辆",
+      "subcategory": "轻型战术车",
+      "tags": [
+        "轮式“, ”轻型“, ”越野“, ”无防护"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-33-rabbit/ZNHI-33.webp",
+      "hero": "products/znhi-33-rabbit/ZNHI-33.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-33-rabbit/ZNHI-33M.webp",
+          "alt": "侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-33[兔].webp",
+        "ZNHI-33M[兔].webp"
+      ]
+    },
+    "description": {
+      "tagline": "在大车去不了的地方，她就是唯一的选择",
+      "summary": "监狱最轻便的越野车。为了极致的机动性，她甚至连防护都没有，但在积雪深厚的复杂地形下，她是唯一能翻山越岭的选择。",
+      "full": "-27很不错，但在一些积雪深厚的地方仍然寸步难行。监狱一直以来都需要一款足够轻便且机动性强的越野车来翻山越岭，于是ZNHI-33[兔]诞生了。\n\n为了减重，她连防护都没有——没有装甲，没有封闭驾驶舱，只有一个防滚架保护乘员。但这不妨碍她在战场上发光发热。在那些大型车辆根本无法抵达的地方，这个小巧的孩子就是唯一的希望。\n\n「33」这个编号对典狱长有着特殊的意义。虽然她只是一台简单的越野车，但她承载的不仅仅是任务，还有一些无法言说的记忆。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型全地形越野车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "座位",
+        "labelEn": "Seats",
+        "value": "2座",
+        "highlight": false
+      },
+      {
+        "label": "防护",
+        "labelEn": "Protection",
+        "value": "无（仅防滚架）",
+        "highlight": true
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "极致轻量化",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "33......曾是最重要的人，没有之一。这个孩子没有装甲，但她跑得比谁都快。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "variants": [
+      {
+        "id": "znhi-33m-rabbit",
+        "modelId": "ZNHI-33M[兔]",
+        "name": "轻型野战急救车",
+        "nickname": "哈不上气了",
+        "description": {
+          "summary": "基于[兔]基础型改装的野战急救车。加装医疗设备后变重了，速度也变慢了，但她能去到大型医疗车去不了的地方。",
+          "full": "ZNHI-33M[兔]是监狱医疗体系中最小巧的一员。和PLA的双层UTV相比，她只能带一位伤员，而且因为加装了医疗设备变重了，速度也变慢了——典狱长自嘲地称之为「哈不上气了」。\n\n但在积雪深厚的复杂地形下，大型医疗车根本无法抵达。当你在某个草丛里受伤时，你不会希望等不到救护车——这就是她存在的意义。她跑得慢了，但至少她能到。"
+        },
+        "specs": [
+          {
+            "label": "类型",
+            "value": "轻型野战急救车"
+          },
+          {
+            "label": "底盘",
+            "value": "ZNHI-33[兔]"
+          },
+          {
+            "label": "伤员容量",
+            "value": "1人"
+          },
+          {
+            "label": "医疗设备",
+            "value": "担架支架、急救物资箱"
+          }
+        ],
+        "designer": {
+          "quote": "你也不希望在某个草丛里受伤时等不到救护车吧？她跑得慢了，但至少她能到。",
+          "author": "典狱长 ZANE"
+        },
+        "media": {
+          "originalFiles": [
+            "ZNHI-33M[兔].webp"
+          ]
+        }
+      }
+    ],
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "轻型战术车",
+          "href": "products.html#tactical"
+        },
+        {
+          "text": "ZNHI-33[兔]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-33-rabbit/ZNHI-33.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "RABBIT Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-33-rabbit/ZNHI-33.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-33-rabbit/ZNHI-33M.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型全地形越野车",
+        "productCode": "ZNHI-33[兔]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱最轻便的越野车，为了极致的机动性甚至连防护都没有。在积雪深厚的复杂地形下，她是唯一能翻山越岭的选择。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "轻型全地形越野车 (UTV)"
+            },
+            {
+              "label": "驱动",
+              "value": "4x4 全轮驱动"
+            },
+            {
+              "label": "座位",
+              "value": "2座"
+            },
+            {
+              "label": "防护",
+              "value": "无（仅防滚架）"
+            },
+            {
+              "label": "特点",
+              "value": "极致轻量化"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "33......曾是最重要的人，没有之一。这个孩子没有装甲，但她跑得比谁都快。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含变体型号说明",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-33-rabbit/ZNHI-33.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "33",
+            "content": "33......曾是最重要的人，没有之一。<br/>这个编号被赋予了监狱最小巧、最轻便的越野车。<br/>她没有装甲，没有封闭驾驶舱，只有一个防滚架。<br/>但她跑得比谁都快，去得比谁都远。",
+            "statusText": {
+              "enabled": true,
+              "text": "Light Tactical: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-33-rabbit/ZNHI-33.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "speed",
+              "color": "primary"
+            },
+            "iconLabel": "Ultra Light",
+            "title": "轻量化的代价",
+            "content": "-27很不错，但在积雪深厚的地方依然寸步难行。<br/>监狱需要一款更轻便、更灵活的越野车来翻山越岭。<br/>于是她诞生了——为了减重，连防护都省了。<br/><span class=\"text-white border-b border-primary/40 pb-1\">没有装甲，没有封闭舱，只有极致的机动性。</span>",
+            "dataBlocks": [
+              {
+                "value": "4x4",
+                "label": "驱动"
+              },
+              {
+                "value": "2座",
+                "label": "乘员"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-33-rabbit/ZNHI-33M.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "All-Terrain Ready",
+              "isAnimated": true
+            },
+            "title": "唯一的选择",
+            "content": "在那些大型车辆根本无法抵达的地方——<br/>积雪深厚的山坡，狭窄崎岖的小径，碎石遍布的河床。<br/>这个小巧的孩子就是唯一的希望。<br/>33M医疗变体虽然变重了，跑得慢了，但至少她能到。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "33......曾是最重要的人，没有之一。这个孩子没有装甲，但她跑得比谁都快。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI LIGHT TACTICAL SERIES",
+        "products": [
+          {
+            "id": "znhi-27-wolf",
+            "imageUrl": "products/znhi-27-wolf/thumb.webp",
+            "productCode": "ZNHI-27[狼]",
+            "productName": "轻型战术车",
+            "productDesc": "轻装甲轮式战术车",
+            "href": "product-detail.html?id=znhi-27-wolf"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[兔]系列，含33M医疗变体。33对典狱长有特殊意义。"
+    }
+  },
+  {
+    "id": "znhi-09b1rd2-elephant",
+    "modelId": "ZNHI-09B1RD2[象]",
+    "name": "反炮兵雷达车",
+    "nameEn": "Counter-battery Radar Vehicle",
+    "nickname": "找到你了",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "装甲车辆",
+      "subcategory": "雷达侦察车",
+      "tags": [
+        "轮式“, ”雷达“, ”侦察“, ”反炮兵"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+      "hero": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-09B1RD2[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "玩完炮兵，来玩反炮兵",
+      "summary": "基于[象]B1底盘的反炮兵雷达车。搭载大型平面相控阵雷达，能够探测敌方炮弹轨迹并反推炮兵阵地位置。配备便捷跑路功能，可在雷达未收起的情况下紧急撤离。",
+      "full": "ZNHI-09B1RD2[象]是监狱的第一款反炮兵雷达系统。典狱长表示，经过8小时的奋战，她的耳朵终于要被这台车的发电机折磨炸了——大功率雷达需要大功率发电，噪音是不可避免的代价。\n\n为了防止操作员挨打，典狱长贴心地加入了便捷跑路功能：只要踩下油门，四根液压支腿就会立马无视依然立着的雷达放你自由。不过请注意，雷达组件非常重，滥用该功能导致翻车的话，保修失效。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "反炮兵雷达车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-09B1[象]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "8x8 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "雷达",
+        "labelEn": "Radar",
+        "value": "平面相控阵",
+        "highlight": true
+      },
+      {
+        "label": "支腿",
+        "labelEn": "Outriggers",
+        "value": "4根液压支腿",
+        "highlight": false
+      },
+      {
+        "label": "特殊功能",
+        "labelEn": "Special",
+        "value": "便捷跑路（雷达立起可行驶）",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她的发电机快把我耳朵折磨炸了，但至少她能找到那些躲在暗处的混蛋。记得别滥用跑路功能——翻车了可不保修。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 30,
+      "categories": [
+        "military",
+        "radar"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.75,
+          "contrast": 1.2,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "background-dark/70",
+          "toColor": "black/50"
+        },
+        "overlayColor": "cyan-500/8",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "split",
+        "gridCols": "md:grid-cols-2",
+        "alignItems": "items-center",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[象] ELEPHANT SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "反炮兵雷达车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "玩完炮兵，来玩反炮兵。搭载大型平面相控阵雷达，能够探测敌方炮弹轨迹并反推炮兵阵地位置。配备4根液压支腿稳定，以及监狱独创的「便捷跑路功能」——雷达立起也能开。",
+        "maxWidth": "max-w-xl"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": true,
+        "text": "雷达操作手册",
+        "href": "#",
+        "icon": "radar"
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      },
+      "specsList": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "底盘",
+            "value": "ZNHI-09B1[象]"
+          },
+          {
+            "label": "驱动",
+            "value": "8x8 全轮驱动"
+          },
+          {
+            "label": "雷达类型",
+            "value": "平面相控阵"
+          },
+          {
+            "label": "支腿",
+            "value": "4根液压支腿"
+          },
+          {
+            "label": "特殊功能",
+            "value": "便捷跑路（雷达立起可行驶）"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "侦察系统",
+          "href": "products.html#recon"
+        },
+        {
+          "text": "ZNHI-09B1RD2[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ELEPHANT Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "反炮兵雷达车",
+        "productCode": "ZNHI-09B1RD2[象]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱第一款反炮兵雷达系统，搭载大型平面相控阵雷达，配备便捷跑路功能。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "反炮兵雷达车"
+            },
+            {
+              "label": "底盘",
+              "value": "ZNHI-09B1[象]"
+            },
+            {
+              "label": "驱动",
+              "value": "8x8 全轮驱动"
+            },
+            {
+              "label": "雷达",
+              "value": "平面相控阵"
+            },
+            {
+              "label": "支腿",
+              "value": "4根液压支腿"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她的发电机快把我耳朵折磨炸了，但至少她能找到那些躲在暗处的混蛋。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含雷达操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "找到你了",
+            "content": "玩完炮兵，来玩反炮兵。<br/>当敌人的炮弹划过天空，她的相控阵雷达已经锁定了弹道轨迹——<br/>反推计算，标定坐标，传输目标。<br/>躲在暗处的炮兵阵地，无所遁形。",
+            "statusText": {
+              "enabled": true,
+              "text": "Counter-battery: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "radar",
+              "color": "primary"
+            },
+            "iconLabel": "Phased Array",
+            "title": "平面相控阵",
+            "content": "搭载大型平面相控阵雷达，能够同时追踪多个目标。<br/>4根液压支腿展开，稳定车身，消除震动干扰。<br/>经过8小时的奋战，典狱长的耳朵快被发电机折磨炸了——<br/><span class=\"text-white border-b border-primary/40 pb-1\">但至少她能找到那些躲在暗处的混蛋。</span>",
+            "dataBlocks": [
+              {
+                "value": "8x8",
+                "label": "驱动"
+              },
+              {
+                "value": "4根",
+                "label": "支腿"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09b1rd2-elephant/ZNHI-09B1RD2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Escape Mode Ready",
+              "isAnimated": true
+            },
+            "title": "便捷跑路",
+            "content": "监狱为她设计了独特的「便捷跑路功能」。<br/>只要踩下油门，那4根小短腿会立马无视依然立着的雷达而放你自由。<br/>雷达组件非常重，如果滥用该功能导致翻车——抱歉，保修失效。<br/>请大胆地开吧（笑）。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她的发电机快把我耳朵折磨炸了，但至少她能找到那些躲在暗处的混蛋。记得别滥用跑路功能——翻车了可不保修。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [象] ELEPHANT SERIES",
+        "products": [
+          {
+            "id": "znhi-09-elephant",
+            "imageUrl": "products/znhi-09-elephant/thumb.webp",
+            "productCode": "ZNHI-09[象]",
+            "productName": "重型运输车",
+            "productDesc": "大型轮式运输平台",
+            "href": "product-detail.html?id=znhi-09-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "反炮兵雷达车，便捷跑路功能，发电机噪音大"
+    }
+  },
+  {
+    "id": "znhi-09b-elephant",
+    "modelId": "ZNHI-09B[象]",
+    "name": "重型模块化底盘",
+    "nameEn": "Heavy Modular Chassis",
+    "nickname": "",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "装甲车辆",
+      "subcategory": "底盘平台",
+      "tags": [
+        "轮式“, ”底盘“, ”模块化“, ”平台"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09b-elephant/ZNHI-09B.webp",
+      "hero": "products/znhi-09b-elephant/ZNHI-09B.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-09B[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "改变轴距，不变的全长",
+      "summary": "[象]系列的B型改进底盘。预留了标准化支腿安装位，提供不同轴距配置，全长保持统一，方便后续改装为雷达车、起重车、火炮车等各类特种车辆。",
+      "full": "ZNHI-09B[象]是[象]系列底盘的重要改进型号。之前的底盘在改装特种车辆时总会遇到一个问题：没有预留支腿安装空间。雷达车、起重车、火炮车都需要支腿来稳定车身，但原设计没有考虑这一点，每次改装都得另想办法。\n\n这次终于吸取教训了，B型底盘预留了标准化的支腿安装位，支持多种轴距配置，且无论选择哪种配置，车身全长保持一致，便于统一规划运输和停放。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型模块化底盘",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "8x8 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "轴距",
+        "labelEn": "Wheelbase",
+        "value": "多种配置可选",
+        "highlight": true
+      },
+      {
+        "label": "全长",
+        "labelEn": "Length",
+        "value": "统一规格",
+        "highlight": false
+      },
+      {
+        "label": "支腿",
+        "labelEn": "Outriggers",
+        "value": "预留标准安装位",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "这次舍得为支腿腾出预设空间了，妈妈再也不用担心我为了没地方放支腿这件事而发愁了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "底盘平台",
+          "href": "products.html#platform"
+        },
+        {
+          "text": "ZNHI-09B[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09b-elephant/ZNHI-09B.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ELEPHANT Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09b-elephant/ZNHI-09B.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型模块化底盘",
+        "productCode": "ZNHI-09B[象]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[象]系列B型改进底盘，预留标准化支腿安装位，支持多种轴距配置。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "重型模块化底盘"
+            },
+            {
+              "label": "驱动",
+              "value": "8x8 全轮驱动"
+            },
+            {
+              "label": "轴距",
+              "value": "多种配置可选"
+            },
+            {
+              "label": "全长",
+              "value": "统一规格"
+            },
+            {
+              "label": "支腿",
+              "value": "预留标准安装位"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这次舍得为支腿腾出预设空间了，妈妈再也不用担心我为了没地方放支腿这件事而发愁了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含底盘规格说明",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09b-elephant/ZNHI-09B.webp",
+            "filters": {
+              "scale": 1.1,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "吸取教训",
+            "content": "之前的底盘在改装特种车辆时总会遇到一个问题：没有预留支腿安装空间。<br/>雷达车、起重车、火炮车都需要支腿来稳定车身——<br/>但原设计没考虑这一点，每次改装都得另想办法。<br/>这次终于吸取教训了。",
+            "statusText": {
+              "enabled": true,
+              "text": "Modular Platform: Online"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09b-elephant/ZNHI-09B.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "settings",
+              "color": "primary"
+            },
+            "iconLabel": "Modular Design",
+            "title": "预留空间",
+            "content": "B型底盘预留了标准化的支腿安装位。<br/>支持B1/B2/B3/B4多种轴距配置，无论选择哪种，车身全长保持一致。<br/>便于统一规划运输和停放，简化后勤管理。<br/><span class=\"text-white border-b border-primary/40 pb-1\">妈妈再也不用担心我为了没地方放支腿这件事而发愁了。</span>",
+            "dataBlocks": [
+              {
+                "value": "8x8",
+                "label": "驱动"
+              },
+              {
+                "value": "4型",
+                "label": "配置"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09b-elephant/ZNHI-09B.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Platform Ready",
+              "isAnimated": true
+            },
+            "title": "一个底盘，多种可能",
+            "content": "基于09B底盘，可以快速改装为多种特种车辆。<br/>反炮兵雷达车、自行火炮、起重车、发烟车……<br/>标准化的接口，统一的规格，简化了研发和生产流程。<br/>改变轴距，不变的全长——这就是模块化平台的价值。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这次舍得为支腿腾出预设空间了，妈妈再也不用担心我为了没地方放支腿这件事而发愁了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [象] ELEPHANT SERIES",
+        "products": [
+          {
+            "id": "znhi-09b1rd2-elephant",
+            "imageUrl": "products/znhi-09b1rd2-elephant/thumb.webp",
+            "productCode": "ZNHI-09B1RD2[象]",
+            "productName": "反炮兵雷达车",
+            "productDesc": "找到你了",
+            "href": "product-detail.html?id=znhi-09b1rd2-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[象]B型改进底盘，预留支腿空间，多轴距配置"
+    }
+  },
+  {
+    "id": "znhi-25b2-lion",
+    "modelId": "ZNHI-25B2[狮]",
+    "name": "战场发烟车",
+    "nameEn": "Battlefield Smoke Vehicle",
+    "nickname": "理塘王",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狮",
+      "seriesEn": "LION",
+      "category": "装甲车辆",
+      "subcategory": "支援车辆",
+      "tags": [
+        "轮式“, ”发烟“, ”支援“, ”掩护"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+      "hero": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-25B2[狮].webp"
+      ]
+    },
+    "description": {
+      "tagline": "能见度降低，但炮弹致命不减",
+      "summary": "[狮]系列6x6战场发烟车。通过释放大面积烟幕为己方部队提供视觉掩护，使敌方无法有效观测和瞄准。在烟幕的遮蔽下，己方凭借火控系统依然可以精准打击，而敌人只能在迷雾中化为烟花。",
+      "full": "那天，雾从树林中冒出，起初只是一片薄雾，随后弥漫了大半个雪原。那不是自然的雾气，而是ZNHI-25B2[狮]释放的烟幕。\n\n作为监狱的战场发烟车，她的任务是为己方部队创造视觉优势。大面积烟幕可以有效遮蔽敌方的观测和瞄准，而己方凭借热成像、雷达等火控系统依然能够精准锁定目标。火光在雾中闪烁，敌人如烟花般消逝——能见度降低，但炮弹致命不减。\n\n她基于[狮]B系列6x6底盘，后部方舱搭载发烟设备和烟幕剂储存罐。多车编队协同作业时，可以在短时间内覆盖大片区域，为装甲部队的进攻或撤退提供可靠掩护。欢迎来到雪原。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "战场发烟车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-25B[狮]",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "6x6 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "方舱",
+        "labelEn": "Module",
+        "value": "发烟设备 + 烟幕剂储存",
+        "highlight": true
+      },
+      {
+        "label": "作战方式",
+        "labelEn": "Operation",
+        "value": "多车编队协同",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "能见度降低，但炮弹致命不减。有人说她破坏了雪原的纯净——但战场本就不该有纯真。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "支援车辆",
+          "href": "products.html#support"
+        },
+        {
+          "text": "ZNHI-25B2[狮]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "LION Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "战场发烟车",
+        "productCode": "ZNHI-25B2[狮]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[狮]系列6x6战场发烟车，释放大面积烟幕为己方部队提供视觉掩护。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "战场发烟车"
+            },
+            {
+              "label": "底盘",
+              "value": "ZNHI-25B[狮]"
+            },
+            {
+              "label": "驱动",
+              "value": "6x6 全轮驱动"
+            },
+            {
+              "label": "方舱",
+              "value": "发烟设备 + 烟幕剂储存"
+            },
+            {
+              "label": "作战方式",
+              "value": "多车编队协同"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "能见度降低，但炮弹致命不减。敌人看不见我们，我们却能看见他们。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含烟幕作战指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "理塘王",
+            "content": "那天，雾从树林中冒出，起初只是一片薄雾。<br/>高原上曾经纯净的视线，如今被白色迷雾吞噬。<br/>她们是烟幕的制造者，也是理塘雪原的新主人。",
+            "statusText": {
+              "enabled": true,
+              "text": "Smoke Screen: Deployed"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "wb_cloudy",
+              "color": "primary"
+            },
+            "iconLabel": "Smoke Deployment",
+            "title": "烟幕战术",
+            "content": "基于[狮]B型6x6底盘，搭载大面积烟幕释放系统。<br/>多车编队协同作战，可在短时间内覆盖广阔区域。<br/>火光在雾中闪烁，己方火控系统不受影响——<br/><span class=\"text-white border-b border-primary/40 pb-1\">能见度降低，但炮弹致命不减。</span>",
+            "dataBlocks": [
+              {
+                "value": "6x6",
+                "label": "全轮驱动"
+              },
+              {
+                "value": "大面积",
+                "label": "烟幕覆盖"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-25b2-lion/ZNHI-25B2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Smoke Active",
+              "isAnimated": true
+            },
+            "title": "致命迷雾",
+            "content": "敌方无法有效观测和瞄准，只能在迷雾中盲目射击。<br/>而己方凭借先进火控系统，依然可以精准打击目标。<br/>火光闪烁，敌人如烟花般消逝在白色的迷雾中。<br/>欢迎来到雪原，欢迎来到理塘王的战场。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "能见度降低，但炮弹致命不减。敌人看不见我们，我们却能看见他们——这就是烟幕战的本质。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [狮] LION SERIES",
+        "products": [
+          {
+            "id": "znhi-25-lion",
+            "imageUrl": "products/znhi-25-lion/thumb.webp",
+            "productCode": "ZNHI-25[狮]",
+            "productName": "多用途卡车",
+            "productDesc": "致敬耐运王",
+            "href": "product-detail.html?id=znhi-25-lion"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "战场发烟车，烟幕掩护，多车编队协同"
+    }
+  },
+  {
+    "id": "znhi-34-sulfur",
+    "modelId": "ZNHI-34[硫]",
+    "name": "牵引式榴弹炮",
+    "nameEn": "Towed Howitzer",
+    "nickname": "捆绑消费",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "硫",
+      "seriesEn": "SULFUR",
+      "category": "火炮系统",
+      "subcategory": "牵引火炮",
+      "tags": [
+        "火炮“, ”牵引式“, ”榴弹炮"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-34-sulfur/ZNHI-34.webp",
+      "hero": "products/znhi-34-sulfur/ZNHI-34.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-34[硫].webp"
+      ]
+    },
+    "description": {
+      "tagline": "买了火炮别忘了买牵引车哦",
+      "summary": "监狱第一款牵引式榴弹炮。一直以来监狱都只提供自行火炮，这是首次尝试牵引火炮领域。她的活动完全依赖牵引车，推荐搭配ZNHI-25[狮]使用。",
+      "full": "一直以来监狱都只提供自行火炮，因为监狱根本就没有牵引火炮——典狱长也不知道为什么牵引火炮造起来这么麻烦。ZNHI-34[硫]是监狱在这个领域的首次尝试。\n\n作为牵引火炮，她的活动几乎完全依赖牵引车，无法像自行火炮那样自主机动。典狱长一直头疼该把她放在什么位置，最终还是决定给她一个正式编号。买了火炮别忘了买牵引车，这里推荐ZNHI-25[狮]。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "牵引式榴弹炮",
+        "highlight": false
+      },
+      {
+        "label": "机动方式",
+        "labelEn": "Mobility",
+        "value": "牵引（推荐-25[狮]）",
+        "highlight": true
+      },
+      {
+        "label": "展开方式",
+        "labelEn": "Deploy",
+        "value": "支腿撑开",
+        "highlight": false
+      },
+      {
+        "label": "自主机动",
+        "labelEn": "Self-propelled",
+        "value": "无",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她是监狱第一门牵引火炮，我也不知道为什么造起来这么麻烦。买了火炮别忘了买牵引车哦。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 33,
+      "categories": [
+        "military",
+        "artillery"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-34-sulfur/ZNHI-34.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.15,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[硫] SULFUR SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-34"
+      },
+      "title": {
+        "text": "牵引式榴弹炮",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "监狱第一款牵引式榴弹炮，活动完全依赖牵引车，推荐搭配ZNHI-25[狮]使用。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "类型 Type",
+            "value": "牵引式榴弹炮"
+          },
+          {
+            "label": "机动 Mobility",
+            "value": "牵引"
+          },
+          {
+            "label": "推荐 Recommend",
+            "value": "-25[狮]"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "火炮系统",
+          "href": "products.html#artillery"
+        },
+        {
+          "text": "ZNHI-34[硫]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-34-sulfur/ZNHI-34.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "SULFUR Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-34-sulfur/ZNHI-34.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "牵引式榴弹炮",
+        "productCode": "ZNHI-34[硫]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱第一款牵引式榴弹炮，活动完全依赖牵引车。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "牵引式榴弹炮"
+            },
+            {
+              "label": "机动方式",
+              "value": "牵引（推荐-25[狮]）"
+            },
+            {
+              "label": "展开方式",
+              "value": "支腿撑开"
+            },
+            {
+              "label": "自主机动",
+              "value": "无"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是监狱第一门牵引火炮，我也不知道为什么造起来这么麻烦。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含牵引车推荐",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-34-sulfur/ZNHI-34.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "捆绑消费",
+            "content": "一直以来监狱都只提供自行火炮，因为根本就没有牵引火炮。<br/>典狱长也不知道为什么牵引火炮造起来这么麻烦。<br/>ZNHI-34[硫]是监狱在这个领域的首次尝试——<br/>买了火炮别忘了买牵引车哦，这里推荐ZNHI-25[狮]。",
+            "statusText": {
+              "enabled": true,
+              "text": "Towed Artillery: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-34-sulfur/ZNHI-34.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_shipping",
+              "color": "primary"
+            },
+            "iconLabel": "Towed System",
+            "title": "共生关系",
+            "content": "作为牵引火炮，她的活动几乎完全依赖牵引车。<br/>无法像自行火炮那样自主机动，但也因此结构更简单、维护更方便。<br/>展开时支腿撑开，稳定可靠；收起后由牵引车拖行——<br/><span class=\"text-white border-b border-primary/40 pb-1\">火炮与牵引车，是战场上的共生伙伴。</span>",
+            "dataBlocks": [
+              {
+                "value": "牵引式",
+                "label": "机动"
+              },
+              {
+                "value": "支腿",
+                "label": "稳定"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "推荐搭配",
+        "products": [
+          {
+            "id": "znhi-25-lion",
+            "imageUrl": "products/znhi-25-lion/thumb.webp",
+            "productCode": "ZNHI-25[狮]",
+            "productName": "多用途卡车",
+            "productDesc": "推荐牵引车",
+            "href": "product-detail.html?id=znhi-25-lion"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱第一款牵引火炮，需搭配牵引车使用"
+    }
+  },
+  {
+    "id": "znhi-08",
+    "modelId": "ZNHI-08",
+    "name": "小型滑移装载机",
+    "nameEn": "Compact Skid Steer Loader",
+    "nickname": "小巧玲珑",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "",
+      "seriesEn": "",
+      "category": "工程机械",
+      "subcategory": "装载机",
+      "tags": [
+        "工程“, ”装载“, ”紧凑“, ”民用"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-08/ZNHI-08.webp",
+      "hero": "products/znhi-08/ZNHI-08.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-08.webp"
+      ]
+    },
+    "description": {
+      "tagline": "曾经尘封多年，如今小巧依旧",
+      "summary": "监狱最小的工程机械。早期设计指标要求的尺寸以当时的技术很难实现，导致她尘封多年。指标修改后终于得以重制，虽然过程拖延了很久。",
+      "full": "在曾经的指标里，ZNHI-08的设计被严格控制在一个以那时的技术很难达到的尺寸里。过于苛刻的要求造成了各种问题，直接导致她尘封多年。\n\n后来指标得到修改，但因为典狱长有更重要的事情要做，重制工作依然拖延了非常久。如今她终于问世，虽然比原计划大了一点，但依然是监狱最小巧的工程机械，能够在狭窄空间内完成装载和清理作业。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "小型滑移装载机",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4轮",
+        "highlight": false
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "紧凑设计",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Usage",
+        "value": "狭窄空间作业",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她在图纸上躺了太久，不是我不想做，是当时的技术真的达不到那个尺寸。现在终于能见到她了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程机械",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-08"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-08/ZNHI-08.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Engineering",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-08/ZNHI-08.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "小型滑移装载机",
+        "productCode": "ZNHI-08",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱最小巧的工程机械，曾因技术限制尘封多年，如今终于问世。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "小型滑移装载机"
+            },
+            {
+              "label": "驱动",
+              "value": "4轮"
+            },
+            {
+              "label": "特点",
+              "value": "紧凑设计"
+            },
+            {
+              "label": "用途",
+              "value": "狭窄空间作业"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她在图纸上躺了太久，不是我不想做，是当时的技术真的达不到那个尺寸。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-08/ZNHI-08.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "小巧玲珑",
+            "content": "在曾经的指标里，她的设计被严格控制在一个以那时的技术很难达到的尺寸里。<br/>过于苛刻的要求造成了各种问题，于是她在图纸上躺了很久很久。<br/>典狱长一直有更重要的事情要忙，直到指标放宽后——<br/>她终于得见天日。",
+            "statusText": {
+              "enabled": true,
+              "text": "Compact Design: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-08/ZNHI-08.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "precision_manufacturing",
+              "color": "primary"
+            },
+            "iconLabel": "Compact Power",
+            "title": "技术突破",
+            "content": "虽然比原计划大了一点，但她依然是监狱最小巧的工程机械。<br/>4轮驱动，紧凑设计，能够在狭窄空间内完成装载和清理作业。<br/>白色车身配黑色铲斗是她的标志——<br/><span class=\"text-white border-b border-primary/40 pb-1\">小有小的好处。</span>",
+            "dataBlocks": [
+              {
+                "value": "4轮",
+                "label": "驱动"
+              },
+              {
+                "value": "紧凑",
+                "label": "设计"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-08/ZNHI-08.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Ready to Work",
+              "isAnimated": true
+            },
+            "title": "狭小空间的王者",
+            "content": "在狭窄巷道、拥挤仓库、有限场地，大型机械无法施展的地方——<br/>ZNHI-08可以灵活穿梭，完成装载、清理、搬运等多种作业。<br/>支持多种属具快换，铲斗、举升臂任君选择。<br/>别看她小，干起活来一点不含糊。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她在图纸上躺了太久，不是我不想做，是当时的技术真的达不到那个尺寸。现在终于能见到她了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI 工程机械系列",
+        "products": [
+          {
+            "id": "znhi-29",
+            "imageUrl": "products/znhi-29/thumb.webp",
+            "productCode": "ZNHI-29",
+            "productName": "土木高达",
+            "productDesc": "重型工程机械",
+            "href": "product-detail.html?id=znhi-29"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "小型滑移装载机，曾尘封多年，重制后问世"
+    }
+  },
+  {
+    "id": "znhi-04s4-ice",
+    "modelId": "ZNHI-04S4[冰]",
+    "name": "重型自行榴弹炮",
+    "nameEn": "Heavy Self-propelled Howitzer",
+    "nickname": "是攀枝花吗",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "火炮系统",
+      "subcategory": "自行火炮",
+      "tags": [
+        "履带式“, ”火炮“, ”自行“, ”重型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+      "hero": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04S4[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "生来就是替代者",
+      "summary": "基于-04底盘爆改而来的新一代自行榴弹炮。全新车体，全新动力包，长管大口径，360°射界，兼顾平射能力，不用助锄，不用随行弹药车，仿佛生来就是-04S2的替代者。",
+      "full": "ZNHI-04S4[冰]是对-04底盘的一次彻底改造。全新的车体设计，全新的动力包，使她脱胎换骨。长管大口径火炮赋予她强大的火力，360°射界让她可以应对任何方向的威胁，同时兼顾平射能力，必要时甚至可以对付低空目标。\n\n她不需要助锄就能稳定射击，也不需要随行弹药车——车载弹药足以完成大多数任务。相比老前辈-04S2，她在各方面都有显著提升，仿佛生来就是为了替代前者而存在。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型自行榴弹炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-04（爆改）",
+        "highlight": false
+      },
+      {
+        "label": "火炮",
+        "labelEn": "Gun",
+        "value": "长管大口径",
+        "highlight": true
+      },
+      {
+        "label": "射界",
+        "labelEn": "Traverse",
+        "value": "360°",
+        "highlight": true
+      },
+      {
+        "label": "平射能力",
+        "labelEn": "Direct Fire",
+        "value": "有",
+        "highlight": false
+      },
+      {
+        "label": "助锄",
+        "labelEn": "Spade",
+        "value": "不需要",
+        "highlight": false
+      },
+      {
+        "label": "随行弹药车",
+        "labelEn": "Ammo Vehicle",
+        "value": "不需要",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "是攀枝花吗？不，她比攀枝花更强。生来就是替代者，-04S2可以安心退役了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 35,
+      "categories": [
+        "military",
+        "artillery"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.2,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04S4"
+      },
+      "title": {
+        "text": "重型自行榴弹炮",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "全新车体，全新动力包，长管大口径，360°射界，生来就是-04S2的替代者。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "火炮 Gun",
+            "value": "长管大口径"
+          },
+          {
+            "label": "射界 Traverse",
+            "value": "360°"
+          },
+          {
+            "label": "助锄 Spade",
+            "value": "不需要"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "火炮系统",
+          "href": "products.html#artillery"
+        },
+        {
+          "text": "ZNHI-04S4[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ICE Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型自行榴弹炮",
+        "productCode": "ZNHI-04S4[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-04底盘爆改而来的新一代自行榴弹炮，-04S2的替代者。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "重型自行榴弹炮"
+            },
+            {
+              "label": "底盘",
+              "value": "ZNHI-04（爆改）"
+            },
+            {
+              "label": "火炮",
+              "value": "长管大口径"
+            },
+            {
+              "label": "射界",
+              "value": "360°"
+            },
+            {
+              "label": "平射能力",
+              "value": "有"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "是攀枝花吗？不，她比攀枝花更强。生来就是替代者。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含火控系统说明",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "是攀枝花吗",
+            "content": "当人们第一次看到她时，都会问同一个问题。<br/>360°射界，长管大口径，不需要助锄，不需要随行弹药车——<br/>这些特征让人联想到那个传奇的火炮系统。<br/>但她不是。她比那更强。",
+            "statusText": {
+              "enabled": true,
+              "text": "Heavy Artillery: Online"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "my_location",
+              "color": "primary"
+            },
+            "iconLabel": "All-Direction Fire",
+            "title": "全能火炮",
+            "content": "基于-04底盘爆改而来，全新车体，全新动力包。<br/>360°射界让她可以快速转向任意方向，无需调整车身。<br/>长管大口径提供强大火力，兼顾平射能力可直接打击地面目标。<br/><span class=\"text-white border-b border-primary/40 pb-1\">不需要助锄，不需要随行弹药车——她是完整的战斗单位。</span>",
+            "dataBlocks": [
+              {
+                "value": "360°",
+                "label": "射界"
+              },
+              {
+                "value": "长管",
+                "label": "大口径"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04s4-ice/ZNHI-04S4.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Fire Ready",
+              "isAnimated": true
+            },
+            "title": "替代者",
+            "content": "她生来就是替代者。<br/>ZNHI-04S2曾是监狱火炮系统的主力，但时代在进步，需求在变化。<br/>-04S4拥有前辈所不具备的全向射界、平射能力和独立作战能力。<br/>是时候让老前辈安心退役了——新一代已经准备就绪。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "是攀枝花吗？不，她比攀枝花更强。生来就是替代者，-04S2可以安心退役了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04-ice",
+            "imageUrl": "products/znhi-04-ice/thumb.webp",
+            "productCode": "ZNHI-04[冰]",
+            "productName": "主战坦克",
+            "productDesc": "[冰]系列基础型",
+            "href": "product-detail.html?id=znhi-04-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "重型自行榴弹炮，-04S2替代者，360°射界"
+    }
+  },
+  {
+    "id": "znhi-04s3-ice",
+    "modelId": "ZNHI-04S3[冰]",
+    "name": "双管自行榴弹炮",
+    "nameEn": "Twin-barrel Self-propelled Howitzer",
+    "nickname": "大头娃娃",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "火炮系统",
+      "subcategory": "自行火炮",
+      "tags": [
+        "履带式“, ”火炮“, ”自行“, ”双管"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+      "hero": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04S3[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "2秒一发，后勤噩梦",
+      "summary": "受联盟SV原型车启发设计的双管自行榴弹炮。2秒一发的射速使她在火力支援时威力惊人，但水平双管布局在开火时会导致炮台左右晃动，影响射击精度。后勤压力也相当可观。",
+      "full": "受联盟SV原型车启发，监狱设计出了属于自己的双管自行榴弹炮ZNHI-04S3[冰]。她那巨大的炮台让她获得了「大头娃娃」的绰号。\n\n双管设计赋予她惊人的火力密度，2秒一发的曲射火力在支援时相当给力。但设计上也存在问题：水平双管布局在开火时会导致炮台左右晃动，严重影响射击精度。此外，恐怖的弹药消耗速度意味着后勤压力巨大——使用她之前，记得先给后勤磕一个。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "双管自行榴弹炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-04",
+        "highlight": false
+      },
+      {
+        "label": "火炮",
+        "labelEn": "Gun",
+        "value": "水平双管",
+        "highlight": true
+      },
+      {
+        "label": "射速",
+        "labelEn": "Rate of Fire",
+        "value": "2秒/发",
+        "highlight": true
+      },
+      {
+        "label": "已知问题",
+        "labelEn": "Known Issue",
+        "value": "开火时炮台晃动",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她的火力确实猛，但记得给后勤磕一个——那个弹药消耗速度，没人受得了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 36,
+      "categories": [
+        "military",
+        "artillery"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.2,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04S3"
+      },
+      "title": {
+        "text": "双管自行榴弹炮",
+        "fontSize": "5xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "受联盟SV原型车启发设计，2秒一发的曲射火力，后勤噩梦。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "火炮 Gun",
+            "value": "水平双管"
+          },
+          {
+            "label": "射速 ROF",
+            "value": "2秒/发"
+          },
+          {
+            "label": "灵感 Inspired",
+            "value": "联盟SV"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "火炮系统",
+          "href": "products.html#artillery"
+        },
+        {
+          "text": "ZNHI-04S3[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ICE Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "双管自行榴弹炮",
+        "productCode": "ZNHI-04S3[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "受联盟SV启发的双管自行榴弹炮，火力猛但后勤压力大。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "双管自行榴弹炮"
+            },
+            {
+              "label": "底盘",
+              "value": "ZNHI-04"
+            },
+            {
+              "label": "火炮",
+              "value": "水平双管"
+            },
+            {
+              "label": "射速",
+              "value": "2秒/发"
+            },
+            {
+              "label": "已知问题",
+              "value": "开火时炮台晃动"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她的火力确实猛，但记得给后勤磕一个。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含弹药消耗说明",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "大头娃娃",
+            "content": "受联盟SV原型车启发，监狱设计出了属于自己的双管自行榴弹炮。<br/>水平双管布局让她的炮台显得格外庞大，如同一个大头娃娃。<br/>两根炮管并列向前，威势惊人——<br/>直到她开火。",
+            "statusText": {
+              "enabled": true,
+              "text": "Twin Barrels: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "whatshot",
+              "color": "primary"
+            },
+            "iconLabel": "High Rate of Fire",
+            "title": "火力至上",
+            "content": "2秒一发的射速，在火力支援时威力惊人。<br/>当两根炮管轮流开火，曲射炮弹如雨点般倾泻而下。<br/>敌方阵地很快被炮火覆盖，没有喘息的机会——<br/><span class=\"text-white border-b border-primary/40 pb-1\">在火力密度面前，精度可以暂时靠边站。</span>",
+            "dataBlocks": [
+              {
+                "value": "2秒/发",
+                "label": "射速"
+              },
+              {
+                "value": "双管",
+                "label": "水平"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04s3-ice/ZNHI-04S3.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Ammunition Warning",
+              "isAnimated": true
+            },
+            "title": "代价",
+            "content": "然而水平双管布局在开火时导致炮台左右晃动，严重影响射击精度。<br/>典狱长后来才发现这个问题无法彻底解决。<br/>更要命的是弹药消耗速度——后勤人员看到她就头疼。<br/>2秒一发的射速意味着补给车永远跟不上她的胃口。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她的火力确实猛，但记得给后勤磕一个——那个弹药消耗速度，没人受得了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": false,
+        "title": "",
+        "specs": [],
+        "description": "",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04s4-ice",
+            "imageUrl": "products/znhi-04s4-ice/thumb.webp",
+            "productCode": "ZNHI-04S4[冰]",
+            "productName": "重型自行榴弹炮",
+            "productDesc": "是攀枝花吗",
+            "href": "product-detail.html?id=znhi-04s4-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "双管自行榴弹炮，联盟SV启发，后勤压力大"
+    }
+  },
+  {
+    "id": "znhi-01a2-snow",
+    "modelId": "ZNHI-01A2[雪]",
+    "name": "轻型坦克",
+    "nameEn": "Light Tank",
+    "nickname": "夜幕降临时",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雪",
+      "seriesEn": "SNOW",
+      "category": "装甲车辆",
+      "subcategory": "轻型坦克",
+      "tags": [
+        "履带式“, ”轻装甲“, ”夜战“, ”侦察"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+      "hero": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-01a2-snow/ZNHI-01A2-2.webp",
+          "alt": "夜景图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-01A2[雪].webp",
+        "ZNHI-01A2[雪]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "夜幕笼罩下，她如暴风雪般吞噬每一个敌人",
+      "summary": "[雪]系列轻型坦克的夜战强化型。独特的炮塔设计使她在复杂地形下表现优异，而她最大的特点在于那套独一无二的夜视系统，赋予她在低亮度环境下更强的态势感知能力。",
+      "full": "简洁、优雅、致命——这是对ZNHI-01A2[雪]最好的概括。她的炮塔设计经过优化，在复杂地形下作战时拥有出色的射界和反应速度。而她与其他[雪]系列最大的区别，在于那套独一无二的夜视仪系统。当夜幕降临，其他车辆开始依赖照明弹和探照灯时，她早已将战场尽收眼底。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型坦克",
+        "highlight": false
+      },
+      {
+        "label": "行走",
+        "labelEn": "Mobility",
+        "value": "履带式",
+        "highlight": false
+      },
+      {
+        "label": "特殊装备",
+        "labelEn": "Special Equipment",
+        "value": "先进夜视系统",
+        "highlight": true
+      },
+      {
+        "label": "适应环境",
+        "labelEn": "Environment",
+        "value": "复杂地形 / 低亮度",
+        "highlight": true
+      },
+      {
+        "label": "炮塔特点",
+        "labelEn": "Turret",
+        "value": "优化射界 / 快速反应",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "这个孩子喜欢夜晚。当别人还在摸黑的时候，她已经看清了一切。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 37,
+      "categories": [
+        "military",
+        "armor"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+        "filters": {
+          "opacity": 0.6,
+          "saturate": 0.7,
+          "contrast": 1.3,
+          "brightness": 0.75,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-b",
+          "fromColor": "black/60",
+          "viaColor": "transparent",
+          "toColor": "background-dark/90"
+        },
+        "overlayColor": "blue-500/10",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-1",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[雪] SNOW SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "轻型坦克",
+        "fontSize": "8xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "",
+        "direction": "",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "visibility",
+        "opacity": 0.15
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "NIGHT HUNTER"
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "先进",
+            "label": "夜视系统"
+          },
+          {
+            "value": "优化",
+            "label": "炮塔射界"
+          },
+          {
+            "value": "轻型",
+            "label": "快速反应"
+          }
+        ]
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-01A2[雪]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Night Fighter",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-01a2-snow/ZNHI-01A2-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型坦克",
+        "productCode": "ZNHI-01A2[雪]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "简洁、优雅、致命。独特的炮塔设计使她在复杂地形下表现优异，先进的夜视系统赋予她在低亮度环境下无与伦比的态势感知能力。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "轻型坦克"
+            },
+            {
+              "label": "行走",
+              "value": "履带式"
+            },
+            {
+              "label": "特殊装备",
+              "value": "先进夜视系统"
+            },
+            {
+              "label": "炮塔设计",
+              "value": "优化射界 / 快速反应"
+            },
+            {
+              "label": "适应环境",
+              "value": "复杂地形 / 低亮度"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这个孩子喜欢夜晚。当别人还在摸黑的时候，她已经看清了一切。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含夜视系统操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.75
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "blue-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "夜幕降临时",
+            "content": "简洁、优雅、致命。<br/>当极昼的金光褪去，极夜的黑暗降临，其他车辆开始依赖照明弹和探照灯。<br/>而她，早已将战场尽收眼底。<br/>夜晚属于她。",
+            "statusText": {
+              "enabled": true,
+              "text": "Night Vision: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "visibility",
+              "color": "primary"
+            },
+            "iconLabel": "Night Vision",
+            "title": "独一无二的眼睛",
+            "content": "她与其他[雪]系列最大的区别，在于那套独一无二的夜视仪系统。<br/>在低亮度环境下，她的态势感知能力远超同侪。<br/>优化的炮塔设计赋予她出色的射界和快速反应能力——<br/><span class=\"text-white border-b border-primary/40 pb-1\">当别人还在摸黑的时候，她已经看清了一切。</span>",
+            "dataBlocks": [
+              {
+                "value": "先进",
+                "label": "夜视"
+              },
+              {
+                "value": "优化",
+                "label": "炮塔"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-01a2-snow/ZNHI-01A2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.25
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Hunter Mode",
+              "isAnimated": true
+            },
+            "title": "暴风雪",
+            "content": "夜幕笼罩下，她如暴风雪般吞噬每一个敌人。<br/>无声无息，精准致命，在黑暗中来去自如。<br/>敌方士兵只能看到一团白色的影子闪过，随后便是炮弹的轰鸣。<br/>她是黑夜的主宰，是极地的猎手。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这个孩子喜欢夜晚。当别人还在摸黑的时候，她已经看清了一切。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型坦克"
+          },
+          {
+            "label": "Specialty",
+            "value": "夜战"
+          },
+          {
+            "label": "Turret",
+            "value": "优化射界设计"
+          },
+          {
+            "label": "Vision",
+            "value": "先进夜视系统"
+          }
+        ],
+        "description": "ZNHI-01A2[雪] 是[雪]系列轻型坦克的夜战强化型号，凭借独特的炮塔设计和先进的夜视系统，成为监狱夜间作战的主力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含夜视系统操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [雪] SNOW SERIES",
+        "products": [
+          {
+            "id": "znhi-01a1-snow",
+            "imageUrl": "products/znhi-01a1-snow/thumb.webp",
+            "productCode": "ZNHI-01A1[雪]",
+            "productName": "轻型坦克",
+            "productDesc": "白色电视",
+            "href": "product-detail.html?id=znhi-01a1-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "夜战强化型轻型坦克，先进夜视系统"
+    }
+  },
+  {
+    "id": "znhi-04s1-ice",
+    "modelId": "ZNHI-04S1[冰]",
+    "name": "自行火箭炮",
+    "nameEn": "Self-propelled Rocket Artillery",
+    "nickname": "开服元祖",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "自行火炮",
+      "tags": [
+        "履带式“, ”火箭炮“, ”早期型“, ”原型"
+      ]
+    },
+    "status": {
+      "operational": false,
+      "statusLabel": "prototype",
+      "statusText": "原型/半成品",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+      "hero": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04S1[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "监狱炮兵的起点",
+      "summary": "监狱重工最早期的自行火炮之一。在-04底盘刚量产时，就有了将-09S1的火箭炮上装移植过来的尝试。虽然因为是半成品而鲜少出镜，但她是[冰]系列自行火炮的真正起点。",
+      "full": "在-04底盘刚量产没多久时，监狱就已经有了将-09S1的上装移植过来的想法。作为监狱炮兵体系的早期探索，ZNHI-04S1[冰]验证了将火箭炮系统与坦克底盘结合的可行性。她继承了-04底盘优秀的机动性和防护能力，同时搭载了来自-09S1的多管火箭炮系统，具备可观的火力投射能力。然而由于当时的技术积累不足，火控系统和弹药供给等方面存在诸多问题，她始终停留在半成品阶段，只在[冰]系合照里出镜过。尽管如此，她的存在为后续的-04S2、S3、S4等型号奠定了宝贵的技术基础，是[冰]系列自行火炮家族的真正开端。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行火箭炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-04",
+        "highlight": false
+      },
+      {
+        "label": "上装来源",
+        "labelEn": "Weapon System",
+        "value": "ZNHI-09S1 移植",
+        "highlight": true
+      },
+      {
+        "label": "状态",
+        "labelEn": "Status",
+        "value": "原型/半成品",
+        "highlight": false
+      },
+      {
+        "label": "历史地位",
+        "labelEn": "Historical",
+        "value": "[冰]系列起点",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她是[冰]系列的起点，虽然是半成品，但没有她就没有后来的孩子们。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "自行火炮",
+          "href": "products.html#artillery"
+        },
+        {
+          "text": "ZNHI-04S1[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Prototype",
+            "type": "secondary"
+          },
+          {
+            "text": "ICE Origin",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行火箭炮",
+        "productCode": "ZNHI-04S1[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工最早期的自行火炮，将-09S1的火箭炮上装移植到-04底盘上。虽然是半成品，但她是[冰]系列的真正起点。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "自行火箭炮"
+            },
+            {
+              "label": "底盘",
+              "value": "ZNHI-04"
+            },
+            {
+              "label": "上装来源",
+              "value": "ZNHI-09S1 移植"
+            },
+            {
+              "label": "状态",
+              "value": "原型/半成品"
+            },
+            {
+              "label": "历史地位",
+              "value": "[冰]系列起点"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是[冰]系列的起点，虽然是半成品，但没有她就没有后来的孩子们。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "开服元祖",
+            "content": "在-04底盘刚量产没多久时，就已经有了将-09S1的火箭炮上装移植过来的想法。<br/>她是监狱重工最早期的自行火炮尝试之一。<br/>虽然因为是半成品而鲜少出镜，只在[冰]系合照里出现过——<br/>但她是真正的起点。",
+            "statusText": {
+              "enabled": true,
+              "text": "Prototype: Archive"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "history",
+              "color": "primary"
+            },
+            "iconLabel": "Origin",
+            "title": "移植实验",
+            "content": "将ZNHI-09S1的火箭炮系统完整移植到ZNHI-04底盘上。<br/>这是监狱首次尝试在履带底盘上搭载火箭炮。<br/>虽然技术不够成熟，很多细节还没有打磨——<br/><span class=\"text-white border-b border-primary/40 pb-1\">但这次实验为后续[冰]系列奠定了技术基础。</span>",
+            "dataBlocks": [
+              {
+                "value": "04底盘",
+                "label": "基础"
+              },
+              {
+                "value": "09S1",
+                "label": "移植"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04s1-ice/ZNHI-04S1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "ICE Origin",
+              "isAnimated": true
+            },
+            "title": "起点",
+            "content": "她没有被大规模量产，没有参与过实战，甚至连完整的设计都算不上。<br/>但她是[冰]系列的起点——没有她，就没有后来的-04S2、S3、S4。<br/>监狱炮兵从这里开始，从一次不完美的移植实验开始。<br/>有时候，起点不需要完美，只需要迈出第一步。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是[冰]系列的起点，虽然是半成品，但没有她就没有后来的孩子们。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "自行火箭炮"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-04"
+          },
+          {
+            "label": "Origin",
+            "value": "ZNHI-09S1 移植"
+          },
+          {
+            "label": "Status",
+            "value": "原型"
+          }
+        ],
+        "description": "ZNHI-04S1[冰] 是监狱重工最早的自行火炮尝试，将-09S1的火箭炮系统移植到-04底盘上，为后续[冰]系列自行火炮奠定了技术基础。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04s2-ice",
+            "imageUrl": "products/znhi-04s2-ice/thumb.webp",
+            "productCode": "ZNHI-04S2[冰]",
+            "productName": "自行榴弹炮",
+            "productDesc": "呜呜出品火炮",
+            "href": "product-detail.html?id=znhi-04s2-ice"
+          },
+          {
+            "id": "znhi-04s3-ice",
+            "imageUrl": "products/znhi-04s3-ice/thumb.webp",
+            "productCode": "ZNHI-04S3[冰]",
+            "productName": "双管自行榴弹炮",
+            "productDesc": "大头娃娃",
+            "href": "product-detail.html?id=znhi-04s3-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "开服元祖，[冰]系列自行火炮的起点，半成品"
+    }
+  },
+  {
+    "id": "znhi-31a1-thunder",
+    "modelId": "ZNHI-31A1[雷]",
+    "name": "主战坦克",
+    "nameEn": "Main Battle Tank",
+    "nickname": "叹息纸墙",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雷",
+      "seriesEn": "THUNDER",
+      "category": "装甲车辆",
+      "subcategory": "主战坦克",
+      "tags": [
+        "履带式“, ”重装甲“, ”大口径“, ”新一代"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+      "hero": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-31a1-thunder/ZNHI-31A1-2.webp",
+          "alt": "雪地侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-31A1[雷].webp",
+        "ZNHI-31A1[雷]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "正面无敌，但请别让敌人看到炮塔",
+      "summary": "监狱新一代主战坦克。她拥有全监狱最硬的正面防护、口径最大的坦克炮、优于前辈们的机动性——以及几乎没有装甲的炮塔。一个时代的矛盾体，在火力与防护之间做出了极端的取舍。",
+      "full": "新的世界，新的主战坦克。ZNHI-31A1[雷]代表着监狱装甲力量的新方向：她拥有全监狱最硬的正面防护，足以抵御绝大多数反坦克武器的直击；口径最大的坦克炮赋予她压倒性的火力优势；经过优化的动力系统使她拥有优于前辈们的机动性。然而，为了实现这一切，她的炮塔装甲被削减到了极限——薄得几乎像纸墙，这也是她“叹息纸墙”绰号的由来。时代变了，她似乎无法像前辈们那样经受实战的检验，但实际上也没几个孩子真的经历过实战。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "主战坦克",
+        "highlight": false
+      },
+      {
+        "label": "行走",
+        "labelEn": "Mobility",
+        "value": "履带式",
+        "highlight": false
+      },
+      {
+        "label": "正面防护",
+        "labelEn": "Frontal Armor",
+        "value": "全监狱最强",
+        "highlight": true
+      },
+      {
+        "label": "主炮",
+        "labelEn": "Main Gun",
+        "value": "监狱最大口径坦克炮",
+        "highlight": true
+      },
+      {
+        "label": "机动性",
+        "labelEn": "Mobility",
+        "value": "优于前辈",
+        "highlight": false
+      },
+      {
+        "label": "炮塔装甲",
+        "labelEn": "Turret Armor",
+        "value": "极薄",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她的正面坚不可摧，但炮塔……就当没有吧。记住，永远用正面对敌。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 39,
+      "categories": [
+        "military",
+        "armor"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.85,
+          "contrast": 1.2,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-r",
+          "fromColor": "background-dark",
+          "viaColor": "background-dark/70",
+          "toColor": "transparent"
+        },
+        "overlayColor": "yellow-500/8",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "split",
+        "gridCols": "md:grid-cols-2",
+        "alignItems": "items-center",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[雷] THUNDER SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "主战坦克",
+        "fontSize": "7xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "新一代主战坦克。她拥有全监狱最硬的正面防护、口径最大的坦克炮、优于前辈们的机动性——以及几乎没有装甲的炮塔。一个时代的矛盾体，在火力与防护之间做出了极端的取舍。",
+        "maxWidth": "max-w-xl"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "",
+        "direction": "",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": true,
+        "text": "技术手册",
+        "href": "#",
+        "icon": "download"
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      },
+      "specsList": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "Type",
+            "value": "主战坦克 MBT"
+          },
+          {
+            "label": "Frontal Armor",
+            "value": "全监狱最强"
+          },
+          {
+            "label": "Main Gun",
+            "value": "最大口径坦克炮"
+          },
+          {
+            "label": "Mobility",
+            "value": "优于前辈"
+          },
+          {
+            "label": "Turret Armor",
+            "value": "极薄 / 叹息纸墙"
+          }
+        ]
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "主战坦克",
+          "href": "products.html#mbt"
+        },
+        {
+          "text": "ZNHI-31A1[雷]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "New Generation",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-31a1-thunder/ZNHI-31A1-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "主战坦克",
+        "productCode": "ZNHI-31A1[雷]",
+        "restriction": {
+          "enabled": true,
+          "text": "A级安全许可"
+        },
+        "description": {
+          "enabled": true,
+          "text": "新一代主战坦克，拥有全监狱最硬的正面防护和口径最大的坦克炮，但炮塔装甲被削减到了极限。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "主战坦克"
+            },
+            {
+              "label": "行走",
+              "value": "履带式"
+            },
+            {
+              "label": "正面防护",
+              "value": "全监狱最强"
+            },
+            {
+              "label": "主炮",
+              "value": "监狱最大口径坦克炮"
+            },
+            {
+              "label": "炮塔装甲",
+              "value": "极薄（叹息纸墙）"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她的正面坚不可摧，但炮塔……就当没有吧。记住，永远用正面对敌。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "yellow-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "叹息纸墙",
+            "content": "新的世界，以及新的MBT。<br/>她拥有全监狱最硬的正面防护，口径最大的坦克炮，优于前辈们的机动性——<br/>以及几乎没有装甲的炮塔。<br/>时代变了，她似乎无法像前辈们那样经受实战的检验，但实际上也没几个孩子真的经历过实战。",
+            "statusText": {
+              "enabled": true,
+              "text": "New Generation: Online"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-31a1-thunder/ZNHI-31A1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "yellow-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "Ultimate Frontal",
+            "title": "极端取舍",
+            "content": "为了达到全监狱最强的正面防护和最大的火力输出，典狱长做出了极端的取舍。<br/>炮塔装甲被削减到了极限，几乎形同虚设。<br/>但正面装甲坚不可摧，主炮威力无与伦比——<br/><span class=\"text-white border-b border-primary/40 pb-1\">只要你永远用正面对敌。</span>",
+            "dataBlocks": [
+              {
+                "value": "最强",
+                "label": "正面"
+              },
+              {
+                "value": "最大",
+                "label": "主炮"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-31a1-thunder/ZNHI-31A1-2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Frontal Assault",
+              "isAnimated": true
+            },
+            "title": "战术哲学",
+            "content": "她的设计理念很简单：永远正面对敌，绝不暴露侧后。<br/>在开阔地形的正面交火中，她是无可争议的王者。<br/>敌方炮弹在正面装甲上留下浅浅的弹痕，而她的反击一击致命。<br/>这是新世界的主战坦克——一个矛盾的杰作。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她的正面坚不可摧，但炮塔……就当没有吧。记住，永远用正面对敌。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "主战坦克"
+          },
+          {
+            "label": "Frontal",
+            "value": "全监狱最强"
+          },
+          {
+            "label": "Main Gun",
+            "value": "最大口径"
+          },
+          {
+            "label": "Turret",
+            "value": "极薄装甲"
+          }
+        ],
+        "description": "ZNHI-31A1[雷] 是监狱新一代主战坦克，在火力与正面防护上达到了极致，但为此牺牲了炮塔装甲。她代表着监狱装甲力量的新方向。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [雷] THUNDER SERIES",
+        "products": [
+          {
+            "id": "znhi-31b1-thunder",
+            "imageUrl": "products/znhi-31b1-thunder/thumb.webp",
+            "productCode": "ZNHI-31B1[雷]",
+            "productName": "重型步兵支援车",
+            "productDesc": "屁股对敌",
+            "href": "product-detail.html?id=znhi-31b1-thunder"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "新一代MBT，正面最强但炮塔极薄"
+    }
+  },
+  {
+    "id": "znhi-29",
+    "modelId": "ZNHI-29",
+    "name": "小型挖掘机",
+    "nameEn": "Compact Excavator",
+    "nickname": "土木高达",
+    "classification": {
+      "brand": "ZNHI",
+      "series": null,
+      "seriesEn": null,
+      "category": "工程车辆",
+      "subcategory": "挖掘机",
+      "tags": [
+        "民用“, ”工程“, ”履带式“, ”轮式"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-29/ZNHI-29.webp",
+      "hero": "products/znhi-29/ZNHI-29.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-29/ZNHI-29-2.webp",
+          "alt": "履带式版本",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-29.webp",
+        "ZNHI-29-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "监狱重工的民用基因",
+      "summary": "监狱重工出品的小型挖掘机，提供履带式和轮式两种底盘选择。作为民用工程机械产品线的一员，她证明了监狱重工从一开始就不只是军工企业——“重工”二字的由来正是如此。",
+      "full": "监狱重工之所以叫“重工”而不是“军工”，是因为从一开始就没想着走纯军事化路线。早期就有诸如-08、-24等民用产品，所以一直没改名。ZNHI-29作为小型挖掘机，提供履带式和轮式两种底盘配置：履带版适合复杂地形和软土作业，轮式版则具备更好的机动性和公路转场能力，并配有推土铲。两款都采用开放式驾驶室设计，配备防滚架保护操作员安全。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "小型挖掘机",
+        "highlight": false
+      },
+      {
+        "label": "底盘选项",
+        "labelEn": "Chassis",
+        "value": "履带式 / 轮式",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cabin",
+        "value": "开放式 + 防滚架",
+        "highlight": false
+      },
+      {
+        "label": "附属装置",
+        "labelEn": "Attachment",
+        "value": "推土铲（轮式版）",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她是监狱重工'重工'二字的证明——我们从一开始就不只是造武器的。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程机械",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-29"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-29/ZNHI-29.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Civilian",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-29/ZNHI-29.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-29/ZNHI-29-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "小型挖掘机",
+        "productCode": "ZNHI-29",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的民用工程机械，提供履带式和轮式两种底盘选择，适应不同作业需求。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "小型挖掘机"
+            },
+            {
+              "label": "底盘选项",
+              "value": "履带式 / 轮式"
+            },
+            {
+              "label": "驾驶室",
+              "value": "开放式 + 防滚架"
+            },
+            {
+              "label": "附属装置",
+              "value": "推土铲（轮式版）"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是监狱重工'重工'二字的证明——我们从一开始就不只是造武器的。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含操作指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-29/ZNHI-29.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "green-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "土木高达",
+            "content": "监狱重工之所以叫“重工”而不是“军工”，是因为从一开始就没想着走纯军事化路线。<br/>早期就有诸如-08、-24等民用产品，所以一直没改名。<br/>ZNHI-29，小型挖掘机——她是监狱重工民用基因的证明。",
+            "statusText": {
+              "enabled": true,
+              "text": "Civilian Engineering"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-29/ZNHI-29-2.webp",
+            "filters": {
+              "scale": 1.02,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "green-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "precision_manufacturing",
+              "color": "primary"
+            },
+            "iconLabel": "Dual Chassis",
+            "title": "双底盘选择",
+            "content": "履带式：适合复杂地形和软土作业，对地压强低，通过性出色。<br/>轮式：更好的机动性和公路转场能力，配备推土铲扩展功能。<br/>两款都采用开放式驾驶室设计，配备防滚架保护操作员安全——<br/><span class=\"text-white border-b border-primary/40 pb-1\">同一个挖掘机，两种底盘，适应不同的作业需求。</span>",
+            "dataBlocks": [
+              {
+                "value": "履带/轮式",
+                "label": "底盘选项"
+              },
+              {
+                "value": "开放式",
+                "label": "驾驶室"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-29/ZNHI-29.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Civil Engineering Active",
+              "isAnimated": true
+            },
+            "title": "建设者",
+            "content": "她不是主战坦克，也不是重型火炮，她只是一台小型挖掘机。<br/>白色车身，黑色挖掘臂，开放式驾驶室——朴实无华。<br/>但没有她们，城市建不起来，道路修不通，基础设施无从谈起。<br/>监狱重工不只造武器，也造建设者。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是监狱重工'重工'二字的证明——我们从一开始就不只是造武器的。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "小型挖掘机"
+          },
+          {
+            "label": "Chassis",
+            "value": "履带/轮式可选"
+          },
+          {
+            "label": "Cabin",
+            "value": "开放式"
+          },
+          {
+            "label": "Category",
+            "value": "民用"
+          }
+        ],
+        "description": "ZNHI-29 是监狱重工的民用小型挖掘机，提供履带式和轮式两种底盘配置，是监狱重工民用产品线的代表。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含操作指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ENGINEERING SERIES",
+        "products": [
+          {
+            "id": "znhi-08",
+            "imageUrl": "products/znhi-08/thumb.webp",
+            "productCode": "ZNHI-08",
+            "productName": "小型滑移装载机",
+            "productDesc": "小巧玲珑",
+            "href": "product-detail.html?id=znhi-08"
+          },
+          {
+            "id": "znhi-32-1",
+            "imageUrl": "products/znhi-32-1/thumb.webp",
+            "productCode": "ZNHI-32.1",
+            "productName": "履带式起重机",
+            "productDesc": "举重若轻",
+            "href": "product-detail.html?id=znhi-32-1"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "民用小型挖掘机，履带/轮式双版本，体现监狱重工的民用基因"
+    }
+  },
+  {
+    "id": "znhi-11b-eagle",
+    "modelId": "ZNHI-11B[鹰]",
+    "name": "轻型隐身战斗机",
+    "nameEn": "Light Stealth Fighter",
+    "nickname": "已经塞不下了",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鹰",
+      "seriesEn": "EAGLE",
+      "category": "航空器",
+      "subcategory": "战斗机",
+      "tags": [
+        "隐身“, ”轻型“, ”空优“, ”内置弹仓"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-11b-eagle/ZNHI-11B.webp",
+      "hero": "products/znhi-11b-eagle/ZNHI-11B.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-11B[鹰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "塞下4发导弹，塞不下更多了",
+      "summary": "监狱现役最轻的战斗机。两年的等待后，她终于得到了应有的内置弹仓，能够携带4发空空导弹。但代价是内部空间被挤压到极限，航电系统几乎无处安放，升级后甚至连起飞都变得艰难。",
+      "full": "两年了，ZNHI-11B[鹰]终于得到了她应有的内置弹仓。作为监狱现役最轻的战斗机，她的机体空间本就十分有限，在塞下4发导弹之后，几乎没有空间留给航电系统了。升级完成后，增加的重量使她连起飞都变得十分艰难。但典狱长表示这不是问题——毕竟监狱从不缺乏创造性的解决方案。她虽小，却是监狱空军不可或缺的一员。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型隐身战斗机",
+        "highlight": false
+      },
+      {
+        "label": "内置弹仓",
+        "labelEn": "Internal Bay",
+        "value": "4发空空导弹",
+        "highlight": true
+      },
+      {
+        "label": "重量级别",
+        "labelEn": "Weight Class",
+        "value": "监狱最轻战斗机",
+        "highlight": true
+      },
+      {
+        "label": "已知问题",
+        "labelEn": "Known Issues",
+        "value": "航电空间不足 / 起飞困难",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "两年了，她终于有了内置弹仓。虽然塞不下更多东西了，但我们有的是办法。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 41,
+      "categories": [
+        "military",
+        "aircraft"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-11b-eagle/ZNHI-11B.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.85,
+          "contrast": 1.2,
+          "brightness": 0.8,
+          "scale": 1.08
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "blue-600/8",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鹰] EAGLE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-11B"
+      },
+      "title": {
+        "text": "轻型隐身战斗机",
+        "fontSize": "8xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "LIGHT STEALTH FIGHTER"
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "4发",
+            "label": "内置弹仓"
+          },
+          {
+            "value": "最轻",
+            "label": "战斗机"
+          },
+          {
+            "value": "两年",
+            "label": "等待"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight",
+        "opacity": 0.12
+      },
+      "description": "监狱现役最轻的战斗机，等待两年终于获得内置弹仓。4发导弹塞进轻型机体，航电空间被挤压到极限，但隐身能力终于实现。"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "航空器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-11B[鹰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-11b-eagle/ZNHI-11B.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Stealth",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-11b-eagle/ZNHI-11B.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型隐身战斗机",
+        "productCode": "ZNHI-11B[鹰]",
+        "restriction": {
+          "enabled": true,
+          "text": "A级安全许可"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱现役最轻的战斗机，等待两年终于获得内置弹仓，可携带4发空空导弹。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "轻型隐身战斗机"
+            },
+            {
+              "label": "内置弹仓",
+              "value": "4发空空导弹"
+            },
+            {
+              "label": "重量级别",
+              "value": "监狱最轻战斗机"
+            },
+            {
+              "label": "已知问题",
+              "value": "航电空间不足 / 起飞困难"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "两年了，她终于有了内置弹仓。虽然塞不下更多东西了，但我们有的是办法。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-11b-eagle/ZNHI-11B.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.75,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "blue-600/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-24"
+            },
+            "title": "已经塞不下了",
+            "content": "两年了，ZNHI-11B[鹰]终于得到了她应有的内置弹仓。<br/>4发空空导弹，塞进监狱最轻的战斗机机体里——<br/>航电系统几乎无处安放，起飞都变得艰难。<br/>但两年的等待，终于换来了隐身弹仓。",
+            "statusText": {
+              "enabled": true,
+              "text": "Internal Bay: Installed"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-11b-eagle/ZNHI-11B.webp",
+            "filters": {
+              "scale": 1.02,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight",
+              "color": "primary"
+            },
+            "iconLabel": "Space Limit",
+            "title": "极限压缩",
+            "content": "机体空间本就有限，塞下4发导弹后几乎没有空间留给航电系统。<br/>增加的重量使起飞变得艰难，滑跑距离显著增加。<br/>但典狱长表示这不是问题——监狱从不缺乏创造性的解决方案。<br/><span class=\"text-white border-b border-primary/40 pb-1\">轻型机体，隐身弹仓，这就是代价。</span>",
+            "dataBlocks": [
+              {
+                "value": "4发",
+                "label": "导弹"
+              },
+              {
+                "value": "隐身",
+                "label": "弹仓"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-11b-eagle/ZNHI-11B.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.25,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Air Superiority Mode",
+              "isAnimated": true
+            },
+            "title": "轻型猛禽",
+            "content": "她是监狱现役最轻的战斗机，也是空军不可或缺的一员。<br/>黑色隐身外形，内置弹仓，4发导弹随时待命。<br/>虽然塞不下更多东西了，但她已经足够致命。<br/>两年的等待，换来的是隐身战场上的一席之地。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "两年了，她终于有了内置弹仓。虽然塞不下更多东西了，但我们有的是办法。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型隐身战斗机"
+          },
+          {
+            "label": "Payload",
+            "value": "4发导弹"
+          },
+          {
+            "label": "Weight",
+            "value": "监狱最轻"
+          },
+          {
+            "label": "Stealth",
+            "value": "隐身设计"
+          }
+        ],
+        "description": "ZNHI-11B[鹰] 是监狱现役最轻的战斗机，B型终于获得了内置弹仓，可携带4发空空导弹，但内部空间已被挤压到极限。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [鹰] EAGLE SERIES",
+        "products": [
+          {
+            "id": "znhi-11a-eagle",
+            "imageUrl": "products/znhi-11a-eagle/thumb.webp",
+            "productCode": "ZNHI-11A[鹰]",
+            "productName": "隐身战斗机",
+            "productDesc": "恭候多时了",
+            "href": "product-detail.html?id=znhi-11a-eagle"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱最轻战斗机，等两年终于有内置弹仓，空间极限"
+    }
+  },
+  {
+    "id": "znhi-05-dove",
+    "modelId": "ZNHI-05[鸽]",
+    "name": "重型隐身空优战斗机",
+    "nameEn": "Heavy Stealth Air Superiority Fighter",
+    "nickname": "你干嘛哎哟",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鸽",
+      "seriesEn": "DOVE",
+      "category": "航空器",
+      "subcategory": "战斗机",
+      "tags": [
+        "隐身“, ”重型“, ”空优“, ”内置弹仓"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-05-dove/ZNHI-05.webp",
+      "hero": "products/znhi-05-dove/ZNHI-05.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-05-dove/ZNHI-05-2.webp",
+          "alt": "双机编队",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-05[鸽].webp",
+        "ZNHI-05[鸽]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "8发导弹，内部全收",
+      "summary": "监狱重型隐身空优战斗机的第二次技术升级版本。改善了之前饱受诟病的操控稳定性与高速锁舵问题，并装配与-11A相同的弹射挂架，内部弹舱可携带共计8发空空导弹。",
+      "full": "ZNHI-05[鸽]是监狱重型隐身空优机的第二次技术升级版本。此前的型号在操控稳定性和高速飞行时的锁舵问题上饱受诟病，经过改进后这些问题得到了有效解决。她装配了与-11A相同的弹射挂架系统，内部弹舱可携带共计8发空空导弹，火力投射能力相当可观。作为监狱空军的重型空优主力，她在制空作战中扮演着举足轻重的角色。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "重型隐身空优战斗机",
+        "highlight": false
+      },
+      {
+        "label": "内置弹仓",
+        "labelEn": "Internal Bay",
+        "value": "8发空空导弹",
+        "highlight": true
+      },
+      {
+        "label": "挂架系统",
+        "labelEn": "Launcher",
+        "value": "与-11A相同的弹射挂架",
+        "highlight": false
+      },
+      {
+        "label": "改进项",
+        "labelEn": "Improvements",
+        "value": "操控稳定性 / 高速锁舵",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "之前的问题都解决了，8发导弹全塞内部弹舱。你干嘛哎哟？",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 42,
+      "categories": [
+        "military",
+        "aircraft"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-05-dove/ZNHI-05.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.85,
+          "contrast": 1.25,
+          "brightness": 0.8,
+          "scale": 1.08
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "blue-600/10",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鸽] DOVE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-05"
+      },
+      "title": {
+        "text": "重型隐身空优战斗机",
+        "fontSize": "8xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "HEAVY STEALTH AIR SUPERIORITY"
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight_takeoff",
+        "opacity": 0.15
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "8发",
+            "label": "内部弹舱"
+          },
+          {
+            "value": "重型",
+            "label": "空优主力"
+          },
+          {
+            "value": "第二次",
+            "label": "技术升级"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "航空器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-05[鸽]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-05-dove/ZNHI-05.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Heavy Class",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-05-dove/ZNHI-05.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-05-dove/ZNHI-05-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "重型隐身空优战斗机",
+        "productCode": "ZNHI-05[鸽]",
+        "restriction": {
+          "enabled": true,
+          "text": "A级安全许可"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重型隐身空优机的第二次技术升级，改善操控性问题，内部弹舱可携带8发空空导弹。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "重型隐身空优战斗机"
+            },
+            {
+              "label": "内置弹仓",
+              "value": "8发空空导弹"
+            },
+            {
+              "label": "挂架系统",
+              "value": "与-11A相同的弹射挂架"
+            },
+            {
+              "label": "改进项",
+              "value": "操控稳定性 / 高速锁舵"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "之前的问题都解决了，8发导弹全塞内部弹舱。你干嘛哎哟？",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-05-dove/ZNHI-05.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.75,
+              "contrast": 1.25
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "blue-600/12",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-24"
+            },
+            "title": "你干嘛哎哟",
+            "content": "ZNHI-05[鸽]是监狱重型隐身空优机的第二次技术升级版本。<br/>之前饱受诟病的操控稳定性和高速锁舵问题，这次全部解决了。<br/>8发空空导弹，全部塞进内部弹舱——<br/>监狱空军的重型空优主力，终于成熟了。",
+            "statusText": {
+              "enabled": true,
+              "text": "Upgrade II: Complete"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-05-dove/ZNHI-05-2.webp",
+            "filters": {
+              "scale": 1.02,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight_takeoff",
+              "color": "primary"
+            },
+            "iconLabel": "Heavy Air Superiority",
+            "title": "重型火力",
+            "content": "装配与-11A相同的弹射挂架系统，内部弹舱可携带共计8发空空导弹。<br/>相比轻型战斗机的4发载弹量，她的火力投射能力整整翻倍。<br/>隐身外形，重型机体，8发弹舱——<br/><span class=\"text-white border-b border-primary/40 pb-1\">在制空作战中，她就是举足轻重的角色。</span>",
+            "dataBlocks": [
+              {
+                "value": "8发",
+                "label": "导弹"
+              },
+              {
+                "value": "重型",
+                "label": "空优"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-05-dove/ZNHI-05.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.3,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Heavy Fighter Online",
+              "isAnimated": true
+            },
+            "title": "空优主力",
+            "content": "她是监狱空军目前体积最大的战斗机。<br/>黑色隐身外形，单发单座，重型机体。<br/>操控稳定性改善了，高速锁舵问题解决了，8发导弹全塞内部弹舱了。<br/>第二次技术升级后的ZNHI-05[鸽]，终于成为了真正的重型空优主力。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "之前的问题都解决了，8发导弹全塞内部弹舱。你干嘛哎哟？",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "重型空优"
+          },
+          {
+            "label": "Payload",
+            "value": "8发导弹"
+          },
+          {
+            "label": "Stealth",
+            "value": "隐身设计"
+          },
+          {
+            "label": "Upgrade",
+            "value": "第二次升级"
+          }
+        ],
+        "description": "ZNHI-05[鸽] 是监狱重型隐身空优战斗机的第二次技术升级版本，改善了操控稳定性与高速锁舵问题，内部弹舱可携带8发空空导弹。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR SUPERIORITY",
+        "products": [
+          {
+            "id": "znhi-11b-eagle",
+            "imageUrl": "products/znhi-11b-eagle/thumb.webp",
+            "productCode": "ZNHI-11B[鹰]",
+            "productName": "轻型隐身战斗机",
+            "productDesc": "已经塞不下了",
+            "href": "product-detail.html?id=znhi-11b-eagle"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "重型隐身空优，第二次升级，8发内置弹仓"
+    }
+  },
+  {
+    "id": "znhi-11a-eagle",
+    "modelId": "ZNHI-11A[鹰]",
+    "name": "隐身战斗机",
+    "nameEn": "Stealth Fighter",
+    "nickname": "恭候多时了",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鹰",
+      "seriesEn": "EAGLE",
+      "category": "航空器",
+      "subcategory": "战斗机",
+      "tags": [
+        "隐身“, ”空优“, ”首款“, ”开发中"
+      ]
+    },
+    "status": {
+      "operational": false,
+      "statusLabel": "prototype",
+      "statusText": "半成品/开发中",
+      "restricted": false,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-11a-eagle/ZNHI-11A.webp",
+      "hero": "products/znhi-11a-eagle/ZNHI-11A.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-11A[鹰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "监狱空军的第一台战斗机",
+      "summary": "监狱空军第一台战斗机，曾被寄予厚望。但同时期的苏57在性能上几乎全方位碾压她，加上各种技术难题未能解决，她便一直处于半成品状态，等待着完善的那一天。",
+      "full": "作为监狱空军第一台战斗机，ZNHI-11A[鹰]曾被寄予厚望。她是监狱航空力量的起点，承载着典狱长对空中力量的全部期待。然而现实是残酷的——同时期的苏57在性能上几乎全方位碾压她，无论是机动性、隐身性能还是航电系统都存在明显差距。再加上研发过程中遭遇的各种技术难题，她便一直处于半成品状态，等待着被完善的那一天。尽管如此，她作为[鹰]系列的起点，为后续型号的研发积累了宝贵经验。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "隐身战斗机",
+        "highlight": false
+      },
+      {
+        "label": "历史地位",
+        "labelEn": "Historical",
+        "value": "监狱空军第一台战斗机",
+        "highlight": true
+      },
+      {
+        "label": "状态",
+        "labelEn": "Status",
+        "value": "半成品",
+        "highlight": false
+      },
+      {
+        "label": "已知问题",
+        "labelEn": "Known Issues",
+        "value": "性能不及同期竞品 / 技术难题",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她是监狱空军的第一个孩子。虽然还不完美，但我们一直在等她长大。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "航空器",
+          "href": "products.html#aircraft"
+        },
+        {
+          "text": "ZNHI-11A[鹰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-11a-eagle/ZNHI-11A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "In Development",
+            "type": "secondary"
+          },
+          {
+            "text": "First Fighter",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-11a-eagle/ZNHI-11A.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "隐身战斗机",
+        "productCode": "ZNHI-11A[鹰]",
+        "restriction": {
+          "enabled": true,
+          "text": "A级安全许可"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱空军第一台战斗机，曾被寄予厚望，但因技术难题一直处于半成品状态。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "隐身战斗机"
+            },
+            {
+              "label": "历史地位",
+              "value": "监狱空军第一台战斗机"
+            },
+            {
+              "label": "状态",
+              "value": "半成品"
+            },
+            {
+              "label": "已知问题",
+              "value": "性能不及同期竞品"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是监狱空军的第一个孩子。虽然还不完美，但我们一直在等她长大。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-11a-eagle/ZNHI-11A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8,
+              "contrast": 1.15,
+              "saturate": 0.75
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/60",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "blue-600/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "恭候多时了",
+            "content": "作为监狱空军第一台战斗机，ZNHI-11A[鹰]曾被寄予厚望。<br/>她是监狱航空力量的起点，承载着典狱长对空中力量的全部期待。<br/>但现实是残酷的——同时期的苏57在性能上几乎全方位碾压她。<br/>她处于半成品状态，等待着被完善的那一天。",
+            "statusText": {
+              "enabled": true,
+              "text": "Status: In Development"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-11a-eagle/ZNHI-11A.webp",
+            "filters": {
+              "scale": 1.02,
+              "brightness": 0.85,
+              "saturate": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/12",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "history",
+              "color": "primary"
+            },
+            "iconLabel": "First Fighter",
+            "title": "技术难题",
+            "content": "无论是机动性、隐身性能还是航电系统，都存在明显差距。<br/>研发过程中遭遇的各种技术难题让她一直停留在半成品状态。<br/>性能不及同期竞品，各种问题层出不穷。<br/><span class=\"text-white border-b border-primary/40 pb-1\">但她是起点，为后续型号积累了宝贵经验。</span>",
+            "dataBlocks": [
+              {
+                "value": "第一台",
+                "label": "战斗机"
+              },
+              {
+                "value": "半成品",
+                "label": "状态"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-11a-eagle/ZNHI-11A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Prototype Status",
+              "isAnimated": true
+            },
+            "title": "第一个孩子",
+            "content": "她是监狱空军的第一个孩子，[鹰]系列的起点。<br/>虽然还不完美，但她承载着典狱长对空中力量的期待。<br/>后续的-11B、-05都从她身上吸取了教训，继承了经验。<br/>她一直在等待，等待着被完善的那一天。恭候多时了。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是监狱空军的第一个孩子。虽然还不完美，但我们一直在等她长大。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "隐身战斗机"
+          },
+          {
+            "label": "Position",
+            "value": "首款战斗机"
+          },
+          {
+            "label": "Status",
+            "value": "半成品"
+          },
+          {
+            "label": "Series",
+            "value": "[鹰]起点"
+          }
+        ],
+        "description": "ZNHI-11A[鹰] 是监狱空军第一台战斗机，虽处于半成品状态，但她是[鹰]系列的起点，为后续型号的研发积累了宝贵经验。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [鹰] EAGLE SERIES",
+        "products": [
+          {
+            "id": "znhi-11b-eagle",
+            "imageUrl": "products/znhi-11b-eagle/thumb.webp",
+            "productCode": "ZNHI-11B[鹰]",
+            "productName": "轻型隐身战斗机",
+            "productDesc": "已经塞不下了",
+            "href": "product-detail.html?id=znhi-11b-eagle"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱空军首款战斗机，半成品状态，[鹰]系列起点"
+    }
+  },
+  {
+    "id": "znhi-07-whale",
+    "modelId": "ZNHI-07[鲸]",
+    "name": "潜艇",
+    "nameEn": "Submarine",
+    "nickname": "似曾相识的你",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鲸",
+      "seriesEn": "WHALE",
+      "category": "海军装备",
+      "subcategory": "潜艇",
+      "tags": [
+        "水下“, ”潜艇“, ”海军“, ”首款"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-07-whale/ZNHI-07.webp",
+      "hero": "products/znhi-07-whale/ZNHI-07.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-07[鲸].webp"
+      ]
+    },
+    "description": {
+      "tagline": "从图纸到深蓝，她游了三年",
+      "summary": "监狱重工的潜艇产品，也是停留在图纸上最久的孩子。三年前她是监狱唯一能下水的设计，却因种种原因迟迟未能量产。三年后的今天，崭新的她终于从纸面游入现实，成为监狱海军力量的开端。典狱长的衣柜里，至今还挂着她最初的泳姿。",
+      "full": "三年前，ZNHI-07[鲸]是监狱唯一一个能下水的孩子。那时候监狱的产品线还很单薄，能游泳的只有她一个。然而她也是停留在图纸上最久的孩子，没有之一——技术验证、设计迭代、资源调配，种种原因让她的量产一拖再拖。\n\n三年过去了，典狱长的衣柜里依然挂着她最初的设计图，那张「泳姿」从未被取下。那是对这个孩子最深的期待与牵挂，也是监狱海军梦想的起点。\n\n如今，崭新的她终于来到监狱。从图纸走向深蓝，从梦想变为现实。欢迎来到监狱，[鲸]。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "潜艇",
+        "highlight": false
+      },
+      {
+        "label": "编号",
+        "labelEn": "ID",
+        "value": "-07",
+        "highlight": false
+      },
+      {
+        "label": "动力",
+        "labelEn": "Power",
+        "value": "常规动力",
+        "highlight": false
+      },
+      {
+        "label": "特性",
+        "labelEn": "Feature",
+        "value": "水下作战",
+        "highlight": true
+      },
+      {
+        "label": "历史地位",
+        "labelEn": "Historical",
+        "value": "监狱首款水下载具",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "三年了，你终于从图纸上游进了现实。衣柜里那张泳姿，我舍不得摘——现在终于可以换成你的量产照了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 44,
+      "categories": [
+        "military",
+        "naval"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-07-whale/ZNHI-07.webp",
+        "filters": {
+          "opacity": 0.6,
+          "saturate": 0.75,
+          "contrast": 1.2,
+          "brightness": 0.75,
+          "scale": 1.08
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/60"
+        },
+        "overlayColor": "cyan-600/15",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鲸] WHALE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-07"
+      },
+      "title": {
+        "text": "潜艇",
+        "fontSize": "7xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "FROM PAPER TO DEEP BLUE"
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "waves",
+        "opacity": 0.12
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "3年",
+            "label": "图纸等待"
+          },
+          {
+            "value": "首款",
+            "label": "水下载具"
+          },
+          {
+            "value": "海军",
+            "label": "起点"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "description": "监狱首款水下载具，停留在图纸上最久的孩子。三年的等待与牵挂，从设计图到深蓝海域，她游进了现实，开启监狱海军的新篇章。"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "海军装备",
+          "href": "products.html#naval"
+        },
+        {
+          "text": "ZNHI-07[鲸]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-07-whale/ZNHI-07.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "First Naval",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-07-whale/ZNHI-07.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "潜艇",
+        "productCode": "ZNHI-07[鲸]",
+        "restriction": {
+          "enabled": true,
+          "text": "海军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的首款潜艇产品，也是停留在图纸上最久的孩子。三年的等待后，她终于从纸面游入现实，开启监狱海军的新篇章。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "潜艇"
+            },
+            {
+              "label": "编号",
+              "value": "-07"
+            },
+            {
+              "label": "动力",
+              "value": "常规动力"
+            },
+            {
+              "label": "特性",
+              "value": "水下作战"
+            },
+            {
+              "label": "历史地位",
+              "value": "监狱首款水下载具"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "三年了，你终于从图纸上游进了现实。衣柜里那张泳姿，我舍不得摘——现在终于可以换成你的量产照了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-07-whale/ZNHI-07.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.7,
+              "contrast": 1.15,
+              "saturate": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/65",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "cyan-600/12",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-24"
+            },
+            "title": "衣柜里的泳姿",
+            "content": "三年前，当监狱的产品线还很单薄时，她是唯一一个能下水的设计。<br/>那张图纸被挂在典狱长的衣柜里，日复一日，年复一年。<br/>技术验证、设计迭代、资源调配——种种原因让量产一拖再拖。<br/>但那张「泳姿」从未被取下。那是最长的等待，也是最深的牵挂。<br/>三年了，似曾相识的你，终于来到了现实。",
+            "statusText": {
+              "enabled": true,
+              "text": "Waiting Period: 3 Years"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-07-whale/ZNHI-07.webp",
+            "filters": {
+              "scale": 1.02,
+              "brightness": 0.8,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/18",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "waves",
+              "color": "primary"
+            },
+            "iconLabel": "First Naval Vessel",
+            "title": "游入深蓝",
+            "content": "常规动力，水下作战能力，监狱海军梦想的起点。<br/>她不是最先进的，也不是火力最强的，但她是第一个。<br/>第一个潜入深蓝的，第一个开启监狱海军时代的。<br/>从陆地到天空，再到水下——监狱重工的三维战场终于完整。<br/><span class=\"text-white border-b border-primary/40 pb-1\">在深海中游弋，在静默中等待，她找到了属于自己的战场。</span>",
+            "dataBlocks": [
+              {
+                "value": "ZNHI-07",
+                "label": "首款水下载具"
+              },
+              {
+                "value": "三年",
+                "label": "从图纸到现实"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-07-whale/ZNHI-07.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.25,
+              "brightness": 0.75,
+              "saturate": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/85",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Naval Force: Established",
+              "isAnimated": true
+            },
+            "title": "欢迎回家",
+            "content": "那一天，崭新的她终于来到监狱。<br/>不再是衣柜里的泳姿，不再是图纸上的线条。<br/>她真实地游在深蓝中，带着三年等待的重量，带着监狱海军的希望。<br/>从梦想到现实，从图纸到深海，她游了整整三年。<br/>现在，她终于回家了。欢迎来到监狱，ZNHI-07[鲸]。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "三年了，你终于从图纸上游进了现实。衣柜里那张泳姿，我舍不得摘——现在终于可以换成你的量产照了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "潜艇"
+          },
+          {
+            "label": "Power",
+            "value": "常规动力"
+          },
+          {
+            "label": "Feature",
+            "value": "水下作战"
+          },
+          {
+            "label": "Status",
+            "value": "监狱首款水下载具"
+          }
+        ],
+        "description": "ZNHI-07[鲸] 是监狱重工的首款潜艇产品，也是停留在图纸上最久的孩子。经过三年的等待与打磨，她终于从设计图游入深蓝，成为监狱海军力量的起点。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI NAVAL SERIES",
+        "products": [
+          {
+            "id": "znhi-38-newt",
+            "imageUrl": "products/znhi-38-newt/thumb.webp",
+            "productCode": "ZNHI-38[蝾]",
+            "productName": "水上公交",
+            "productDesc": "两栖运输载具",
+            "href": "product-detail.html?id=znhi-38-newt"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱首款潜艇，停留图纸上最久的产品，极具情感价值"
+    }
+  },
+  {
+    "id": "znhi-23-moth",
+    "modelId": "ZNHI-23[蛾]",
+    "name": "侦察无人机",
+    "nameEn": "Reconnaissance UAV",
+    "nickname": "重制版初稿",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蛾",
+      "seriesEn": "MOTH",
+      "category": "空军装备",
+      "subcategory": "无人机",
+      "tags": [
+        "无人机“, ”侦察“, ”双尾撑“, ”无武装"
+      ]
+    },
+    "status": {
+      "operational": false,
+      "statusLabel": "prototype",
+      "statusText": "原型/开发中",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-23-moth/ZNHI-23.webp",
+      "hero": "products/znhi-23-moth/ZNHI-23.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-23[蛾].webp"
+      ]
+    },
+    "description": {
+      "tagline": "没有武器，但她依然是监狱的眼睛",
+      "summary": "[蛾]系列无人机的重制版初稿，采用独特的双尾撑布局设计。由于长期缺乏武德，原[蜂]系列正式更名为[蛾]。虽然这个初稿连武器都没有，但作为侦察平台，她依然能在战场上发挥不可替代的作用。",
+      "full": "ZNHI-23[蛾]是监狱无人机系列的重制版初稿。采用双尾撑布局，配备双螺旋桨推进系统，独特的框架式尾翼设计让她在空中拥有良好的稳定性。\n\n由于长期缺乏武德——也就是没有配备任何武器系统，原本的[蜂]系列正式更名为[蛾]。典狱长自己都调侃：不知道连武器都没有的无人机对不对得起这个名字。\n\n但话说回来，她的定位本就是侦察而非打击。作为监狱空军的眼睛，她能在战场上空盘旋数小时，将情报实时传回指挥部。至于打击任务，那就交给她的姐姐-23A吧。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "侦察无人机",
+        "highlight": false
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "双尾撑",
+        "highlight": true
+      },
+      {
+        "label": "动力",
+        "labelEn": "Power",
+        "value": "双螺旋桨推进",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "无",
+        "highlight": false
+      },
+      {
+        "label": "特性",
+        "labelEn": "Feature",
+        "value": "长航时侦察",
+        "highlight": true
+      },
+      {
+        "label": "备注",
+        "labelEn": "Note",
+        "value": "原[蜂]系列更名为[蛾]",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "虽然连武器都没有，但她是监狱新一代配平技术的验证机——能飞稳了再说打的事。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "空军装备",
+          "href": "products.html#airforce"
+        },
+        {
+          "text": "ZNHI-23[蛾]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-23-moth/ZNHI-23.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Prototype",
+            "type": "warning"
+          },
+          {
+            "text": "Moth Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-23-moth/ZNHI-23.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "侦察无人机",
+        "productCode": "ZNHI-23[蛾]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[蛾]系列无人机的重制版初稿，采用双尾撑布局设计。虽然没有武器系统，但作为侦察平台依然能发挥重要作用。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "侦察无人机"
+            },
+            {
+              "label": "布局",
+              "value": "双尾撑"
+            },
+            {
+              "label": "动力",
+              "value": "双螺旋桨推进"
+            },
+            {
+              "label": "武器",
+              "value": "无"
+            },
+            {
+              "label": "备注",
+              "value": "原[蜂]系列更名"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "虽然连武器都没有，但她是监狱新一代配平技术的验证机——能飞稳了再说打的事。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-23-moth/ZNHI-23.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "gray-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "蜕变",
+            "content": "从[蜂]到[蛾]，不是退化，而是蜕变。<br/>武器可以后加，但稳定的飞行平台才是基础。<br/>这是重制版的第一步。",
+            "statusText": {
+              "enabled": true,
+              "text": "Development Phase"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-23-moth/ZNHI-23.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "visibility",
+              "color": "primary"
+            },
+            "iconLabel": "Recon Mode",
+            "title": "凝视",
+            "content": "双尾撑布局，框架式尾翼。<br/>双螺旋桨推进，长航时设计。<br/><span class=\"text-white border-b border-primary/40 pb-1\">没有武器，但她的眼睛从不放过任何细节。</span>",
+            "dataBlocks": [
+              {
+                "value": "双发",
+                "label": "动力"
+              },
+              {
+                "value": "侦察",
+                "label": "定位"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-23-moth/ZNHI-23.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Sensors Online",
+              "isAnimated": true
+            },
+            "title": "初稿",
+            "content": "这只是个开始，重制版的第一步。<br/>能飞稳了，才能谈后面的事。<br/>至于武器，问问她姐姐-23A就知道了。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "不知道连武器都没有的无人机对不对得起这个名字——但她飞得稳，这就够了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "侦察无人机"
+          },
+          {
+            "label": "Layout",
+            "value": "双尾撑"
+          },
+          {
+            "label": "Power",
+            "value": "双螺旋桨推进"
+          },
+          {
+            "label": "Armament",
+            "value": "无"
+          }
+        ],
+        "description": "ZNHI-23[蛾] 是监狱无人机系列的重制版初稿，采用双尾撑布局与双螺旋桨推进设计。作为新一代配平技术验证机，她目前没有武器系统，专注于侦察任务。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [蛾] MOTH SERIES",
+        "products": [
+          {
+            "id": "znhi-23a-moth",
+            "imageUrl": "products/znhi-23a-moth/thumb.webp",
+            "productCode": "ZNHI-23A[蛾]",
+            "productName": "察打一体无人机",
+            "productDesc": "风味死神",
+            "href": "product-detail.html?id=znhi-23a-moth"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "原[蜂]系列更名为[蛾]，重制版初稿，无武器配置"
+    }
+  },
+  {
+    "id": "znhi-04a1-ice",
+    "modelId": "ZNHI-04A1[冰]",
+    "name": "主战坦克",
+    "nameEn": "Main Battle Tank",
+    "nickname": "最初的你",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "主战坦克",
+      "tags": [
+        "履带式“, ”主战坦克“, ”主动防御“, ”开山之作"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+      "hero": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04A1[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "[冰]系列的开山之作，以纯白的身姿走向世界",
+      "summary": "监狱重工-04系列主战坦克的最初型号，[冰]系列的开山之作。2022年3月诞生于监狱生产线上，她没有大幅模仿任何现有坦克，而是缝合了各国现役MBT的优点，并安装了监狱第一台硬杀伤主动防御系统。经过几周的难产期后，她以纯白的身姿走向世界。",
+      "full": "2022年3月，一台深灰色的新型MBT出现在监狱重工生产线上。与早期的-02不同，她并没有大幅模仿豹2，而是缝合了各国现役MBT的设计理念，博采众长。更重要的是，她安装了监狱第一台硬杀伤主动防御系统，这在当时是一项重大突破。\n\n经过几周的难产期后，作为-04系列的最初之作，她以纯白的身姿走向世界。那一刻，[冰]系列正式诞生。\n\n后续的翻新项目对她进行了三项重要改进：重新设计炮塔、修改车体装甲、改进传动系统。如今的她，依然是监狱重工主战坦克家族中不可或缺的一员。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "主战坦克",
+        "highlight": false
+      },
+      {
+        "label": "系列",
+        "labelEn": "Series",
+        "value": "-04 [冰]系列",
+        "highlight": false
+      },
+      {
+        "label": "诞生时间",
+        "labelEn": "Born",
+        "value": "2022年3月",
+        "highlight": false
+      },
+      {
+        "label": "主动防御",
+        "labelEn": "APS",
+        "value": "硬杀伤主动防御系统（监狱首款）",
+        "highlight": true
+      },
+      {
+        "label": "翻新项目",
+        "labelEn": "Upgrade",
+        "value": "炮塔 / 车体装甲 / 传动系统",
+        "highlight": true
+      },
+      {
+        "label": "历史地位",
+        "labelEn": "Historical",
+        "value": "[冰]系列开山之作",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "她是-04系列的第一个孩子，难产了好几周。但当她以纯白的身姿走向世界时，我知道一切都值了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 46,
+      "categories": [
+        "military",
+        "armor",
+        "tank"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.7,
+          "contrast": 1.15,
+          "brightness": 0.95,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04A1"
+      },
+      "title": {
+        "text": "主战坦克",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "[冰]系列的开山之作。缝合各国MBT优点，搭载监狱首款硬杀伤主动防御系统，以纯白身姿走向世界。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "类型 Type",
+            "value": "主战坦克"
+          },
+          {
+            "label": "主动防御 APS",
+            "value": "硬杀伤（首款）"
+          },
+          {
+            "label": "诞生 Born",
+            "value": "2022.03"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "主战坦克",
+          "href": "products.html#mbt"
+        },
+        {
+          "text": "ZNHI-04A1[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Ice Genesis",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "主战坦克",
+        "productCode": "ZNHI-04A1[冰]",
+        "restriction": {
+          "enabled": true,
+          "text": "军事管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "[冰]系列的开山之作，2022年3月诞生。缝合各国MBT优点，搭载监狱首款硬杀伤主动防御系统。经过翻新升级后依然是监狱装甲力量的重要一员。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "主战坦克"
+            },
+            {
+              "label": "诞生时间",
+              "value": "2022年3月"
+            },
+            {
+              "label": "主动防御",
+              "value": "硬杀伤主动防御系统"
+            },
+            {
+              "label": "翻新项目",
+              "value": "炮塔 / 车体装甲 / 传动系统"
+            },
+            {
+              "label": "历史地位",
+              "value": "[冰]系列开山之作"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是-04系列的第一个孩子，难产了好几周。但当她以纯白的身姿走向世界时，我知道一切都值了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "诞生",
+            "content": "2022年3月，一台深灰色的新型MBT出现在生产线上。<br/>几周的难产期后，她以纯白的身姿走向世界。<br/>那一刻，[冰]系列正式诞生。",
+            "statusText": {
+              "enabled": true,
+              "text": "Genesis: 2022.03"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "APS Online",
+            "title": "防御",
+            "content": "她没有模仿任何现有坦克，而是缝合了各国MBT的优点。<br/>监狱第一台硬杀伤主动防御系统在她身上首次亮相。<br/><span class=\"text-white border-b border-primary/40 pb-1\">这是防御技术的一次重大突破。</span>",
+            "dataBlocks": [
+              {
+                "value": "首款",
+                "label": "硬杀伤APS"
+              },
+              {
+                "value": "缝合",
+                "label": "各国MBT"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Systems Online",
+              "isAnimated": true
+            },
+            "title": "传承",
+            "content": "翻新项目让她焕然一新：炮塔、装甲、传动系统。<br/>作为[冰]系列的起点，她开启了一个时代。<br/>如今的她，依然是监狱装甲力量的重要一员。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是-04系列的第一个孩子，难产了好几周。但当她以纯白的身姿走向世界时，我知道一切都值了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "主战坦克"
+          },
+          {
+            "label": "APS",
+            "value": "硬杀伤主动防御系统"
+          },
+          {
+            "label": "Born",
+            "value": "2022年3月"
+          },
+          {
+            "label": "Status",
+            "value": "[冰]系列开山之作"
+          }
+        ],
+        "description": "ZNHI-04A1[冰] 是监狱重工-04系列主战坦克的最初型号，[冰]系列的开山之作。她缝合了各国现役MBT的设计优点，并搭载监狱首款硬杀伤主动防御系统。经过翻新升级后，她依然是监狱装甲力量的重要组成部分。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04a2-ice",
+            "imageUrl": "products/znhi-04a2-ice/thumb.webp",
+            "productCode": "ZNHI-04A2[冰]",
+            "productName": "主战坦克改进型",
+            "productDesc": "A1升级版本",
+            "href": "product-detail.html?id=znhi-04a2-ice"
+          },
+          {
+            "id": "znhi-04s1-ice",
+            "imageUrl": "products/znhi-04s1-ice/thumb.webp",
+            "productCode": "ZNHI-04S1[冰]",
+            "productName": "自行火箭炮",
+            "productDesc": "开服元祖",
+            "href": "product-detail.html?id=znhi-04s1-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[冰]系列开山之作，监狱首款硬杀伤主动防御系统，2022年3月诞生"
+    }
+  },
+  {
+    "id": "zntp-12-6560",
+    "modelId": "ZNTP-12 6560",
+    "name": "电力机车",
+    "nameEn": "Electric Locomotive",
+    "nickname": "疾影如风掠",
+    "classification": {
+      "brand": "ZNTP",
+      "series": "12",
+      "seriesEn": "6560",
+      "category": "轨道交通",
+      "subcategory": "电力机车",
+      "tags": [
+        "民用“, ”轨道“, ”高速“, ”电力"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役运营",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-12-6560/ZNTP-12-6560.webp",
+      "hero": "products/zntp-12-6560/ZNTP-12-6560.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-12 6560.webp"
+      ]
+    },
+    "description": {
+      "tagline": "连接城市，缩短距离",
+      "summary": "高速电力动车组。流线型车头，白绿涂装，运营速度220km/h。改进后的转向架赋予出色的高速稳定性，双受电弓确保持续电力供应。宽敞舒适的车厢，配备完善的无障碍设施，是城际出行的理想选择。",
+      "full": "ZNTP-12 6560 是民用交通产品线的高速电力动车组。白色车身配合绿色装饰条，流线型车头设计有效降低风阻，在站台上格外醒目。\n\n改进后的转向架赋予她出色的高速稳定性，技术上可以达到 270km/h，但为确保安全和舒适，运营速度设定在 220km/h。这个速度在保证安全的同时，也让城际出行变得快捷高效——早上在这座城市出发，中午就能到达另一座城市。\n\n车厢内部宽敞舒适，座椅设计符合人体工程学，大面积车窗让乘客可以欣赏沿途风景。和所有民用交通产品一样，她配备了完善的无障碍设施，包括轮椅专用空间和语音报站系统，确保每位乘客都能便利出行。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "电力机车",
+        "highlight": false
+      },
+      {
+        "label": "技术极速",
+        "labelEn": "Tech Max",
+        "value": "270 km/h",
+        "highlight": true
+      },
+      {
+        "label": "限制极速",
+        "labelEn": "Limited Max",
+        "value": "230 km/h",
+        "highlight": false
+      },
+      {
+        "label": "运营极速",
+        "labelEn": "Operational",
+        "value": "220 km/h",
+        "highlight": true
+      },
+      {
+        "label": "受电弓",
+        "labelEn": "Pantograph",
+        "value": "双弓",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她能跑到270，但只让她跑220。安全第一，期待提速的那一天。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 47,
+      "categories": [
+        "civilian",
+        "rail"
+      ],
+      "background": {
+        "imageUrl": "products/zntp-12-6560/ZNTP-12-6560.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.9,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "green-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[ZNTP] CIVILIAN RAIL",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNTP-12 6560"
+      },
+      "title": {
+        "text": "电力机车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "高速电力动车组，流线型车头设计，运营速度220km/h。连接城市，缩短距离，让每一段旅程都快捷舒适。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "技术极速 Tech",
+            "value": "270 km/h"
+          },
+          {
+            "label": "运营极速 Ops",
+            "value": "220 km/h"
+          },
+          {
+            "label": "受电弓",
+            "value": "双弓"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "轨道交通",
+          "href": "products.html#rail"
+        },
+        {
+          "text": "ZNTP-12 6560"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-12-6560/ZNTP-12-6560.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "High Speed",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-12-6560/ZNTP-12-6560.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "电力机车",
+        "productCode": "ZNTP-12 6560",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "民用产品线的高速电力动车组，流线型设计，白绿涂装。运营速度220km/h，配备双受电弓和改进转向架。宽敞舒适的车厢，完善的无障碍设施，是城际出行的理想选择。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "电力机车"
+            },
+            {
+              "label": "技术极速",
+              "value": "270 km/h"
+            },
+            {
+              "label": "限制极速",
+              "value": "230 km/h"
+            },
+            {
+              "label": "运营极速",
+              "value": "220 km/h"
+            },
+            {
+              "label": "受电弓",
+              "value": "双弓"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她能跑到270，但只让她跑220。安全第一，期待提速的那一天。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-12-6560/ZNTP-12-6560.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "城际速度",
+            "content": "白色车身掠过站台，绿色装饰条勾勒出流线型的优雅轮廓。<br/>220 km/h 的运营速度，让城市与城市之间的距离不再遥远。<br/>早上在这座城市喝咖啡，下午已在另一座城市看风景。",
+            "statusText": {
+              "enabled": true,
+              "text": "High Speed Service"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-12-6560/ZNTP-12-6560.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "electric_bolt",
+              "color": "primary"
+            },
+            "iconLabel": "Electric Power",
+            "title": "高速体验",
+            "content": "改进后的转向架赋予她出色的高速稳定性。<br/>双受电弓确保持续稳定的电力供应，流线型车头有效降低风阻。<br/><span class=\"text-white border-b border-primary/40 pb-1\">座椅舒适，车厢安静，220 km/h 的速度下依然平稳如常。</span>",
+            "dataBlocks": [
+              {
+                "value": "220",
+                "label": "运营速度"
+              },
+              {
+                "value": "双弓",
+                "label": "受电弓"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-12-6560/ZNTP-12-6560.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Daily Service",
+              "isAnimated": true
+            },
+            "title": "连接未来",
+            "content": "她连接的不仅是城市，更是人与人之间的距离。<br/>商务出差、探亲访友、周末旅行，每一段旅程都因她而更加便捷。<br/>宽敞的车厢、完善的无障碍设施、准点的到站时刻——<br/>这就是现代化城际出行应有的样子。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "高速不仅是速度，更是让人们相聚的便利。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "电力机车"
+          },
+          {
+            "label": "Tech Max",
+            "value": "270 km/h"
+          },
+          {
+            "label": "Ops Speed",
+            "value": "220 km/h"
+          },
+          {
+            "label": "Pantograph",
+            "value": "双弓"
+          }
+        ],
+        "description": "ZNTP-12 6560 是民用产品线的高速电力动车组，运营速度220km/h。流线型车头，双受电弓设计，配备完善的无障碍设施。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAIL SERIES",
+        "products": [
+          {
+            "id": "zntp-08-3024",
+            "imageUrl": "products/zntp-08-3024/thumb.webp",
+            "productCode": "ZNTP-08 3024",
+            "productName": "低地板有轨电车",
+            "productDesc": "城市轨道交通",
+            "href": "product-detail.html?id=zntp-08-3024"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 优化为温和民用风格。章1“城际速度”：日常出行场景；章2“高速体验”：技术特性+舒适性；章3“连接未来”：强调人与人的连接+无障碍设施。移除所有“监狱重工”字样，icon从speed改为electric_bolt，Quote改为温和语气。"
+    }
+  },
+  {
+    "id": "znhi-17-eagle",
+    "modelId": "ZNHI-17[雕]",
+    "name": "飞翼隐身无人机",
+    "nameEn": "Flying Wing Stealth UAV",
+    "nickname": "反复去世",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雕",
+      "seriesEn": "VULTURE",
+      "category": "空军装备",
+      "subcategory": "无人机",
+      "tags": [
+        "无人机“, ”隐身“, ”飞翼“, ”导弹平台"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-17-eagle/ZNHI-17.webp",
+      "hero": "products/znhi-17-eagle/ZNHI-17.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-17[雕].webp"
+      ]
+    },
+    "description": {
+      "tagline": "反复去世后，她终于学会了飞",
+      "summary": "监狱空军首款飞翼布局隐身飞机。作为监狱从未涉及的领域，几台原型机里没有一台是好飞的，但经过长期探索后，第一台量产机终于问世。初代原型机曾配备机炮，但最终仅作为飞行导弹发射平台。",
+      "full": "工程师只要会打螺丝就好，而设计师要考虑的事情就多了。ZNHI-17[雕]的研发历程可以用「反复去世」来形容——作为监狱从未涉及的领域，飞翼布局的几台原型机里没有一台是好飞的。\n\n但经过长期探索后，第一台量产机终于问世。在初代原型机里她曾装配有一门机炮，但最终没有保留，仅作为飞行导弹发射平台使用。\n\n她是监狱空军隐形中队的一员。改进型-18E[鹏]换装了新发动机并改进气动性能，代表着这条技术路线的持续发展。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "飞翼隐身无人机",
+        "highlight": false
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "飞翼（无尾翼）",
+        "highlight": true
+      },
+      {
+        "label": "动力",
+        "labelEn": "Power",
+        "value": "喷气式",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "导弹（机炮已取消）",
+        "highlight": false
+      },
+      {
+        "label": "隶属",
+        "labelEn": "Unit",
+        "value": "监狱空军隐形中队",
+        "highlight": true
+      },
+      {
+        "label": "改进型",
+        "labelEn": "Variant",
+        "value": "-18E[鹏]",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "几台原型机都去世了，但她们的牺牲换来了第一台量产机。工程师只管打螺丝，头疼的是设计师。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 48,
+      "categories": [
+        "military",
+        "airforce",
+        "stealth"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-17-eagle/ZNHI-17.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.6,
+          "contrast": 1.2,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/50"
+        },
+        "overlayColor": "purple-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "飞翼隐身无人机",
+        "fontSize": "7xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "FIRST FLYING WING"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "flight",
+        "opacity": 0.15
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "飞翼",
+            "label": "布局"
+          },
+          {
+            "value": "首款",
+            "label": "量产机"
+          },
+          {
+            "value": "隐形中队",
+            "label": "隶属"
+          }
+        ]
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "空军装备",
+          "href": "products.html#airforce"
+        },
+        {
+          "text": "ZNHI-17[雕]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-17-eagle/ZNHI-17.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Stealth Squadron",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-17-eagle/ZNHI-17.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "飞翼隐身无人机",
+        "productCode": "ZNHI-17[雕]",
+        "restriction": {
+          "enabled": true,
+          "text": "空军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱首款飞翼布局隐身飞机。经过艰难的研发历程，第一台量产机终于问世，仅作为飞行导弹发射平台使用。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "飞翼隐身无人机"
+            },
+            {
+              "label": "布局",
+              "value": "飞翼（无尾翼）"
+            },
+            {
+              "label": "动力",
+              "value": "喷气式"
+            },
+            {
+              "label": "武器",
+              "value": "导弹（机炮已取消）"
+            },
+            {
+              "label": "隶属",
+              "value": "监狱空军隐形中队"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "几台原型机都去世了，但她们的牺牲换来了第一台量产机。工程师只管打螺丝，头疼的是设计师。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-17-eagle/ZNHI-17.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "purple-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "反复去世",
+            "content": "飞翼布局——监狱空军从未涉及的领域，设计师面临的最大挑战。<br/>在研发过程中，几台原型机接连失败，没有一台是好飞的。<br/>反复去世，反复重来，典狱长直呼：「工程师只要会打螺丝就好，头疼的是设计师。」<br/>经过长期探索与无数次气动调整，第一台量产机ZNHI-17[雕]终于问世，<br/>她是用原型机的牺牲换来的隐形利刃。",
+            "statusText": {
+              "enabled": true,
+              "text": "Development: Complete"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-17-eagle/ZNHI-17.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight",
+              "color": "primary"
+            },
+            "iconLabel": "Flying Wing",
+            "title": "飞翼玄学",
+            "content": "飞翼布局，无传统尾翼，极致的隐身外形设计。<br/>初代原型机曾装配机炮，但量产型取消了所有近战武器，<br/>仅作为飞行导弹发射平台——隐形中队的远程打击手。<br/>喷气动力提供稳定推进，扁平机身最大化降低雷达反射截面。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她不需要近身格斗，在敌人看不见的地方发射导弹才是她的使命。</span>",
+            "dataBlocks": [
+              {
+                "value": "飞翼",
+                "label": "布局"
+              },
+              {
+                "value": "导弹",
+                "label": "武器"
+              },
+              {
+                "value": "隐形中队",
+                "label": "隶属"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-17-eagle/ZNHI-17.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Strike Mission Active",
+              "isAnimated": true
+            },
+            "title": "俯冲",
+            "content": "当她从云层中俯冲而下时，敌方雷达上一片寂静。<br/>深灰色的机身与天空融为一体，蓝紫色的尾焰划破长空，<br/>导弹挂架已经锁定目标——等敌人反应过来，一切都已结束。<br/>她不是最快的，也不是火力最猛的，但她是最难被发现的。<br/>改进型-18E[鹏]正在继续这条技术路线，换装新发动机，进一步改进气动性能。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "几台原型机都去世了，但她们的牺牲换来了第一台量产机。工程师只管打螺丝，头疼的是设计师。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "飞翼隐身无人机"
+          },
+          {
+            "label": "Layout",
+            "value": "飞翼（无尾翼）"
+          },
+          {
+            "label": "Armament",
+            "value": "导弹"
+          },
+          {
+            "label": "Unit",
+            "value": "隐形中队"
+          }
+        ],
+        "description": "ZNHI-17[雕] 是监狱空军首款飞翼布局隐身飞机，经过艰难的研发历程后终于量产。她是隐形中队的一员，仅作为飞行导弹发射平台使用。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI STEALTH SQUADRON",
+        "products": [
+          {
+            "id": "znhi-05-dove",
+            "imageUrl": "products/znhi-05-dove/thumb.webp",
+            "productCode": "ZNHI-05[鸽]",
+            "productName": "重型隐身空优战斗机",
+            "productDesc": "你干嘛哎哟",
+            "href": "product-detail.html?id=znhi-05-dove"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱首款飞翼布局隐身飞机，研发历程艰难，隐形中队成员"
+    }
+  },
+  {
+    "id": "znhi-06b-sparrow",
+    "modelId": "ZNHI-06B[雀]",
+    "name": "高机动战斗机",
+    "nameEn": "High Maneuverability Fighter",
+    "nickname": "山里灵活的狗",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雀",
+      "seriesEn": "SPARROW",
+      "category": "空军装备",
+      "subcategory": "战斗机",
+      "tags": [
+        "战斗机“, ”高机动“, ”玄学气动“, ”无垂尾"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+      "hero": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-06b-sparrow/ZNHI-06B-2.webp",
+          "alt": "城市穿行",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-06b-sparrow/ZNHI-06B-3.webp",
+          "alt": "俯视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-06B[雀].webp",
+        "ZNHI-06B[雀]-2.webp",
+        "ZNHI-06B[雀]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "全监狱最快，街道上转直角弯",
+      "summary": "监狱空军的高机动战斗机，拥有全监狱最快的速度与可以在常规街道上转高速直角弯的机动性。采用带外缘下反角的后掠翼和带上反角的尾翼，无垂尾设计。作为玄学气动代表，她的气动并未经过调试，却是全监狱唯一一个不用牺牲机动性来换取稳定性的机型。",
+      "full": "某一天小赞终于忍不住给-06A来了两锤子，于是-06B诞生了。一反以前所有-06B的草稿，最终版装配了带外缘下反角的后掠翼而不是前掠翼，并安装了带上反角的尾翼，无垂尾设计。\n\n她拥有全监狱最快的速度，以及可以在常规街道上转高速直角弯的机动性。作为玄学气动代表，她的气动并未经过调试，但却是全监狱唯一一个不用以牺牲机动性来换取稳定性的机型。\n\n山里灵活的狗——这是对她最好的形容。白色与深灰色的涂装，青色的发光条纹，双发动机提供澎湃动力，机翼下可挂载导弹。在城市高楼间穿行时，她就像一道闪电，而敌机只能拖着黑烟坠落。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "高机动战斗机",
+        "highlight": false
+      },
+      {
+        "label": "机翼",
+        "labelEn": "Wing",
+        "value": "后掠翼（带外缘下反角）",
+        "highlight": true
+      },
+      {
+        "label": "尾翼",
+        "labelEn": "Tail",
+        "value": "带上反角 / 无垂尾",
+        "highlight": true
+      },
+      {
+        "label": "动力",
+        "labelEn": "Power",
+        "value": "双发喷气式",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "机翼挂载导弹",
+        "highlight": false
+      },
+      {
+        "label": "速度",
+        "labelEn": "Speed",
+        "value": "全监狱最快",
+        "highlight": true
+      },
+      {
+        "label": "机动性",
+        "labelEn": "Agility",
+        "value": "街道转直角弯",
+        "highlight": true
+      },
+      {
+        "label": "特性",
+        "labelEn": "Feature",
+        "value": "玄学气动 / 稳定性与机动性兼得",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "给-06A来了两锤子，-06B就诞生了。气动没调试过，但她飞得又快又稳——玄学。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 49,
+      "categories": [
+        "military",
+        "airforce",
+        "fighter"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.15,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "高机动战斗机",
+        "fontSize": "7xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "FASTEST IN ZNHI FLEET"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "speed",
+        "opacity": 0.15
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "全监狱",
+            "label": "最快"
+          },
+          {
+            "value": "直角弯",
+            "label": "街道机动"
+          },
+          {
+            "value": "玄学",
+            "label": "气动"
+          }
+        ]
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "空军装备",
+          "href": "products.html#airforce"
+        },
+        {
+          "text": "ZNHI-06B[雀]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Fastest",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-06b-sparrow/ZNHI-06B-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-06b-sparrow/ZNHI-06B-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "高机动战斗机",
+        "productCode": "ZNHI-06B[雀]",
+        "restriction": {
+          "enabled": true,
+          "text": "空军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "全监狱最快的战斗机，拥有在常规街道转高速直角弯的机动性。玄学气动代表，无垂尾设计，稳定性与机动性兼得。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "高机动战斗机"
+            },
+            {
+              "label": "机翼",
+              "value": "后掠翼（带外缘下反角）"
+            },
+            {
+              "label": "尾翼",
+              "value": "带上反角 / 无垂尾"
+            },
+            {
+              "label": "动力",
+              "value": "双发喷气式"
+            },
+            {
+              "label": "特性",
+              "value": "玄学气动"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "给-06A来了两锤子，-06B就诞生了。气动没调试过，但她飞得又快又稳——玄学。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "两锤子",
+            "content": "某一天，典狱长看着-06A，越看越不顺眼。<br/>她的气动设计保守、机动性平庸、速度也不够快——<br/>于是小赞终于忍不住给她来了两锤子，-06B就这样诞生了。<br/>一反以往所有草稿中的前掠翼设计，最终版装配了带外缘下反角的后掠翼，<br/>并采用无垂尾布局，配备带上反角的尾翼。<br/>白色与深灰色的涂装，青色的发光条纹，双发动机提供澎湃动力——<br/>她是监狱空军里最具辨识度的孩子。",
+            "statusText": {
+              "enabled": true,
+              "text": "Redesign: Complete"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-06b-sparrow/ZNHI-06B-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "speed",
+              "color": "primary"
+            },
+            "iconLabel": "Mystic Aerodynamics",
+            "title": "玄学气动",
+            "content": "作为玄学气动的代表作，ZNHI-06B[雀]的气动设计并未经过常规调试流程。<br/>后掠翼带外缘下反角，尾翼带上反角，无垂尾——这些配置组合在教科书里是找不到的。<br/>但她拥有全监狱最快的速度，以及可以在常规街道上转高速直角弯的机动性。<br/>她是全监狱唯一一个不用以牺牲机动性来换取稳定性的机型。<br/><span class=\"text-white border-b border-primary/40 pb-1\">典狱长直呼：气动没调试过，但她飞得又快又稳——这就是玄学。</span>",
+            "dataBlocks": [
+              {
+                "value": "最快",
+                "label": "速度"
+              },
+              {
+                "value": "直角弯",
+                "label": "机动"
+              },
+              {
+                "value": "无垂尾",
+                "label": "布局"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-06b-sparrow/ZNHI-06B.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Urban Combat Mode",
+              "isAnimated": true
+            },
+            "title": "穿行",
+            "content": "城市高楼林立，灰色的建筑群与蓝绿色的天空形成对比。<br/>白色的机身在楼宇间闪烁，青色的光带划出一道弧线，<br/>双发动机的轰鸣在钢筋混凝土的峡谷中回荡。<br/>敌机还在试图转向，她已经完成了一个不可能的直角弯——<br/>黑烟从坠落的残骸中升起，而她像一道闪电般消失在下一个街角。<br/>山里灵活的狗，城市里更灵活的闪电。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "给-06A来了两锤子，-06B就诞生了。气动没调试过，但她飞得又快又稳——玄学。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "高机动战斗机"
+          },
+          {
+            "label": "Wing",
+            "value": "后掠翼（下反角）"
+          },
+          {
+            "label": "Speed",
+            "value": "全监狱最快"
+          },
+          {
+            "label": "Feature",
+            "value": "玄学气动"
+          }
+        ],
+        "description": "ZNHI-06B[雀] 是监狱空军的高机动战斗机，拥有全监狱最快的速度与可以在街道上转直角弯的机动性。玄学气动代表，气动未经调试却能稳定飞行。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIRFORCE",
+        "products": [
+          {
+            "id": "znhi-05-dove",
+            "imageUrl": "products/znhi-05-dove/thumb.webp",
+            "productCode": "ZNHI-05[鸽]",
+            "productName": "重型隐身空优战斗机",
+            "productDesc": "你干嘛哎哟",
+            "href": "product-detail.html?id=znhi-05-dove"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "全监狱最快的战斗机，玄学气动代表，无垂尾设计"
+    }
+  },
+  {
+    "id": "zntp-18-220",
+    "modelId": "ZNTP-18 220",
+    "name": "纯电动低入口市域轻卡",
+    "nameEn": "Electric Low-entry Urban Light Truck",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "民用车辆",
+      "subcategory": "城市物流",
+      "tags": [
+        "轮式“, ”纯电动“, ”物流“, ”低入口"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-18-220/ZNTP-18-220.webp",
+      "hero": "products/zntp-18-220/ZNTP-18-220.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-18 220.webp"
+      ]
+    },
+    "description": {
+      "tagline": "城市最后一公里，安静又高效",
+      "summary": "民用产品线的纯电动城市配送车辆。采用低入口驾驶室设计，地板高度接近路面，驾驶员无需攀爬即可上下车。纯电动力总成带来零排放与低噪音，是城市物流最后一公里的理想选择。",
+      "full": "城市物流有自己的节奏：频繁停靠、快速装卸、准时送达。传统卡车的高入口让驾驶员每天爬上爬下数十次，而解决方案其实很简单——把地板放低。\n\nZNTP-18 220 采用平地板低入口驾驶室，踏步高度与公交车相当。驾驶员一天要上下车数十次，每一次都轻松省力。纯电动力总成不仅零排放低噪音，还能在城区限行区域畅通无阻。淡紫色的车身穿梭在街巷之间，侧开门和后开门设计方便各种装卸场景。她跑不了长途，但在城市里，她比谁都勤快。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "纯电动厢式轻卡",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "纯电动",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cabin",
+        "value": "低入口平地板设计",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Usage",
+        "value": "市域物流配送",
+        "highlight": false
+      },
+      {
+        "label": "货厢",
+        "labelEn": "Cargo",
+        "value": "侧开门 + 后开门",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "城市里不需要轰鸣的柴油机，她安安静静把货送到，然后安安静静离开。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "民用车辆",
+          "href": "products.html#civilian"
+        },
+        {
+          "text": "ZNTP-18 220"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-18-220/ZNTP-18-220.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Zero Emission",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-18-220/ZNTP-18-220.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "纯电动低入口市域轻卡",
+        "productCode": "ZNTP-18 220",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "民用产品线的纯电动城市配送车辆。低入口驾驶室设计，地板高度接近路面，驾驶员无需攀爬即可上下车。纯电动力总成带来零排放与低噪音，是城市物流最后一公里的理想选择。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "纯电动厢式轻卡"
+            },
+            {
+              "label": "驱动",
+              "value": "纯电动"
+            },
+            {
+              "label": "驾驶室",
+              "value": "低入口平地板设计"
+            },
+            {
+              "label": "用途",
+              "value": "市域物流配送"
+            },
+            {
+              "label": "货厢",
+              "value": "侧开门 + 后开门"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "城市里不需要轰鸣的柴油机，她安安静静把货送到，然后安安静静离开。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-18-220/ZNTP-18-220.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95,
+              "saturate": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "purple-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "最后一公里",
+            "content": "清晨的街道上，她准时出现在熟悉的路线上。<br/>商超配送、快递揽收、社区服务，每一次停靠都精准高效。<br/>城市物流的节奏，由她来守护。",
+            "statusText": {
+              "enabled": true,
+              "text": "Zero Emission"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-18-220/ZNTP-18-220.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "stairs",
+              "color": "primary"
+            },
+            "iconLabel": "Low Entry Design",
+            "title": "轻松上下",
+            "content": "低入口平地板驾驶室，踏步高度与公交车相当。<br/>驾驶员一天要上下车数十次，每一次都不再费力。<br/><span class=\"text-white border-b border-primary/40 pb-1\">纯电动力总成静谧平顺，侧开门和后开门设计方便各种装卸场景。</span>",
+            "dataBlocks": [
+              {
+                "value": "低入口",
+                "label": "驾驶室"
+              },
+              {
+                "value": "纯电动",
+                "label": "动力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-18-220/ZNTP-18-220.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "City Friendly",
+              "isAnimated": true
+            },
+            "title": "绿色配送",
+            "content": "零排放、低噪音，她能自由进入城区限行区域。<br/>清晨送货不会吵醒居民，深夜作业也不扰民。<br/>淡紫色的车身穿梭在街巷之间，默默支撑着城市的日常运转。<br/>这就是现代化城市物流应有的样子——高效、环保、人性化。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "城市里不需要轰鸣的柴油机，她安安静静把货送到，然后安安静静离开。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "纯电动轻卡"
+          },
+          {
+            "label": "Drive",
+            "value": "纯电动"
+          },
+          {
+            "label": "Cabin",
+            "value": "低入口设计"
+          },
+          {
+            "label": "Emission",
+            "value": "零排放"
+          }
+        ],
+        "description": "ZNTP-18 220 是民用产品线的纯电动城市配送车辆，采用低入口驾驶室设计，纯电动力总成实现零排放低噪音。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP CIVILIAN SERIES",
+        "products": [
+          {
+            "id": "zntp-14-373",
+            "imageUrl": "products/zntp-14-373/thumb.webp",
+            "productCode": "ZNTP-14 373",
+            "productName": "双层公交车",
+            "productDesc": "城市公共交通",
+            "href": "product-detail.html?id=zntp-14-373"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 补充完整的 detail 结构和三个故事章节。章1“最后一公里“：城市物流日常场景；章2”轻松上下“：低入口设计人性化+电动特性（stairs图标）；章3”绿色配送“：零排放低噪音+城市友好。移除”监狱重工”字样，温和民用风格。"
+    }
+  },
+  {
+    "id": "zntp-15-514",
+    "modelId": "ZNTP-15 514",
+    "name": "微型公交车",
+    "nameEn": "Micro Bus",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "民用车辆",
+      "subcategory": "公共交通",
+      "tags": [
+        "轮式“, ”公交“, ”微型“, ”社区接驳"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-15-514/ZNTP-15-514.webp",
+      "hero": "products/zntp-15-514/ZNTP-15-514.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-15 514.webp"
+      ]
+    },
+    "description": {
+      "tagline": "小身材，大灵活",
+      "summary": "民用产品线的微型公交车。身材小巧，白绿配色，适合在狭窄街道和社区内穿行。她比标准公交车灵活得多，能够深入大车去不了的街巷，为社区居民提供便捷的出行服务。",
+      "full": "有时候城市需要的不是更大的公交车，而是更灵活的公交车。ZNTP-15 514 是对「微型公交」概念的回应，白绿配色与标准公交保持一致的视觉风格，但身材小巧许多。\n\n她能钻进大公交去不了的小巷，服务那些被主干道遗忘的社区。老旧小区、狭窄街道、历史街区——这些地方同样需要公共交通。配备完善的无障碍设施，包括低地板设计和轮椅上下通道，确保每位居民都能便利出行。小巧的身材，大大的用心。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "微型公交车",
+        "highlight": false
+      },
+      {
+        "label": "用途",
+        "labelEn": "Usage",
+        "value": "社区接驳 / 支线公交",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白绿配色",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "玩游戏的时候看到一辆小车，越看越喜欢，于是她就来了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "民用车辆",
+          "href": "products.html#civilian"
+        },
+        {
+          "text": "ZNTP-15 514"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-15-514/ZNTP-15-514.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Community Service",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-15-514/ZNTP-15-514.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "微型公交车",
+        "productCode": "ZNTP-15 514",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "民用产品线的微型公交车，身材小巧灵活，白绿配色。适合狭窄街道和社区接驳，配备完善的无障碍设施，为社区居民提供便捷的出行服务。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "微型公交车"
+            },
+            {
+              "label": "用途",
+              "value": "社区接驳 / 支线公交"
+            },
+            {
+              "label": "涂装",
+              "value": "白绿配色"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "不是每条街道都能容纳大公交，但每个社区都值得有公交服务。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-15-514/ZNTP-15-514.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95,
+              "saturate": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "社区伙伴",
+            "content": "老旧小区的狭窄街道，历史街区的石板路面。<br/>她穿梭在这些被大车遗忘的角落，准时接送社区的居民。<br/>小巧的身材，是为了走进更多人的生活。",
+            "statusText": {
+              "enabled": true,
+              "text": "Community Service"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-15-514/ZNTP-15-514.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "home",
+              "color": "primary"
+            },
+            "iconLabel": "Neighborhood",
+            "title": "灵活穿梭",
+            "content": "车身紧凑，转弯半径小，能够在狭窄街道轻松掉头。<br/>白绿涂装延续公交系列的统一风格，社区居民一眼就能认出她。<br/><span class=\"text-white border-b border-primary/40 pb-1\">低地板设计、轮椅通道、语音报站，麻雀虽小五脏俱全。</span>",
+            "dataBlocks": [
+              {
+                "value": "514",
+                "label": "线路"
+              },
+              {
+                "value": "社区",
+                "label": "服务"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-15-514/ZNTP-15-514.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Daily Route",
+              "isAnimated": true
+            },
+            "title": "最后一站",
+            "content": "她连接的是菜市场到家门口，医院到社区中心，公园到老年活动室。<br/>这些短途出行看似微不足道，却是许多居民日常生活的全部。<br/>不是每条街道都能容纳大公交，但每个社区都值得有公交服务。<br/>小小的车厢里，装着的是对社区的关怀。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "不是每条街道都能容纳大公交，但每个社区都值得有公交服务。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "微型公交车"
+          },
+          {
+            "label": "Usage",
+            "value": "社区接驳"
+          },
+          {
+            "label": "Livery",
+            "value": "白绿配色"
+          },
+          {
+            "label": "Features",
+            "value": "低地板设计"
+          }
+        ],
+        "description": "ZNTP-15 514 是民用产品线的微型公交车，小巧灵活，适合狭窄街道和社区接驳，配备完善的无障碍设施。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP CIVILIAN SERIES",
+        "products": [
+          {
+            "id": "zntp-14-373",
+            "imageUrl": "products/zntp-14-373/thumb.webp",
+            "productCode": "ZNTP-14 373",
+            "productName": "双层公交车",
+            "productDesc": "城市公共交通",
+            "href": "product-detail.html?id=zntp-14-373"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 补充完整的 detail 结构和三个故事章节。章1“社区伙伴“：社区服务场景；章2”灵活穿梭“：小巧灵活+无障碍设施（home图标）；章3”最后一站“：强调社区关怀和短途出行价值。移除”监狱重工”字样，温和民用风格，突出社区服务理念。"
+    }
+  },
+  {
+    "id": "znhi-10-03l-prison",
+    "modelId": "ZNHI-10-03L[监狱]",
+    "name": "航空母舰",
+    "nameEn": "Aircraft Carrier",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "监狱",
+      "seriesEn": "PRISON",
+      "category": "海军舰艇",
+      "subcategory": "航空母舰",
+      "tags": [
+        "舰船“, ”航母“, ”旗舰"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+      "hero": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-10-03L[监狱].webp"
+      ]
+    },
+    "description": {
+      "tagline": "移动的雪原，海上的监狱",
+      "summary": "监狱重工的旗舰级产品，一艘真正的航空母舰。斜角甲板设计支持固定翼舰载机起降，甲板上整齐排列着监狱空军的战斗机群。她是监狱海军力量投射的核心，也是这片海域上移动的钢铁堡垒。",
+      "full": "当监狱决定走向深蓝，她就是答案。ZNHI-10-03L是监狱重工迄今为止最大的作品，斜角甲板、舰岛、弹射器一应俱全，能够搭载监狱空军的全系列舰载机。\n\n舰岛上的「10」是她的舷号，舰艏的「03」则标识着她是第三艘下水的主力舰。两座白色雷达罩提供全方位态势感知，她不只是航母，更是整个舰队的指挥中枢。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "航空母舰",
+        "highlight": true
+      },
+      {
+        "label": "舷号",
+        "labelEn": "Hull Number",
+        "value": "10",
+        "highlight": false
+      },
+      {
+        "label": "甲板",
+        "labelEn": "Deck",
+        "value": "斜角甲板",
+        "highlight": false
+      },
+      {
+        "label": "舰载机",
+        "labelEn": "Aircraft",
+        "value": "监狱空军全系列",
+        "highlight": true
+      },
+      {
+        "label": "雷达",
+        "labelEn": "Radar",
+        "value": "双雷达罩配置",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "造飞机造腻了，造艘船让她们有个家。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 52,
+      "categories": [
+        "military",
+        "naval"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+        "filters": {
+          "opacity": 0.75,
+          "saturate": 0.9,
+          "contrast": 1.15,
+          "brightness": 0.95,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "blue-600/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center-icon",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "航空母舰",
+        "fontSize": "8xl"
+      },
+      "subtitle": {
+        "enabled": true,
+        "text": "FLAGSHIP OF ZNHI NAVAL FLEET"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "sailing",
+        "opacity": 0.12
+      },
+      "statsRow": {
+        "enabled": true,
+        "items": [
+          {
+            "value": "旗舰",
+            "label": "航空母舰"
+          },
+          {
+            "value": "全系列",
+            "label": "舰载机"
+          },
+          {
+            "value": "指挥中枢",
+            "label": "舰队核心"
+          }
+        ]
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "海军舰艇",
+          "href": "products.html#naval"
+        },
+        {
+          "text": "ZNHI-10-03L[监狱]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Flagship",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "航空母舰",
+        "productCode": "ZNHI-10-03L[监狱]",
+        "restriction": {
+          "enabled": true,
+          "text": "海军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的旗舰级产品，迄今为止最大的作品。斜角甲板、舰岛、弹射器一应俱全，能够搭载监狱空军全系列舰载机。她是力量投射的核心，也是这片海域上移动的钢铁堡垒。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "航空母舰"
+            },
+            {
+              "label": "舷号",
+              "value": "10"
+            },
+            {
+              "label": "甲板",
+              "value": "斜角甲板"
+            },
+            {
+              "label": "舰载机",
+              "value": "监狱空军全系列"
+            },
+            {
+              "label": "雷达",
+              "value": "双雷达罩配置"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "造飞机造腻了，造艘船让她们有个家。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-600/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "造飞机造腻了",
+            "content": "从第一架ZNHI-11A[鹰]下线开始，监狱空军的机群越来越庞大。<br/>战斗机、隐身机、无人机——她们在天空中翱翔，但总需要一个能停靠的地方。<br/>陆地机场有限，战略前出受阻，典狱长意识到：<br/>「造飞机造腻了，该造艘船让她们有个家。」<br/>于是ZNHI-10-03L[监狱]号航空母舰项目启动——<br/>这是监狱重工从陆地走向深蓝的决心，也是迄今为止最大、最复杂的作品。",
+            "statusText": {
+              "enabled": true,
+              "text": "Naval Era: Begin"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "sailing",
+              "color": "primary"
+            },
+            "iconLabel": "Aircraft Carrier",
+            "title": "钢铁堡垒",
+            "content": "斜角甲板支持固定翼舰载机起降，红色标线划分出清晰的飞行区域。<br/>舰岛标识「10」舷号，舰艏标识「03」编号——她是第三艘下水的主力舰。<br/>两座巨大的白色雷达罩提供全方位态势感知，是整个舰队的眼睛与大脑。<br/>弹射器、阻拦索、升降机一应俱全，甲板上整齐排列着监狱空军的战斗机群。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她不只是航母，更是监狱海军的指挥中枢、舰队的核心。</span>",
+            "dataBlocks": [
+              {
+                "value": "10",
+                "label": "舷号"
+              },
+              {
+                "value": "斜角甲板",
+                "label": "设计"
+              },
+              {
+                "value": "双雷达",
+                "label": "系统"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-10-03l-prison/ZNHI-10-03L.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Fleet Command Active",
+              "isAnimated": true
+            },
+            "title": "深蓝旗舰",
+            "content": "当她航行在蓝绿色的海面上时，阳光洒在波浪上，折射出粼粼光影。<br/>巨大的灰色舰体如同移动的钢铁岛屿，甲板上的战斗机静静待命。<br/>她是监狱海军力量投射的核心——从这里起飞的战斗机能够覆盖数百公里的海域。<br/>护卫舰[鲨]在侧翼警戒，补给舰在后方跟随，潜艇[鲸]在水下游弋。<br/>这就是监狱的海上编队，而[监狱]号是这支舰队当之无愧的旗舰。<br/>移动的雪原，海上的监狱——她把监狱重工的名字带到了深蓝之中。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "造飞机造腻了，造艘船让她们有个家。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "航空母舰"
+          },
+          {
+            "label": "Hull Number",
+            "value": "10"
+          },
+          {
+            "label": "Deck",
+            "value": "斜角甲板"
+          },
+          {
+            "label": "Aircraft",
+            "value": "全系列舰载机"
+          }
+        ],
+        "description": "ZNHI-10-03L[监狱] 是监狱重工迄今为止最大的作品，一艘真正的航空母舰。她是监狱海军力量投射的核心，也是这片海域上移动的钢铁堡垒。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI NAVAL FLEET",
+        "products": [
+          {
+            "id": "znhi-20-shark",
+            "imageUrl": "products/znhi-20-shark/thumb.webp",
+            "productCode": "ZNHI-20[鲨]",
+            "productName": "护卫舰",
+            "productDesc": "航母编队护卫力量",
+            "href": "product-detail.html?id=znhi-20-shark"
+          },
+          {
+            "id": "znhi-07-whale",
+            "imageUrl": "products/znhi-07-whale/thumb.webp",
+            "productCode": "ZNHI-07[鲸]",
+            "productName": "潜艇",
+            "productDesc": "似曾相识的你",
+            "href": "product-detail.html?id=znhi-07-whale"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱重工旗舰，航空母舰"
+    }
+  },
+  {
+    "id": "znhi-20-shark",
+    "modelId": "ZNHI-20[鲨]",
+    "name": "护卫舰",
+    "nameEn": "Frigate",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鲨",
+      "seriesEn": "SHARK",
+      "category": "海军舰艇",
+      "subcategory": "护卫舰",
+      "tags": [
+        "舰船“, ”护卫舰“, ”防空“, ”反舰"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-20-shark/ZNHI-20.webp",
+      "hero": "products/znhi-20-shark/ZNHI-20.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-20[鲨].webp"
+      ]
+    },
+    "description": {
+      "tagline": "深灰色的猎手，安静而致命",
+      "summary": "监狱海军的主力护卫舰，深灰色涂装低调而威严。配备舰艏主炮、导弹发射系统与近防武器，具备防空、反舰、反潜多重作战能力，是航母编队不可或缺的护卫力量。",
+      "full": "[鲨]是监狱海军的中坚力量。深灰色的舰体在海面上显得沉稳内敛，但她携带的火力足以让任何来犯者后悔。\n\n舰艏主炮负责对海对岸打击，舰桥后方的导弹发射器提供防空与反舰能力，后部直升机甲板可搭载反潜直升机。她通常与[监狱]号航母编队行动，是舰队防御圈的重要一环。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "护卫舰",
+        "highlight": false
+      },
+      {
+        "label": "舷号",
+        "labelEn": "Hull Number",
+        "value": "20",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "主炮 + 导弹 + 近防",
+        "highlight": true
+      },
+      {
+        "label": "能力",
+        "labelEn": "Capability",
+        "value": "防空/反舰/反潜",
+        "highlight": true
+      },
+      {
+        "label": "舰载机",
+        "labelEn": "Aircraft",
+        "value": "反潜直升机",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "有了航母当然要有护卫舰，不然大姐一个人出门多孤单。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 53,
+      "categories": [
+        "military",
+        "naval"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-20-shark/ZNHI-20.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鲨] SHARK SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-20"
+      },
+      "title": {
+        "text": "护卫舰",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "监狱海军的中坚力量，与[监狱]号航母编队行动。配备主炮、导弹、近防武器，具备防空/反舰/反潜多重作战能力。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "舷号 Hull",
+            "value": "20"
+          },
+          {
+            "label": "武器 Armament",
+            "value": "主炮+导弹+近防"
+          },
+          {
+            "label": "能力 Capability",
+            "value": "防空/反舰/反潜"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "海军舰艇",
+          "href": "products.html#naval"
+        },
+        {
+          "text": "ZNHI-20[鲨]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-20-shark/ZNHI-20.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Fleet Escort",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-20-shark/ZNHI-20.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "护卫舰",
+        "productCode": "ZNHI-20[鲨]",
+        "restriction": {
+          "enabled": true,
+          "text": "海军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱海军的主力护卫舰，深灰色涂装低调而威严。配备舰艏主炮、导弹发射系统与近防武器，是航母编队不可或缺的护卫力量。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "护卫舰"
+            },
+            {
+              "label": "舷号",
+              "value": "20"
+            },
+            {
+              "label": "武器",
+              "value": "主炮 + 导弹 + 近防"
+            },
+            {
+              "label": "能力",
+              "value": "防空/反舰/反潜"
+            },
+            {
+              "label": "舰载机",
+              "value": "反潜直升机"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "有了航母当然要有护卫舰，不然大姐一个人出门多孤单。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-20-shark/ZNHI-20.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "不然大姐多孤单",
+            "content": "有了航母当然要有护卫舰。<br/>[监狱]号是旗舰，但她不能独自出海——<br/>[鲨]就是为此而生的守护者。",
+            "statusText": {
+              "enabled": true,
+              "text": "Fleet Escort Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-20-shark/ZNHI-20.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "security",
+              "color": "primary"
+            },
+            "iconLabel": "Fleet Defense",
+            "title": "中坚力量",
+            "content": "舰艏主炮对海打击，导弹发射器防空反舰，近防武器拦截来袭。<br/>后部直升机甲板搭载反潜直升机，构成完整的防御体系。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她是舰队防御圈的重要一环。</span>",
+            "dataBlocks": [
+              {
+                "value": "20",
+                "label": "舷号"
+              },
+              {
+                "value": "多用途",
+                "label": "能力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-20-shark/ZNHI-20.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Patrol Active",
+              "isAnimated": true
+            },
+            "title": "深灰猎手",
+            "content": "深灰色的舰体在蓝绿色海面上航行，沉稳而内敛。<br/>她通常在[监狱]号的侧翼巡航，警戒着来自空中与水下的威胁。<br/>安静，但致命。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "有了航母当然要有护卫舰，不然大姐一个人出门多孤单。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "护卫舰"
+          },
+          {
+            "label": "Hull Number",
+            "value": "20"
+          },
+          {
+            "label": "Armament",
+            "value": "主炮+导弹+近防"
+          },
+          {
+            "label": "Capability",
+            "value": "防空/反舰/反潜"
+          }
+        ],
+        "description": "ZNHI-20[鲨] 是监狱海军的主力护卫舰，通常与[监狱]号航母编队行动，是舰队防御圈的重要一环。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI NAVAL FLEET",
+        "products": [
+          {
+            "id": "znhi-10-03l-prison",
+            "imageUrl": "products/znhi-10-03l-prison/thumb.webp",
+            "productCode": "ZNHI-10-03L[监狱]",
+            "productName": "航空母舰",
+            "productDesc": "移动的雪原",
+            "href": "product-detail.html?id=znhi-10-03l-prison"
+          },
+          {
+            "id": "znhi-07-whale",
+            "imageUrl": "products/znhi-07-whale/thumb.webp",
+            "productCode": "ZNHI-07[鲸]",
+            "productName": "潜艇",
+            "productDesc": "似曾相识的你",
+            "href": "product-detail.html?id=znhi-07-whale"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "护卫舰，与航母编队行动"
+    }
+  },
+  {
+    "id": "znhi-09a5-a7-elephant-aa",
+    "modelId": "ZNHI-09A5GMWS/A7SS1[象]",
+    "name": "轮式综合防空系统",
+    "nameEn": "Wheeled Integrated Air Defense System",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "装甲车辆",
+      "subcategory": "防空车辆",
+      "tags": [
+        "轮式“, ”防空“, ”雷达“, ”速射炮“, ”导弹"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+      "hero": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A7SS1.webp",
+          "alt": "A5GMWS型",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-09A5GMWS[象].webp",
+        "ZNHI-09A7SS1[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "高低搭配，层层拦截",
+      "summary": "基于-09[象]多轴轮式底盘改装的综合防空系统家族。A5GMWS型配备搜索雷达与双管速射炮，专司近程防空与无人机拦截；A7SS1型则搭载SS1防空导弹，负责中远程防空任务。两型共用相同的底盘与雷达系统，可根据任务需求灵活编组，构成高低搭配的机动防空网络。",
+      "full": "监狱防空体系的机动力量。ZNHI-09A5GMWS与A7SS1基于成熟的-09八轮底盘打造，车顶配备平板搜索雷达提供全方位目标探测能力，白色涂装配合红白警示条纹是监狱防空单位的标志性配色。\n\nA5GMWS型装备双管速射炮，射速极高，专门对付低空突防的飞机、直升机与无人机群，是最后一道防线；A7SS1型则搭载SS1防空导弹，打击距离更远，可在敌机进入近程防空圈之前就将其击落。两型通常协同作战，构成层层拦截的防空火力网。\n\n八轮底盘赋予她们出色的战略机动性，能够快速部署到任何需要防空掩护的区域，打完就跑，绝不恋战。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轮式综合防空系统",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-09[象] 八轮底盘",
+        "highlight": false
+      },
+      {
+        "label": "雷达",
+        "labelEn": "Radar",
+        "value": "车顶平板搜索雷达",
+        "highlight": true
+      },
+      {
+        "label": "A5武器",
+        "labelEn": "A5 Armament",
+        "value": "双管速射炮 (近程防空)",
+        "highlight": true
+      },
+      {
+        "label": "A7武器",
+        "labelEn": "A7 Armament",
+        "value": "SS1防空导弹 (中远程)",
+        "highlight": true
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白色 + 红白警示条纹",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "一个管近的，一个管远的，配合起来谁都别想飞过去。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 54,
+      "categories": [
+        "military",
+        "air-defense"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.1,
+          "brightness": 0.95,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "red-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[象] ELEPHANT SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-09A5/A7"
+      },
+      "title": {
+        "text": "轮式综合防空系统",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "高低搭配，层层拦截。A5型速射炮管近程，A7型导弹管远程，共用底盘与雷达，构成机动防空网络。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "底盘 Chassis",
+            "value": "-09[象] 八轮"
+          },
+          {
+            "label": "A5武器 A5",
+            "value": "双管速射炮"
+          },
+          {
+            "label": "A7武器 A7",
+            "value": "SS1导弹"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空车辆",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-09A5/A7[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Air Defense",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A7SS1.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轮式综合防空系统",
+        "productCode": "ZNHI-09A5GMWS/A7SS1[象]",
+        "restriction": {
+          "enabled": true,
+          "text": "军方管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-09[象]八轮底盘改装的综合防空系统家族。A5型配备双管速射炮，A7型搭载SS1防空导弹，两型协同作战构成层层拦截的机动防空网络。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-09[象] 八轮底盘"
+            },
+            {
+              "label": "雷达",
+              "value": "车顶平板搜索雷达"
+            },
+            {
+              "label": "A5武器",
+              "value": "双管速射炮 (近程防空)"
+            },
+            {
+              "label": "A7武器",
+              "value": "SS1防空导弹 (中远程)"
+            },
+            {
+              "label": "涂装",
+              "value": "白色 + 红白警示条纹"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "一个管近的，一个管远的，配合起来谁都别想飞过去。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "高低搭配",
+            "content": "监狱防空体系需要机动力量。<br/>基于-09[象]八轮底盘改装的A5与A7，车顶配备平板搜索雷达，<br/>白色涂装配合红白警示条纹是监狱防空单位的标志性配色。<br/>一个管近的，一个管远的，配合起来谁都别想飞过去。",
+            "statusText": {
+              "enabled": true,
+              "text": "Air Defense Network Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "radar",
+              "color": "primary"
+            },
+            "iconLabel": "Layered Defense",
+            "title": "层层拦截",
+            "content": "A5GMWS型装备双管速射炮，射速极高，专门对付低空突防的飞机、直升机与无人机群，<br/>是最后一道防线。A7SS1型则搭载SS1防空导弹，打击距离更远，<br/>可在敌机进入近程防空圈之前就将其击落。<br/><span class=\"text-white border-b border-primary/40 pb-1\">两型通常协同作战，构成层层拦截的防空火力网。</span>",
+            "dataBlocks": [
+              {
+                "value": "八轮",
+                "label": "底盘"
+              },
+              {
+                "value": "双型",
+                "label": "协同"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09a5-a7-elephant-aa/ZNHI-09A5GMWS.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Mobile Defense Ready",
+              "isAnimated": true
+            },
+            "title": "打完就跑",
+            "content": "八轮底盘赋予她们出色的战略机动性，白色车体在雪地上快速移动。<br/>能够快速部署到任何需要防空掩护的区域，打完就跑，绝不恋战。<br/>车顶的蓝色平板雷达是她们的眼睛，红白警示条纹是她们的标志。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "一个管近的，一个管远的，配合起来谁都别想飞过去。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轮式综合防空系统"
+          },
+          {
+            "label": "Chassis",
+            "value": "-09[象] 八轮"
+          },
+          {
+            "label": "A5 Armament",
+            "value": "双管速射炮"
+          },
+          {
+            "label": "A7 Armament",
+            "value": "SS1防空导弹"
+          }
+        ],
+        "description": "ZNHI-09A5GMWS与A7SS1是监狱防空体系的机动力量，基于成熟的-09八轮底盘打造，两型协同作战构成高低搭配的机动防空网络。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SYSTEMS",
+        "products": [
+          {
+            "id": "znhi-04sa2-ice",
+            "imageUrl": "products/znhi-04sa2-ice/thumb.webp",
+            "productCode": "ZNHI-04SA2[冰]",
+            "productName": "履带式防空导弹车",
+            "productDesc": "道尔M1远房亲戚",
+            "href": "product-detail.html?id=znhi-04sa2-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "合并A5GMWS与A7SS1两型，综合防空系统家族"
+    }
+  },
+  {
+    "id": "znhi-22-crow",
+    "modelId": "ZNHI-22[鸦]",
+    "name": "双座多用途战斗机",
+    "nameEn": "Twin-seat Multirole Fighter",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鸦",
+      "seriesEn": "CROW",
+      "category": "空军装备",
+      "subcategory": "战斗机",
+      "tags": [
+        "固定翼“, ”双座“, ”多用途“, ”双发"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-22-crow/ZNHI-22.webp",
+      "hero": "products/znhi-22-crow/ZNHI-22.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-22[鸦].webp"
+      ]
+    },
+    "description": {
+      "tagline": "双座多面手，空地通吃",
+      "summary": "监狱空军的双座多用途战斗机。灰色低可视涂装配合双发双垂尾布局，兼具空优与对地打击能力。双座配置让她既能执行复杂的攻击任务，也能承担教练机职责，是空军中用途最广泛的机型之一。",
+      "full": "[鸦]是监狱空军的多面手。双座布局让飞行员与武器操作员可以分工协作，在复杂任务中发挥更高效率。灰色涂装降低了视觉特征，双发动机提供充沛动力，双垂尾设计则保证了高机动性与稳定性。\n\n翼下挂点可搭载多种武器，从空空导弹到对地炸弹一应俱全。无论是空中格斗还是对地支援，她都能胜任。编队飞行时，两架[鸦]足以覆盖一片战区。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "双座多用途战斗机",
+        "highlight": false
+      },
+      {
+        "label": "座位",
+        "labelEn": "Seats",
+        "value": "双座",
+        "highlight": false
+      },
+      {
+        "label": "发动机",
+        "labelEn": "Engines",
+        "value": "双发",
+        "highlight": false
+      },
+      {
+        "label": "布局",
+        "labelEn": "Layout",
+        "value": "双垂尾",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "灰色低可视",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "翼下多挂点",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "一个人飞太孤单，两个人飞刚刚好。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 55,
+      "categories": [
+        "military",
+        "airforce"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-22-crow/ZNHI-22.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.1,
+          "brightness": 0.95,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-right"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鸦] CROW SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-22"
+      },
+      "title": {
+        "text": "双座多用途战斗机",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "空地通吃的多面手。双座配置分工协作，双发双垂尾布局，翼下多挂点可搭载各类武器。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "column",
+        "items": [
+          {
+            "label": "座位",
+            "value": "双座"
+          },
+          {
+            "label": "布局",
+            "value": "双发双垂尾"
+          },
+          {
+            "label": "用途",
+            "value": "多用途"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "空军装备",
+          "href": "products.html#airforce"
+        },
+        {
+          "text": "ZNHI-22[鸦]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-22-crow/ZNHI-22.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Multirole",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-22-crow/ZNHI-22.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "双座多用途战斗机",
+        "productCode": "ZNHI-22[鸦]",
+        "restriction": {
+          "enabled": true,
+          "text": "空军管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱空军的多面手。双座布局让飞行员与武器操作员分工协作，灰色低可视涂装，双发双垂尾布局，兼具空优与对地打击能力。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "双座多用途战斗机"
+            },
+            {
+              "label": "座位",
+              "value": "双座"
+            },
+            {
+              "label": "发动机",
+              "value": "双发"
+            },
+            {
+              "label": "布局",
+              "value": "双垂尾"
+            },
+            {
+              "label": "涂装",
+              "value": "灰色低可视"
+            },
+            {
+              "label": "武器",
+              "value": "翼下多挂点"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "一个人飞太孤单，两个人飞刚刚好。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-22-crow/ZNHI-22.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "两个人飞刚刚好",
+            "content": "一个人飞太孤单，复杂任务需要分工协作。<br/>前座飞行员专注操控，后座武器操作员处理火控。<br/>双座配置让[鸦]成为监狱空军用途最广泛的机型之一。",
+            "statusText": {
+              "enabled": true,
+              "text": "Multirole Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-22-crow/ZNHI-22.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight",
+              "color": "primary"
+            },
+            "iconLabel": "Multirole Fighter",
+            "title": "多面手",
+            "content": "灰色低可视涂装降低视觉特征，双发动机提供充沛动力。<br/>双垂尾设计保证高机动性与稳定性，翼下挂点可搭载多种武器。<br/><span class=\"text-white border-b border-primary/40 pb-1\">从空空导弹到对地炸弹，无论空优还是对地支援，她都能胜任。</span>",
+            "dataBlocks": [
+              {
+                "value": "双座",
+                "label": "配置"
+              },
+              {
+                "value": "双垂尾",
+                "label": "布局"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-22-crow/ZNHI-22.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Formation Active",
+              "isAnimated": true
+            },
+            "title": "双机编队",
+            "content": "蓝天下，两架[鸦]编队飞行，浅灰色机身与天空融为一体。<br/>编队飞行时，两架[鸦]足以覆盖一片战区。<br/>她们既能空中格斗，也能对地支援——监狱空军的可靠伙伴。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "一个人飞太孤单，两个人飞刚刚好。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "双座多用途战斗机"
+          },
+          {
+            "label": "Engines",
+            "value": "双发"
+          },
+          {
+            "label": "Layout",
+            "value": "双垂尾"
+          },
+          {
+            "label": "Role",
+            "value": "空优/对地"
+          }
+        ],
+        "description": "ZNHI-22[鸦] 是监狱空军的多面手，双座配置让飞行员与武器操作员分工协作，兼具空优与对地打击能力，是用途最广泛的机型之一。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "需要 A 级安全许可"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIRFORCE",
+        "products": [
+          {
+            "id": "znhi-05-dove",
+            "imageUrl": "products/znhi-05-dove/thumb.webp",
+            "productCode": "ZNHI-05[鸽]",
+            "productName": "重型隐身空优战斗机",
+            "productDesc": "你干嘛哎哟",
+            "href": "product-detail.html?id=znhi-05-dove"
+          },
+          {
+            "id": "znhi-06b-sparrow",
+            "imageUrl": "products/znhi-06b-sparrow/thumb.webp",
+            "productCode": "ZNHI-06B[雀]",
+            "productName": "高机动战斗机",
+            "productDesc": "山里灵活的狗",
+            "href": "product-detail.html?id=znhi-06b-sparrow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "双座多用途战斗机，灰色涂装"
+    }
+  },
+  {
+    "id": "znhi-08",
+    "modelId": "ZNHI-08",
+    "name": "轮式滑移装载机",
+    "nameEn": "Wheeled Skid Steer Loader",
+    "nickname": "小巧玲珑",
+    "classification": {
+      "brand": "ZNHI",
+      "series": null,
+      "seriesEn": null,
+      "category": "工程车辆",
+      "subcategory": "装载机",
+      "tags": [
+        "轮式“, ”工程“, ”小型“, ”多功能"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-08/ZNHI-08.webp",
+      "hero": "products/znhi-08/ZNHI-08.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-08/ZNHI-08A1.webp",
+          "alt": "双车作业",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-08/ZNHI-08A2.webp",
+          "alt": "A1型-铲斗",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-08.webp",
+        "ZNHI-08A1.webp",
+        "ZNHI-08A2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "小有小的好处",
+      "summary": "监狱重工的小型工程车辆，设计之初就追求极致的紧凑尺寸。然而以当时的技术很难达到指标要求，各种问题导致她尘封多年。重制工作在指标修改后才得以推进，如今终于以全新面貌亮相，小巧的身材让她能在狭小空间灵活作业。",
+      "full": "小有小的好处。ZNHI-08是监狱重工尺寸最小的工程车辆，当年的设计指标严苛到以那时的技术几乎无法实现，于是她在图纸上躺了很久很久。\n\n典狱长一直有更重要的事情要忙，重制工作一拖再拖，直到指标放宽后她才终于得见天日。白色车身配黑色铲斗是她的标志，支持多种属具快换，铲斗、举升臂任君选择。别看她小，干起活来一点不含糊。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轮式滑移装载机",
+        "highlight": false
+      },
+      {
+        "label": "尺寸",
+        "labelEn": "Size",
+        "value": "小型 / 紧凑",
+        "highlight": true
+      },
+      {
+        "label": "属具",
+        "labelEn": "Attachments",
+        "value": "铲斗 / 举升臂 / 快换",
+        "highlight": true
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "白色车身 + 黑色属具",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "拖了这么多年，总算让她出来见见世面了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程车辆",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-08"
+        }
+      ]
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "尘封多年的小型工程车，重制后亮相"
+    }
+  },
+  {
+    "id": "znhi-04sa2-ice",
+    "modelId": "ZNHI-04SA2[冰]",
+    "name": "自行防空导弹系统",
+    "nameEn": "Self-propelled Surface-to-Air Missile System",
+    "nickname": "开启新征程",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "防空导弹车",
+      "tags": [
+        "履带式“, ”防空“, ”导弹“, ”自行式"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+      "hero": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-04sa2-ice/ZNHI-04SA2-2.webp",
+          "alt": "发射场景",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-04SA2[冰].webp",
+        "ZNHI-04SA2[冰]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "可靠≠好用，但能打下飞机",
+      "summary": "道尔M1的远房亲戚，监狱防空网步入导弹时代的标志性产品。她是监狱现役唯一可靠的自研防空导弹系统——虽然可靠不等于好用。采用-04履带式底盘，配备搜索/跟踪雷达与左右双弹仓，共计10发载弹，专门用于中低空防空作战。",
+      "full": "在SA1导弹因为技术不成熟而难产多年后，监狱终于在SA2身上找到了正确的方向。ZNHI-04SA2是监狱自研防空导弹的第一款量产型号，基于成熟的-04履带底盘打造，继承了[冰]系列优秀的机动性能。\n\n左右双弹仓设计让她能携带10发导弹，搜索雷达与跟踪雷达一应俱全，从发现目标到导弹命中全程自主完成。但需要注意的是，她不可行进间发射，也不支持对地打击——典狱长强调，可靠≠好用，但至少她真的能把飞机打下来。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行防空导弹系统",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-04 履带式",
+        "highlight": false
+      },
+      {
+        "label": "载弹量",
+        "labelEn": "Missiles",
+        "value": "10发（左右双弹仓）",
+        "highlight": true
+      },
+      {
+        "label": "雷达",
+        "labelEn": "Radar",
+        "value": "搜索 + 跟踪",
+        "highlight": true
+      },
+      {
+        "label": "限制",
+        "labelEn": "Limitation",
+        "value": "不可行进间发射 / 不可对地",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "可靠≠好用，但至少她真的能把飞机打下来。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 57,
+      "categories": [
+        "military",
+        "air-defense"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.8,
+          "contrast": 1.15,
+          "brightness": 0.95,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04SA2"
+      },
+      "title": {
+        "text": "自行防空导弹系统",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "道尔M1远房亲戚，监狱防空网步入导弹时代的标志。现役唯一可靠的自研防空导弹系统。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "底盘 Chassis",
+            "value": "-04履带式"
+          },
+          {
+            "label": "载弹 Missiles",
+            "value": "10发双弹仓"
+          },
+          {
+            "label": "雷达 Radar",
+            "value": "搜索+跟踪"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空车辆",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-04SA2[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Air Defense",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-04sa2-ice/ZNHI-04SA2-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行防空导弹系统",
+        "productCode": "ZNHI-04SA2[冰]",
+        "restriction": {
+          "enabled": true,
+          "text": "军方管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "道尔M1的远房亲戚，监狱防空网步入导弹时代的标志。她是监狱现役唯一可靠的自研防空导弹系统——虽然可靠不等于好用。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "自行防空导弹系统"
+            },
+            {
+              "label": "底盘",
+              "value": "-04 履带式"
+            },
+            {
+              "label": "载弹量",
+              "value": "10发（左右双弹仓）"
+            },
+            {
+              "label": "雷达",
+              "value": "搜索 + 跟踪"
+            },
+            {
+              "label": "限制",
+              "value": "不可行进间发射 / 不可对地"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "可靠≠好用，但至少她真的能把飞机打下来。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "开启新征程",
+            "content": "在SA1导弹因技术不成熟而难产多年后，监狱终于在SA2身上找到了正确的方向。<br/>ZNHI-04SA2是监狱自研防空导弹的第一款量产型号，<br/>标志着监狱防空网从速射炮时代步入导弹时代。",
+            "statusText": {
+              "enabled": true,
+              "text": "Missile Era Begin"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04sa2-ice/ZNHI-04SA2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "security",
+              "color": "primary"
+            },
+            "iconLabel": "SAM System",
+            "title": "道尔亲戚",
+            "content": "基于成熟的-04履带底盘，左右双弹仓共计10发载弹。<br/>搜索雷达与跟踪雷达一应俱全，从发现目标到导弹命中全程自主完成。<br/>但需要注意：不可行进间发射，也不支持对地打击。<br/><span class=\"text-white border-b border-primary/40 pb-1\">典狱长强调，可靠≠好用，但至少她真的能把飞机打下来。</span>",
+            "dataBlocks": [
+              {
+                "value": "10发",
+                "label": "载弹"
+              },
+              {
+                "value": "双雷达",
+                "label": "系统"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04sa2-ice/ZNHI-04SA2-2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Launch Ready",
+              "isAnimated": true
+            },
+            "title": "雪地发射",
+            "content": "雪原上，白色的-04SA2严阵以待，双弹仓导弹呈垂直状态。<br/>当目标进入射程，导弹拖着蓝色尾焰冲向天空。<br/>她不是最先进的，但她是唯一可靠的——监狱防空网的坚实基础。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "可靠≠好用，但至少她真的能把飞机打下来。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "自行防空导弹系统"
+          },
+          {
+            "label": "Chassis",
+            "value": "-04履带式"
+          },
+          {
+            "label": "Missiles",
+            "value": "10发双弹仓"
+          },
+          {
+            "label": "Radar",
+            "value": "搜索+跟踪"
+          }
+        ],
+        "description": "ZNHI-04SA2[冰] 是监狱现役唯一可靠的自研防空导弹系统，标志着监狱防空网从速射炮时代步入导弹时代。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SYSTEMS",
+        "products": [
+          {
+            "id": "znhi-09a5-a7-elephant-aa",
+            "imageUrl": "products/znhi-09a5-a7-elephant-aa/thumb.webp",
+            "productCode": "ZNHI-09A5/A7[象]",
+            "productName": "轮式综合防空系统",
+            "productDesc": "高低搭配，层层拦截",
+            "href": "product-detail.html?id=znhi-09a5-a7-elephant-aa"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱首款量产自行防空导弹系统"
+    }
+  },
+  {
+    "id": "znhi-25-lion",
+    "modelId": "ZNHI-25[狮]",
+    "name": "多用途运输卡车",
+    "nameEn": "Multi-purpose Transport Truck",
+    "nickname": "致敬耐运王",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狮",
+      "seriesEn": "LION",
+      "category": "运输车辆",
+      "subcategory": "多用途卡车",
+      "tags": [
+        "轮式“, ”运输“, ”多配置“, ”后勤"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-25-lion/ZNHI-25.webp",
+      "hero": "products/znhi-25-lion/ZNHI-25.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-25-lion/ZNHI-25-2.webp",
+          "alt": "全系列合照",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-25-lion/ZNHI-25-3.webp",
+          "alt": "自卸车型",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-25[狮].webp",
+        "ZNHI-25[狮]-2.webp",
+        "ZNHI-25[狮]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "跑得快，装得多，配置随心选",
+      "summary": "[狮]系列是监狱重工的多用途运输卡车家族。有别于-09与-14系列，她没有安装装甲驾驶室，更适合完成各类非战斗性任务。目前有A/B/C三个型号（4x4、6x6、8x8），可选配平板、自卸斗、厢式货箱等多种上装，是后勤体系的百变主力。",
+      "full": "不是所有任务都需要装甲驾驶室。ZNHI-25[狮]是监狱重工的通用运输卡车系列，专为非战斗环境下的物资转运设计。白色驾驶室轻便耐用，动力虽比不过装甲车辆的老前辈们，但仍能满足大部分需求。\n\nA型4x4适合轻载短途，可选配厢式货箱；B型6x6平衡载重与机动性，自卸斗配置是工地好帮手；C型8x8则是重载长途的首选，平板底盘能拉各种超规货物。三型共用驾驶室设计，维护方便，零件通用。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "多用途运输卡车",
+        "highlight": false
+      },
+      {
+        "label": "型号",
+        "labelEn": "Variants",
+        "value": "A型4x4 / B型6x6 / C型8x8",
+        "highlight": true
+      },
+      {
+        "label": "驾驶室",
+        "labelEn": "Cabin",
+        "value": "非装甲 / 白色",
+        "highlight": false
+      },
+      {
+        "label": "上装",
+        "labelEn": "Body",
+        "value": "平板 / 自卸斗 / 厢式货箱",
+        "highlight": true
+      },
+      {
+        "label": "用途",
+        "labelEn": "Usage",
+        "value": "物资运输 / 工程作业",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "装甲是好东西，但后勤卡车不需要那玩意儿——跑得快、装得多才是王道。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-25[狮]"
+        }
+      ],
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-25-lion/ZNHI-25.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "后勤百变家族",
+            "content": "ZNHI-25[狮]系列，监狱重工的多用途运输卡车家族。<br/>A型4x4轻载短途，B型6x6平衡机动，C型8x8重载长途。<br/>白色驾驶室轻便耐用，不需要装甲——跑得快、装得多才是王道。",
+            "statusText": {
+              "enabled": true,
+              "text": "Multi-purpose Transport"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-25-lion/ZNHI-25B2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "emergency",
+              "color": "primary"
+            },
+            "iconLabel": "Medical Variant",
+            "title": "雪地救援",
+            "content": "B2医疗运输变体，6x6底盘，厢式货箱顶部标有红色十字。<br/>雪地战场，浓烟弥漫，前景伤员等待撤离。<br/>她不是装甲医疗车，但在非战斗区域，她更快、更灵活。<br/><span class=\"text-white border-b border-primary/40 pb-1\">后勤体系不只是运物资，还要运生命。</span>",
+            "dataBlocks": [
+              {
+                "value": "6x6",
+                "label": "底盘"
+              },
+              {
+                "value": "医疗",
+                "label": "配置"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-25-lion/ZNHI-25-2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.05
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/65",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "工程型",
+              "isAnimated": false
+            },
+            "title": "自卸斗配置",
+            "content": "公路上，B型6x6自卸车翘起白色斗体，准备卸载。<br/>这是工地的好帮手——沙石、土方、建材，什么都能拉。<br/>平衡了载重与机动性，比C型灵活，比A型能装。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "不是所有任务都需要装甲驾驶室。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        },
+        {
+          "id": "chapter-4",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-25-lion/ZNHI-25-3.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "inventory_2",
+              "color": "primary"
+            },
+            "iconLabel": "Cargo Transport",
+            "title": "物资转运",
+            "content": "厢式货箱配置，机器人正在旁边搬运木箱物资。<br/>A型4x4适合轻载短途，厢式货箱保护货物不受风雨侵袭。<br/>三型共用驾驶室设计，维护方便，零件通用，后勤体系的百变主力。<br/><span class=\"text-white border-b border-primary/40 pb-1\">想要什么上装，自己选。</span>",
+            "dataBlocks": [
+              {
+                "value": "3型",
+                "label": "可选"
+              },
+              {
+                "value": "多配置",
+                "label": "上装"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        }
+      ]
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "多用途运输卡车系列，A/B/C三型，多种上装配置"
+    }
+  },
+  {
+    "id": "znhi-19-mouse",
+    "modelId": "ZNHI-19[鼠]",
+    "name": "空降战车",
+    "nameEn": "Airborne Combat Vehicle",
+    "nickname": "天降奇兵",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "鼠",
+      "seriesEn": "MOUSE",
+      "category": "装甲车辆",
+      "subcategory": "空降战车",
+      "tags": [
+        "履带式“, ”空降“, ”两栖“, ”轻型"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-19-mouse/ZNHI-19.webp",
+      "hero": "products/znhi-19-mouse/ZNHI-19.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-19-mouse/ZNHI-19-2.webp",
+          "alt": "空降场景",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-19-mouse/ZNHI-19-3.webp",
+          "alt": "运输机投放",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-19[鼠].webp",
+        "ZNHI-19[鼠]-2.webp",
+        "ZNHI-19[鼠]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "从天而降，小而凶猛",
+      "summary": "监狱里车身最小的战车，专为空降作战设计。她能从运输机后舱门投放，挂载降落伞着陆后即可投入战斗。尾部乘员舱可携带两名随车乘员，具备不俗的两栖机动性，火力方面仅配备一门小口径炮——但对于空降突击来说足够了。",
+      "full": "当敌人以为天空是安全的时候，她会告诉他们什么叫「天降奇兵」。ZNHI-19[鼠]是监狱重工专为空降作战研发的轻型战车，车身小到可以和旁边的-01A3[雪]形成鲜明对比。\n\n她能从大型运输机的后舱门投放，降落伞减速后直接着陆战场。尾部乘员舱紧凑但实用，可携带两名全副武装的乘员。履带式底盘赋予她两栖能力，水陆皆可通行。火力方面只有一门小口径炮，但空降兵要的就是速度和突然性，不是火力。\n\n（PS：图一的降落伞空降场景涉及虚假宣传，实际没那么酷炫）"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "空降战车",
+        "highlight": true
+      },
+      {
+        "label": "尺寸",
+        "labelEn": "Size",
+        "value": "监狱最小",
+        "highlight": true
+      },
+      {
+        "label": "乘员",
+        "labelEn": "Crew",
+        "value": "2名随车乘员",
+        "highlight": false
+      },
+      {
+        "label": "武器",
+        "labelEn": "Armament",
+        "value": "小口径炮",
+        "highlight": false
+      },
+      {
+        "label": "机动性",
+        "labelEn": "Mobility",
+        "value": "两栖 / 空投",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "小是小了点，但她能从天上掉下来——这就够了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 59,
+      "categories": [
+        "military",
+        "airborne"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-19-mouse/ZNHI-19.webp",
+        "filters": {
+          "opacity": 0.75,
+          "saturate": 0.9,
+          "contrast": 1.1,
+          "brightness": 1,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-l",
+          "fromColor": "background-dark",
+          "viaColor": "background-dark/60",
+          "toColor": "transparent"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-right"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[鼠] MOUSE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-19"
+      },
+      "title": {
+        "text": "空降战车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "监狱最小的战车，专为空降作战设计。从天而降，小而凶猛。",
+        "maxWidth": "max-w-md"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "grid-cols-2",
+        "items": [
+          {
+            "label": "尺寸",
+            "value": "监狱最小"
+          },
+          {
+            "label": "乘员",
+            "value": "2名"
+          },
+          {
+            "label": "机动",
+            "value": "空投+两栖"
+          },
+          {
+            "label": "武器",
+            "value": "小口径炮"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-19[鼠]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-19-mouse/ZNHI-19.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Airborne Ready",
+            "type": "primary"
+          },
+          {
+            "text": "Amphibious",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-19-mouse/ZNHI-19.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-19-mouse/ZNHI-19-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-19-mouse/ZNHI-19-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "空降战车",
+        "productCode": "ZNHI-19[鼠]",
+        "restriction": {
+          "enabled": true,
+          "text": "军方管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱里车身最小的战车，专为空降作战设计。她能从运输机后舱门投放，挂载降落伞着陆后即可投入战斗。小而凶猛，从天而降。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "空降战车"
+            },
+            {
+              "label": "尺寸",
+              "value": "监狱最小"
+            },
+            {
+              "label": "乘员",
+              "value": "2名随车乘员"
+            },
+            {
+              "label": "武器",
+              "value": "小口径炮"
+            },
+            {
+              "label": "机动性",
+              "value": "两栖 + 空投"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "小是小了点，但她能从天上掉下来——这就够了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取空降手册",
+          "subtitle": "含投放指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-19-mouse/ZNHI-19.webp",
+            "filters": {
+              "scale": 1.1,
+              "brightness": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/95"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "天降奇兵",
+            "content": "蓝天之下，白色降落伞缓缓展开，ZNHI-19[鼠]挂在伞绳下从天而降。<br/>她是监狱最小的战车，却有着最大胆的作战方式——空降。<br/>当敌人以为天空是安全的时候，她会告诉他们什么叫突然性。",
+            "statusText": {
+              "enabled": true,
+              "text": "※ 此画面涉及虚假宣传"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-19-mouse/ZNHI-19-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "flight",
+              "color": "primary"
+            },
+            "iconLabel": "Airborne",
+            "title": "运输机投放",
+            "content": "她能从大型运输机的后舱门投放，降落伞减速后直接着陆战场。<br/>尾部乘员舱紧凑但实用，可携带两名全副武装的乘员。<br/>履带式底盘赋予她两栖能力，水陆皆可通行。<br/><span class=\"text-white border-b border-primary/40 pb-1\">火力方面只有一门小口径炮，但空降兵要的就是速度和突然性。</span>",
+            "dataBlocks": [
+              {
+                "value": "2名",
+                "label": "乘员"
+              },
+              {
+                "value": "两栖",
+                "label": "能力"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-19-mouse/ZNHI-19-3.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.05
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Smallest AFV",
+              "isAnimated": false
+            },
+            "title": "小巧身材",
+            "content": "雪地上，士兵站在-19[鼠]旁边，对比之下更显战车的小巧身材。<br/>她是监狱车身最小的战车，和旁边的-01A3[雪]形成鲜明对比。<br/>但不要小看她——小是小了点，但她能从天上掉下来，这就够了。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "小是小了点，但她能从天上掉下来——这就够了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "空降战车"
+          },
+          {
+            "label": "Size",
+            "value": "监狱最小"
+          },
+          {
+            "label": "Crew",
+            "value": "2名"
+          },
+          {
+            "label": "Mobility",
+            "value": "两栖+空投"
+          }
+        ],
+        "description": "ZNHI-19[鼠] 是监狱最小的战车，专为空降作战设计。从天而降，小而凶猛。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取空降手册",
+          "subtitle": "含投放指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI LIGHT VEHICLES",
+        "products": [
+          {
+            "id": "znhi-33-rabbit",
+            "imageUrl": "products/znhi-33-rabbit/thumb.webp",
+            "productCode": "ZNHI-33[兔]",
+            "productName": "轻型全地形车",
+            "productDesc": "小巧灵活的UTV",
+            "href": "product-detail.html?id=znhi-33-rabbit"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "监狱最小战车，空降专用，图一涉及虚假宣传"
+    }
+  },
+  {
+    "id": "znhi-27-wolf",
+    "modelId": "ZNHI-27[狼]",
+    "name": "轻型战术车",
+    "nameEn": "Light Tactical Vehicle",
+    "nickname": "",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狼",
+      "seriesEn": "WOLF",
+      "category": "装甲车辆",
+      "subcategory": "轮式战术车",
+      "tags": [
+        "轮式",
+        "4x4",
+        "轻装甲“, ”战术"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-27-wolf/ZNHI-27.webp",
+      "hero": "products/znhi-27-wolf/ZNHI-27.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-27-wolf/ZNHI-27-2.webp",
+          "alt": "侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-27[狼].webp",
+        "ZNHI-27[狼]-2.webp"
+      ]
+    },
+    "description": {
+      "tagline": "雪原轻骑，快速响应",
+      "summary": "监狱[狼]系列的基础型轻型战术车。4x4全轮驱动，具备基本装甲防护，能在各种地形快速机动。她是MEV医疗型和ISV步兵支援型的底盘基础，也是监狱轻型车辆家族的核心成员。",
+      "full": "[狼]系列是监狱轻型战术车辆的主力，而她正是这个家族的起点。基础型采用4x4全轮驱动布局，车体具备基本装甲防护，能抵挡轻武器射击与弹片侵袭。前部配有坚固的防撞杠，侧面设有车门便于乘员快速上下车，车顶可根据任务需求选装观察塔或遥控武器站。\n\n她没有重型装甲车那样的厚重防护，但胜在机动灵活、维护简便、部署迅速。无论是侦察巡逻、人员运输还是快速突击，她都能胜任。作为[狼]系列的底盘基础，后续的MEV医疗型、ISV步兵支援型都在她身上开枝散叶，各自承担起战场上的不同使命。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轻型战术车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "防护",
+        "labelEn": "Armor",
+        "value": "基本装甲",
+        "highlight": false
+      },
+      {
+        "label": "座位",
+        "labelEn": "Seats",
+        "value": "4-5人",
+        "highlight": false
+      },
+      {
+        "label": "车顶",
+        "labelEn": "Roof",
+        "value": "可选装观察塔/武器站",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "这孩子跑得快，装甲薄了点，但够用——重点是别让她挨打。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-27[狼]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-27-wolf/ZNHI-27.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Platform Base",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-27-wolf/ZNHI-27.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-27-wolf/ZNHI-27-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轻型战术车",
+        "productCode": "ZNHI-27[狼]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱[狼]系列的基础型轻型战术车。4x4全轮驱动，具备基本装甲防护，能在各种地形快速机动。是MEV医疗型和ISV步兵支援型的底盘基础。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "轻型战术车"
+            },
+            {
+              "label": "驱动",
+              "value": "4x4 全轮驱动"
+            },
+            {
+              "label": "防护",
+              "value": "基本装甲"
+            },
+            {
+              "label": "座位",
+              "value": "4-5人"
+            },
+            {
+              "label": "车顶",
+              "value": "可选装观察塔/武器站"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这孩子跑得快，装甲薄了点，但够用——重点是别让她挨打。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看技术规格",
+          "subtitle": "含变体配置",
+          "icon": "description"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-27-wolf/ZNHI-27.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/35",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "雪原轻骑",
+            "content": "雪地城市边缘，白色的ZNHI-27[狼]静静停驻。<br/>她是[狼]系列的起点，4x4全轮驱动，基本装甲防护，机动灵活。<br/>没有重型装甲车的厚重，但胜在快速响应、部署迅速——这孩子跑得快。",
+            "statusText": {
+              "enabled": true,
+              "text": "Light Tactical Platform"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-27-wolf/ZNHI-27-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "settings",
+              "color": "primary"
+            },
+            "iconLabel": "Platform Base",
+            "title": "底盘基础",
+            "content": "基地停车场，俯视角度展示车顶细节，机器人在旁边进行维护。<br/>她是[狼]系列的底盘基础——后续的MEV医疗型、ISV步兵支援型都在她身上开枝散叶。<br/>车顶可根据任务需求选装观察塔或遥控武器站，侧面车门便于乘员快速上下车。<br/><span class=\"text-white border-b border-primary/40 pb-1\">无论是侦察巡逻、人员运输还是快速突击，她都能胜任。</span>",
+            "dataBlocks": [
+              {
+                "value": "4x4",
+                "label": "驱动"
+              },
+              {
+                "value": "4-5人",
+                "label": "座位"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-27-wolf/ZNHI-27.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.08
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Lightweight",
+              "isAnimated": false
+            },
+            "title": "装甲薄了点",
+            "content": "她没有重型装甲车那样的厚重防护，基本装甲只能抵挡轻武器射击与弹片。<br/>但典狱长说得对——装甲薄了点，但够用，重点是别让她挨打。<br/>机动灵活、维护简便、部署迅速，这就是轻型战术车的生存之道。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这孩子跑得快，装甲薄了点，但够用——重点是别让她挨打。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "轻型战术车"
+          },
+          {
+            "label": "Drive",
+            "value": "4x4"
+          },
+          {
+            "label": "Armor",
+            "value": "基本装甲"
+          },
+          {
+            "label": "Seats",
+            "value": "4-5人"
+          }
+        ],
+        "description": "ZNHI-27[狼] 是监狱轻型战术车辆的主力，机动灵活、维护简便、部署迅速。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看技术规格",
+          "subtitle": "含变体配置"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI WOLF SERIES",
+        "products": [
+          {
+            "id": "znhi-27mev-wolf",
+            "imageUrl": "products/znhi-27mev-wolf/thumb.webp",
+            "productCode": "ZNHI-27MEV[狼]",
+            "productName": "轻型医疗车",
+            "productDesc": "基于[狼]底盘的医疗变体",
+            "href": "product-detail.html?id=znhi-27mev-wolf"
+          },
+          {
+            "id": "znhi-27isv-wolf",
+            "imageUrl": "products/znhi-27isv-wolf/thumb.webp",
+            "productCode": "ZNHI-27ISV[狼]",
+            "productName": "步兵支援车",
+            "productDesc": "快速火力支援平台",
+            "href": "product-detail.html?id=znhi-27isv-wolf"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狼]系列基础型，MEV和ISV型号的底盘来源"
+    }
+  },
+  {
+    "id": "znhi-25-wolf",
+    "modelId": "ZNHI-25[狼]",
+    "name": "多用途运输卡车（重制版）",
+    "nameEn": "Multi-purpose Transport Truck (Remastered)",
+    "nickname": "统一度量衡",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "狼",
+      "seriesEn": "WOLF",
+      "category": "装甲车辆",
+      "subcategory": "轮式运输车",
+      "tags": [
+        "轮式",
+        "4x4",
+        "6x6",
+        "运输“, ”后勤“, ”模块化"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-25-wolf/ZNHI-25.webp",
+      "hero": "products/znhi-25-wolf/ZNHI-25.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-25-wolf/ZNHI-25-2.webp",
+          "alt": "4x4厢式",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-25-wolf/ZNHI-25-3.webp",
+          "alt": "车队行驶",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-25[狼].webp",
+        "ZNHI-25[狼]-2.webp",
+        "ZNHI-25[狼]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "统一度量衡，物资必达",
+      "summary": "[狼]系列重制版多用途运输卡车。与[狮]系列同宗同源，采用相似的底盘布局与模块化设计理念。有4x4和6x6两种轴距配置，可搭载厢式货箱、集装箱等多种上装，是监狱后勤运输的可靠力量。",
+      "full": "「统一度量衡」——这是典狱长对她的期许。重制版的-25[狼]在保持原有设计语言的基础上，对整体尺寸与模块接口进行了标准化调整，确保与监狱其他车辆系统的兼容性。\n\n她有4x4和6x6两种底盘配置，可根据任务需求搭载厢式货箱、集装箱或其他模块化上装。6x6版本还配备了小型吊臂，能够自主完成集装箱的装卸作业。作为后勤运输的主力，她与[狮]系列共同撑起监狱的物资补给线，无论是日常补给还是战时转运，都能见到她忙碌的身影。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "多用途运输卡车",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "4x4 / 6x6",
+        "highlight": false
+      },
+      {
+        "label": "上装",
+        "labelEn": "Payload",
+        "value": "厢式货箱 / 集装箱 / 模块化",
+        "highlight": true
+      },
+      {
+        "label": "特殊配置",
+        "labelEn": "Special",
+        "value": "6x6型配吊臂",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "统一度量衡，就是让每个孩子都能无缝协作——物资到位，任务才能继续。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "运输车辆",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-25[狼]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-25-wolf/ZNHI-25.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Remastered",
+            "type": "primary"
+          },
+          {
+            "text": "Modular",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-25-wolf/ZNHI-25.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-25-wolf/ZNHI-25-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-25-wolf/ZNHI-25-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "多用途运输卡车（重制版）",
+        "productCode": "ZNHI-25[狼]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[狼]系列重制版多用途运输卡车。与[狮]系列同宗同源，采用相似的底盘布局与模块化设计理念。统一度量衡，确保与监狱其他车辆系统的兼容性。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "多用途运输卡车"
+            },
+            {
+              "label": "驱动",
+              "value": "4x4 / 6x6"
+            },
+            {
+              "label": "上装",
+              "value": "厢式货箱/集装箱/模块化"
+            },
+            {
+              "label": "特殊配置",
+              "value": "6x6型配吊臂"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "统一度量衡，就是让每个孩子都能无缝协作——物资到位，任务才能继续。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看模块配置",
+          "subtitle": "含标准接口",
+          "icon": "widgets"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-25-wolf/ZNHI-25.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "统一度量衡",
+            "content": "重制版的-25[狼]在保持原有设计语言的基础上，对整体尺寸与模块接口进行了标准化调整。<br/>她与[狮]系列同宗同源，确保与监狱其他车辆系统的兼容性。<br/>统一度量衡，就是让每个孩子都能无缝协作——物资到位，任务才能继续。",
+            "statusText": {
+              "enabled": true,
+              "text": "Standardized Platform"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-25-wolf/ZNHI-25-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "gray-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "cloud",
+              "color": "primary"
+            },
+            "iconLabel": "Smoke Variant",
+            "title": "发烟车变体",
+            "content": "雪地车队释放大面积烟幕，浓烟弥漫——这是基于[狼]底盘的B2发烟车配置。<br/>6x6底盘搭载发烟设备与烟幕剂储存方舱，为己方部队提供视觉掩护。<br/>标准化底盘的优势在于：同一平台，多种上装，快速适配不同任务需求。<br/><span class=\"text-white border-b border-primary/40 pb-1\">模块化设计，让运输车也能变身战场支援车辆。</span>",
+            "dataBlocks": [
+              {
+                "value": "6x6",
+                "label": "底盘"
+              },
+              {
+                "value": "发烟",
+                "label": "任务"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-25-wolf/ZNHI-25-3.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.05
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Self-loading",
+              "isAnimated": false
+            },
+            "title": "6x6吊臂配置",
+            "content": "基地场景，6x6型号拉着集装箱，车顶配备小型吊臂。<br/>她能够自主完成集装箱的装卸作业，不需要依赖外部起重设备。<br/>标准化的模块接口，让她能与监狱整个物流体系无缝对接。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "统一度量衡，就是让每个孩子都能无缝协作——物资到位，任务才能继续。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "多用途运输卡车"
+          },
+          {
+            "label": "Drive",
+            "value": "4x4 / 6x6"
+          },
+          {
+            "label": "Payload",
+            "value": "模块化上装"
+          },
+          {
+            "label": "Special",
+            "value": "6x6型配吊臂"
+          }
+        ],
+        "description": "ZNHI-25[狼] 重制版运输卡车，统一度量衡，确保与监狱车辆系统兼容。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看模块配置",
+          "subtitle": "含标准接口"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI TRANSPORT SERIES",
+        "products": [
+          {
+            "id": "znhi-25-lion",
+            "imageUrl": "products/znhi-25-lion/thumb.webp",
+            "productCode": "ZNHI-25[狮]",
+            "productName": "多用途运输卡车",
+            "productDesc": "同宗同源的[狮]系列",
+            "href": "product-detail.html?id=znhi-25-lion"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[狼]系列重制版运输卡车，统一度量衡"
+    }
+  },
+  {
+    "id": "znhi-04a2a2-ice",
+    "modelId": "ZNHI-04A2A2[冰]",
+    "name": "主战坦克（城市作战型）",
+    "nameEn": "Main Battle Tank (Urban Warfare)",
+    "nickname": "寿命延长",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "主战坦克",
+      "tags": [
+        "履带式“, ”重装甲“, ”巷战“, ”城市作战"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+      "hero": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-04a2a2-ice/ZNHI-04A2A2-2.webp",
+          "alt": "俯视图",
+          "type": "image"
+        },
+        {
+          "src": "products/znhi-04a2a2-ice/ZNHI-04A2A2-3.webp",
+          "alt": "侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-04A2A2[冰].webp",
+        "ZNHI-04A2A2[冰]-2.webp",
+        "ZNHI-04A2A2[冰]-3.webp"
+      ]
+    },
+    "description": {
+      "tagline": "叠buff，活得久",
+      "summary": "基于-04A2升级的城市作战型主战坦克。采用原计划搁置的-04A3底盘，加装首上附加装甲与新型爆反，换装更厚的防攻顶装甲和更短的炮管以适应巷战环境。代价是本就贫弱的机动性更是雪上加霜。",
+      "full": "「寿命延长」——典狱长给她起的名字透着一股叠buff的味道。这台漂亮家伙采用原计划无限期搁置的-04A3底盘，在-04A2的基础上进行了全方位的防护升级。首上加装了附加装甲，换装了新型爆反模块，取消了推土铲以腾出重量配额。炮台方面换装更厚重的防攻顶装甲以应对无人机和巡飞弹威胁，同时换装更短的炮管提升巷战时的机动灵活性。\n\n当然，天下没有免费的午餐。本就贫弱的机动性在厚重的附加装甲加持下更是雪上加霜，她跑不快，但能扛得住——在城市巷战中，这往往比速度更重要。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "主战坦克（城市作战型）",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-04A3",
+        "highlight": false
+      },
+      {
+        "label": "装甲",
+        "labelEn": "Armor",
+        "value": "附加装甲 + 新型爆反 + 防攻顶",
+        "highlight": true
+      },
+      {
+        "label": "主炮",
+        "labelEn": "Main Gun",
+        "value": "短管（巷战优化）",
+        "highlight": false
+      },
+      {
+        "label": "机动性",
+        "labelEn": "Mobility",
+        "value": "较差（重装甲代价）",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她跑不快，但能扛——在巷战里，活着比什么都重要。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 62,
+      "categories": [
+        "military",
+        "armor"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.9,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left-cards",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES · A2A2",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ZNHI-04A2A2"
+      },
+      "title": {
+        "text": "主战坦克（城市作战型）",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "城市作战型主战坦克。叠满buff的防护升级，代价是机动性雪上加霜。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "",
+        "direction": "",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "Urban Warfare",
+        "color": "primary",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": true,
+        "gridCols": "grid-cols-2",
+        "cards": [
+          {
+            "icon": "shield",
+            "label": "附加装甲",
+            "value": "首上强化"
+          },
+          {
+            "icon": "auto_awesome",
+            "label": "新型爆反",
+            "value": "防护升级"
+          },
+          {
+            "icon": "flight",
+            "label": "防攻顶",
+            "value": "反无人机"
+          },
+          {
+            "icon": "settings_ethernet",
+            "label": "短管炮",
+            "value": "巷战优化"
+          }
+        ]
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      },
+      "description": "监狱重工精心打造的专业级装备"
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-04A2A2[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Urban Warfare",
+            "type": "primary"
+          },
+          {
+            "text": "Heavy Armor",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-04a2a2-ice/ZNHI-04A2A2-2.webp",
+            "isActive": false
+          },
+          {
+            "url": "products/znhi-04a2a2-ice/ZNHI-04A2A2-3.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "主战坦克（城市作战型）",
+        "productCode": "ZNHI-04A2A2[冰]",
+        "restriction": {
+          "enabled": true,
+          "text": "军方管制 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-04A2升级的城市作战型主战坦克。采用原计划搁置的-04A3底盘，叠满buff：附加装甲、新型爆反、防攻顶装甲、短管炮。代价是机动性雪上加霜。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "主战坦克（城市作战型）"
+            },
+            {
+              "label": "底盘",
+              "value": "-04A3"
+            },
+            {
+              "label": "装甲",
+              "value": "附加装甲+新型爆反+防攻顶"
+            },
+            {
+              "label": "主炮",
+              "value": "短管（巷战优化）"
+            },
+            {
+              "label": "机动性",
+              "value": "较差（重装甲代价）"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她跑不快，但能扛——在巷战里，活着比什么都重要。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取战术手册",
+          "subtitle": "含城市作战指南",
+          "icon": "menu_book"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04a2a2-ice/ZNHI-04A2A2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "叠buff",
+            "content": "「寿命延长」——典狱长给她起的名字透着一股叠buff的味道。<br/>-04A3底盘，首上附加装甲，新型爆反模块，防攻顶装甲，短管炮。<br/>全方位防护升级，代价是本就贫弱的机动性更是雪上加霜。",
+            "statusText": {
+              "enabled": true,
+              "text": "Life Extension"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04a2a2-ice/ZNHI-04A2A2-2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "green-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "gavel",
+              "color": "primary"
+            },
+            "iconLabel": "Urban Combat",
+            "title": "巷战优化",
+            "content": "基地场景，草地围栏，侧视展示短管炮与厚重装甲。<br/>换装更短的炮管提升巷战时的机动灵活性，炮台换装更厚重的防攻顶装甲以应对无人机和巡飞弹威胁。<br/>取消了推土铲以腾出重量配额，所有重量都投入到防护上。<br/><span class=\"text-white border-b border-primary/40 pb-1\">在城市巷战中，能扛住比跑得快更重要。</span>",
+            "dataBlocks": [
+              {
+                "value": "-04A3",
+                "label": "底盘"
+              },
+              {
+                "value": "短管",
+                "label": "主炮"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04a2a2-ice/ZNHI-04A2A2-3.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.08
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Heavily Armored",
+              "isAnimated": false
+            },
+            "title": "活着比什么都重要",
+            "content": "城市街道，两辆坦克编队——右侧A2A2短炮管厚重装甲，左侧标准型对比鲜明。<br/>她跑不快，机动性在厚重的附加装甲加持下雪上加霜。<br/>但她能扛得住——在城市巷战中，活着比什么都重要。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她跑不快，但能扛——在巷战里，活着比什么都重要。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "城市作战型主战坦克"
+          },
+          {
+            "label": "Chassis",
+            "value": "-04A3"
+          },
+          {
+            "label": "Armor",
+            "value": "附加+爆反+防攻顶"
+          },
+          {
+            "label": "Gun",
+            "value": "短管炮"
+          }
+        ],
+        "description": "ZNHI-04A2A2[冰] 寿命延长，叠满buff的防护升级，城市巷战的装甲堡垒。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取战术手册",
+          "subtitle": "含城市作战指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04a2-ice",
+            "imageUrl": "products/znhi-04a2-ice/thumb.webp",
+            "productCode": "ZNHI-04A2[冰]",
+            "productName": "主战坦克",
+            "productDesc": "标准型主战坦克",
+            "href": "product-detail.html?id=znhi-04a2-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[冰]系列城市作战型，叠buff防护升级"
+    }
+  },
+  {
+    "id": "znhi-04s2-ice",
+    "modelId": "ZNHI-04S2[冰]",
+    "name": "自行榴弹炮",
+    "nameEn": "Self-propelled Howitzer",
+    "nickname": "老兵不死",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "自行火炮",
+      "tags": [
+        "履带式“, ”火炮“, ”炮兵“, ”火力支援"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+      "hero": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04S2[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "老兵不死，换炮重生",
+      "summary": "基于-04底盘的自行榴弹炮，监狱炮兵的早期主力。曾长期承担火力支援任务，后因-04S4的出现而地位下降。经过翻新换装新型火炮后，她重新焕发活力，继续在雪原上怒吼。",
+      "full": "她是监狱炮兵部队的老兵，基于-04底盘改装的自行榴弹炮。长管主炮配合履带式底盘，能够伴随装甲部队机动，在需要时提供及时而猛烈的火力支援。在那个年代，她是雪原上最令敌人恐惧的存在之一。\n\n然而时代在变。随着-04S4的问世，她一度面临被淘汰的命运——新型号拥有全新的车体和动力包，360°射界，兼顾平射能力，不用助锄，不用随行弹药车，在各方面都更胜一筹，仿佛生来就是她的替代者。\n\n但典狱长没有放弃这位老兵。在翻新计划中，她换装了「呜呜出品」的新型火炮，性能得到显著提升。老兵不死，只是换了把新枪——她依然能在雪原上怒吼，依然能让敌人闻风丧胆。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行榴弹炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-04",
+        "highlight": false
+      },
+      {
+        "label": "主炮",
+        "labelEn": "Main Gun",
+        "value": "呜呜出品火炮（翻新）",
+        "highlight": true
+      },
+      {
+        "label": "状态",
+        "labelEn": "Status",
+        "value": "翻新后继续服役",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她是老兵，但老兵不该被遗忘——换把新枪，继续战斗。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-04S2[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Refurbished",
+            "type": "primary"
+          },
+          {
+            "text": "Artillery",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行榴弹炮",
+        "productCode": "ZNHI-04S2[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-04底盘的自行榴弹炮，监狱炮兵的早期主力。经过翻新换装「呜呜出品」新型火炮后，她重新焕发活力，继续在雪原上怒吼。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "类型",
+              "value": "自行榴弹炮"
+            },
+            {
+              "label": "底盘",
+              "value": "-04"
+            },
+            {
+              "label": "主炮",
+              "value": "呜呜出品火炮（翻新）"
+            },
+            {
+              "label": "状态",
+              "value": "翻新后继续服役"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她是老兵，但老兵不该被遗忘——换把新枪，继续战斗。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看火力数据",
+          "subtitle": "含射击诸元",
+          "icon": "assessment"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+            "filters": {
+              "scale": 1.08,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "雪原怒吼",
+            "content": "三门白色自行榴弹炮并排开火，炮口火光冲天，爆炸在远方升起。<br/>她们是监狱炮兵部队的老兵，基于-04底盘改装的自行榴弹炮。<br/>长管主炮配合履带式底盘，伴随装甲部队机动，提供及时而猛烈的火力支援。",
+            "statusText": {
+              "enabled": true,
+              "text": "Old But Gold"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "orange-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "autorenew",
+              "color": "primary"
+            },
+            "iconLabel": "Refurbished",
+            "title": "换把新枪",
+            "content": "随着-04S4的问世，她一度面临被淘汰的命运——新型号拥有360°射界、平射能力、不用助锄、不用随行弹药车，各方面都更胜一筹。<br/>但典狱长没有放弃这位老兵。在翻新计划中，她换装了「呜呜出品」的新型火炮，性能得到显著提升。<br/><span class=\"text-white border-b border-primary/40 pb-1\">老兵不死，只是换了把新枪。</span>",
+            "dataBlocks": [
+              {
+                "value": "-04",
+                "label": "底盘"
+              },
+              {
+                "value": "呜呜出品",
+                "label": "火炮"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04s2-ice/ZNHI-04S2.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/75",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Still Roaring",
+              "isAnimated": true
+            },
+            "title": "继续战斗",
+            "content": "炮口火光照亮雪原，爆炸在远方绽放。<br/>她依然能在雪原上怒吼，依然能让敌人闻风丧胆。<br/>老兵不该被遗忘——换把新枪，继续战斗。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她是老兵，但老兵不该被遗忘——换把新枪，继续战斗。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "自行榴弹炮"
+          },
+          {
+            "label": "Chassis",
+            "value": "-04"
+          },
+          {
+            "label": "Gun",
+            "value": "呜呜出品火炮"
+          },
+          {
+            "label": "Status",
+            "value": "翻新服役"
+          }
+        ],
+        "description": "ZNHI-04S2[冰] 老兵不死，换装新型火炮后重新焕发活力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "查看火力数据",
+          "subtitle": "含射击诸元"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI ARTILLERY SYSTEMS",
+        "products": [
+          {
+            "id": "znhi-04s4-ice",
+            "imageUrl": "products/znhi-04s4-ice/thumb.webp",
+            "productCode": "ZNHI-04S4[冰]",
+            "productName": "新型自行火炮",
+            "productDesc": "全新设计的火炮系统",
+            "href": "product-detail.html?id=znhi-04s4-ice"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-22",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "[冰]系列自行榴弹炮，换装呜呜出品火炮翻新"
+    }
+  },
+  {
+    "id": "znhi-04sa1a-ice",
+    "modelId": "ZNHI-04SA1A[冰]",
+    "name": "自行防空导弹系统",
+    "nameEn": "Self-propelled SAM System",
+    "nickname": "难产儿",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "装甲车辆",
+      "subcategory": "防空系统",
+      "tags": [
+        "履带式“, ”防空“, ”导弹",
+        "SA1"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+      "hero": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04SA1A[冰].webp"
+      ]
+    },
+    "description": {
+      "tagline": "难产多年，终见天日",
+      "summary": "监狱防空网的第一台导弹防空车，翻版俄联邦山毛榉M2。早期受制于落后的导弹制造工艺，在车库里生锈多年。直到SA1导弹回炉重造后，她才重新站在雪地上捍卫领空。硕大的弹体威力可观，但外露弹药的安全性一直是监狱的担忧。",
+      "full": "她是监狱防空网的第一台导弹防空车，也是一个「难产儿」。早期的监狱导弹制造工艺相当落后，导致她空有发射平台却没有可用的弹药，不得不在车库里慢慢生锈，眼睁睁看着敌机从头顶飞过。\n\n直到SA1导弹的回炉重造计划完成，她才终于重新站在雪地上，履行捍卫领空的使命。她的设计参考了俄联邦山毛榉M2，采用4联装大型防空导弹发射架。虽然硕大的弹体导致机动性不如后来的SA3导弹，但胜在威力更大，能够对付更远更高的目标。\n\n不过监狱一直对外露弹药的安全性感到担忧——毕竟那几枚大家伙就这么明晃晃地挂在外面，万一被流弹击中可不是闹着玩的。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行防空导弹系统",
+        "highlight": false
+      },
+      {
+        "label": "原型",
+        "labelEn": "Prototype",
+        "value": "山毛榉M2",
+        "highlight": false
+      },
+      {
+        "label": "导弹",
+        "labelEn": "Missile",
+        "value": "SA1（4联装）",
+        "highlight": true
+      },
+      {
+        "label": "弹体",
+        "labelEn": "Warhead",
+        "value": "硕大 / 威力大",
+        "highlight": false
+      },
+      {
+        "label": "缺点",
+        "labelEn": "Weakness",
+        "value": "外露弹药安全隐患",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她等了很久才能上战场，但好饭不怕晚——就是那几枚导弹挂在外面让人有点慌。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空系统",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-04SA1A[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Air Defense",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行防空导弹系统",
+        "productCode": "ZNHI-04SA1A[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱防空网的第一台导弹防空车，也是一个「难产儿」。早期受制于落后的导弹制造工艺，她在车库里生锈多年。直到SA1导弹回炉重造后，才重新站在雪地上捍卫领空。翻版山毛榉M2，4联装大型导弹，威力可观，但外露弹药一直让人心里没底。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "原型",
+              "value": "山毛榉M2"
+            },
+            {
+              "label": "导弹",
+              "value": "SA1（4联装）"
+            },
+            {
+              "label": "弹体",
+              "value": "大型 / 高威力"
+            },
+            {
+              "label": "机动性",
+              "value": "较差（弹体硕大）"
+            },
+            {
+              "label": "安全隐患",
+              "value": "外露弹药"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她等了很久才能上战场，但好饭不怕晚——就是那几枚导弹挂在外面让人有点慌。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整作战指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8,
+              "saturate": 0.7
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-900/15",
+            "mixBlendMode": "multiply"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "锈迹斑斑",
+            "content": "早期的监狱导弹制造工艺相当落后，她空有发射平台却没有可用的弹药。<br/>车库里，她慢慢生锈，眼睁睁看着敌机从头顶飞过。<br/>监狱防空网第一台导弹防空车，成了最讽刺的摆设。",
+            "statusText": {
+              "enabled": true,
+              "text": "Status: Waiting for Ammunition"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "radar",
+              "color": "primary"
+            },
+            "iconLabel": "Air Defense",
+            "title": "重返战场",
+            "content": "直到SA1导弹的回炉重造计划完成，她才终于重新站在雪地上。<br/>参考俄联邦山毛榉M2，采用4联装大型防空导弹发射架。<br/><span class=\"text-white border-b border-primary/40 pb-1\">硕大的弹体导致机动性不如后来的SA3，但威力更大，射程更远。</span>",
+            "dataBlocks": [
+              {
+                "value": "SA1×4",
+                "label": "导弹"
+              },
+              {
+                "value": "大型",
+                "label": "弹体"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04sa1a-ice/ZNHI-04SA1A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Threat Detected",
+              "isAnimated": true
+            },
+            "title": "外露的代价",
+            "content": "监狱一直对外露弹药的安全性感到担忧。<br/>那几枚大家伙就这么明晃晃地挂在外面，万一被流弹击中可不是闹着玩的。<br/>但她依然履行着使命——捍卫领空，击落来犯之敌。<br/>难产多年，终见天日。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她等了很久才能上战场，但好饭不怕晚——就是那几枚导弹挂在外面让人有点慌。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "自行防空导弹系统"
+          },
+          {
+            "label": "Prototype",
+            "value": "山毛榉M2"
+          },
+          {
+            "label": "Missile",
+            "value": "SA1×4"
+          },
+          {
+            "label": "Warhead",
+            "value": "大型高威力"
+          }
+        ],
+        "description": "ZNHI-04SA1A[冰] 是监狱防空网的第一台导弹防空车，参考俄联邦山毛榉M2设计，采用4联装SA1大型防空导弹。虽然硕大的弹体影响机动性，但威力和射程均优于后来的SA3系统。外露弹药是她的隐患，但也是她威慑力的象征。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整作战指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SERIES",
+        "products": [
+          {
+            "id": "znhi-04sa2-ice",
+            "imageUrl": "products/znhi-04sa2-ice/thumb.webp",
+            "productCode": "ZNHI-04SA2[冰]",
+            "productName": "自行防空导弹系统",
+            "productDesc": "SA2道尔M1型，更可靠",
+            "href": "product-detail.html?id=znhi-04sa2-ice"
+          },
+          {
+            "id": "znhi-09a3sa1-elephant",
+            "imageUrl": "products/znhi-09a3sa1-elephant/thumb.webp",
+            "productCode": "ZNHI-09A3SA1[象]",
+            "productName": "轮式防空导弹系统",
+            "productDesc": "重做归来的轮式平台",
+            "href": "product-detail.html?id=znhi-09a3sa1-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "[冰]系列防空导弹系统，难产儿，翻版山毛榉M2。精品页改用left-cards布局，warning色statusBadge突出外露弹药隐患。补充3章故事章节：锈迹斑斑（等待）、重返战场（技术）、外露的代价（隐患）"
+    }
+  },
+  {
+    "id": "znhi-09a3sa1-elephant",
+    "modelId": "ZNHI-09A3SA1[象]",
+    "name": "轮式防空导弹系统",
+    "nameEn": "Wheeled SAM System",
+    "nickname": "重做归来",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "象",
+      "seriesEn": "ELEPHANT",
+      "category": "装甲车辆",
+      "subcategory": "防空系统",
+      "tags": [
+        "轮式“, ”多轴“, ”防空“, ”导弹",
+        "SA1"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+      "hero": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-09A3SA1[象].webp"
+      ]
+    },
+    "description": {
+      "tagline": "重做归来，守护领空",
+      "summary": "基于-09[象]多轴轮式底盘的防空导弹系统，由原09C1SA1B重做更名而来。系统包含导弹发射车和装填车两部分，发射车配备垂直发射箱，装填车配有吊臂用于弹药补给，两车协同作战构成完整的野战防空单元。",
+      "full": "她是监狱轮式防空系统的新成员，由原来的ZNHI-09C1SA1B[象]重做后更名而来。基于-09[象]多轴轮式底盘，拥有良好的公路机动性，能够快速部署到指定区域。\n\n系统由两台车辆组成：发射车配备垂直发射箱，能够快速响应空中威胁；装填车配有吊臂，负责弹药补给和战场再装填。两车协同作战，构成一个完整的野战防空单元。相比履带式平台，轮式底盘让她能够更快地在公路网络间机动转移，适合需要快速反应的防空任务。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "轮式防空导弹系统",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-09A3[象]",
+        "highlight": false
+      },
+      {
+        "label": "配置",
+        "labelEn": "Config",
+        "value": "发射车 + 装填车",
+        "highlight": true
+      },
+      {
+        "label": "发射方式",
+        "labelEn": "Launch",
+        "value": "垂直发射",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "重做不是失败，是为了更好地守护——这次她准备好了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空系统",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-09A3SA1[象]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Dual Vehicle System",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "轮式防空导弹系统",
+        "productCode": "ZNHI-09A3SA1[象]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于-09A3[象]多轴轮式底盘的防空导弹系统，由原09C1SA1B重做更名而来。系统包含导弹发射车和装填车两部分，发射车配备垂直发射箱，装填车配有吊臂用于弹药补给，两车协同作战构成完整的野战防空单元。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-09A3[象]"
+            },
+            {
+              "label": "配置",
+              "value": "发射车 + 装填车"
+            },
+            {
+              "label": "发射方式",
+              "value": "垂直发射"
+            },
+            {
+              "label": "导弹",
+              "value": "SA1"
+            },
+            {
+              "label": "前身",
+              "value": "09C1SA1B"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "重做不是失败，是为了更好地守护——这次她准备好了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含双车协同作战指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85,
+              "saturate": 0.75
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "重做归来",
+            "content": "从09C1SA1B到09A3SA1，不只是名字的变化。<br/>经过重新设计和优化，她以更成熟的姿态回归防空战场。<br/>重做不是失败，是为了更好地守护领空。",
+            "statusText": {
+              "enabled": true,
+              "text": "System Redesigned"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "my_location",
+              "color": "primary"
+            },
+            "iconLabel": "Vertical Launch",
+            "title": "发射车",
+            "content": "基于-09A3[象]多轴轮式底盘，配备垂直发射箱。<br/>SA1导弹垂直发射，反应速度快，可拦截多方位来袭目标。<br/><span class=\"text-white border-b border-primary/40 pb-1\">轮式机动性优于履带平台，适合快速部署。</span>",
+            "dataBlocks": [
+              {
+                "value": "垂直",
+                "label": "发射方式"
+              },
+              {
+                "value": "SA1",
+                "label": "导弹"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-09a3sa1-elephant/ZNHI-09A3SA1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Reloading Ready",
+              "isAnimated": true
+            },
+            "title": "双车协同",
+            "content": "装填车配有吊臂，用于为发射车补给弹药。<br/>两车协同作战，发射车负责拦截，装填车负责后勤。<br/>这不是单打独斗，而是团队作战——<br/>就像监狱的孩子们，彼此依靠，共同守护领空。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "重做不是失败，是为了更好地守护——这次她准备好了。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Chassis",
+            "value": "-09A3[象]"
+          },
+          {
+            "label": "Config",
+            "value": "发射车 + 装填车"
+          },
+          {
+            "label": "Launch",
+            "value": "垂直发射"
+          },
+          {
+            "label": "Missile",
+            "value": "SA1"
+          }
+        ],
+        "description": "ZNHI-09A3SA1[象] 是基于[象]系列多轴轮式底盘的防空导弹系统，由原09C1SA1B重做更名而来。系统采用双车协同配置，发射车配备垂直发射箱，装填车配有吊臂用于弹药补给。轮式机动性优于履带平台，适合快速部署和灵活转移。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含双车协同作战指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SERIES",
+        "products": [
+          {
+            "id": "znhi-04sa1a-ice",
+            "imageUrl": "products/znhi-04sa1a-ice/thumb.webp",
+            "productCode": "ZNHI-04SA1A[冰]",
+            "productName": "自行防空导弹系统",
+            "productDesc": "履带平台，难产儿",
+            "href": "product-detail.html?id=znhi-04sa1a-ice"
+          },
+          {
+            "id": "znhi-09-elephant",
+            "imageUrl": "products/znhi-09-elephant/thumb.webp",
+            "productCode": "ZNHI-09[象]",
+            "productName": "重型运输车",
+            "productDesc": "[象]系列底盘平台",
+            "href": "product-detail.html?id=znhi-09-elephant"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "[象]系列轮式防空系统，由09C1SA1B重做更名。精品页改用split布局展示双车协同，补充3章故事章节：重做归来（背景）、发射车（垂直发射）、双车协同（装填车配合）"
+    }
+  },
+  {
+    "id": "znhi-01sa3a-snow",
+    "modelId": "ZNHI-01SA3A[雪]",
+    "name": "自行高射炮",
+    "nameEn": "Self-propelled Anti-aircraft Gun",
+    "nickname": "弹雨倾盆",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "雪",
+      "seriesEn": "SNOW",
+      "category": "装甲车辆",
+      "subcategory": "防空系统",
+      "tags": [
+        "履带式“, ”防空“, ”高射炮“, ”速射"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+      "hero": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-01SA3A[雪].webp"
+      ]
+    },
+    "description": {
+      "tagline": "弹如雨下，寸空不让",
+      "summary": "基于[雪]系列普通车体的自行高射炮，由原01L1SA3A废弃L系列底盘后更名而来。配备长管速射炮，火力凶猛，能够在短时间内倾泻大量弹药，对低空目标形成密集火力网。",
+      "full": "她是监狱防空体系中的火力担当，由原来的ZNHI-01L1SA3A[雪]改用普通车体后更名而来。废弃了早期的L系列底盘，换用更成熟可靠的标准车体，降低了维护成本和后勤压力。\n\n炮塔配备长管速射炮，炮管上的散热结构能够支持长时间连续射击。从地上堆积的弹壳就能看出她的火力有多凶猛——在她的射程内，任何胆敢低空突防的目标都将面临弹雨洗礼。炮塔上的多根天线和光电设备为她提供了良好的态势感知能力，能够快速捕捉和跟踪目标。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "自行高射炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-01[雪]（标准车体）",
+        "highlight": false
+      },
+      {
+        "label": "主炮",
+        "labelEn": "Main Gun",
+        "value": "长管速射炮",
+        "highlight": true
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "高射速 / 火力猛",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "L系列底盘太娇贵了，换个皮实的——火力不能省，底盘可以换。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空系统",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-01SA3A[雪]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "High Rate of Fire",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "自行高射炮",
+        "productCode": "ZNHI-01SA3A[雪]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于[雪]系列普通车体的自行高射炮，由原01L1SA3A废弃L系列底盘后更名而来。配备长管速射炮，火力凶猛，能够在短时间内倾泻大量弹药，对低空目标形成密集火力网。炮管上的散热结构支持长时间连续射击。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-01[雪]（标准车体）"
+            },
+            {
+              "label": "主炮",
+              "value": "长管速射炮"
+            },
+            {
+              "label": "特点",
+              "value": "高射速 / 火力猛"
+            },
+            {
+              "label": "散热",
+              "value": "长时间连续射击"
+            },
+            {
+              "label": "前身",
+              "value": "01L1SA3A"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "L系列底盘太娇贵了，换个皮实的——火力不能省，底盘可以换。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含火控系统指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8,
+              "saturate": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-600/10",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "弹雨倾盆",
+            "content": "炮口喷出火焰，弹壳如雨点般落地。<br/>她不需要精确狙击，只需要密集的弹幕——<br/>在她的射程内，低空目标无所遁形。",
+            "statusText": {
+              "enabled": true,
+              "text": "Firing: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "whatshot",
+              "color": "primary"
+            },
+            "iconLabel": "High Rate of Fire",
+            "title": "皮实的底盘",
+            "content": "废弃了娇贵的L系列底盘，换用更成熟可靠的标准车体。<br/>降低了维护成本和后勤压力，但火力一点都没省。<br/><span class=\"text-white border-b border-primary/40 pb-1\">长管速射炮配备散热结构，支持长时间连续射击。</span>",
+            "dataBlocks": [
+              {
+                "value": "速射炮",
+                "label": "主炮"
+              },
+              {
+                "value": "标准车体",
+                "label": "底盘"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-01sa3a-snow/ZNHI-01SA3A.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Target Locked",
+              "isAnimated": true
+            },
+            "title": "火力网",
+            "content": "从地上堆积的弹壳就能看出她的射速有多快。<br/>炮塔上的多根天线和光电设备提供良好的态势感知。<br/>她能快速捕捉和跟踪目标，然后用密集弹幕将其撕碎。<br/>弹如雨下，寸空不让。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "L系列底盘太娇贵了，换个皮实的——火力不能省，底盘可以换。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Chassis",
+            "value": "-01[雪] 标准车体"
+          },
+          {
+            "label": "Gun",
+            "value": "长管速射炮"
+          },
+          {
+            "label": "Feature",
+            "value": "高射速 / 密集弹幕"
+          },
+          {
+            "label": "Cooling",
+            "value": "散热结构"
+          }
+        ],
+        "description": "ZNHI-01SA3A[雪] 是基于[雪]系列标准车体的自行高射炮，由原01L1SA3A废弃L系列底盘后更名而来。配备长管速射炮，火力凶猛，炮管上的散热结构支持长时间连续射击，能够对低空目标形成密集火力网。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含火控系统指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SERIES",
+        "products": [
+          {
+            "id": "znhi-04sa1a-ice",
+            "imageUrl": "products/znhi-04sa1a-ice/thumb.webp",
+            "productCode": "ZNHI-04SA1A[冰]",
+            "productName": "自行防空导弹系统",
+            "productDesc": "导弹防空，难产儿",
+            "href": "product-detail.html?id=znhi-04sa1a-ice"
+          },
+          {
+            "id": "znhi-01a2-snow",
+            "imageUrl": "products/znhi-01a2-snow/thumb.webp",
+            "productCode": "ZNHI-01A2[雪]",
+            "productName": "主战坦克",
+            "productDesc": "[雪]系列夜战坦克",
+            "href": "product-detail.html?id=znhi-01a2-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "[雪]系列自行高射炮，由01L1SA3A废弃L底盘更名。精品页改用right布局，grid大字号突出高射速，标题改为\"弹雨倾盆\"。补充3章故事章节：弹雨倾盆（意境）、皮实的底盘（技术改进）、火力网（密集弹幕）"
+    }
+  },
+  {
+    "id": "znhi-02a1-frost",
+    "modelId": "ZNHI-02A1[霜]",
+    "name": "步兵战车",
+    "nameEn": "Infantry Fighting Vehicle",
+    "nickname": "新炮台",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "霜",
+      "seriesEn": "FROST",
+      "category": "装甲车辆",
+      "subcategory": "步兵战车",
+      "tags": [
+        "履带式“, ”步战车“, ”双管机炮"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+      "hero": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-02A1[霜].webp"
+      ]
+    },
+    "description": {
+      "tagline": "新炮台，新姿态",
+      "summary": "[霜]系列步兵战车的翻新型号，换装全新炮台后战斗力显著提升。配备双管机炮，具备良好的火力支援能力，棱角分明的装甲外形提供可靠防护，是步兵班组的可靠座驾。",
+      "full": "她是[霜]系列步兵战车的升级版本，在翻新计划中换装了全新设计的炮台，原来的老炮台正式退役。新炮台配备双管机炮，火力输出更加稳定，能够有效压制敌方轻装甲目标和步兵阵地。\n\n车体采用棱角分明的装甲设计，在保证防护的同时兼顾了重量控制。侧面的观察窗让载员能够掌握车外态势，炮塔上的光电设备为车组提供全天候作战能力。作为步兵班组的移动堡垒，她能够伴随步兵冲锋陷阵，提供火力掩护和装甲防护。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "步兵战车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-02[霜]",
+        "highlight": false
+      },
+      {
+        "label": "主武器",
+        "labelEn": "Main Weapon",
+        "value": "双管机炮（新炮台）",
+        "highlight": true
+      },
+      {
+        "label": "特点",
+        "labelEn": "Feature",
+        "value": "棱角装甲 / 步兵搭载",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "老炮台该退休了，新的更好看也更能打。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "装甲车辆",
+          "href": "products.html#armor"
+        },
+        {
+          "text": "ZNHI-02A1[霜]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Infantry Support",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "步兵战车",
+        "productCode": "ZNHI-02A1[霜]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "[霜]系列步兵战车的翻新型号，换装全新炮台后战斗力显著提升。配备双管机炮，具备良好的火力支援能力，棱角分明的装甲外形提供可靠防护，是步兵班组的可靠座驾。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-02[霜]"
+            },
+            {
+              "label": "主武器",
+              "value": "双管机炮（新炮台）"
+            },
+            {
+              "label": "特点",
+              "value": "棱角装甲 / 步兵搭载"
+            },
+            {
+              "label": "装甲",
+              "value": "棱角分明设计"
+            },
+            {
+              "label": "载员观察",
+              "value": "侧面观察窗"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "老炮台该退休了，新的更好看也更能打。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含作战使用指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85,
+              "saturate": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "新炮台",
+            "content": "在翻新计划中，她换装了全新设计的炮台，原来的老炮台正式退役。<br/>新炮台配备双管机炮，火力输出更加稳定。<br/>老的该退休了，新的更好看也更能打。",
+            "statusText": {
+              "enabled": true,
+              "text": "Turret Upgraded"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "shield",
+              "color": "primary"
+            },
+            "iconLabel": "Infantry Support",
+            "title": "棱角装甲",
+            "content": "车体采用棱角分明的装甲设计，在保证防护的同时兼顾了重量控制。<br/>侧面的观察窗让载员能够掌握车外态势。<br/><span class=\"text-white border-b border-primary/40 pb-1\">炮塔上的光电设备提供全天候作战能力。</span>",
+            "dataBlocks": [
+              {
+                "value": "双管",
+                "label": "机炮"
+              },
+              {
+                "value": "棱角",
+                "label": "装甲"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-02a1-frost/ZNHI-02A1.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Ready for Combat",
+              "isAnimated": true
+            },
+            "title": "移动堡垒",
+            "content": "作为步兵班组的移动堡垒，她能够伴随步兵冲锋陷阵。<br/>提供火力掩护和装甲防护，压制敌方轻装甲目标和步兵阵地。<br/>她不只是运输工具，她是战场上的钢铁护盾——<br/>步兵们信任她，依靠她。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "老炮台该退休了，新的更好看也更能打。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Chassis",
+            "value": "-02[霜]"
+          },
+          {
+            "label": "Weapon",
+            "value": "双管机炮（新炮台）"
+          },
+          {
+            "label": "Armor",
+            "value": "棱角设计"
+          },
+          {
+            "label": "Role",
+            "value": "步兵战车"
+          }
+        ],
+        "description": "ZNHI-02A1[霜] 是[霜]系列步兵战车的翻新型号，换装全新设计的炮台，配备双管机炮。车体采用棱角分明的装甲设计，在保证防护的同时兼顾重量控制。作为步兵班组的移动堡垒，她能够伴随步兵冲锋陷阵，提供火力掩护和装甲防护。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含作战使用指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI FROST SERIES",
+        "products": [
+          {
+            "id": "znhi-02aev-frost",
+            "imageUrl": "products/znhi-02aev-frost/thumb.webp",
+            "productCode": "ZNHI-02AEV[霜]",
+            "productName": "装甲工程车",
+            "productDesc": "工程支援型",
+            "href": "product-detail.html?id=znhi-02aev-frost"
+          },
+          {
+            "id": "znhi-01a2-snow",
+            "imageUrl": "products/znhi-01a2-snow/thumb.webp",
+            "productCode": "ZNHI-01A2[雪]",
+            "productName": "主战坦克",
+            "productDesc": "夜战型主战坦克",
+            "href": "product-detail.html?id=znhi-01a2-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "[霜]系列步战车，换装新炮台。精品页改用center布局，居中对称展示，specCards展示4个参数，decorativeIcon用shield。补充3章故事章节：新炮台（翻新升级）、棱角装甲（防护设计）、移动堡垒（步兵支援）"
+    }
+  },
+  {
+    "id": "znhi-03-magnet",
+    "modelId": "ZNHI-03[磁]",
+    "name": "电磁炮战车",
+    "nameEn": "Electromagnetic Cannon Vehicle",
+    "nickname": "",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "磁",
+      "seriesEn": "MAGNET",
+      "category": "装甲车辆",
+      "subcategory": "电磁武器",
+      "tags": [
+        "履带式“, ”电磁炮“, ”无人炮台“, ”技术验证"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": true,
+      "securityLevel": "A"
+    },
+    "media": {
+      "thumbnail": "products/znhi-03-magnet/ZNHI-03.webp",
+      "hero": "products/znhi-03-magnet/ZNHI-03.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-03[磁].webp"
+      ]
+    },
+    "description": {
+      "tagline": "新技术大乱炖，未来战场验证机",
+      "summary": "监狱重工的电磁炮战车，[磁]系列的基础型号。集液气悬挂、无人炮台、电磁炮、软杀伤主动防御于一身，是监狱新一代技术的综合验证平台。",
+      "full": "她是监狱的技术试验田——啥新技术都给整上去了。液气悬挂提供出色的越野稳定性，无人炮台降低车体高度并解放乘员空间，电磁炮赋予她远超传统火炮的初速与穿甲能力，软杀伤主动防御系统则为她提供多层次的生存保障。作为-03SL激光型的前身，她证明了电磁技术在陆战平台上的可行性。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "电磁炮战车",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "-03底盘 / 履带式",
+        "highlight": false
+      },
+      {
+        "label": "悬挂",
+        "labelEn": "Suspension",
+        "value": "液气悬挂",
+        "highlight": true
+      },
+      {
+        "label": "炮台",
+        "labelEn": "Turret",
+        "value": "无人炮台",
+        "highlight": true
+      },
+      {
+        "label": "主武器",
+        "labelEn": "Armament",
+        "value": "电磁炮",
+        "highlight": true
+      },
+      {
+        "label": "防御",
+        "labelEn": "Defense",
+        "value": "软杀伤主动防御",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "这个孩子身上堆满了新技术，是监狱的未来战场验证机——如果她能正常工作的话。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "电磁武器",
+          "href": "products.html#electromagnetic"
+        },
+        {
+          "text": "ZNHI-03[磁]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-03-magnet/ZNHI-03.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "RESTRICTED",
+            "type": "primary"
+          },
+          {
+            "text": "Electromagnetic",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-03-magnet/ZNHI-03.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "电磁炮战车",
+        "productCode": "ZNHI-03[磁]",
+        "restriction": {
+          "enabled": true,
+          "text": "国防部特供 / RESTRICTED"
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱重工的电磁炮战车，[磁]系列的基础型号。集液气悬挂、无人炮台、电磁炮、软杀伤主动防御于一身，是监狱新一代技术的综合验证平台。啥新技术都给整上去了。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "-03底盘 / 履带式"
+            },
+            {
+              "label": "悬挂",
+              "value": "液气悬挂"
+            },
+            {
+              "label": "炮台",
+              "value": "无人炮台"
+            },
+            {
+              "label": "主武器",
+              "value": "电磁炮"
+            },
+            {
+              "label": "防御",
+              "value": "软杀伤主动防御"
+            },
+            {
+              "label": "安全等级",
+              "value": "A级 / 受限"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "这个孩子身上堆满了新技术，是监狱的未来战场验证机——如果她能正常工作的话。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "申请技术资料",
+          "subtitle": "需要特殊授权",
+          "icon": "lock"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-03-magnet/ZNHI-03.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.75,
+              "saturate": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/15",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "技术试验田",
+            "content": "她是监狱的技术试验田——啥新技术都给整上去了。<br/>液气悬挂、无人炮台、电磁炮、软杀伤主动防御。<br/>新一代技术的综合验证平台，未来战场的雏形。",
+            "statusText": {
+              "enabled": true,
+              "text": "Tech Demo: Active"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-03-magnet/ZNHI-03.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "cyan-900/12",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "precision_manufacturing",
+              "color": "primary"
+            },
+            "iconLabel": "Electromagnetic",
+            "title": "电磁炮",
+            "content": "电磁炮赋予她远超传统火炮的初速与穿甲能力。<br/>无人炮台降低车体高度并解放乘员空间。<br/><span class=\"text-white border-b border-primary/40 pb-1\">液气悬挂提供出色的越野稳定性和射击精度。</span>",
+            "dataBlocks": [
+              {
+                "value": "电磁炮",
+                "label": "主武器"
+              },
+              {
+                "value": "无人炮台",
+                "label": "炮台"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-03-magnet/ZNHI-03.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.2
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Experimental",
+              "isAnimated": true
+            },
+            "title": "未来战场",
+            "content": "作为-03SL激光型的前身，她证明了电磁技术在陆战平台上的可行性。<br/>软杀伤主动防御系统提供多层次的生存保障。<br/>这是监狱的未来战场验证机——<br/>如果她能正常工作的话。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "这个孩子身上堆满了新技术，是监狱的未来战场验证机——如果她能正常工作的话。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Weapon",
+            "value": "电磁炮"
+          },
+          {
+            "label": "Turret",
+            "value": "无人炮台"
+          },
+          {
+            "label": "Suspension",
+            "value": "液气悬挂"
+          },
+          {
+            "label": "Defense",
+            "value": "软杀伤主动防御"
+          }
+        ],
+        "description": "ZNHI-03[磁] 是监狱重工的电磁炮战车，集液气悬挂、无人炮台、电磁炮、软杀伤主动防御于一身，是监狱新一代技术的综合验证平台。作为-03SL激光型的前身，她证明了电磁技术在陆战平台上的可行性。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "申请技术资料",
+          "subtitle": "需要特殊授权"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI MAGNET SERIES",
+        "products": [
+          {
+            "id": "znhi-03sl-magnet",
+            "imageUrl": "products/znhi-03sl-magnet/thumb.webp",
+            "productCode": "ZNHI-03SL[磁]",
+            "productName": "激光战车",
+            "productDesc": "光之剑，激光型",
+            "href": "product-detail.html?id=znhi-03sl-magnet"
+          },
+          {
+            "id": "znhi-01a2-snow",
+            "imageUrl": "products/znhi-01a2-snow/thumb.webp",
+            "productCode": "ZNHI-01A2[雪]",
+            "productName": "主战坦克",
+            "productDesc": "夜战型主战坦克",
+            "href": "product-detail.html?id=znhi-01a2-snow"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "[磁]系列基础型，电磁炮技术验证平台。精品页改用center-icon布局，突出高端/概念产品特性，decorativeIcon用precision_manufacturing，subtitle\"NEXT GENERATION TECH\"，statsRow展示4个新技术。补充3章故事章节：技术试验田（综合验证）、电磁炮（核心技术）、未来战场（验证机）"
+    }
+  },
+  {
+    "id": "zntp-19-1023",
+    "modelId": "ZNTP-19 1023",
+    "name": "STS超限双源机车",
+    "nameEn": "STS Overweight Dual-mode Locomotive",
+    "nickname": "降弓用刑",
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "铁路车辆",
+      "subcategory": "机车",
+      "tags": [
+        "双源“, ”电力“, ”柴油“, ”货运“, ”超限"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-19-1023/ZNTP-19-1023.webp",
+      "hero": "products/zntp-19-1023/ZNTP-19-1023.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-19 1023.webp"
+      ]
+    },
+    "description": {
+      "tagline": "电网尽头，柴油接力",
+      "summary": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电，兼容客货运但更适合货运领域。154吨的整备重量和25吨轴重使她成为名副其实的“超限”机车。",
+      "full": "设计用于在电气化不完全的地区进行运输作业，支持两种接触网供电制式，以及柴油供电，燃油模式功率较低，所有模式极速均为160km/h。兼容客货运，但时速与稳定性都不占优势的她更适合货运领域。\n\n因为技术问题她并没能做到像EuroDual那般紧凑，既要又要的臃肿电气设备导致她整备重量能达到154吨，25吨的轴重使她在欧洲大陆寸步难行。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "双源机车（电力+柴油）",
+        "highlight": false
+      },
+      {
+        "label": "供电制式",
+        "labelEn": "Power Supply",
+        "value": "双制式接触网 + 柴油",
+        "highlight": true
+      },
+      {
+        "label": "最高时速",
+        "labelEn": "Max Speed",
+        "value": "160 km/h（全模式）",
+        "highlight": true
+      },
+      {
+        "label": "整备重量",
+        "labelEn": "Weight",
+        "value": "154吨",
+        "highlight": false
+      },
+      {
+        "label": "轴重",
+        "labelEn": "Axle Load",
+        "value": "25吨",
+        "highlight": false
+      },
+      {
+        "label": "适用场景",
+        "labelEn": "Application",
+        "value": "货运为主，兼容客运",
+        "highlight": false
+      },
+      {
+        "label": "UIC编号",
+        "labelEn": "UIC Number",
+        "value": "90 33 1023 019-2",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "双源动力的意义，在于让货运不再受限于电网的边界。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 50,
+      "categories": [
+        "civilian",
+        "railway"
+      ],
+      "background": {
+        "imageUrl": "products/zntp-19-1023/ZNTP-19-1023.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.9,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "green-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "ZNTP RAILWAY SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNTP-19 1023"
+      },
+      "title": {
+        "text": "STS超限双源机车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "为电气化不完全地区设计的双源机车，支持双制式接触网及柴油供电，154吨整备重量使她成为名副其实的“超限”机车。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "类型 Type",
+            "value": "双源机车"
+          },
+          {
+            "label": "极速 Max Speed",
+            "value": "160 km/h"
+          },
+          {
+            "label": "重量 Weight",
+            "value": "154吨"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "铁路车辆",
+          "href": "products.html#railway"
+        },
+        {
+          "text": "ZNTP-19 1023"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-19-1023/ZNTP-19-1023.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Dual-mode",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-19-1023/ZNTP-19-1023.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "STS超限双源机车",
+        "productCode": "ZNTP-19 1023",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电。154吨的整备重量和25吨轴重使她成为名副其实的“超限”机车，更适合货运领域。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "供电制式",
+              "value": "双制式接触网 + 柴油"
+            },
+            {
+              "label": "最高时速",
+              "value": "160 km/h（全模式）"
+            },
+            {
+              "label": "整备重量",
+              "value": "154吨"
+            },
+            {
+              "label": "轴重",
+              "value": "25吨"
+            },
+            {
+              "label": "UIC编号",
+              "value": "90 33 1023 019-2"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "双源动力的意义，在于让货运不再受限于电网的边界。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整运维指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-19-1023/ZNTP-19-1023.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "双源动力",
+            "content": "白色车身，绿色装饰，她穿梭在电气化与非电气化的边界。<br/>有接触网时使用电力牵引，无接触网时切换柴油模式。<br/>灵活的动力切换，确保货运从不中断。",
+            "statusText": {
+              "enabled": true,
+              "text": "Dual-mode Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-19-1023/ZNTP-19-1023.webp",
+            "filters": {
+              "scale": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "settings",
+              "color": "primary"
+            },
+            "iconLabel": "Flexible System",
+            "title": "灵活切换",
+            "content": "支持两种接触网供电制式，也能使用柴油动力。<br/>电气化区段高效节能，非电气化区段自主运行。<br/><span class=\"text-white border-b border-primary/40 pb-1\">154 吨的整备重量，为双动力系统提供了稳定的承载平台。</span>",
+            "dataBlocks": [
+              {
+                "value": "双源",
+                "label": "动力"
+              },
+              {
+                "value": "160km/h",
+                "label": "极速"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-19-1023/ZNTP-19-1023.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Freight Service",
+              "isAnimated": true
+            },
+            "title": "货运担当",
+            "content": "白绿相间的涂装在货场中格外醒目，简洁而不失现代感。<br/>她连接着电气化区段与偏远地区，让货运列车无需换挂机车。<br/>集装箱、散货、重载，160 km/h 的速度足以应对各种货运需求。<br/>在电气化尚未覆盖的地方，双源动力确保物流通畅。这就是现代化货运应有的灵活性。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "双源动力的意义，在于让货运不再受限于电网的边界。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "双源机车"
+          },
+          {
+            "label": "Power",
+            "value": "双制式接触网 + 柴油"
+          },
+          {
+            "label": "Speed",
+            "value": "160 km/h"
+          },
+          {
+            "label": "Weight",
+            "value": "154吨 / 25吨轴重"
+          }
+        ],
+        "description": "ZNTP-19 1023 是为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电，兼容客货运但更适合货运领域。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整运维指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAILWAY SERIES",
+        "products": [
+          {
+            "id": "zntp-22-127",
+            "imageUrl": "products/zntp-22-127/thumb.webp",
+            "productCode": "ZNTP-22 127",
+            "productName": "集装箱平车",
+            "productDesc": "2x20英寸集装箱运输",
+            "href": "product-detail.html?id=zntp-22-127"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-23",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 优化为温和民用风格。章1“双源动力“：动力灵活切换场景；章2”灵活切换“：双动力系统优势（settings图标）；章3”货运担当“：强调货运灵活性和物流保障。移除所有负面表达（”原罪”、“用刑”等），改为积极描述，Quote 改为强调双源优势。"
+    }
+  },
+  {
+    "id": "zntp-22-127",
+    "modelId": "ZNTP-22 127",
+    "name": "集装箱平车",
+    "nameEn": "Container Flat Car",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "铁路车辆",
+      "subcategory": "货车",
+      "tags": [
+        "平车“, ”集装箱“, ”货运“, ”标准化"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-22-127/ZNTP-22-127.webp",
+      "hero": "products/zntp-22-127/ZNTP-22-127.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-22 127.webp"
+      ]
+    },
+    "description": {
+      "tagline": "标准化的承载，精确的数字",
+      "summary": "标准集装箱平车，采用低矮平板设计与酒红色涂装，能够稳固承载 2 个 20 英尺标准集装箱。她是铁路货运网络中沉默而可靠的一环，与双源机车配合，将货物送往每一个角落。",
+      "full": "在铁路货运的世界里，平车是最朴素的存在——没有华丽的外表，没有复杂的机械，只有一块承载货物的平板和四个轮子。但正是这份朴素，构成了现代物流的基石。\n\nZNTP-22 127 采用经典的低矮平板设计，酒红色的车体在阳光下沉稳而内敛，在编组列车中辨识度高。她配备标准的集装箱锁定装置，能够牢牢固定两个 20 英尺的标准集装箱，确保货物在长途运输中安全无虞。两端的标准货车转向架经过优化设计，在保证承载能力的同时兼顾了运行平稳性。\n\n从港口到内陆，从工厂到仓库，她连接着物流网络的每一个节点。标准化的设计让她能与任何机车、任何线路配合，这就是现代化铁路货运的基础单元。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "集装箱平车",
+        "highlight": false
+      },
+      {
+        "label": "载货规格",
+        "labelEn": "Cargo Spec",
+        "value": "2x20英尺标准集装箱",
+        "highlight": true
+      },
+      {
+        "label": "车体涂装",
+        "labelEn": "Livery",
+        "value": "酒红色",
+        "highlight": false
+      },
+      {
+        "label": "转向架",
+        "labelEn": "Bogie",
+        "value": "标准货车转向架",
+        "highlight": false
+      },
+      {
+        "label": "UIC编号",
+        "labelEn": "UIC Number",
+        "value": "31 33 4563 127-8",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "平车没有华丽的外表，但正是这份朴素，构成了现代物流的基石。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "铁路车辆",
+          "href": "products.html#railway"
+        },
+        {
+          "text": "ZNTP-22 127"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-22-127/ZNTP-22-127.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Freight",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-22-127/ZNTP-22-127.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "集装箱平车",
+        "productCode": "ZNTP-22 127",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "标准集装箱平车，采用低矮平板设计与酒红色涂装，能够稳固承载 2 个 20 英尺标准集装箱。她是铁路货运网络中沉默而可靠的一环。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "载货规格",
+              "value": "2x20英尺标准集装箱"
+            },
+            {
+              "label": "车体涂装",
+              "value": "酒红色"
+            },
+            {
+              "label": "转向架",
+              "value": "标准货车转向架"
+            },
+            {
+              "label": "UIC编号",
+              "value": "31 33 4563 127-8"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "平车没有华丽的外表，但正是这份朴素，构成了现代物流的基石。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-22-127/ZNTP-22-127.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95,
+              "saturate": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "red-900/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "标准化承载",
+            "content": "酒红色的车体，平整的货台，标准化的集装箱锁定装置。<br/>两个 20 英尺集装箱稳稳固定，从港口到内陆，从工厂到仓库。<br/>铁路货运的基石，就是这样朴素而可靠。",
+            "statusText": {
+              "enabled": true,
+              "text": "Freight Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-22-127/ZNTP-22-127.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "inventory_2",
+              "color": "primary"
+            },
+            "iconLabel": "Container Transport",
+            "title": "可靠运输",
+            "content": "低矮平板设计降低重心，标准货车转向架确保平稳运行。<br/>集装箱锁定装置牢牢固定货物，无论长途还是短驳。<br/><span class=\"text-white border-b border-primary/40 pb-1\">酒红色的车体在编组列车中辨识度高，是货运调度的好帮手。</span>",
+            "dataBlocks": [
+              {
+                "value": "2×20ft",
+                "label": "集装箱"
+              },
+              {
+                "value": "标准",
+                "label": "转向架"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-22-127/ZNTP-22-127.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "In Service",
+              "isAnimated": true
+            },
+            "title": "物流网络",
+            "content": "她连接着港口与城市，工厂与市场，产地与消费地。<br/>集装箱里装着的，是商品，是原料，更是经济运转的血液。<br/>标准化的设计让她能与任何机车、任何线路配合。<br/>这就是现代化铁路货运的基础单元，朴素而不可或缺。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "平车没有华丽的外表，但正是这份朴素，构成了现代物流的基石。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "集装箱平车"
+          },
+          {
+            "label": "Cargo",
+            "value": "2x20ft Container"
+          },
+          {
+            "label": "Livery",
+            "value": "酒红色"
+          },
+          {
+            "label": "UIC",
+            "value": "31 33 4563 127-8"
+          }
+        ],
+        "description": "ZNTP-22 127 是标准集装箱平车，采用低矮平板设计，能够稳固承载 2 个 20 英尺标准集装箱，是铁路货运网络中可靠的运输单元。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAILWAY SERIES",
+        "products": [
+          {
+            "id": "zntp-19-1023",
+            "imageUrl": "products/zntp-19-1023/thumb.webp",
+            "productCode": "ZNTP-19 1023",
+            "productName": "STS超限双源机车",
+            "productDesc": "双源动力牵引机车",
+            "href": "product-detail.html?id=zntp-19-1023"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-23",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 补充三个故事章节。章1“标准化承载“：货运基石；章2”可靠运输“：技术特性+酒红色涂装夸赞（inventory_2图标）；章3”物流网络“：强调物流连接性和基础单元价值。移除”监狱运输”字样，Quote 改为强调朴素价值。"
+    }
+  },
+  {
+    "id": "zntp-20-533",
+    "modelId": "ZNTP-20 533",
+    "name": "客运座车",
+    "nameEn": "Passenger Coach",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "铁路车辆",
+      "subcategory": "客车",
+      "tags": [
+        "客运“, ”座车“, ”城际“, ”高速"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-20-533/ZNTP-20-533.webp",
+      "hero": "products/zntp-20-533/ZNTP-20-533.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNTP-20 533.webp"
+      ]
+    },
+    "description": {
+      "tagline": "穿行于田野，连接每一站风景",
+      "summary": "客运座车，采用灰白配绿的清新涂装，大面积车窗设计让旅客尽享沿途风光。最高运行时速 220km/h，是城际客运线路上的常客。",
+      "full": "当列车驶过平交道口，田野的绿意从车窗外掠过，这便是 ZNTP-20 533 最寻常的一天。\n\n她采用灰白色车身搭配绿色装饰条纹的涂装方案，在阳光下显得清新而优雅，融入沿途的每一处风景。大面积的车窗设计是她最显著的特征——旅途不仅是从 A 点到 B 点的位移，更是一场与风景的邂逅。车厢内部布置着整齐的座椅，为旅客提供舒适的乘坐体验。\n\n她的前身是 ZNTP-12 533，后来正式更名为 ZNTP-20 533。虽然名字变了，但她依然是那个穿梭于城市与田野之间的身影，承载着无数旅人的归途与远方。\n\n车身侧面的 [220] 标识昭示着她的实力——最高 220km/h 的运行时速，让她能够胜任城际快速客运的需求。无论是通勤的上班族，还是远行的旅人，她都以同样的姿态迎接每一位乘客。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "客运座车",
+        "highlight": false
+      },
+      {
+        "label": "最高时速",
+        "labelEn": "Max Speed",
+        "value": "220 km/h",
+        "highlight": true
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "灰白色 + 绿色条纹",
+        "highlight": false
+      },
+      {
+        "label": "车窗",
+        "labelEn": "Windows",
+        "value": "大面积观景窗",
+        "highlight": false
+      },
+      {
+        "label": "座椅布局",
+        "labelEn": "Seating",
+        "value": "多排座椅",
+        "highlight": false
+      },
+      {
+        "label": "UIC编号",
+        "labelEn": "UIC Number",
+        "value": "51 33 82 91 533-4",
+        "highlight": false
+      },
+      {
+        "label": "历史编号",
+        "labelEn": "Former ID",
+        "value": "原 ZNTP-12 533",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "她换了个名字，但依然是那个穿梭于田野间的身影，承载着无数旅人的归途与远方。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "铁路车辆",
+          "href": "products.html#railway"
+        },
+        {
+          "text": "ZNTP-20 533"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-20-533/ZNTP-20-533.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Passenger",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-20-533/ZNTP-20-533.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "客运座车",
+        "productCode": "ZNTP-20 533",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "客运座车，采用灰白配绿的清新涂装，大面积车窗设计让旅客尽享沿途风光。最高运行时速 220km/h，是城际客运线路上的常客。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "最高时速",
+              "value": "220 km/h"
+            },
+            {
+              "label": "涂装",
+              "value": "灰白色 + 绿色条纹"
+            },
+            {
+              "label": "车窗",
+              "value": "大面积观景窗"
+            },
+            {
+              "label": "UIC编号",
+              "value": "51 33 82 91 533-4"
+            },
+            {
+              "label": "历史编号",
+              "value": "原 ZNTP-12 533"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "她换了个名字，但依然是那个穿梭于田野间的身影，承载着无数旅人的归途与远方。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": "",
+          "icon": ""
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-20-533/ZNTP-20-533.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.95,
+              "saturate": 1
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "田野与远方",
+            "content": "当列车驶过平交道口，田野的绿意从车窗外掠过。<br/>灰白配绿的清新涂装，融入沿途的每一处风景。<br/>220 km/h 的速度，让城市与城市之间不再遥远。",
+            "statusText": {
+              "enabled": true,
+              "text": "220 km/h Service"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-20-533/ZNTP-20-533.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "window",
+              "color": "primary"
+            },
+            "iconLabel": "Panoramic View",
+            "title": "观景之旅",
+            "content": "大面积观景窗是她最显著的特征，让旅客尽享沿途风光。<br/>舒适的座椅布局，整洁的车厢环境，让每一段旅程都愉悦。<br/><span class=\"text-white border-b border-primary/40 pb-1\">旅途不仅是从 A 点到 B 点的位移，更是一场与风景的邂逅。</span>",
+            "dataBlocks": [
+              {
+                "value": "220",
+                "label": "时速 km/h"
+              },
+              {
+                "value": "观景窗",
+                "label": "大面积"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/zntp-20-533/ZNTP-20-533.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "In Service",
+              "isAnimated": true
+            },
+            "title": "归途与远方",
+            "content": "她的前身是 ZNTP-12 533，后来更名为 ZNTP-20 533。<br/>名字变了，但她依然是那个穿梭于城市与田野之间的身影。<br/>承载着通勤的上班族，远行的旅人，归家的游子。<br/>无论是归途还是远方，她都以同样的姿态迎接每一位乘客。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "她换了个名字，但依然是那个穿梭于田野间的身影，承载着无数旅人的归途与远方。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "客运座车"
+          },
+          {
+            "label": "Speed",
+            "value": "220 km/h"
+          },
+          {
+            "label": "Livery",
+            "value": "灰白 + 绿色"
+          },
+          {
+            "label": "UIC",
+            "value": "51 33 82 91 533-4"
+          }
+        ],
+        "description": "ZNTP-20 533 是客运座车，前身为 ZNTP-12 533。采用灰白配绿的清新涂装与大面积观景窗设计，最高时速 220km/h，适用于城际客运线路。",
+        "ctaButton": {
+          "enabled": false,
+          "text": "",
+          "subtitle": ""
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAILWAY SERIES",
+        "products": [
+          {
+            "id": "zntp-19-1023",
+            "imageUrl": "products/zntp-19-1023/thumb.webp",
+            "productCode": "ZNTP-19 1023",
+            "productName": "STS超限双源机车",
+            "productDesc": "双源动力牵引机车",
+            "href": "product-detail.html?id=zntp-19-1023"
+          },
+          {
+            "id": "zntp-22-127",
+            "imageUrl": "products/zntp-22-127/thumb.webp",
+            "productCode": "ZNTP-22 127",
+            "productName": "集装箱平车",
+            "productDesc": "2x20英尺集装箱运输",
+            "href": "product-detail.html?id=zntp-22-127"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-01-23",
+      "updatedAt": "2026-01-23",
+      "version": 2,
+      "source": "正式资料.txt",
+      "notes": "v2: 补充三个故事章节。章1“田野与远方“：沿途风景；章2”观景之旅“：大面积观景窗+旅行体验（window图标）；章3”归途与远方“：更名历史+承载旅人。移除”监狱运输”字样，温和民用风格，强调旅行体验和风景。"
+    }
+  }
+];

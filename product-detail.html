@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="dark" lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="color-scheme" content="dark">
+    <title>产品详情 | 监狱重工</title>
+
+    <!-- 本地字体 -->
+    <link href="css/fonts.css" rel="stylesheet"/>
+    <link href="css/icons.css" rel="stylesheet"/>
+
+    <!-- Tailwind CSS -->
+    <script src="css/tailwind.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "var(--color-primary)",
+                        "primary-dim": "var(--color-primary-dim)",
+                        "background-light": "#f0f0f0",
+                        "background-dark": "#121214",
+                        "surface-dark": "#1c1c1f",
+                        "surface-highlight": "#252529",
+                        "accent-gray": "#333336",
+                        "text-muted": "#a0a0a5",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif SC", "serif"],
+                        "body": ["Noto Sans SC", "sans-serif"],
+                        "mono": ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
+                    },
+                    boxShadow: {
+                        'soft': '0 20px 40px -15px rgba(0, 0, 0, 0.5)',
+                        'inner-glow': 'inset 0 0 20px rgba(var(--color-primary-rgb), 0.05)',
+                    },
+                    borderRadius: {
+                        "DEFAULT": "2px",
+                        "lg": "4px",
+                        "xl": "6px",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- 自定义样式 -->
+    <link href="css/custom.css" rel="stylesheet"/>
+    <style>
+        /* 产品详情页专用样式 */
+        .tech-grid-line {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-gray-100 font-body overflow-x-hidden">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+
+    <!-- ========================================
+         导航栏
+         ======================================== -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5">
+        <div class="flex items-center justify-between px-8 py-5 max-w-[1600px] mx-auto w-full">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-6 w-auto opacity-90 logo-invert">
+                <h2 class="text-white text-lg font-display font-bold tracking-[0.05em]">监狱重工 ZANE</h2>
+            </a>
+
+            <!-- 桌面端导航 -->
+            <div class="hidden md:flex flex-1 justify-end gap-12 items-center">
+                <div class="flex items-center gap-12">
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="index.html">主页</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="products.html">监狱重工</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="transport.html">监狱运输</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="featured.html">旗舰序列</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="about.html">基地信息</a>
+                </div>
+                <div class="h-4 w-px bg-white/10"></div>
+                <button class="text-xs font-medium tracking-widest text-primary hover:text-white transition-colors uppercase">
+                    客户登录
+                </button>
+            </div>
+
+            <!-- 移动端菜单按钮 -->
+            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden text-white/80 hover:text-white transition-colors">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+
+        <!-- 移动端菜单 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-8 py-6">
+            <div class="flex flex-col gap-4">
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="index.html">主页</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="products.html">监狱重工</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="transport.html">监狱运输</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="featured.html">旗舰序列</a>
+                <a class="text-gray-400 hover:text-white text-sm py-2" href="about.html">基地信息</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         主内容区（动态渲染）
+         ======================================== -->
+    <main class="flex-grow pt-[80px] pb-24">
+        <div id="product-detail-container">
+            <!-- 内容由 JS 动态渲染 -->
+        </div>
+    </main>
+
+    <!-- ========================================
+         页脚
+         ======================================== -->
+    <footer class="bg-background-dark border-t border-white/5 pt-24 pb-12 px-6">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
+                <!-- 品牌信息 -->
+                <div class="md:col-span-4 flex flex-col gap-6 pr-12">
+                    <a href="index.html" class="flex items-center gap-3 text-white">
+                        <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-5 w-auto opacity-80 logo-invert">
+                        <span class="font-display font-bold tracking-widest text-xl">监狱重工 ZANE</span>
+                    </a>
+                    <p class="text-gray-500 text-sm font-body leading-loose">
+                        重工业时代的先驱者。致力于为国家安全与现代化物流提供尖端科技与重型工业支持。
+                        <br/><br/>
+                        <span class="text-xs text-gray-600 font-mono">总部坐标: 78°13'N 15°33'E</span>
+                    </p>
+                </div>
+
+                <!-- 业务板块 -->
+                <div class="md:col-span-2">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">业务板块</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-400">
+                        <li><a class="hover:text-white transition-colors" href="products.html">军事防御</a></li>
+                        <li><a class="hover:text-white transition-colors" href="products.html">重型工业</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">研发实验室</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">全球物流</a></li>
+                    </ul>
+                </div>
+
+                <!-- 公司信息 -->
+                <div class="md:col-span-2">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">公司信息</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-400">
+                        <li><a class="hover:text-white transition-colors" href="about.html">关于我们</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">职业生涯</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">投资者关系</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">媒体中心</a></li>
+                    </ul>
+                </div>
+
+                <!-- 订阅表单 -->
+                <div class="md:col-span-4 pl-0 md:pl-12 border-l border-white/5">
+                    <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">加密通讯订阅</h4>
+                    <div class="flex flex-col gap-4">
+                        <p class="text-xs text-gray-500 mb-2">订阅以获取最新行业动态与产品发布信息。</p>
+                        <div class="flex gap-2">
+                            <label for="footer-email-detail" class="sr-only">电子邮箱</label>
+                            <input id="footer-email-detail" aria-label="电子邮箱" class="bg-surface-highlight border border-white/5 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-primary/50 w-full placeholder-gray-700 font-sans transition-colors" placeholder="您的电子邮箱" type="email"/>
+                            <button type="submit" aria-label="订阅" class="bg-primary hover:bg-primary-dim text-white font-bold text-xs px-6 rounded-sm transition-colors tracking-widest flex items-center gap-2 whitespace-nowrap">
+                                <span>发送</span>
+                                <span class="material-symbols-outlined text-sm">send</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 版权信息 -->
+            <div class="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-gray-600 text-[11px] tracking-wider uppercase">© 2042 ZANE HEAVY INDUSTRIES. 监狱重工版权所有。</p>
+                <div class="flex gap-8 text-gray-500">
+                    <a class="text-xs hover:text-white transition-colors" href="#">隐私协议</a>
+                    <a class="text-xs hover:text-white transition-colors" href="#">使用条款</a>
+                    <a class="text-xs hover:text-white transition-colors" href="#">安全合规</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- 基础工具脚本 -->
+<script src="js/url-utils.js"></script>
+<script src="js/products-data.js" onerror=""></script><!-- 本地预览用，HTTP 环境可忽略 -->
+<script src="js/data-loader.js"></script>
+<script src="js/renderer.js"></script>
+
+<!-- 页面特定脚本 -->
+<script src="js/gallery.js"></script>
+<script src="js/image-viewer.js"></script>
+<script src="js/product-detail.js"></script>
+
+<!-- 公共交互脚本 -->
+<script src="js/main.js"></script>
+</body>
+</html>

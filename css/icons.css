@@ -1,0 +1,24 @@
+/* Material Symbols Outlined - 使用字节跳动 Google Fonts 镜像 */
+@import url('https://fonts.font.im/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  /* 字体加载前隐藏，避免显示图标名称文字 */
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+/* 字体加载完成后显示 */
+.icons-loaded .material-symbols-outlined {
+  opacity: 1;
+}
