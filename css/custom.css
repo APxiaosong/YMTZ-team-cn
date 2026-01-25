@@ -347,6 +347,10 @@ select:focus {
 }
 
 /* 边框颜色 */
+.border-primary\/50 {
+    border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+}
+
 .border-primary\/40 {
     border-color: rgba(var(--color-primary-rgb), 0.4) !important;
 }
@@ -357,6 +361,19 @@ select:focus {
 
 .border-primary\/20 {
     border-color: rgba(var(--color-primary-rgb), 0.2) !important;
+}
+
+/* 焦点状态边框颜色 */
+.focus\:border-primary\/50:focus {
+    border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+}
+
+.focus\:border-primary\/40:focus {
+    border-color: rgba(var(--color-primary-rgb), 0.4) !important;
+}
+
+.focus\:border-primary\/30:focus {
+    border-color: rgba(var(--color-primary-rgb), 0.3) !important;
 }
 
 /* ========================================

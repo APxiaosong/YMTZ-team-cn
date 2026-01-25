@@ -21,6 +21,8 @@ desktop.ini
 
 # 编辑器配置（可选，根据团队协作需求调整）
 .vscode/
+.claude/
+.trae/
 .idea/
 *.swp
 *.swo

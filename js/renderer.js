@@ -127,8 +127,8 @@ const Renderer = (function() {
                     "${escapeHtml(designer.quote)}"
                 </p>
                 <div class="mt-4 flex items-center gap-3">
-                    <div class="size-8 rounded-full bg-gray-700 overflow-hidden">
-                        <div class="w-full h-full bg-gradient-to-br from-gray-600 to-gray-800"></div>
+                    <div class="size-8 rounded-full overflow-hidden bg-gray-700">
+                        <img src="assets/images/avatar/designer.webp" alt="${escapeHtml(designer.author)}" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <p class="text-xs text-white font-bold tracking-wider">${escapeHtml(designer.author)}</p>
@@ -1011,8 +1011,8 @@ const Renderer = (function() {
                     "${escapeHtml(quote.text)}"
                 </p>
                 <div class="mt-4 flex items-center gap-3">
-                    <div class="size-8 rounded-full bg-gray-700 overflow-hidden">
-                        <div class="w-full h-full bg-gradient-to-br from-gray-600 to-gray-800"></div>
+                    <div class="size-8 rounded-full overflow-hidden bg-gray-700">
+                        <img src="assets/images/avatar/designer.webp" alt="${escapeHtml(quote.author || '设计师')}" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <p class="text-xs text-white font-bold tracking-wider">${escapeHtml(quote.author || '')}</p>
@@ -1217,7 +1217,9 @@ const Renderer = (function() {
                         <p class="text-xs text-white font-bold tracking-wider">${escapeHtml(content.quoteCard.author)}</p>
                         <p class="text-[11px] text-gray-500 uppercase tracking-widest">${escapeHtml(content.quoteCard.title)}</p>
                     </div>
-                    <div class="size-8 rounded-full bg-gradient-to-br from-gray-600 to-gray-800 border border-white/10"></div>
+                    <div class="size-8 rounded-full overflow-hidden border border-white/10 bg-gray-700">
+                        <img src="assets/images/avatar/designer.webp" alt="${escapeHtml(content.quoteCard.author)}" class="w-full h-full object-cover">
+                    </div>
                 </div>
             </div>
         ` : '';
