@@ -18,6 +18,8 @@
     const listDesc = document.getElementById('list-desc');
     // 产品列表的滚动容器（section 元素）
     const scrollContainer = productsContainer?.closest('section');
+    // 移动端系列选择器
+    const mobileSeriesSelector = document.getElementById('mobile-series-selector');
 
     // 筛选面板相关元素
     const filterBtn = document.getElementById('filter-btn');
@@ -75,6 +77,9 @@
 
         // 渲染侧边栏系列列表
         renderSeriesList(seriesData);
+
+        // 渲染移动端系列选择器
+        renderMobileSeriesSelector(seriesData);
 
         // 初始化产品列表（显示全部）
         resetProducts(allProducts, '全部');
@@ -303,37 +308,98 @@
 
         seriesContainer.innerHTML = html;
 
-        // 绑定点击事件
+        // 绑定点击事件（调用公共切换函数）
         const seriesBtns = seriesContainer.querySelectorAll('.series-btn');
         seriesBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                const series = btn.dataset.series;
-                const seriesName = btn.dataset.name;
-                const seriesDesc = btn.dataset.desc;
-
-                // 更新按钮状态
-                seriesBtns.forEach(b => b.classList.remove('series-active'));
-                btn.classList.add('series-active');
-
-                // 更新标题和描述
-                if (listTitle) listTitle.textContent = `正在查看：${seriesName}`;
-                if (listDesc) listDesc.textContent = seriesDesc;
-
-                // 筛选并渲染产品
-                currentSeries = series;
-                const allProducts = ProductDataLoader.getProductsByBrand('ZNHI');
-
-                if (series === 'all') {
-                    resetProducts(allProducts, '全部');
-                } else {
-                    const filtered = allProducts.filter(p =>
-                        p.classification?.seriesEn?.toLowerCase() === series
-                    );
-                    const chineseName = seriesName.replace(/[\[\]]/g, '');
-                    resetProducts(filtered, chineseName);
-                }
+                switchSeries(btn.dataset.series, btn.dataset.name, btn.dataset.desc);
             });
         });
+    }
+
+    /**
+     * 渲染移动端系列选择器
+     */
+    function renderMobileSeriesSelector(seriesData) {
+        if (!mobileSeriesSelector) return;
+
+        const container = mobileSeriesSelector.querySelector('div');
+        if (!container) return;
+
+        // "全部"选项
+        let html = `
+            <button class="mobile-series-btn series-active px-4 py-2 text-sm font-bold tracking-wider whitespace-nowrap
+                          border-b-2 border-primary text-primary transition-colors"
+                    data-series="all" data-name="全部产品" data-desc="ZNHI 品牌的全部产品线">
+                全部
+            </button>
+        `;
+
+        // 各系列选项
+        seriesData.forEach(series => {
+            html += `
+                <button class="mobile-series-btn px-4 py-2 text-sm font-bold tracking-wider whitespace-nowrap
+                              border-b-2 border-transparent text-gray-500 hover:text-white transition-colors"
+                        data-series="${series.nameEn.toLowerCase()}"
+                        data-name="[${series.name}]"
+                        data-desc="${series.name}系列产品，共${series.count}个型号">
+                    ${series.name}
+                </button>
+            `;
+        });
+
+        container.innerHTML = html;
+
+        // 绑定点击事件
+        const mobileBtns = container.querySelectorAll('.mobile-series-btn');
+        mobileBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                switchSeries(btn.dataset.series, btn.dataset.name, btn.dataset.desc);
+            });
+        });
+
+        // 初始化滚动指示器（使用公共模块）
+        MobileScrollHints.init(mobileSeriesSelector);
+    }
+
+    /**
+     * 切换系列（公共函数，同步更新桌面端和移动端状态）
+     */
+    function switchSeries(series, seriesName, seriesDesc) {
+        // 更新桌面端侧边栏按钮状态
+        const desktopBtns = seriesContainer?.querySelectorAll('.series-btn');
+        desktopBtns?.forEach(b => {
+            b.classList.toggle('series-active', b.dataset.series === series);
+        });
+
+        // 更新移动端选择器按钮状态
+        const mobileBtns = mobileSeriesSelector?.querySelectorAll('.mobile-series-btn');
+        mobileBtns?.forEach(b => {
+            const isActive = b.dataset.series === series;
+            b.classList.toggle('series-active', isActive);
+            b.classList.toggle('border-primary', isActive);
+            b.classList.toggle('text-primary', isActive);
+            b.classList.toggle('border-transparent', !isActive);
+            b.classList.toggle('text-gray-500', !isActive);
+        });
+
+        // 更新标题和描述
+        if (listTitle) listTitle.textContent = `正在查看：${seriesName}`;
+        if (listDesc) listDesc.textContent = seriesDesc;
+
+        // 筛选并渲染产品
+        currentSeries = series;
+        const allProducts = ProductDataLoader.getProductsByBrand('ZNHI');
+
+        if (series === 'all') {
+            resetProducts(allProducts, '全部');
+        } else {
+            const filtered = allProducts.filter(p =>
+                p.classification?.seriesEn?.toLowerCase() === series
+            );
+            const chineseName = seriesName.replace(/[\[\]]/g, '');
+            resetProducts(filtered, chineseName);
+        }
     }
 
     /**

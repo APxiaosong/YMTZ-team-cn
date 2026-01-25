@@ -64,7 +64,7 @@
          导航栏
          ======================================== -->
     <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5 transition-all duration-300">
-        <div class="flex items-center justify-between px-8 py-5 max-w-[1600px] mx-auto w-full">
+        <div class="flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 md:py-5 max-w-[1600px] mx-auto w-full">
             <!-- Logo -->
             <a href="index.html" class="flex items-center gap-3">
                 <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-6 w-auto opacity-90 logo-invert">
@@ -87,19 +87,19 @@
             </div>
 
             <!-- 移动端菜单按钮 -->
-            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden text-white/80 hover:text-white transition-colors">
+            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden p-2 -mr-2 text-white/80 hover:text-white transition-colors">
                 <span class="material-symbols-outlined">menu</span>
             </button>
         </div>
 
         <!-- 移动端菜单 -->
-        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-8 py-6">
+        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-4 sm:px-6 py-4">
             <div class="flex flex-col gap-4">
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="index.html">主页</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="products.html">监狱重工</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="transport.html">监狱运输</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="featured.html">旗舰序列</a>
-                <a class="text-white text-sm py-2 border-l-2 border-primary pl-4" href="about.html">基地信息</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="index.html">主页</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="products.html">监狱重工</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="transport.html">监狱运输</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="featured.html">旗舰序列</a>
+                <a class="text-white text-sm py-3 border-l-2 border-primary pl-4" href="about.html">基地信息</a>
             </div>
         </div>
     </nav>
@@ -130,7 +130,7 @@
                         Classified Profile: Alpha
                     </span>
                 </div>
-                <h1 class="text-7xl md:text-[9rem] leading-none font-display font-bold text-white tracking-tighter mb-6 animate-fade-in-up drop-shadow-2xl">
+                <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-[9rem] leading-none font-display font-bold text-white tracking-tighter mb-6 animate-fade-in-up drop-shadow-2xl">
                     典狱长
                 </h1>
                 <p class="text-xl md:text-2xl text-white/70 font-display font-light italic tracking-wider mb-12 max-w-2xl animate-fade-in-up">
@@ -327,11 +327,11 @@
     <!-- ========================================
          页脚
          ======================================== -->
-    <footer class="bg-background-dark border-t border-white/5 pt-24 pb-12 px-6">
+    <footer class="bg-background-dark border-t border-white/5 pt-12 md:pt-24 pb-8 md:pb-12 px-4 sm:px-6">
         <div class="max-w-[1400px] mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
+            <div class="grid grid-cols-2 md:grid-cols-12 gap-8 md:gap-12 mb-20">
                 <!-- 品牌信息 -->
-                <div class="md:col-span-4 flex flex-col gap-6 pr-12">
+                <div class="col-span-2 md:col-span-4 flex flex-col gap-6 md:pr-12">
                     <a href="index.html" class="flex items-center gap-3 text-white">
                         <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-5 w-auto opacity-80 logo-invert">
                         <span class="font-display font-bold tracking-widest text-xl">监狱重工 ZANE</span>
@@ -344,7 +344,7 @@
                 </div>
 
                 <!-- 业务板块 -->
-                <div class="md:col-span-2">
+                <div class="col-span-1 md:col-span-2">
                     <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">业务板块</h4>
                     <ul class="flex flex-col gap-4 text-sm text-gray-400">
                         <li><a class="hover:text-white transition-colors" href="products.html">军事防御</a></li>
@@ -355,7 +355,7 @@
                 </div>
 
                 <!-- 公司信息 -->
-                <div class="md:col-span-2">
+                <div class="col-span-1 md:col-span-2">
                     <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">公司信息</h4>
                     <ul class="flex flex-col gap-4 text-sm text-gray-400">
                         <li><a class="hover:text-white transition-colors" href="about.html">关于我们</a></li>
@@ -366,7 +366,7 @@
                 </div>
 
                 <!-- 订阅表单 -->
-                <div class="md:col-span-4 pl-0 md:pl-12 border-l border-white/5">
+                <div class="col-span-2 md:col-span-4 pl-0 md:pl-12 md:border-l border-white/5">
                     <h4 class="text-white font-bold mb-6 tracking-widest text-xs uppercase opacity-60">加密通讯订阅</h4>
                     <div class="flex flex-col gap-4">
                         <p class="text-xs text-gray-500 mb-2">订阅以获取最新行业动态与产品发布信息。</p>

@@ -67,6 +67,17 @@
         .custom-scroll::-webkit-scrollbar-thumb:hover {
             background: rgba(var(--color-primary-rgb), 0.4);
         }
+        /* 移动端横向滚动条 */
+        #mobile-series-selector::-webkit-scrollbar {
+            height: 2px;
+        }
+        #mobile-series-selector::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        #mobile-series-selector::-webkit-scrollbar-thumb {
+            background: rgba(var(--color-primary-rgb), 0.3);
+            border-radius: 1px;
+        }
         /* 系列按钮样式 */
         .series-btn .series-inner {
             height: 120px;
@@ -90,14 +101,14 @@
     </style>
 </head>
 
-<body class="bg-background-dark text-gray-100 font-body overflow-hidden h-screen">
-<div class="flex flex-col h-full">
+<body class="bg-background-dark text-gray-100 font-body md:overflow-hidden md:h-screen overflow-x-hidden">
+<div class="flex flex-col md:h-full">
 
     <!-- ========================================
          导航栏
          ======================================== -->
     <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5">
-        <div class="flex items-center justify-between px-8 py-5 max-w-[1600px] mx-auto w-full">
+        <div class="flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 md:py-5 max-w-[1600px] mx-auto w-full">
             <!-- Logo -->
             <a href="index.html" class="flex items-center gap-3">
                 <img src="assets/images/logos/zane.webp" alt="ZANE Logo" class="h-6 w-auto opacity-90 logo-invert">
@@ -120,19 +131,19 @@
             </div>
 
             <!-- 移动端菜单按钮 -->
-            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden text-white/80 hover:text-white transition-colors">
+            <button id="mobile-menu-btn" aria-label="打开菜单" class="md:hidden p-2 -mr-2 text-white/80 hover:text-white transition-colors">
                 <span class="material-symbols-outlined">menu</span>
             </button>
         </div>
 
         <!-- 移动端菜单 -->
-        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-8 py-6">
+        <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-4 sm:px-6 py-4">
             <div class="flex flex-col gap-4">
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="index.html">主页</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="products.html">监狱重工</a>
-                <a class="text-white text-sm py-2 border-l-2 border-primary pl-4" href="transport.html">监狱运输</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="featured.html">旗舰序列</a>
-                <a class="text-gray-400 hover:text-white text-sm py-2" href="about.html">基地信息</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="index.html">主页</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="products.html">监狱重工</a>
+                <a class="text-white text-sm py-3 border-l-2 border-primary pl-4" href="transport.html">监狱运输</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="featured.html">旗舰序列</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="about.html">基地信息</a>
             </div>
         </div>
     </nav>
@@ -140,7 +151,7 @@
     <!-- ========================================
          主内容区（侧边栏+产品列表）
          ======================================== -->
-    <main class="flex-1 flex overflow-hidden pt-[80px] min-h-0">
+    <main class="flex-1 flex md:overflow-hidden pt-[80px] md:min-h-0">
 
         <!-- 侧边栏：系列导航 -->
         <aside class="hidden md:flex w-1/3 lg:w-1/4 xl:w-1/5 border-r border-white/5 bg-surface-dark flex-col overflow-y-auto custom-scroll">
@@ -171,7 +182,31 @@
         </aside>
 
         <!-- 产品列表区域 -->
-        <section class="flex-grow bg-background-dark overflow-y-auto custom-scroll px-6 md:px-12 py-12">
+        <section class="flex-grow bg-background-dark md:overflow-y-auto custom-scroll px-6 md:px-12 py-6 md:py-12 overflow-x-hidden">
+            <!-- 移动端系列选择器 -->
+            <div class="md:hidden mb-6 -mx-6 relative">
+                <!-- 滚动容器 -->
+                <div id="mobile-series-selector" class="border-b border-white/5 overflow-x-auto overflow-y-hidden max-w-[100vw]">
+                    <div class="flex items-center gap-2 pb-4 px-6 w-max min-w-0">
+                        <!-- 内容由 JS 动态渲染 -->
+                    </div>
+                </div>
+                <!-- 右侧渐变 + 按钮 -->
+                <div id="scroll-hint-right" class="absolute right-0 top-0 bottom-2 flex items-center transition-opacity duration-200">
+                    <div class="w-12 h-full bg-gradient-to-r from-transparent to-background-dark pointer-events-none"></div>
+                    <button id="scroll-right-btn" class="px-2 py-2 bg-background-dark text-gray-400 hover:text-primary active:scale-95 transition-all" aria-label="向右滚动">
+                        <span class="material-symbols-outlined text-2xl">chevron_right</span>
+                    </button>
+                </div>
+                <!-- 左侧渐变 + 按钮 -->
+                <div id="scroll-hint-left" class="absolute left-0 top-0 bottom-2 flex items-center transition-opacity duration-200 opacity-0 pointer-events-none">
+                    <button id="scroll-left-btn" class="px-2 py-2 bg-background-dark text-gray-400 hover:text-primary active:scale-95 transition-all" aria-label="向左滚动">
+                        <span class="material-symbols-outlined text-2xl">chevron_left</span>
+                    </button>
+                    <div class="w-12 h-full bg-gradient-to-l from-transparent to-background-dark pointer-events-none"></div>
+                </div>
+            </div>
+
             <div class="max-w-5xl mx-auto">
                 <!-- 列表标题 -->
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12 border-b border-white/5 pb-8">
@@ -180,7 +215,7 @@
                         <p id="list-desc" class="text-text-muted text-sm max-w-xl">ZNTP 品牌的全部产品线</p>
                     </div>
                     <div class="flex gap-4">
-                        <button id="filter-btn" aria-label="筛选产品" class="p-2 border border-white/10 hover:border-primary/50 transition-colors text-gray-500 hover:text-primary">
+                        <button id="filter-btn" aria-label="筛选产品" class="p-3 border border-white/10 hover:border-primary/50 transition-colors text-gray-500 hover:text-primary">
                             <span class="material-symbols-outlined">filter_list</span>
                         </button>
                     </div>
@@ -221,9 +256,9 @@
 <!-- 筛选面板遮罩 -->
 <div id="filter-overlay" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40" style="transition: opacity 0.3s ease;"></div>
 
-<!-- 筛选面板（浮动） -->
-<div id="filter-panel" class="hidden fixed left-1/2 -translate-x-1/2 top-40 w-full max-w-4xl mx-4 bg-surface-dark border border-white/10 rounded-lg shadow-2xl z-50" style="max-height: calc(100vh - 12rem); overflow-y: auto;">
-    <div class="p-6">
+<!-- 筛选面板（移动端底部抽屉 / 桌面端居中浮动） -->
+<div id="filter-panel" class="hidden fixed inset-x-0 bottom-0 md:inset-auto md:left-1/2 md:-translate-x-1/2 md:top-40 w-full md:max-w-4xl bg-surface-dark border-t md:border border-white/10 md:rounded-lg shadow-2xl z-50 max-h-[80vh] md:max-h-[calc(100vh-12rem)] overflow-y-auto">
+    <div class="p-4 md:p-6">
         <div class="flex items-center justify-between mb-6">
             <div class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary">filter_list</span>
@@ -256,6 +291,7 @@
 <script src="js/products-data.js" onerror=""></script><!-- 本地预览用，HTTP 环境可忽略 -->
 <script src="js/data-loader.js"></script>
 <script src="js/renderer.js"></script>
+<script src="js/mobile-scroll-hints.js"></script>
 
 <!-- 页面特定脚本 -->
 <script src="js/transport-page.js"></script>

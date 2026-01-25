@@ -213,7 +213,7 @@ const Renderer = (function() {
                         </div>
                         <span class="material-symbols-outlined text-gray-700 text-4xl">${getProductIcon(product)}</span>
                     </div>
-                    <div class="grid grid-cols-3 gap-6 mb-8 border-t border-white/5 pt-6">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 mb-8 border-t border-white/5 pt-6">
                         ${specs.map(spec => `
                             <div>
                                 <div class="text-[11px] uppercase tracking-wider text-gray-600 mb-1">${escapeHtml(spec.label)}</div>
@@ -910,7 +910,7 @@ const Renderer = (function() {
             </div>
 
             <!-- 缩略图 -->
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid grid-cols-3 sm:grid-cols-4 gap-2 sm:gap-4">
                 ${thumbsHtml}
                 ${videoButtonHtml}
             </div>
