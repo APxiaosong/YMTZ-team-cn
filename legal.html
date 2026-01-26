@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="color-scheme" content="dark">
-    <title>监狱重工 - 旗舰序列</title>
+    <title>法律与合规 | 监狱重工 ZANE</title>
 
     <!-- 本地字体 -->
     <link href="css/fonts.css" rel="stylesheet"/>
@@ -31,6 +31,11 @@
                         "display": ["Noto Serif SC", "serif"],
                         "body": ["Noto Sans SC", "sans-serif"],
                     },
+                    boxShadow: {
+                        'soft': '0 20px 40px -15px rgba(0, 0, 0, 0.5)',
+                        'inner-glow': 'inset 0 0 20px rgba(var(--color-primary-rgb), 0.05)',
+                        'glow': '0 0 20px rgba(var(--color-primary-rgb), 0.1)',
+                    },
                     borderRadius: {
                         "DEFAULT": "2px",
                         "lg": "4px",
@@ -45,22 +50,83 @@
     <!-- 自定义样式 -->
     <link href="css/custom.css" rel="stylesheet"/>
     <style>
-        /* 精选页专用样式 */
-        .hero-pattern {
-            background-color: #121214;
-            background-image: radial-gradient(#252529 0.5px, transparent 0.5px);
-            background-size: 60px 60px;
+        /* 法律页面专用样式 */
+        .tab-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 0;
+            border-bottom: 2px solid transparent;
+            color: #a0a0a5;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            font-size: 0.875rem;
+        }
+
+        .tab-btn:hover {
+            color: white;
+        }
+
+        .tab-btn.active {
+            color: white;
+            border-bottom-color: var(--color-primary);
+        }
+
+        .tab-btn .material-symbols-outlined {
+            font-size: 1.25rem;
+        }
+
+        /* 内容区平滑过渡 */
+        #legal-content {
+            transition: opacity 0.3s ease;
+        }
+
+        /* 法律文档内容样式 */
+        .legal-section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .legal-section:last-child {
+            border-bottom: none;
+        }
+
+        .legal-section h2 {
+            scroll-margin-top: 120px;
+        }
+
+        .legal-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .legal-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .legal-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.6rem;
+            width: 6px;
+            height: 6px;
+            background: var(--color-primary);
+            opacity: 0.5;
         }
     </style>
 </head>
 
-<body class="bg-background-dark text-gray-100 font-body overflow-x-hidden">
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-gray-100 font-body overflow-x-hidden">
 <div class="relative flex h-auto min-h-screen w-full flex-col">
 
     <!-- ========================================
          导航栏
          ======================================== -->
-    <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-background-dark/95 backdrop-blur-md border-b border-white/5 transition-all duration-300">
         <div class="flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 md:py-5 max-w-[1600px] mx-auto w-full">
             <!-- Logo -->
             <a href="index.html" class="flex items-center gap-3">
@@ -74,11 +140,13 @@
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="index.html">主页</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="products.html">监狱重工</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="transport.html">监狱运输</a>
-                    <a class="text-white text-sm font-medium tracking-wider transition-colors duration-300 border-b border-primary pb-1" href="featured.html">旗舰序列</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="featured.html">旗舰序列</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="about.html">基地信息</a>
                 </div>
                 <div class="h-4 w-px bg-white/10"></div>
-                <button class="text-xs font-medium tracking-widest text-primary hover:text-white transition-colors uppercase">客户登录</button>
+                <button class="text-xs font-medium tracking-widest text-primary hover:text-white transition-colors uppercase">
+                    客户登录
+                </button>
             </div>
 
             <!-- 移动端菜单按钮 -->
@@ -93,7 +161,7 @@
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="index.html">主页</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="products.html">监狱重工</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="transport.html">监狱运输</a>
-                <a class="text-white text-sm py-3 border-l-2 border-primary pl-4" href="featured.html">旗舰序列</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="featured.html">旗舰序列</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="about.html">基地信息</a>
             </div>
         </div>
@@ -104,63 +172,54 @@
          ======================================== -->
     <main class="flex-grow pt-[80px]">
 
-        <!-- Hero 区域 -->
-        <section class="relative h-[60vh] flex items-center px-6 md:px-16 hero-pattern">
-            <div class="max-w-[1400px] mx-auto w-full">
-                <div class="flex flex-col gap-6">
-                    <div class="flex items-center gap-3">
-                        <span class="h-px w-12 bg-primary"></span>
-                        <span id="hero-label" class="text-primary font-bold text-xs tracking-[0.4em] uppercase">Flagship Series</span>
+        <!-- Hero区域 + Tab导航 -->
+        <section class="bg-surface-dark border-b border-white/5">
+            <div class="max-w-[1400px] mx-auto px-6 md:px-16 py-12 md:py-16">
+                <!-- 页面标题 -->
+                <div class="mb-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="px-2 py-1 border border-primary/30 bg-primary/5 text-[10px] tracking-[0.3em] text-primary uppercase">
+                            PUBLIC
+                        </span>
+                        <span class="text-xs text-gray-600">Document Version: v2042.01</span>
                     </div>
-                    <h1 id="hero-title" class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display text-white tracking-tight font-medium">
-                        旗舰序列
-                    </h1>
-                    <p id="hero-desc" class="text-text-muted text-lg leading-relaxed max-w-[700px] font-body tracking-wide mt-4">
-                        集结监狱重工最尖端的技术成果。从战场利器到运输载具，从工业巨兽到精密系统，每一件旗舰产品都代表着我们的技术巅峰与设计理念。
-                    </p>
-                    <div class="mt-8 flex items-center gap-6 sm:gap-8 md:gap-12">
-                        <div class="flex flex-col gap-1">
-                            <span id="stats-label" class="text-[11px] text-gray-600 uppercase tracking-widest">Active Models</span>
-                            <span id="stats-active-models" class="text-3xl font-display text-white">--</span>
-                        </div>
-                        <div class="flex flex-col gap-1">
-                            <span class="text-[11px] text-gray-600 uppercase tracking-widest">Operational Status</span>
-                            <span id="stats-status" class="text-3xl font-display text-primary">OPTIMAL</span>
-                        </div>
-                    </div>
+                    <span class="text-xs text-gray-500 uppercase tracking-[0.3em] block mb-2">Legal & Compliance</span>
+                    <h1 class="text-4xl md:text-5xl font-display text-white tracking-wide">法律与合规</h1>
                 </div>
-            </div>
 
-            <!-- 底部分类标签 -->
-            <div class="absolute bottom-0 left-0 w-full border-t border-white/5 bg-black/40 backdrop-blur-sm overflow-x-auto">
-                <div class="max-w-[1400px] mx-auto px-6 md:px-16 flex items-center gap-10 h-16">
-                    <button class="category-btn text-xs font-bold text-primary tracking-widest uppercase border-b-2 border-primary h-full" data-category="all">全部 ALL</button>
-                    <button class="category-btn text-xs font-bold text-gray-500 hover:text-white tracking-widest uppercase transition-colors h-full border-b-2 border-transparent" data-category="znhi">监狱重工 ZNHI</button>
-                    <button class="category-btn text-xs font-bold text-gray-500 hover:text-white tracking-widest uppercase transition-colors h-full border-b-2 border-transparent" data-category="zntp">监狱运输 ZNTP</button>
+                <!-- Tab按钮 -->
+                <div class="flex gap-6 md:gap-8 border-b border-white/5 overflow-x-auto pb-px -mb-px">
+                    <button id="tab-privacy" class="tab-btn active" data-section="privacy">
+                        <span class="material-symbols-outlined">shield_lock</span>
+                        <span>隐私协议</span>
+                    </button>
+                    <button id="tab-terms" class="tab-btn" data-section="terms">
+                        <span class="material-symbols-outlined">description</span>
+                        <span>使用条款</span>
+                    </button>
+                    <button id="tab-security" class="tab-btn" data-section="security">
+                        <span class="material-symbols-outlined">verified_user</span>
+                        <span>安全合规</span>
+                    </button>
                 </div>
             </div>
         </section>
 
-        <!-- 全屏产品展示（动态渲染） -->
-        <div id="product-showcase" class="flex flex-col w-full">
-            <!-- 内容由 JS 动态渲染 -->
+        <!-- 内容区（由JS动态渲染） -->
+        <div id="legal-content" class="min-h-[60vh] bg-background-dark">
+            <!-- 加载中状态 -->
+            <div class="max-w-[1000px] mx-auto px-6 md:px-16 py-16 text-center">
+                <span class="material-symbols-outlined text-4xl text-gray-600 animate-pulse">hourglass_empty</span>
+                <p class="text-gray-500 mt-4">正在加载文档...</p>
+            </div>
         </div>
-
-        <!-- 结束区域 -->
-        <section class="py-24 bg-surface-dark border-t border-white/5 flex flex-col items-center justify-center gap-8">
-            <h3 class="text-white text-sm tracking-[0.4em] uppercase font-bold opacity-60">End of Catalogue</h3>
-            <a id="view-all-link" href="products.html" class="px-12 py-5 border-2 border-white/10 hover:border-primary text-white transition-all duration-300 group flex items-center gap-4 active:border-white">
-                <span class="text-xs font-bold tracking-[0.3em] uppercase transition-colors group-hover:text-primary">查看完整产品列表</span>
-                <span class="material-symbols-outlined text-primary transition-transform group-hover:translate-x-1">arrow_forward</span>
-            </a>
-        </section>
 
     </main>
 
     <!-- ========================================
          页脚
          ======================================== -->
-    <footer class="bg-black border-t border-white/5 pt-12 md:pt-24 pb-8 md:pb-12 px-4 sm:px-6">
+    <footer class="bg-background-dark border-t border-white/5 pt-12 md:pt-24 pb-8 md:pb-12 px-4 sm:px-6">
         <div class="max-w-[1400px] mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-12 gap-8 md:gap-12 mb-20">
                 <!-- 品牌信息 -->
@@ -204,8 +263,9 @@
                     <div class="flex flex-col gap-4">
                         <p class="text-xs text-gray-500 mb-2">订阅以获取最新行业动态与产品发布信息。</p>
                         <div class="flex gap-2">
-                            <input class="bg-surface-highlight border border-white/5 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-primary/50 w-full placeholder-gray-700 font-sans transition-colors" placeholder="您的电子邮箱" type="email"/>
-                            <button class="bg-primary hover:bg-primary-dim text-white font-bold text-xs px-6 rounded-sm transition-colors tracking-widest flex items-center gap-2 whitespace-nowrap">
+                            <label for="footer-email-legal" class="sr-only">电子邮箱</label>
+                            <input id="footer-email-legal" aria-label="电子邮箱" class="bg-surface-highlight border border-white/5 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-primary/50 w-full placeholder-gray-700 font-sans transition-colors" placeholder="您的电子邮箱" type="email"/>
+                            <button type="submit" aria-label="订阅" class="bg-primary hover:bg-primary-dim text-white font-bold text-xs px-6 rounded-sm transition-colors tracking-widest flex items-center gap-2 whitespace-nowrap">
                                 <span>发送</span>
                                 <span class="material-symbols-outlined text-sm">send</span>
                             </button>
@@ -228,16 +288,9 @@
 
 </div>
 
-<!-- 基础工具脚本 -->
+<!-- 公共脚本 -->
 <script src="js/url-utils.js"></script>
-<script src="js/products-data.js" onerror=""></script><!-- 本地预览用，HTTP 环境可忽略 -->
-<script src="js/data-loader.js"></script>
-<script src="js/renderer.js"></script>
-
-<!-- 页面特定脚本 -->
-<script src="js/featured-page.js"></script>
-
-<!-- 公共交互脚本 -->
+<script src="js/legal-page.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
