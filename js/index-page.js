@@ -72,7 +72,7 @@
             : product.modelId;
 
         return `
-            <a href="product-detail.html?id=${product.id}" class="featured-card group flex flex-col bg-transparent">
+            <a href="product-detail.html?id=${product.id}" class="featured-card group flex flex-col bg-transparent" data-scroll-highlight>
                 <div class="relative aspect-[4/3] w-full overflow-hidden rounded bg-background-dark mb-6 shadow-inner-glow">
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 saturate-50 brightness-75 contrast-125"
                          style="background-image: url('${imageUrl}');">

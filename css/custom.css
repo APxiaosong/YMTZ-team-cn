@@ -485,3 +485,34 @@ select:focus {
     }
 }
 
+/* ========================================
+   移动端滚动高亮效果
+   当元素滚动到视口中心时，自动触发类似 hover 的高亮状态
+   ======================================== */
+@media (max-width: 767px) {
+    /* 精选旗舰卡片 - 图片缩放 */
+    .featured-card.is-active .saturate-50 {
+        transform: scale(1.05);
+    }
+
+    /* 精选旗舰卡片 - 标题变色 */
+    .featured-card.is-active h3 {
+        color: var(--color-primary) !important;
+    }
+
+    /* 精选旗舰卡片 - 底部下划线显示 */
+    .featured-card.is-active span.border-transparent {
+        border-color: white !important;
+    }
+
+    /* 发展历程时间线 - 年份变亮 */
+    .timeline-item.is-active .text-surface-highlight {
+        color: white !important;
+    }
+
+    /* 发展历程时间线 - 圆点边框变色 */
+    .timeline-item.is-active .border-white\/20 {
+        border-color: var(--color-primary) !important;
+    }
+}
+

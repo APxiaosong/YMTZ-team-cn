@@ -265,6 +265,64 @@ function initSeriesFilter() {
 }
 
 // ========================================
+// 移动端滚动高亮
+// ========================================
+
+/**
+ * 初始化移动端滚动高亮效果
+ * 当元素滚动到视口中心区域时，自动触发类似 hover 的高亮状态
+ */
+function initScrollHighlight() {
+    const isMobile = () => window.innerWidth < 768;
+
+    if (!isMobile()) return;
+
+    // 单例 Observer，避免重复创建
+    const observer = new IntersectionObserver((entries) => {
+        if (!isMobile()) return;
+
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-active');
+            } else {
+                entry.target.classList.remove('is-active');
+            }
+        });
+    }, {
+        // 上下各缩进 40%，只有元素进入中间 20% 区域才触发
+        rootMargin: '-40% 0px -40% 0px',
+        threshold: 0
+    });
+
+    // 观察新元素，跳过已观察的
+    const observeNewElements = () => {
+        document.querySelectorAll('[data-scroll-highlight]:not([data-observed])').forEach(el => {
+            observer.observe(el);
+            el.dataset.observed = 'true';
+        });
+    };
+
+    // 初始设置
+    observeNewElements();
+
+    // 延迟捕获动态生成的元素（如精选旗舰卡片）
+    setTimeout(observeNewElements, 1000);
+
+    // 窗口大小变化时，在桌面端清理激活状态
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            if (!isMobile()) {
+                document.querySelectorAll('[data-scroll-highlight].is-active').forEach(el => {
+                    el.classList.remove('is-active');
+                });
+            }
+        }, 100);
+    });
+}
+
+// ========================================
 // 页面加载完成后初始化
 // ========================================
 
@@ -285,4 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 初始化侧边栏系列切换
     initSeriesFilter();
+
+    // 初始化移动端滚动高亮
+    initScrollHighlight();
 });
