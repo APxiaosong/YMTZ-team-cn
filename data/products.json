@@ -1,5 +1,454 @@
 [
   {
+    "id": "znhi-36a2gmws-lizard",
+    "modelId": "ZNHI-36A2GMWS[蜥]",
+    "name": "近程自行高炮",
+    "nameEn": "Short-range Self-propelled Anti-Aircraft Gun",
+    "nickname": "气温35mm",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "蜥",
+      "seriesEn": "LIZARD",
+      "category": "装甲车辆",
+      "subcategory": "防空车辆",
+      "tags": [
+        "轮式",
+        "防空",
+        "35mm",
+        "模块化"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+      "hero": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-36A2GMWS[蜥].jpg"
+      ]
+    },
+    "description": {
+      "tagline": "雪原上的气温，用口径丈量",
+      "summary": "经讨论，-09的低驾驶室导致接近角不佳，监狱决定使用通过性更强的-36A2作为后续通用防空模块搭载平台。火力配置与火控系统保持不变，但更高的底盘与更强的越野能力让她能伴随装甲部队深入复杂地形，在任何需要防空掩护的地方架起那门35mm。",
+      "full": "经讨论，-09的低驾驶室导致接近角不佳，监狱决定使用通过性更强的-36A2作为后续通用防空模块搭载平台，火力配置与火控系统保持不变。\n\n-09[象]虽然可靠，但低矮的驾驶室在恶劣地形下饱受诟病——糟糕的接近角让她翻越障碍时总是磕到鼻子。相比之下，-36A2[蜥]拥有更高的底盘、更大的轮胎和更强的越野能力，作为防空模块搭载平台再合适不过。\n\n武器系统完整继承自-09A5GMWS，35mm双管速射炮配合搜索雷达，射速依旧凶猛，火控系统一如既往地精准。不同的是，现在她能跟上装甲纵队翻山越岭，而不是被困在平坦公路上望尘兴叹。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "近程自行高炮",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-36A2[蜥]",
+        "highlight": false
+      },
+      {
+        "label": "主武器",
+        "labelEn": "Main Armament",
+        "value": "35mm双管速射炮",
+        "highlight": true
+      },
+      {
+        "label": "雷达",
+        "labelEn": "Radar",
+        "value": "搜索雷达",
+        "highlight": true
+      },
+      {
+        "label": "火控",
+        "labelEn": "Fire Control",
+        "value": "继承A5GMWS火控系统",
+        "highlight": false
+      },
+      {
+        "label": "驱动",
+        "labelEn": "Drive",
+        "value": "多轴全轮驱动",
+        "highlight": false
+      },
+      {
+        "label": "通过性",
+        "labelEn": "Mobility",
+        "value": "优于-09底盘",
+        "highlight": true
+      }
+    ],
+    "designer": {
+      "quote": "换了双长腿之后，她终于不用在烂泥里磕鼻子了——同样的火力，更远的路。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 72,
+      "categories": [
+        "military",
+        "air-defense"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.15,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "right",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-right"
+      },
+      "seriesTag": {
+        "enabled": false,
+        "text": "",
+        "bgColor": "",
+        "borderColor": "",
+        "textColor": ""
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-36A2GMWS"
+      },
+      "title": {
+        "text": "近程自行高炮",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "-09的鼻子磕够了，换双长腿继续守护领空。35mm双管速射炮与搜索雷达原封不动，只是现在她能跟上装甲纵队了。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "grid",
+        "direction": "column",
+        "items": [
+          {
+            "label": "口径 Caliber",
+            "value": "35mm"
+          },
+          {
+            "label": "底盘 Chassis",
+            "value": "-36A2"
+          },
+          {
+            "label": "火控 FCS",
+            "value": "GMWS"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "防空车辆",
+          "href": "products.html#air-defense"
+        },
+        {
+          "text": "ZNHI-36A2GMWS[蜥]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Lizard Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "近程自行高炮",
+        "productCode": "ZNHI-36A2GMWS[蜥]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "-09的低驾驶室导致接近角不佳，监狱决定使用通过性更强的-36A2作为后续通用防空模块搭载平台。武器系统与火控完整继承自A5GMWS，35mm双管速射炮配合搜索雷达，在更优越的底盘上继续守护领空。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-36A2[蜥]"
+            },
+            {
+              "label": "主武器",
+              "value": "35mm双管速射炮"
+            },
+            {
+              "label": "雷达",
+              "value": "搜索雷达"
+            },
+            {
+              "label": "火控",
+              "value": "继承A5GMWS系统"
+            },
+            {
+              "label": "驱动",
+              "value": "多轴全轮驱动"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "换了双长腿之后，她终于不用在烂泥里磕鼻子了——同样的火力，更远的路。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "换脚",
+            "content": "-09的鼻子在泥地里磕了太多次。<br/>低矮的驾驶室，糟糕的接近角，每一次翻越障碍都像是在和地面较劲。<br/>监狱决定换一双更长的腿——<br/>于是，-36A2成为了新的防空模块搭载平台。",
+            "statusText": {
+              "enabled": true,
+              "text": "Platform Migration: Complete"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "security",
+              "color": "primary"
+            },
+            "iconLabel": "Air Defense",
+            "title": "火力不减",
+            "content": "35mm双管速射炮，搜索雷达，火控系统——<br/>一切都原封不动地从-09A5搬了过来。<br/><span class=\"text-white border-b border-primary/40 pb-1\">变的是底盘，不变的是每一发炮弹的精准与凶狠。</span>",
+            "dataBlocks": [
+              {
+                "value": "35mm",
+                "label": "口径"
+              },
+              {
+                "value": "双管",
+                "label": "速射炮"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-36a2gmws-lizard/ZNHI-36A2GMWS.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Air Shield Online",
+              "isAnimated": true
+            },
+            "title": "高处的守望",
+            "content": "更高的底盘，更强的通过性，更远的路。<br/>她不再被困在平坦的公路上望尘兴叹，<br/>而是跟随装甲纵队翻山越岭，在每一处需要防空掩护的阵地架起那门35mm。<br/>雪原上的气温，从此用口径丈量。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "换了双长腿之后，她终于不用在烂泥里磕鼻子了——同样的火力，更远的路。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "近程自行高炮"
+          },
+          {
+            "label": "Chassis",
+            "value": "ZNHI-36A2[蜥]"
+          },
+          {
+            "label": "Armament",
+            "value": "35mm双管速射炮"
+          },
+          {
+            "label": "Radar",
+            "value": "搜索雷达"
+          }
+        ],
+        "description": "ZNHI-36A2GMWS[蜥] 是监狱重工基于-36A2底盘打造的近程自行高炮，完整继承A5GMWS的武器系统与火控，在更优越的底盘上为装甲部队提供伴随防空掩护。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI AIR DEFENSE SERIES",
+        "products": [
+          {
+            "id": "znhi-09a5-a7-elephant-aa",
+            "imageUrl": "products/znhi-09a5-a7-elephant-aa/thumb.webp",
+            "productCode": "ZNHI-09A5GMWS[象]",
+            "productName": "轮式综合防空系统",
+            "productDesc": "前代防空平台（-09底盘）",
+            "href": "product-detail.html?id=znhi-09a5-a7-elephant-aa"
+          },
+          {
+            "id": "znhi-36a-lizard",
+            "imageUrl": "products/znhi-36a-lizard/thumb.webp",
+            "productCode": "ZNHI-36A[蜥]",
+            "productName": "重型运输车（基础型）",
+            "productDesc": "底盘来源",
+            "href": "product-detail.html?id=znhi-36a-lizard"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-03-04",
+      "updatedAt": "2026-03-04",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "基于-36A2底盘的防空模块搭载平台，继承A5GMWS武器系统"
+    }
+  },
+  {
     "id": "znhi-41a-weasel",
     "modelId": "ZNHI-41A[鼬]",
     "name": "极地运输车",
