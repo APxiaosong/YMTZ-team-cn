@@ -26927,7 +26927,7 @@
     "id": "zntp-19-1023",
     "modelId": "ZNTP-19 1023",
     "name": "STS超限双源机车",
-    "nameEn": "STS Overweight Dual-mode Locomotive",
+    "nameEn": "STS Oversized Dual-mode Locomotive",
     "nickname": "降弓用刑",
     "classification": {
       "brand": "ZNTP",
@@ -26936,7 +26936,11 @@
       "category": "铁路车辆",
       "subcategory": "机车",
       "tags": [
-        "双源“, ”电力“, ”柴油“, ”货运“, ”超限"
+        "双源",
+        "电力",
+        "柴油",
+        "货运",
+        "STS超限"
       ]
     },
     "status": {
@@ -26956,8 +26960,8 @@
     },
     "description": {
       "tagline": "电网尽头，柴油接力",
-      "summary": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电，兼容客货运但更适合货运领域。154吨的整备重量和25吨轴重使她成为名副其实的“超限”机车。",
-      "full": "设计用于在电气化不完全的地区进行运输作业，支持两种接触网供电制式，以及柴油供电，燃油模式功率较低，所有模式极速均为160km/h。兼容客货运，但时速与稳定性都不占优势的她更适合货运领域。\n\n因为技术问题她并没能做到像EuroDual那般紧凑，既要又要的臃肿电气设备导致她整备重量能达到154吨，25吨的轴重使她在欧洲大陆寸步难行。"
+      "summary": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电，兼容客货运但更适合货运领域。154吨的整备重量与臃肿的车身使她超出了STS限界规范，25吨的轴重更让她在欧洲大陆寸步难行。",
+      "full": "设计用于在电气化不完全的地区进行运输作业，支持两种接触网供电制式，以及柴油供电，燃油模式功率较低，所有模式极速均为160km/h。兼容客货运，但时速与稳定性都不占优势的她更适合货运领域。\n\n因为技术问题她并没能做到像EuroDual那般紧凑，既要又要的臃肿电气设备导致她整备重量能达到154吨，硕大的车身轮廓直接超出了STS限界标准，25吨的轴重更使她在欧洲大陆寸步难行。"
     },
     "specs": [
       {
@@ -27056,7 +27060,7 @@
       },
       "descriptionBlock": {
         "enabled": true,
-        "text": "为电气化不完全地区设计的双源机车，支持双制式接触网及柴油供电，154吨整备重量使她成为名副其实的“超限”机车。",
+        "text": "为电气化不完全地区设计的双源机车，支持双制式接触网及柴油供电。臃肿的电气设备让她直接超出了STS限界标准——在规范面前，她选择了功能优先。",
         "maxWidth": "max-w-lg"
       },
       "specsBlock": {
@@ -27153,7 +27157,7 @@
         },
         "description": {
           "enabled": true,
-          "text": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电。154吨的整备重量和25吨轴重使她成为名副其实的“超限”机车，更适合货运领域。"
+          "text": "为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电。臃肿的双动力系统让她的车身轮廓超出了STS限界标准，25吨的轴重更限制了她的运用范围，但在货运领域她依然是可靠的选择。"
         },
         "specs": {
           "enabled": true,
@@ -27254,7 +27258,7 @@
             },
             "iconLabel": "Flexible System",
             "title": "灵活切换",
-            "content": "支持两种接触网供电制式，也能使用柴油动力。<br/>电气化区段高效节能，非电气化区段自主运行。<br/><span class=\"text-white border-b border-primary/40 pb-1\">154 吨的整备重量，为双动力系统提供了稳定的承载平台。</span>",
+            "content": "支持两种接触网供电制式，也能使用柴油动力。<br/>电气化区段高效节能，非电气化区段自主运行。<br/><span class=\"text-white border-b border-primary/40 pb-1\">154 吨的整备重量，超出 STS 限界的车身轮廓——为双动力系统付出的代价。</span>",
             "dataBlocks": [
               {
                 "value": "双源",
@@ -27329,7 +27333,7 @@
             "value": "154吨 / 25吨轴重"
           }
         ],
-        "description": "ZNTP-19 1023 是为电气化不完全地区设计的双源机车，支持两种接触网供电制式及柴油供电，兼容客货运但更适合货运领域。",
+        "description": "ZNTP-19 1023 是为电气化不完全地区设计的STS超限双源机车，支持两种接触网供电制式及柴油供电。臃肿的电气设备让她超出了STS限界标准，但兼容客货运的灵活性使她在货运领域找到了归宿。",
         "ctaButton": {
           "enabled": true,
           "text": "获取技术手册",
@@ -27354,10 +27358,10 @@
     },
     "meta": {
       "createdAt": "2026-01-23",
-      "updatedAt": "2026-01-23",
-      "version": 2,
+      "updatedAt": "2026-03-06",
+      "version": 3,
       "source": "正式资料.txt",
-      "notes": "v2: 优化为温和民用风格。章1“双源动力“：动力灵活切换场景；章2”灵活切换“：双动力系统优势（settings图标）；章3”货运担当“：强调货运灵活性和物流保障。移除所有负面表达（”原罪”、“用刑”等），改为积极描述，Quote 改为强调双源优势。"
+      "notes": "v3: 修正STS含义。STS为Scrap Train Standards（废品机械师社区轨道标准），超限指车辆超出STS限界规范，而非物理超重。更新所有相关文案。"
     }
   },
   {
@@ -27679,7 +27683,7 @@
             "imageUrl": "products/zntp-19-1023/thumb.webp",
             "productCode": "ZNTP-19 1023",
             "productName": "STS超限双源机车",
-            "productDesc": "双源动力牵引机车",
+            "productDesc": "STS超限双源动力机车",
             "href": "product-detail.html?id=zntp-19-1023"
           }
         ]
@@ -28028,7 +28032,7 @@
             "imageUrl": "products/zntp-19-1023/thumb.webp",
             "productCode": "ZNTP-19 1023",
             "productName": "STS超限双源机车",
-            "productDesc": "双源动力牵引机车",
+            "productDesc": "STS超限双源动力机车",
             "href": "product-detail.html?id=zntp-19-1023"
           },
           {
@@ -28048,6 +28052,481 @@
       "version": 2,
       "source": "正式资料.txt",
       "notes": "v2: 补充三个故事章节。章1“田野与远方“：沿途风景；章2”观景之旅“：大面积观景窗+旅行体验（window图标）；章3”归途与远方“：更名历史+承载旅人。移除”监狱运输”字样，温和民用风格，强调旅行体验和风景。"
+    }
+  },
+  {
+    "id": "zntp-17-9975",
+    "modelId": "ZNTP-17 9975",
+    "name": "STS界限城际列车",
+    "nameEn": "STS-compliant Intercity Train",
+    "nickname": null,
+    "classification": {
+      "brand": "ZNTP",
+      "series": null,
+      "seriesEn": null,
+      "category": "铁路车辆",
+      "subcategory": "动车组",
+      "tags": [
+        "城际",
+        "250km/h",
+        "铰接式",
+        "无障碍",
+        "STS界限"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/zntp-17-9975/ZNTP-17-9975.webp",
+      "hero": "products/zntp-17-9975/ZNTP-17-9975.webp",
+      "gallery": [
+        {
+          "src": "products/zntp-17-9975/ZNTP-17-9975-2.webp",
+          "alt": "编组侧视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "Pbr_2k_delpmaspu (1).png",
+        "Pbr_2k_delpmaspu.png"
+      ]
+    },
+    "description": {
+      "tagline": "每一段旅途，都不该有人被落下",
+      "summary": "STS界限时速250公里级城际列车，5节编组，铰接式转向架，小半径弯道特化。特设无障碍车厢（2车），地板与站台平齐，配备轮椅固定器、无障碍厕所、急救AED，让出行不再是特权。",
+      "full": "STS界限时速250公里级城际列车，5节编组，铰接式转向架，小半径弯道特化。\n\n她的白灰色车身上点缀着清新的绿色饰带，流线型的头部在弯道中划出利落的弧线。铰接式转向架赋予她在小半径弯道中依然保持高速通过的能力，城际线路上那些令传统列车减速的弯道对她而言不过是一段优雅的舞步。\n\n2车为专设无障碍车厢，地板与STS站台高度平齐，双开门搭配宽体站台补偿器，轮椅用户无需任何辅助即可自主上下车。车厢内配备轮椅固定器、无障碍厕所、急救AED、立式自行车位与折叠座椅。监狱相信，一套交通系统的文明程度，取决于它对待行动不便者的态度。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "城际动车组",
+        "highlight": false
+      },
+      {
+        "label": "编组",
+        "labelEn": "Formation",
+        "value": "5节编组",
+        "highlight": false
+      },
+      {
+        "label": "最高时速",
+        "labelEn": "Max Speed",
+        "value": "250 km/h",
+        "highlight": true
+      },
+      {
+        "label": "转向架",
+        "labelEn": "Bogie",
+        "value": "铰接式",
+        "highlight": true
+      },
+      {
+        "label": "弯道特性",
+        "labelEn": "Curve Performance",
+        "value": "小半径弯道特化",
+        "highlight": false
+      },
+      {
+        "label": "无障碍车厢",
+        "labelEn": "Accessible Car",
+        "value": "2车（全无障碍设施）",
+        "highlight": true
+      },
+      {
+        "label": "UIC编号",
+        "labelEn": "UIC Number",
+        "value": "51 33 9975 411-1",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "如果一列车只能服务健全的人，那她就只完成了一半的使命。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 73,
+      "categories": [
+        "civilian",
+        "railway"
+      ],
+      "background": {
+        "imageUrl": "products/zntp-17-9975/ZNTP-17-9975.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.95,
+          "contrast": 1.1,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "green-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "split",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "ZNTP RAILWAY SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "STS界限城际列车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "250 km/h 城际动车组，铰接式转向架小半径弯道特化。特设无障碍车厢，地板与站台平齐——每一段旅途，都不该有人被落下。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": true,
+        "text": "无障碍服务手册",
+        "href": "#",
+        "icon": "accessible"
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      },
+      "specsList": {
+        "enabled": true,
+        "items": [
+          {
+            "label": "Speed",
+            "value": "250 km/h"
+          },
+          {
+            "label": "Formation",
+            "value": "5 Cars"
+          },
+          {
+            "label": "Bogie",
+            "value": "Articulated"
+          },
+          {
+            "label": "Accessible",
+            "value": "Car No.2"
+          },
+          {
+            "label": "AED",
+            "value": "Equipped"
+          }
+        ]
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "民用产品",
+          "href": "products.html"
+        },
+        {
+          "text": "铁路车辆",
+          "href": "products.html#railway"
+        },
+        {
+          "text": "ZNTP-17 9975"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/zntp-17-9975/ZNTP-17-9975.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Barrier-free",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/zntp-17-9975/ZNTP-17-9975.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/zntp-17-9975/ZNTP-17-9975-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "STS界限城际列车",
+        "productCode": "ZNTP-17 9975",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "STS界限时速250公里级城际列车，5节编组，铰接式转向架，小半径弯道特化。特设无障碍车厢（2车），地板与站台平齐，配备完整无障碍设施，让每一位旅客都能从容出发。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "编组",
+              "value": "5节编组"
+            },
+            {
+              "label": "最高时速",
+              "value": "250 km/h"
+            },
+            {
+              "label": "转向架",
+              "value": "铰接式"
+            },
+            {
+              "label": "弯道特性",
+              "value": "小半径弯道特化"
+            },
+            {
+              "label": "无障碍车厢",
+              "value": "2车（全无障碍）"
+            },
+            {
+              "label": "UIC编号",
+              "value": "51 33 9975 411-1"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "如果一列车只能服务健全的人，那她就只完成了一半的使命。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含无障碍服务指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-17-9975/ZNTP-17-9975.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "green-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "零落差",
+            "content": "2车的地板与站台之间没有台阶，没有缝隙，没有犹豫。<br/>轮椅用户不必等待任何人的帮助，双开门与宽体站台补偿器已经为她铺好了路。<br/>文明的尺度，有时候就藏在这几厘米的落差里。",
+            "statusText": {
+              "enabled": true,
+              "text": "Barrier-free Access: Enabled"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/zntp-17-9975/ZNTP-17-9975-2.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.95
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "accessible",
+              "color": "primary"
+            },
+            "iconLabel": "Accessible Design",
+            "title": "无声的尊重",
+            "content": "轮椅固定器、无障碍厕所、急救AED、立式自行车位、折叠座椅——<br/>这些不是附加选项，而是出厂标配。<br/><span class=\"text-white border-b border-primary/40 pb-1\">监狱相信，一个人的行动能力不应该决定他能走多远。</span>",
+            "dataBlocks": [
+              {
+                "value": "250",
+                "label": "时速 km/h"
+              },
+              {
+                "value": "5节",
+                "label": "编组"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/zntp-17-9975/ZNTP-17-9975-2.webp",
+            "filters": {
+              "scale": 1.08,
+              "brightness": 0.85,
+              "saturate": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-t",
+            "fromColor": "background-dark/95",
+            "viaColor": "background-dark/40",
+            "toColor": "black/50"
+          },
+          "overlayColor": {
+            "color": "green-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-16"
+            },
+            "title": "弯道",
+            "content": "铰接式转向架在小半径弯道中划出利落的弧线。<br/>250 km/h，弯道不减速，旅途不绕路，出行不设限。",
+            "statusText": {
+              "enabled": true,
+              "text": "250 km/h Curve Certified"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "城际动车组"
+          },
+          {
+            "label": "Speed",
+            "value": "250 km/h"
+          },
+          {
+            "label": "Formation",
+            "value": "5节编组 / 铰接式"
+          },
+          {
+            "label": "Accessible",
+            "value": "2车全无障碍"
+          }
+        ],
+        "description": "ZNTP-17 9975 是STS界限时速250公里级城际动车组，采用铰接式转向架，小半径弯道特化。特设无障碍车厢（2车），配备轮椅固定器、无障碍厕所、急救AED等完整无障碍设施，确保每一位旅客都能平等出行。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含无障碍服务指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNTP RAILWAY SERIES",
+        "products": [
+          {
+            "id": "zntp-12-6560",
+            "imageUrl": "products/zntp-12-6560/thumb.webp",
+            "productCode": "ZNTP-12 6560",
+            "productName": "城际旅客列车",
+            "productDesc": "220 km/h 级城际列车",
+            "href": "product-detail.html?id=zntp-12-6560"
+          },
+          {
+            "id": "zntp-19-1023",
+            "imageUrl": "products/zntp-19-1023/thumb.webp",
+            "productCode": "ZNTP-19 1023",
+            "productName": "STS超限双源机车",
+            "productDesc": "STS超限双源动力机车",
+            "href": "product-detail.html?id=zntp-19-1023"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-03-06",
+      "updatedAt": "2026-03-06",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "STS界限250km/h城际动车组，5节编组，铰接式转向架。重点宣传无障碍设施：2车为专设无障碍车厢，地板与站台平齐。章1“零落差”：无障碍理念；章2“无声的尊重”：accessible图标；章3“弯道上的从容”：铰接式转向架+弯道性能。精品页用split布局展示参数列表。"
     }
   }
 ]
