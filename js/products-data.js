@@ -28529,5 +28529,451 @@ const PRODUCTS_DATA = [
       "source": "正式资料.txt",
       "notes": "STS界限250km/h城际动车组，5节编组，铰接式转向架。重点宣传无障碍设施：2车为专设无障碍车厢，地板与站台平齐。章1“零落差”：无障碍理念；章2“无声的尊重”：accessible图标；章3“弯道上的从容”：铰接式转向架+弯道性能。精品页用split布局展示参数列表。"
     }
+  },
+  {
+    "id": "znhi-43a-raccoon-dog",
+    "modelId": "ZNHI-43A[貉]",
+    "name": "极地多用途履带车",
+    "nameEn": "Polar Multi-purpose Tracked Vehicle",
+    "nickname": "貉意味",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "貉",
+      "seriesEn": "RACCOON DOG",
+      "category": "装甲车辆",
+      "subcategory": "履带式运输车",
+      "tags": [
+        "履带式",
+        "极地",
+        "多用途",
+        "农用机改装",
+        "后勤"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+      "hero": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-43a-raccoon-dog/ZNHI-43A-2.webp",
+          "alt": "拖挂集装箱模块",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "ZNHI-43A[貉].jpg",
+        "ZNHI-43A[貉]-2.jpg"
+      ]
+    },
+    "description": {
+      "tagline": "便宜、灵活、冷一点",
+      "summary": "基于农用机改装的极地多用途履带车，与大只的[鼬]相比更灵活、更便宜，但也更冷。前方保留三点悬挂器，后方可自由搭配，甚至可以拉半挂。配备四角照明灯与高亮度警示灯，光线足以穿透常见恶劣天气。",
+      "full": "与大只的[鼬]相比，她更灵活，更便宜，但也更冷。她基于农用机改装而来，前方保留三点悬挂器，后方则类似普通的卡车，可以自由搭配，甚至可以拉半挂。\n\n虽然受制于尺寸，她的续航和动力达不到[鼬]那样，但大部分情况都够用。为了工作与安全，她同样配备了四角照明灯与高亮度警示灯，光线足以穿透常见的恶劣天气。\n\n她的名字听起来像是某种意味，但实际上她闻起来只有柴油和冷风的味道。监狱暂未放弃她的军事用途。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "极地多用途履带车",
+        "highlight": false
+      },
+      {
+        "label": "底盘来源",
+        "labelEn": "Base",
+        "value": "农用机改装",
+        "highlight": false
+      },
+      {
+        "label": "前端",
+        "labelEn": "Front",
+        "value": "三点悬挂器",
+        "highlight": true
+      },
+      {
+        "label": "后端",
+        "labelEn": "Rear",
+        "value": "模块化载荷平台 / 可拖半挂",
+        "highlight": true
+      },
+      {
+        "label": "照明",
+        "labelEn": "Lighting",
+        "value": "四角照明 + 高亮警示灯",
+        "highlight": false
+      },
+      {
+        "label": "定位",
+        "labelEn": "Role",
+        "value": "轻量级极地运输 / 后勤",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "不是每个任务都需要动用大家伙，有时候一台便宜的小家伙就够了。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 74,
+      "categories": [
+        "military",
+        "vehicle"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.15,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "cyan-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[貉] RACCOON DOG",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-43A"
+      },
+      "title": {
+        "text": "极地多用途履带车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "农用机改装而来的极地履带车，比[鼬]更灵活、更便宜。前端三点悬挂，后端自由搭配，还能拉半挂。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": true,
+        "layout": "flex",
+        "direction": "column",
+        "items": [
+          {
+            "label": "底盘 Base",
+            "value": "农用机改装"
+          },
+          {
+            "label": "前端 Front",
+            "value": "三点悬挂器"
+          },
+          {
+            "label": "后端 Rear",
+            "value": "可拖半挂"
+          }
+        ]
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": false,
+        "gridCols": "",
+        "cards": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "履带式运输车",
+          "href": "products.html#transport"
+        },
+        {
+          "text": "ZNHI-43A[貉]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Raccoon Dog",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+            "isActive": true
+          },
+          {
+            "url": "products/znhi-43a-raccoon-dog/ZNHI-43A-2.webp",
+            "isActive": false
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "极地多用途履带车",
+        "productCode": "ZNHI-43A[貉]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于农用机改装的极地履带车，与[鼬]相比更灵活、更便宜。前方保留三点悬挂器，后方可自由搭配或拖挂半挂车，配备四角照明与高亮警示灯。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘来源",
+              "value": "农用机改装"
+            },
+            {
+              "label": "前端",
+              "value": "三点悬挂器"
+            },
+            {
+              "label": "后端",
+              "value": "模块化载荷平台"
+            },
+            {
+              "label": "拖挂能力",
+              "value": "可拖半挂"
+            },
+            {
+              "label": "照明",
+              "value": "四角照明 + 高亮警示灯"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "不是每个任务都需要动用大家伙，有时候一台便宜的小家伙就够了。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-43a-raccoon-dog/ZNHI-43A-2.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85,
+              "saturate": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/30",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "小一号",
+            "content": "[鼬]很好，但不是每次出勤都需要那么大的家伙。<br/>她基于农用机改装而来，更灵活，更便宜，只是冷了一点。<br/>不过在雪原上，谁不冷呢。",
+            "statusText": {
+              "enabled": true,
+              "text": "Compact Transport: Ready"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_shipping",
+              "color": "primary"
+            },
+            "iconLabel": "Modular Platform",
+            "title": "前后分工",
+            "content": "前方保留三点悬挂器，可以挂接铲刀、推雪板或其他工具。<br/>后方类似普通卡车，模块化载荷平台可自由搭配。<br/><span class=\"text-white border-b border-primary/40 pb-1\">甚至可以拉半挂——雪原上的卡车，也不过如此。</span>",
+            "dataBlocks": [
+              {
+                "value": "前端",
+                "label": "三点悬挂"
+              },
+              {
+                "value": "后端",
+                "label": "可拖半挂"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-43a-raccoon-dog/ZNHI-43A.webp",
+            "filters": {
+              "scale": 1.08,
+              "brightness": 0.8,
+              "saturate": 0.85
+            }
+          },
+          "gradient": {
+            "direction": "to-t",
+            "fromColor": "background-dark/95",
+            "viaColor": "background-dark/40",
+            "toColor": "black/50"
+          },
+          "overlayColor": {
+            "color": "cyan-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-16"
+            },
+            "title": "够用",
+            "content": "续航不如[鼬]，动力不如[鼬]，保暖不如[鼬]。<br/>但大部分情况，她够用。",
+            "statusText": {
+              "enabled": true,
+              "text": "Mission Capable"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "极地多用途履带车"
+          },
+          {
+            "label": "Base",
+            "value": "农用机改装"
+          },
+          {
+            "label": "Front",
+            "value": "三点悬挂器"
+          },
+          {
+            "label": "Rear",
+            "value": "模块化 / 可拖半挂"
+          }
+        ],
+        "description": "ZNHI-43A[貉] 是监狱重工基于农用机改装的极地多用途履带车，与[鼬]相比更灵活、更便宜。前方保留三点悬挂器，后方支持模块化搭配与半挂拖挂，配备全向照明系统，适合极地环境下的轻量级运输与后勤任务。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI POLAR SERIES",
+        "products": [
+          {
+            "id": "znhi-41a-weasel",
+            "imageUrl": "products/znhi-41a-weasel/thumb.webp",
+            "productCode": "ZNHI-41A[鼬]",
+            "productName": "极地运输车",
+            "productDesc": "大型极地履带运输车",
+            "href": "product-detail.html?id=znhi-41a-weasel"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-03-14",
+      "updatedAt": "2026-03-14",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "基于农用机改装的极地多用途履带车，与[鼬]对比定位。章1“小一号”：与[鼬]的对比引入；章2“前后分工”：前悬挂+后模块化的技术特点（local_shipping图标）；章3“够用”：简短收束，center-ambient。精品页用left布局。"
+    }
   }
 ];
