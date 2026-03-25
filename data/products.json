@@ -28974,5 +28974,461 @@
       "source": "正式资料.txt",
       "notes": "基于农用机改装的极地多用途履带车，与[鼬]对比定位。章1“小一号”：与[鼬]的对比引入；章2“前后分工”：前悬挂+后模块化的技术特点（local_shipping图标）；章3“够用”：简短收束，center-ambient。精品页用left布局。"
     }
+  },
+  {
+    "id": "znhi-04aev-ice",
+    "modelId": "ZNHI-04AEV[冰]",
+    "name": "装甲工程车",
+    "nameEn": "Armored Engineer Vehicle",
+    "nickname": "颠锅的孩子",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "冰",
+      "seriesEn": "ICE",
+      "category": "工程车辆",
+      "subcategory": "装甲工程车",
+      "tags": [
+        "履带式",
+        "工程车",
+        "机械臂",
+        "推土铲",
+        "-04底盘"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+      "hero": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+      "gallery": [],
+      "originalFiles": [
+        "ZNHI-04AEV[冰].png"
+      ]
+    },
+    "description": {
+      "tagline": "典狱长做饭时想要个能帮忙颠锅的孩子",
+      "summary": "基于老式-04底盘改装的装甲工程车，配备三段式机械臂，可安装铲斗或钩爪执行挖掘或吊装作业。车体前部配备推土铲，背部设储物架。换装A3A1动力包，比ARV更强劲，但要注意散热。",
+      "full": "ZNHI-04AEV[冰]是监狱重工基于老式-04底盘改装的装甲工程车。\n\n典狱长做饭时，突然想要个能帮忙颠锅的孩子，于是便有了她。她配备一台三段式机械臂，可安装铲斗或钩爪进行挖掘或吊装作业，车体前部配备推土铲，背部设储物架。\n\n她基于老式-04底盘改装而来，换装A3A1的动力包，相比ARV有更强的动力。但由于储物架的遮挡，在高温环境下可能导致发动机过热——在雪原倒不是什么问题，反正雪原不缺冷风。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "装甲工程车 (AEV)",
+        "highlight": false
+      },
+      {
+        "label": "底盘",
+        "labelEn": "Chassis",
+        "value": "ZNHI-04[冰] 老式底盘",
+        "highlight": false
+      },
+      {
+        "label": "动力",
+        "labelEn": "Powerpack",
+        "value": "A3A1 动力包",
+        "highlight": true
+      },
+      {
+        "label": "机械臂",
+        "labelEn": "Arm",
+        "value": "三段式，铲斗/钩爪可换",
+        "highlight": true
+      },
+      {
+        "label": "前部设备",
+        "labelEn": "Front",
+        "value": "推土铲",
+        "highlight": false
+      },
+      {
+        "label": "后部设备",
+        "labelEn": "Rear",
+        "value": "储物架",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "想要个能帮忙颠锅的孩子，于是便有了她。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 17,
+      "categories": [
+        "military",
+        "engineering"
+      ],
+      "background": {
+        "imageUrl": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+        "filters": {
+          "opacity": 0.65,
+          "saturate": 0.7,
+          "contrast": 1.15,
+          "brightness": 0.85,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "blue-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "left-cards",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-end",
+        "textAlign": "text-left"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "[冰] ICE SERIES",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": true,
+        "text": "ID: ZNHI-04AEV"
+      },
+      "title": {
+        "text": "装甲工程车",
+        "fontSize": "5xl"
+      },
+      "subtitle": {
+        "enabled": false,
+        "text": ""
+      },
+      "descriptionBlock": {
+        "enabled": true,
+        "text": "基于老式-04底盘，配备三段式机械臂与推土铲，典狱长的颠锅帮手。",
+        "maxWidth": "max-w-lg"
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": true,
+        "text": "OPERATIONAL",
+        "color": "primary",
+        "hasDot": true
+      },
+      "specCards": {
+        "enabled": true,
+        "gridCols": "md:grid-cols-3",
+        "cards": [
+          {
+            "label": "机械臂",
+            "value": "三段式"
+          },
+          {
+            "label": "动力包",
+            "value": "A3A1"
+          },
+          {
+            "label": "前部",
+            "value": "推土铲"
+          }
+        ],
+        "showIcon": true,
+        "iconName": "construction"
+      },
+      "statsRow": {
+        "enabled": false,
+        "items": []
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": false,
+        "iconName": "",
+        "opacity": 0.4
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "工程车辆",
+          "href": "products.html#engineering"
+        },
+        {
+          "text": "ZNHI-04AEV[冰]"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "ICE Series",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "装甲工程车",
+        "productCode": "ZNHI-04AEV[冰]",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "基于老式-04底盘改装，换装A3A1动力包，配备三段式机械臂、推土铲与储物架，比ARV更强劲的工程孩子。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "底盘",
+              "value": "ZNHI-04[冰] 老式底盘"
+            },
+            {
+              "label": "动力",
+              "value": "A3A1 动力包"
+            },
+            {
+              "label": "机械臂",
+              "value": "三段式，铲斗/钩爪可换"
+            },
+            {
+              "label": "前部",
+              "value": "推土铲"
+            },
+            {
+              "label": "后部",
+              "value": "储物架"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "想要个能帮忙颠锅的孩子，于是便有了她。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含工程作业指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.85,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/70",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.25
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Origin Story",
+              "isAnimated": false
+            },
+            "title": "颠锅的孩子",
+            "content": "典狱长做饭时，突然想要个能帮忙颠锅的孩子。<br/>于是便有了她。<br/><br/>基于老式-04底盘改装而来，换装A3A1动力包后，她比ARV拥有更强的动力。<br/>三段式机械臂是她最显眼的特征——可以安装铲斗挖掘，也可以换上钩爪吊装。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "想要个能帮忙颠锅的孩子，于是便有了她。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "construction",
+              "color": "primary"
+            },
+            "iconLabel": "Multi-Function Arm",
+            "title": "前铲后架",
+            "content": "车体前部配备推土铲，清障开路一抬手的事。<br/>三段式机械臂居中安装，铲斗和钩爪可根据任务快速更换。<br/>背部储物架能携带工具和备件——但它也有副作用。<br/><span class=\"text-white border-b border-primary/40 pb-1\">储物架遮挡了散热，高温环境下发动机可能过热。在雪原倒不是什么问题。</span>",
+            "dataBlocks": [
+              {
+                "value": "3段式",
+                "label": "机械臂"
+              },
+              {
+                "value": "A3A1",
+                "label": "动力包"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znhi-04aev-ice/ZNHI-04AEV.webp",
+            "filters": {
+              "scale": 1.08,
+              "brightness": 0.8,
+              "saturate": 0.6
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/50",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "blue-500/5",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-16"
+            },
+            "title": "比ARV更强劲",
+            "content": "A3A1动力包赋予她超越ARV的动力输出。<br/>推土铲清障，机械臂挖掘与吊装，储物架携带工具。<br/>尽管储物架的遮挡让她在烤箱里会受苦，但在雪原上，冷风就是她最好的散热器。",
+            "statusText": {
+              "enabled": true,
+              "text": "A3A1 Powerpack / -04 Legacy Chassis"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "装甲工程车 (AEV)"
+          },
+          {
+            "label": "Chassis",
+            "value": "-04 老式底盘"
+          },
+          {
+            "label": "Powerpack",
+            "value": "A3A1"
+          },
+          {
+            "label": "Arm",
+            "value": "三段式机械臂"
+          }
+        ],
+        "description": "ZNHI-04AEV[冰] 是基于老式-04底盘改装的装甲工程车，换装A3A1动力包，配备三段式机械臂、推土铲与储物架。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取产品手册",
+          "subtitle": "含工程作业指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": true,
+        "title": "相关产品",
+        "subtitle": "ZNHI [冰] ICE SERIES",
+        "products": [
+          {
+            "id": "znhi-04a1-ice",
+            "imageUrl": "products/znhi-04a1-ice/ZNHI-04A1.webp",
+            "productCode": "ZNHI-04A1[冰]",
+            "productName": "主战坦克",
+            "productDesc": "冰系列初代战车",
+            "href": "product-detail.html?id=znhi-04a1-ice"
+          },
+          {
+            "id": "znhi-02aev-frost",
+            "imageUrl": "products/znhi-02aev-frost/ZNHI-02AEV.webp",
+            "productCode": "ZNHI-02AEV[霜]",
+            "productName": "装甲工程车",
+            "productDesc": "霍系列工程车",
+            "href": "product-detail.html?id=znhi-02aev-frost"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "createdAt": "2026-03-25",
+      "updatedAt": "2026-03-25",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "基于老式-04底盘的装甲工程车，颠锭的孩子"
+    }
   }
 ]
