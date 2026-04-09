@@ -76,11 +76,12 @@
         const brand = product.classification?.brand;
         const html = document.documentElement;
 
-        // ZNTP 品牌使用绿色主题
+        html.classList.remove('theme-zntp', 'theme-znef');
+
         if (brand === 'ZNTP') {
             html.classList.add('theme-zntp');
-        } else {
-            html.classList.remove('theme-zntp');
+        } else if (brand === 'ZNEF') {
+            html.classList.add('theme-znef');
         }
     }
 
@@ -100,6 +101,9 @@
                 link.classList.remove('text-gray-400');
                 link.classList.add('text-white', 'border-b', 'border-primary', 'pb-1');
             } else if (brand === 'ZNTP' && link.href.includes('transport.html')) {
+                link.classList.remove('text-gray-400');
+                link.classList.add('text-white', 'border-b', 'border-primary', 'pb-1');
+            } else if (brand === 'ZNEF' && link.href.includes('emergency.html')) {
                 link.classList.remove('text-gray-400');
                 link.classList.add('text-white', 'border-b', 'border-primary', 'pb-1');
             }

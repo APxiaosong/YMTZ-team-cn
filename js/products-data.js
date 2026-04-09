@@ -29431,5 +29431,761 @@ const PRODUCTS_DATA = [
       "source": "正式资料.txt",
       "notes": "基于老式-04底盘的装甲工程车，颠锭的孩子"
     }
+  },
+  {
+    "id": "znef-181fa",
+    "modelId": "ZNEF-18.1FA",
+    "name": "紧急支援车",
+    "nameEn": "Emergency Support Vehicle",
+    "nickname": "保持干燥",
+    "classification": {
+      "brand": "ZNEF",
+      "series": "",
+      "seriesEn": "",
+      "category": "应急车辆",
+      "subcategory": "支援车辆",
+      "tags": [
+        "轮式",
+        "应急",
+        "支援",
+        "装备运输"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "B"
+    },
+    "media": {
+      "thumbnail": "products/znef-181fa/ZNEF-181FA.webp",
+      "hero": "products/znef-181fa/ZNEF-181FA.webp",
+      "gallery": [
+        {
+          "src": "products/znef-181fa/ZNEF-181FA.webp",
+          "alt": "紧急支援车主视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "new.png"
+      ]
+    },
+    "description": {
+      "tagline": "没有水炮，但她比谁都靠谱",
+      "summary": "监狱第一位Emergency Force前缀的孩子。她没有主战消防车那般光鲜亮丽，连水炮和梯子都没有，但她带着一身装备时刻准备支援战斗。别小看那些锥桶和工具——在混乱的现场，井井有条就是最大的战斗力。",
+      "full": "监狱第一位Emergency Force前缀的孩子。她没有主战消防车那般光鲜亮丽，连水炮和梯子都没有，但她带着一身装备时刻准备支援战斗。\n\n典狱长一直觉得监狱缺一台专门干杂活的车——不是那种冲在最前面灭火的英雄，而是到了现场之后帮所有人把事情理清楚的角色。侧面舱体打开，锥桶、切割工具、防护盾牌、应急照明一字排开，车顶的蓝色警灯在雪原上能看出好几公里。\n\n她的红色涂装和黄色反光条纹让她在任何能见度下都无法被忽视。设计理念很简单：第一个到场，最后一个撤离。保持干燥——这不只是对消防车的调侃，也是她对自己的职业要求。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "紧急支援车",
+        "highlight": false
+      },
+      {
+        "label": "品牌前缀",
+        "labelEn": "Prefix",
+        "value": "ZNEF (Emergency Force)",
+        "highlight": true
+      },
+      {
+        "label": "装备舱",
+        "labelEn": "Equipment Bay",
+        "value": "双侧开启式多功能储物舱",
+        "highlight": true
+      },
+      {
+        "label": "警示系统",
+        "labelEn": "Warning",
+        "value": "车顶蓝色警灯 + 全车黄色反光条纹",
+        "highlight": false
+      },
+      {
+        "label": "涂装",
+        "labelEn": "Livery",
+        "value": "消防红 + 黄色反光带",
+        "highlight": false
+      },
+      {
+        "label": "定位",
+        "labelEn": "Role",
+        "value": "现场支援 / 装备运输 / 秩序维护",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "不是每台红色的车都得喷水。有时候现场最需要的不是水炮，是一个知道工具放在哪的人。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": true,
+      "order": 80,
+      "categories": [
+        "emergency",
+        "support"
+      ],
+      "background": {
+        "imageUrl": "products/znef-181fa/ZNEF-181FA.webp",
+        "filters": {
+          "opacity": 0.7,
+          "saturate": 0.85,
+          "contrast": 1.15,
+          "brightness": 0.9,
+          "scale": 1.05
+        },
+        "gradient": {
+          "direction": "to-t",
+          "fromColor": "background-dark",
+          "viaColor": "transparent",
+          "toColor": "black/40"
+        },
+        "overlayColor": "orange-500/5",
+        "mixBlendMode": "overlay"
+      },
+      "layout": {
+        "type": "center",
+        "gridCols": "md:grid-cols-12",
+        "alignItems": "items-center",
+        "textAlign": "text-center"
+      },
+      "seriesTag": {
+        "enabled": true,
+        "text": "ZNEF EMERGENCY FORCE",
+        "bgColor": "primary/10",
+        "borderColor": "primary/30",
+        "textColor": "primary"
+      },
+      "productId": {
+        "enabled": false,
+        "text": ""
+      },
+      "title": {
+        "text": "紧急支援车",
+        "fontSize": "6xl"
+      },
+      "descriptionBlock": {
+        "enabled": false,
+        "text": "",
+        "maxWidth": ""
+      },
+      "specsBlock": {
+        "enabled": false,
+        "layout": "flex",
+        "direction": "column",
+        "items": []
+      },
+      "statusBadge": {
+        "enabled": false,
+        "text": "",
+        "color": "primary",
+        "hasDot": false
+      },
+      "specCards": {
+        "enabled": true,
+        "gridCols": "md:grid-cols-3",
+        "cards": [
+          {
+            "label": "前缀",
+            "value": "ZNEF"
+          },
+          {
+            "label": "装备舱",
+            "value": "双侧开启"
+          },
+          {
+            "label": "定位",
+            "value": "现场支援"
+          }
+        ],
+        "showIcon": false,
+        "iconName": ""
+      },
+      "ctaButton": {
+        "enabled": false,
+        "text": "",
+        "href": "#",
+        "icon": ""
+      },
+      "decorativeIcon": {
+        "enabled": true,
+        "iconName": "emergency",
+        "opacity": 0.4
+      },
+      "subtitle": {
+        "enabled": false,
+        "text": ""
+      },
+      "statsRow": {
+        "enabled": false,
+        "items": []
+      },
+      "specsList": {
+        "enabled": false,
+        "items": []
+      }
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱紧急",
+          "href": "emergency.html"
+        },
+        {
+          "text": "应急车辆",
+          "href": "emergency.html#vehicle"
+        },
+        {
+          "text": "ZNEF-18.1FA"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znef-181fa/ZNEF-181FA.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          },
+          {
+            "text": "Emergency Force",
+            "type": "secondary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znef-181fa/ZNEF-181FA.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "紧急支援车",
+        "productCode": "ZNEF-18.1FA",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "监狱第一位Emergency Force前缀的孩子。她没有主战消防车那般光鲜亮丽，连水炮和梯子都没有，但她带着一身装备时刻准备支援战斗。典狱长一直觉得监狱缺一台专门干杂活的车——到了现场之后帮所有人把事情理清楚的那种。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "品牌前缀",
+              "value": "ZNEF (Emergency Force)"
+            },
+            {
+              "label": "装备舱",
+              "value": "双侧开启式多功能储物舱"
+            },
+            {
+              "label": "警示系统",
+              "value": "车顶蓝色警灯 + 黄色反光条纹"
+            },
+            {
+              "label": "涂装",
+              "value": "消防红 + 黄色反光带"
+            },
+            {
+              "label": "定位",
+              "value": "现场支援 / 装备运输"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "不是每台红色的车都得喷水。有时候现场最需要的不是水炮，是一个知道工具放在哪的人。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znef-181fa/ZNEF-181FA.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "red-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "emergency",
+              "color": "primary"
+            },
+            "iconLabel": "First on Scene",
+            "title": "装备清单",
+            "content": "侧面舱体展开的那一刻，混乱开始变得有序。<br/>锥桶划出警戒线，切割工具破开变形的残骸，防护盾牌竖在该竖的位置。<br/><span class=\"text-white border-b border-primary/40 pb-1\">她不灭火，但她让灭火的人能专心灭火。</span>",
+            "dataBlocks": [
+              {
+                "value": "ZNEF",
+                "label": "紧急部门"
+              },
+              {
+                "value": "18.1FA",
+                "label": "型号编号"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znef-181fa/ZNEF-181FA.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.15
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Dispatch Ready",
+              "isAnimated": true
+            },
+            "title": "第一个到场",
+            "content": "监狱从来不缺火力，缺的是在火力之后收拾残局的人。<br/>她的红色涂装在雪原上格外刺眼——这是故意的。<br/>当蓝色警灯亮起，所有人都知道：秩序正在恢复。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "不是每台红色的车都得喷水。有时候现场最需要的不是水炮，是一个知道工具放在哪的人。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        },
+        {
+          "id": "chapter-3",
+          "style": "center-ambient",
+          "background": {
+            "imageUrl": "products/znef-181fa/ZNEF-181FA.webp",
+            "filters": {
+              "scale": 1.05,
+              "brightness": 0.8
+            }
+          },
+          "gradient": {
+            "direction": "to-b",
+            "fromColor": "black/40",
+            "viaColor": "transparent",
+            "toColor": "background-dark/90"
+          },
+          "overlayColor": {
+            "color": "orange-500/8",
+            "mixBlendMode": "overlay"
+          },
+          "centerContent": {
+            "decorativeLine": {
+              "enabled": true,
+              "height": "h-20"
+            },
+            "title": "保持干燥",
+            "content": "她没有水炮，没有云梯，甚至算不上一台消防车。<br/>但当所有人都在淋雨的时候，<br/>她是那个撑着伞跑过来递毛巾的。",
+            "statusText": {
+              "enabled": true,
+              "text": "ZNEF-18.1FA // Status: Dry"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "紧急支援车"
+          },
+          {
+            "label": "Prefix",
+            "value": "ZNEF (Emergency Force)"
+          },
+          {
+            "label": "Equipment",
+            "value": "双侧开启式多功能储物舱"
+          },
+          {
+            "label": "Warning",
+            "value": "蓝色警灯 + 黄色反光条纹"
+          }
+        ],
+        "description": "ZNEF-18.1FA 是监狱紧急部门的第一位成员。她没有主战消防车那般光鲜亮丽，连水炮和梯子都没有，但她带着一身装备时刻准备支援战斗——在混乱的现场，井井有条就是最大的战斗力。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": false,
+        "title": "相关产品",
+        "subtitle": "",
+        "products": []
+      }
+    },
+    "meta": {
+      "createdAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "ZNEF品牌首个产品，紧急支援车"
+    }
+  },
+  {
+    "id": "znhi-dfdc",
+    "modelId": "ZNHI-DFDC",
+    "name": "20ft 油料保障集装箱",
+    "nameEn": "20ft Fuel Supply Container",
+    "nickname": "",
+    "classification": {
+      "brand": "ZNHI",
+      "series": "",
+      "seriesEn": "",
+      "category": "后勤保障",
+      "subcategory": "油料保障",
+      "tags": [
+        "集装箱",
+        "油料",
+        "后勤",
+        "20英尺"
+      ]
+    },
+    "status": {
+      "operational": true,
+      "statusLabel": "operational",
+      "statusText": "现役量产",
+      "restricted": false,
+      "securityLevel": "C"
+    },
+    "media": {
+      "thumbnail": "products/znhi-dfdc/ZNHI-DFDC.webp",
+      "hero": "products/znhi-dfdc/ZNHI-DFDC.webp",
+      "gallery": [
+        {
+          "src": "products/znhi-dfdc/ZNHI-DFDC.webp",
+          "alt": "油料保障集装箱主视图",
+          "type": "image"
+        }
+      ],
+      "originalFiles": [
+        "2.png"
+      ]
+    },
+    "description": {
+      "tagline": "她不上前线，但前线离不开她",
+      "summary": "标准20英尺油料保障集装箱。没有人会记住她的名字，但每一台在雪原上奔跑的引擎都欠她一句谢谢。搭载于重型卡车底盘，外置管路快速接驳，在零下的天气里让燃油保持流动。",
+      "full": "ZNHI-DFDC 20ft，标准20英尺油料保障集装箱。\n\n她大概是监狱编号最无聊的孩子——连个动物代号都没有，只有一串冷冰冰的缩写。但如果你把她从编制里拿掉，前线大概撑不过三天。\n\n白色集装箱体上的蓝黑红标识是唯一的识别特征，在雪地里低调得几乎隐形。外侧管路系统方便快速接驳与维护，不用打开箱体就能完成加注作业。搭配六轮军用卡车底盘，无论路况多烂她都能把燃油送到该去的地方。\n\n典狱长说她是「最不起眼的必需品」。没有人会为油料集装箱欢呼，但没有她，坦克就是铁疙瘩，卡车就是路障。"
+    },
+    "specs": [
+      {
+        "label": "类型",
+        "labelEn": "Type",
+        "value": "油料保障集装箱",
+        "highlight": false
+      },
+      {
+        "label": "规格",
+        "labelEn": "Spec",
+        "value": "20英尺标准集装箱",
+        "highlight": true
+      },
+      {
+        "label": "管路",
+        "labelEn": "Pipeline",
+        "value": "外置快速接驳系统",
+        "highlight": true
+      },
+      {
+        "label": "运输底盘",
+        "labelEn": "Chassis",
+        "value": "6轮军用卡车",
+        "highlight": false
+      },
+      {
+        "label": "标识",
+        "labelEn": "Marking",
+        "value": "白色箱体 / 蓝黑红识别标识",
+        "highlight": false
+      },
+      {
+        "label": "作业方式",
+        "labelEn": "Operation",
+        "value": "免开箱外接加注",
+        "highlight": false
+      }
+    ],
+    "designer": {
+      "quote": "连动物代号都没给她取，但没有她，前线所有长了轮子的孩子都得趴窝。",
+      "author": "典狱长 ZANE",
+      "title": "首席设计师"
+    },
+    "featured": {
+      "enabled": false,
+      "order": 999,
+      "categories": [
+        "military",
+        "logistics"
+      ]
+    },
+    "detail": {
+      "breadcrumb": [
+        {
+          "text": "首页",
+          "href": "index.html"
+        },
+        {
+          "text": "监狱重工",
+          "href": "products.html"
+        },
+        {
+          "text": "后勤保障",
+          "href": "products.html#logistics"
+        },
+        {
+          "text": "ZNHI-DFDC"
+        }
+      ],
+      "gallery": {
+        "mainImage": {
+          "url": "products/znhi-dfdc/ZNHI-DFDC.webp",
+          "aspectRatio": "16/9"
+        },
+        "statusBadges": [
+          {
+            "text": "Operational",
+            "type": "primary"
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "products/znhi-dfdc/ZNHI-DFDC.webp",
+            "isActive": true
+          }
+        ],
+        "videoButton": {
+          "enabled": false
+        }
+      },
+      "productInfo": {
+        "title": "20ft 油料保障集装箱",
+        "productCode": "ZNHI-DFDC",
+        "restriction": {
+          "enabled": false,
+          "text": ""
+        },
+        "description": {
+          "enabled": true,
+          "text": "标准20英尺油料保障集装箱。没有人会记住她的名字，但每一台在雪原上奔跑的引擎都欠她一句谢谢。搭载于重型卡车底盘，外置管路快速接驳，在最恶劣的条件下保障燃油供应。"
+        },
+        "specs": {
+          "enabled": true,
+          "title": "规格参数",
+          "items": [
+            {
+              "label": "规格",
+              "value": "20英尺标准集装箱"
+            },
+            {
+              "label": "管路",
+              "value": "外置快速接驳系统"
+            },
+            {
+              "label": "运输底盘",
+              "value": "6轮军用卡车"
+            },
+            {
+              "label": "标识",
+              "value": "白色箱体 / 蓝黑红识别标识"
+            },
+            {
+              "label": "作业方式",
+              "value": "免开箱外接加注"
+            }
+          ]
+        },
+        "designerQuote": {
+          "enabled": true,
+          "text": "连动物代号都没给她取，但没有她，前线所有长了轮子的孩子都得趴窝。",
+          "author": "典狱长 ZANE",
+          "title": "首席设计师"
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南",
+          "icon": "download"
+        }
+      },
+      "storyChapters": [
+        {
+          "id": "chapter-1",
+          "style": "right-narrative",
+          "background": {
+            "imageUrl": "products/znhi-dfdc/ZNHI-DFDC.webp",
+            "filters": {
+              "grayscale": false,
+              "contrast": 1.1
+            }
+          },
+          "gradient": {
+            "direction": "to-l",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/80",
+            "toColor": "transparent"
+          },
+          "gridTexture": {
+            "enabled": true,
+            "opacity": 0.3
+          },
+          "rightContent": {
+            "statusIndicator": {
+              "enabled": true,
+              "text": "Fuel Supply Online",
+              "isAnimated": true
+            },
+            "title": "无名英雄",
+            "content": "编制表上她只是一串缩写，连动物代号都没有。<br/>但当暴风雪切断补给线，当油表指针逼近红区，<br/>所有人都在等她——那台白色的、不起眼的集装箱车。<br/>没有人为她欢呼，但没有她，坦克就是铁疙瘩。",
+            "quoteCard": {
+              "enabled": true,
+              "text": "连动物代号都没给她取，但没有她，前线所有长了轮子的孩子都得趴窝。",
+              "author": "典狱长 ZANE",
+              "title": "首席设计师"
+            }
+          }
+        },
+        {
+          "id": "chapter-2",
+          "style": "left-technical",
+          "background": {
+            "imageUrl": "products/znhi-dfdc/ZNHI-DFDC.webp",
+            "filters": {
+              "scale": 1,
+              "brightness": 0.9
+            }
+          },
+          "gradient": {
+            "direction": "to-r",
+            "fromColor": "background-dark",
+            "viaColor": "background-dark/60",
+            "toColor": "transparent"
+          },
+          "overlayColor": {
+            "color": "blue-900/10",
+            "mixBlendMode": "multiply"
+          },
+          "leftContent": {
+            "icon": {
+              "name": "local_shipping",
+              "color": "primary"
+            },
+            "iconLabel": "Logistics Core",
+            "title": "接驳",
+            "content": "20英尺标准规格，兼容任何能扛得动她的重型平台。<br/>外置管路系统免开箱接驳，零下环境加注作业不用摘手套。<br/><span class=\"text-white border-b border-primary/40 pb-1\">白色箱体在雪地里几乎隐形，但蓝黑红标识确保你找得到她。</span>",
+            "dataBlocks": [
+              {
+                "value": "20ft",
+                "label": "集装箱规格"
+              },
+              {
+                "value": "6x6",
+                "label": "卡车底盘"
+              }
+            ],
+            "borderLeft": {
+              "enabled": true,
+              "color": "primary/30"
+            }
+          }
+        }
+      ],
+      "techSummary": {
+        "enabled": true,
+        "title": "技术规格摘要",
+        "specs": [
+          {
+            "label": "Type",
+            "value": "油料保障集装箱"
+          },
+          {
+            "label": "Spec",
+            "value": "20英尺标准集装箱"
+          },
+          {
+            "label": "Pipeline",
+            "value": "外置快速接驳"
+          },
+          {
+            "label": "Chassis",
+            "value": "6轮军用卡车"
+          }
+        ],
+        "description": "ZNHI-DFDC 是监狱重工的标准20英尺油料保障集装箱。她大概是编号最无聊的孩子，但没有她，前线所有长了轮子的家伙都得趴窝。",
+        "ctaButton": {
+          "enabled": true,
+          "text": "获取技术手册",
+          "subtitle": "含完整维护指南"
+        }
+      },
+      "relatedProducts": {
+        "enabled": false,
+        "title": "相关产品",
+        "subtitle": "",
+        "products": []
+      }
+    },
+    "meta": {
+      "createdAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "version": 1,
+      "source": "正式资料.txt",
+      "notes": "20英尺油料保障集装箱"
+    }
   }
 ];

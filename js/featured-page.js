@@ -47,6 +47,13 @@
             desc: '监狱运输的核心产品线。专注于轨道交通与公共运输领域，从低地板有轨电车到双层公交，从货运机车到城市物流车辆，为现代交通提供可靠的解决方案。',
             statsLabel: 'Premium Vehicles',
             status: 'IN SERVICE'
+        },
+        znef: {
+            label: 'ZNEF Emergency Force',
+            title: '监狱紧急精选',
+            desc: '监狱紧急部门的核心装备。专注于应急救援与现场支援，从紧急支援车到消防设备，确保在最危急的时刻提供可靠的力量。',
+            statsLabel: 'Emergency Units',
+            status: 'STANDBY'
         }
     };
 
@@ -156,6 +163,8 @@
             categories.push('znhi');
         } else if (cls.brand === 'ZNTP') {
             categories.push('zntp');
+        } else if (cls.brand === 'ZNEF') {
+            categories.push('znef');
         }
 
         return categories;
@@ -283,10 +292,10 @@
         const viewAllLink = document.getElementById('view-all-link');
         if (!viewAllLink) return;
 
-        // 全部分类或 ZNHI 分类 → products.html
-        // ZNTP 分类 → transport.html
         if (currentCategory === 'zntp') {
             viewAllLink.href = 'transport.html';
+        } else if (currentCategory === 'znef') {
+            viewAllLink.href = 'emergency.html';
         } else {
             viewAllLink.href = 'products.html';
         }
@@ -297,11 +306,12 @@
      */
     function updateThemeColor() {
         const html = document.documentElement;
+        html.classList.remove('theme-zntp', 'theme-znef');
 
         if (currentCategory === 'zntp') {
             html.classList.add('theme-zntp');
-        } else {
-            html.classList.remove('theme-zntp');
+        } else if (currentCategory === 'znef') {
+            html.classList.add('theme-znef');
         }
     }
 

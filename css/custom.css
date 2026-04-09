@@ -9,10 +9,10 @@
 :root {
     color-scheme: dark only;
 
-    /* 主题色变量 - 默认 ZNHI 蓝色 */
-    --color-primary: #4db8ff;
-    --color-primary-dim: #3a8abf;
-    --color-primary-rgb: 77, 184, 255;
+    /* 主题色变量 - 默认 ZNHI 青蓝色 */
+    --color-primary: #22D3EE;
+    --color-primary-dim: #1AA3B8;
+    --color-primary-rgb: 34, 211, 238;
 }
 
 /* ZNTP 绿色主题 */
@@ -20,6 +20,13 @@
     --color-primary: #3EAF5C;
     --color-primary-dim: #2E8A47;
     --color-primary-rgb: 62, 175, 92;
+}
+
+/* ZNEF 蓝色主题 */
+.theme-znef {
+    --color-primary: #3B82F6;
+    --color-primary-dim: #2563EB;
+    --color-primary-rgb: 59, 130, 246;
 }
 
 /* ========================================

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html class="dark" lang="zh-CN">
+<html class="dark theme-znef" lang="zh-CN">
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="color-scheme" content="dark">
     <link rel="icon" type="image/webp" href="assets/images/logos/zane.webp">
-    <title>监狱重工 - 重工业务产品线</title>
+    <title>监狱紧急 - 紧急部门产品线</title>
 
     <!-- 本地字体 -->
     <link href="css/fonts.css" rel="stylesheet"/>
@@ -120,9 +120,9 @@
             <div class="hidden md:flex flex-1 justify-end gap-12 items-center">
                 <div class="flex items-center gap-12">
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="index.html">主页</a>
-                    <a class="text-white text-sm font-medium tracking-wider transition-colors duration-300 border-b border-primary pb-1" href="products.html">监狱重工</a>
+                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="products.html">监狱重工</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="transport.html">监狱运输</a>
-                    <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="emergency.html">监狱紧急</a>
+                    <a class="text-white text-sm font-medium tracking-wider transition-colors duration-300 border-b border-primary pb-1" href="emergency.html">监狱紧急</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="featured.html">旗舰序列</a>
                     <a class="text-gray-400 hover:text-white text-sm font-medium tracking-wider transition-colors duration-300" href="about.html">基地信息</a>
                 </div>
@@ -142,9 +142,9 @@
         <div id="mobile-menu" class="hidden md:hidden bg-background-dark border-t border-white/5 px-4 sm:px-6 py-4">
             <div class="flex flex-col gap-4">
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="index.html">主页</a>
-                <a class="text-white text-sm py-3 border-l-2 border-primary pl-4" href="products.html">监狱重工</a>
+                <a class="text-gray-400 hover:text-white text-sm py-3" href="products.html">监狱重工</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="transport.html">监狱运输</a>
-                <a class="text-gray-400 hover:text-white text-sm py-3" href="emergency.html">监狱紧急</a>
+                <a class="text-white text-sm py-3 border-l-2 border-primary pl-4" href="emergency.html">监狱紧急</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="featured.html">旗舰序列</a>
                 <a class="text-gray-400 hover:text-white text-sm py-3" href="about.html">基地信息</a>
             </div>
@@ -165,8 +165,8 @@
                     <span class="text-primary font-bold text-[11px] tracking-[0.2em] uppercase">Division Selection</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <h1 class="text-2xl font-display text-white tracking-wide">重工业务</h1>
-                    <img src="assets/images/logos/znhi.webp" alt="ZNHI Logo" class="h-8 w-auto opacity-40 logo-invert">
+                    <h1 class="text-2xl font-display text-white tracking-wide">紧急部门</h1>
+                    <img src="assets/images/logos/znef.webp" alt="ZNEF Logo" class="h-8 w-auto opacity-40 logo-invert">
                 </div>
             </div>
 
@@ -174,6 +174,14 @@
             <nav id="series-list-container" class="flex-grow">
                 <!-- 内容由 JS 动态渲染 -->
             </nav>
+
+            <!-- 侧边栏底部信息 -->
+            <div class="p-8 mt-auto">
+                <p class="text-[11px] text-gray-600 uppercase tracking-widest leading-loose">
+                    ZNEF Emergency Force<br/>
+                    Status: All Units Standby
+                </p>
+            </div>
         </aside>
 
         <!-- 产品列表区域 -->
@@ -207,7 +215,7 @@
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12 border-b border-white/5 pb-8">
                     <div>
                         <h2 id="list-title" class="text-2xl md:text-3xl font-display text-white mb-2">正在查看：全部产品</h2>
-                        <p id="list-desc" class="text-text-muted text-sm max-w-xl">ZNHI 品牌的全部产品线</p>
+                        <p id="list-desc" class="text-text-muted text-sm max-w-xl">ZNEF 品牌的全部产品线</p>
                     </div>
                     <div class="flex gap-4">
                         <button id="filter-btn" aria-label="筛选产品" class="p-3 border border-white/10 hover:border-primary/50 transition-colors text-gray-500 hover:text-primary">
@@ -244,7 +252,6 @@
                 </footer>
             </div>
         </section>
-
     </main>
 
 </div>
@@ -290,7 +297,7 @@
 <script src="js/mobile-scroll-hints.js"></script>
 
 <!-- 页面特定脚本 -->
-<script src="js/products-page.js"></script>
+<script src="js/emergency-page.js"></script>
 
 <!-- 公共交互脚本 -->
 <script src="js/main.js"></script>
